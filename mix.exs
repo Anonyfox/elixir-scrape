@@ -5,6 +5,7 @@ defmodule Scrape.Mixfile do
     [app: :scrape,
      version: "0.0.1",
      elixir: "~> 1.0",
+     description: description,
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      dialyzer: [plt_add_deps: true],
@@ -35,5 +36,21 @@ defmodule Scrape.Mixfile do
       {:mix_test_watch, "~> 0.1.1", only: :dev}, # run tests on file changes
       {:dogma, "~> 0.0.1", only: :dev} # static code linter
     ]
+  end
+
+  defp description do
+    """
+    Scrape any website, article or RSS/Atom feed with ease!
+    """
+  end
+
+  defp package do
+    [
+     files: ["lib", "mix.exs", "README.md", "LICENSE.txt"],
+     contributors: ["Maximilian Stroh"],
+     licenses: ["Apache 2.0"],
+     links: %{"GitHub" => "https://github.com/Anonyfox/elixir-scrape"
+              #"Docs" => "http://ericmj.github.io/postgrex/"
+              }]
   end
 end
