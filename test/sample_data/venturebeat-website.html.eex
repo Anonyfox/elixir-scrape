@@ -1,0 +1,1315 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en-US" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:addthis="http://www.addthis.com/help/api-spec"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en-US" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:addthis="http://www.addthis.com/help/api-spec"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:addthis="http://www.addthis.com/help/api-spec"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en-US" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml"> <!--<![endif]-->
+<head profile="http://gmpg.org/xfn/11">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=IE6" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(n,e,t){function r(t){if(!e[t]){var o=e[t]={exports:{}};n[t][0].call(o.exports,function(e){var o=n[t][1][e];return r(o?o:e)},o,o.exports)}return e[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(n,e){function t(n){function e(e,t,a){n&&n(e,t,a),a||(a={});for(var u=c(e),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(n,e){f[n]=c(n).concat(e)}function c(n){return f[n]||[]}function u(){return t(e)}var f={};return{on:a,emit:e,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=n("gos");e.exports=t()},{gos:"7eSDFh"}],ee:[function(n,e){e.exports=n("QJf3ax")},{}],3:[function(n,e){function t(n){return function(){r(n,[(new Date).getTime()].concat(i(arguments)))}}var r=n("handle"),o=n(1),i=n(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","trackUserAction","finished","traceEvent","inlineHit","noticeError"];o(a,function(n,e){window.NREUM[e]=t("api-"+e)}),e.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(n,e){e.exports=n("7eSDFh")},{}],"7eSDFh":[function(n,e){function t(n,e,t){if(r.call(n,e))return n[e];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(n,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return n[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=t},{}],D5DuLP:[function(n,e){function t(n,e,t){return r.listeners(n).length?r.emit(n,e,t):(o[n]||(o[n]=[]),void o[n].push(e))}var r=n("ee").create(),o={};e.exports=t,t.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(n,e){e.exports=n("D5DuLP")},{}],XL7HBI:[function(n,e){function t(n){var e=typeof n;return!n||"object"!==e&&"function"!==e?-1:n===window?0:i(n,o,function(){return r++})}var r=1,o="nr@id",i=n("gos");e.exports=t},{gos:"7eSDFh"}],id:[function(n,e){e.exports=n("XL7HBI")},{}],G9z0Bl:[function(n,e){function t(){var n=v.info=NREUM.info;if(n&&n.licenseKey&&n.applicationID&&f&&f.body){c(d,function(e,t){e in n||(n[e]=t)}),v.proto="https"===l.split(":")[0]||n.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=f.createElement("script");e.src=v.proto+n.agent,f.body.appendChild(e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=n("handle"),c=n(1),u=(n(2),window),f=u.document,s="addEventListener",p="attachEvent",l=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-536.min.js"},v=e.exports={offset:i(),origin:l,features:{}};f[s]?(f[s]("DOMContentLoaded",o,!1),u[s]("load",t,!1)):(f[p]("onreadystatechange",r),u[p]("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(n,e){e.exports=n("G9z0Bl")},{}],12:[function(n,e){function t(n,e){var t=[],o="",i=0;for(o in n)r.call(n,o)&&(t[i]=e(o,n[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;e.exports=t},{}],13:[function(n,e){function t(n,e,t){e||(e=0),"undefined"==typeof t&&(t=n?n.length:0);for(var r=-1,o=t-e||0,i=Array(0>o?0:o);++r<o;)i[r]=n[e+r];return i}e.exports=t},{}]},{},["G9z0Bl"]);</script>
+  <meta http-equiv="cleartype" content="on">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>VentureBeat | Tech News That Matters</title>
+
+  <link rel="profile" href="http://gmpg.org/xfn/11" />
+  <link rel="alternate" type="application/rss+xml" title="VentureBeat Feed" href="http://feeds.venturebeat.com/VentureBeat" />
+
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,300,400,600' rel='stylesheet' type='text/css'>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/themes/vbnews/js/ie/html5shiv.js"></script>
+      <script src="http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/themes/vbnews/js/ie/assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel='stylesheet' id='spoke-admin-css'  href='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/themes/vbnews/plugins/spoke-profiles/css/admin.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='the-neverending-homepage-css'  href='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/plugins/jetpack/modules/infinite-scroll/infinity.css?ver=20140422' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack-slideshow-css'  href='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/plugins/jetpack/modules/shortcodes/css/slideshow-shortcode.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='mediaelement-css'  href='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-includes/js/mediaelement/mediaelementplayer.min.css?ver=2.15.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-mediaelement-css'  href='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-includes/js/mediaelement/wp-mediaelement.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='community-styles-css'  href='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/themes/vbnews/plugins/community/css/community.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='vb-featured-css'  href='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/themes/vbnews/styles/vb-featured.css?ver=1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='vb-highlighted-posts-css'  href='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/themes/vbnews/styles/vb-highlighted-posts.css?ver=1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='vb_gigya_styles-css'  href='//vbstatic.co/assets/css/gigya.css?ver=1' type='text/css' media='all' />
+<link rel='stylesheet' id='vb-v3-css'  href='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/themes/vbnews/styles/v3.css?ver=3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='vb-v3-adjust-css'  href='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/themes/vbnews/styles/v3-adjust.css?ver=3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='vb-google-fonts-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C700italic%2C800italic%2C400%2C300%2C600%2C700%2C800&#038;ver=3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='taxonomy-image-plugin-public-css'  href='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/plugins/taxonomy-images/style.css?ver=0.8.0' type='text/css' media='screen' />
+<script type='text/javascript' src='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-includes/js/jquery/jquery.js?ver=1.11.1'></script>
+<script type='text/javascript' src='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/plugins/jetpack/_inc/spin.js?ver=1.3'></script>
+<script type='text/javascript' src='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/plugins/jetpack/_inc/jquery.spin.js?ver=1.3'></script>
+<script type='text/javascript' src='//www.googletagservices.com/tag/js/gpt.js?ver=1.0'></script>
+<script type='text/javascript' src='//cdn.optimizely.com/js/2105380427.js?ver=1.00'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://venturebeat.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://venturebeat.com/wp-includes/wlwmanifest.xml" />
+<link rel='shortlink' href='http://wp.me/5hvhT' />
+<link rel='https://github.com/WP-API/WP-API' href='http://venturebeat.com/wp-json' />
+<style type='text/css'>img#wpstats{display:none}</style><meta name="description" content="VentureBeat is the leading source for news & perspective on tech innovation. We give context to help execs, entrepreneurs, & tech enthusiasts make smart decisions."/><link rel="shortcut icon" type="image/x-icon" href="http://venturebeat.com/wp-content/themes/vbnews/img/favicon.ico" />     <script type="text/javascript">
+        var vb_page_info = {"title":"VentureBeat | Tech News That Matters","url":"venturebeat.com\/","page_type":"other"};
+      </script>
+          <!-- Quantcast Tag -->
+    <script type="text/javascript">
+        var _qevents = _qevents || [];
+        (function() {
+            var elem = document.createElement('script');
+            elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge")
+                        + ".quantserve.com/quant.js";
+            elem.async = true;
+            elem.type = "text/javascript";
+            var scpt = document.getElementsByTagName('script')[0];
+            scpt.parentNode.insertBefore(elem, scpt);
+        })();
+    </script>
+        <script type="text/javascript">
+    window.analytics=window.analytics||[],window.analytics.methods=["identify","group","track","page","pageview","alias","ready","on","once","off","trackLink","trackForm","trackClick","trackSubmit"],window.analytics.factory=function(t){return function(){var a=Array.prototype.slice.call(arguments);return a.unshift(t),window.analytics.push(a),window.analytics}};for(var i=0;i<window.analytics.methods.length;i++){var key=window.analytics.methods[i];window.analytics[key]=window.analytics.factory(key)}window.analytics.load=function(t){if(!document.getElementById("analytics-js")){var a=document.createElement("script");a.type="text/javascript",a.id="analytics-js",a.async=!0,a.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.io/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(a,n)}},window.analytics.SNIPPET_VERSION="2.0.9",
+    window.analytics.load("gicy4fy2x2");
+    window.analytics.page({ path: window.location.pathname });
+    </script>
+        <script type="text/javascript">
+      var vb_sharrre_googleplus_json = {"url":"http://venturebeat.com/2015/03/31/infinit-and-beyond-the-ultimate-file-sharing-app-just-launched-on-mobile/","count":"0"};
+    </script>
+
+    <!-- Google+ -->
+      <link href="https://plus.google.com/111356039646926014229" rel="publisher" /><script type="text/javascript">
+      window.___gcfg = {lang: 'en'};
+      (function()
+      {var po = document.createElement("script");
+      po.type = "text/javascript"; po.async = true;po.src = "https://apis.google.com/js/plusone.js";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(po, s);
+      })();</script>
+
+  <script type="text/javascript">var shortlink = "http://wp.me/p5hvhT-756p";</script><script type="text/javascript"> (function($){ $(function(){  $("#highlighted-posts").tabs(); }); })(jQuery);</script><script type="text/javascript">googletag.pubads().setTargeting('session', 'B');
+googletag.pubads().setTargeting('env', 'production');
+googletag.pubads().setTargeting('page_type', 'front_door');
+</script><!-- GIGYA UID --><!-- GIGYA User 1-->
+<script type="text/javascript" src="http://cdn.gigya.com/JS/socialize.js?apikey=3_zf6yPmoICy1Yucx5y4o2U4hhlvFrl8pkjTOk1g-ZpIFIrBlF6DxyRd30cdIPJggY">{"enabledProviders":"linkedIn,googleplus,facebook,twitter","sessionExpiration":"86400"}</script>
+
+<script type="text/javascript" src="http://cdn.gigya.com/seal/seal.js?apiKey=F9338C0B-4536-C2D1-4F62-A178F9E3EAFC"></script>
+</head>
+<body class="home blog infinite-scroll neverending">
+      <!-- Header -->
+    <header class="container site-header">
+      <a href="/"><div class="logo text-hide pull-left">VentureBeat</div></a>
+                        <a href="/"><h1 class="site-name pull-left">News</h1></a>
+
+      <div class="pull-right hidden-xs" id="container-gigya-links-search">
+           <a class="mobile-search-icon"></a>
+
+        <div class="links-search">
+          <ul class="header-links">
+            <li><a href="/" class="active">News</a></li>
+            <li><a href="http://events.venturebeat.com">Events</a></li>
+            <li><a href="http://insight.venturebeat.com">Insight</a></li>
+          </ul>
+          <form class="search" method="get" action="http://venturebeat.com/">
+            <input type="search" class="form-control" name="s" value="">
+            <button class="btn btn-submit" type="submit">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </header>
+    <!-- END Header -->
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-static-top" role="navigation" data-spy="affix" data-offset-top="146">
+      <a id="scroll-main-logo" href="/"><div class="scroll-logo text-hide">VentureBeat</div></a>
+      <div class="container">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          Navigate
+          <div class="menu-icon">
+            <a href="#" class="mobile-nav-switch"></a>
+          </div>
+        </button>
+
+        <div class="collapse navbar-collapse">
+      <ul id="menu-main-nav" class="nav navbar-nav navbar-left navigation"><li id="menu-item-1608499" class="dropdown menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Channels<b class="caret"></b></a>
+<ul class="dropdown-menu">
+  <li id="menu-item-1608500" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://venturebeat.com/category/games/">GAMESBEAT</a></li>
+  <li id="menu-item-1608501" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://venturebeat.com/category/health/">Health</a></li>
+  <li id="menu-item-1608502" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://venturebeat.com/category/business/">Business</a></li>
+  <li id="menu-item-1608503" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://venturebeat.com/category/mobile/">Mobile</a></li>
+  <li id="menu-item-1608504" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://venturebeat.com/category/cloud/">Cloud</a></li>
+  <li id="menu-item-1608505" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://venturebeat.com/category/marketing/">Marketing</a></li>
+  <li id="menu-item-1608506" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://venturebeat.com/category/big-data/">Data</a></li>
+  <li id="menu-item-1608507" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://venturebeat.com/category/security/">Security</a></li>
+  <li id="menu-item-1608508" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://venturebeat.com/category/deals/">Deals</a></li>
+  <li id="menu-item-1608509" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://venturebeat.com/category/small-biz/">Small Biz</a></li>
+  <li id="menu-item-1608510" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://venturebeat.com/category/dev/">Dev</a></li>
+  <li id="menu-item-1608511" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://venturebeat.com/category/social/">Social</a></li>
+  <li id="menu-item-1608512" class="menu-item menu-item-type-taxonomy menu-item-object-category"><a href="http://venturebeat.com/category/entrepreneur/">Entrepreneur</a></li>
+</ul>
+</li>
+<li id="menu-item-1608513" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://events.venturebeat.com">Events</a></li>
+<li id="menu-item-1608514" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://insight.venturebeat.com">Insight</a></li>
+<li id="menu-item-1608516" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://venturebeat.com/newsletters/">Newsletters</a></li>
+<li id="menu-item-1608517" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://venturebeat.com/jobs">Jobs</a></li>
+<li id="menu-item-1608532" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://venturebeat.com/contact/">Got news? Tell&nbsp;us!</a></li>
+</ul>          <div class="nav navbar-nav navbar-right social hidden-xs">
+                  <div class="vb-social-share">
+        <div class="feed_share sharrre">
+          <div class="box"><a class="share" href="http://feeds.venturebeat.com/VentureBeat"> </a></div>
+        </div>
+        <div class="twitter_share sharrre">
+          <div class="box"><a class="share" href="http://twitter.com/venturebeat"> </a></div>
+        </div>
+        <div class="facebook_share sharrre">
+          <div class="box"><a class="share" href="http://facebook.com/venturebeat"> </a></div>
+        </div>
+        <div class="googleplus_share sharrre">
+          <div class="box"><a class="share" href="https://plus.google.com/u/0/111356039646926014229/posts"> </a></div>
+        </div>
+        <div class="linkedin_share sharrre">
+          <div class="box"><a class="share" href="http://www.linkedin.com/company/368927?trk=tyah"> </a></div>
+        </div>
+      </ul><!-- .vb-social-share -->
+              </div>
+        </div>
+
+      </div>
+    </nav>
+    <!-- END Navigation -->
+
+      <div class="skin-wrapper">
+    <div class="body-container container clearfix">
+  <div class="vb-ad-leaderboard"></div>
+      <div class="content-wrap clearfix">
+    <div id="vb-top-stories" class="border-bottom clearfix"></div>
+
+    <div id="primary">
+      <div id="highlighted-posts"><ul id="tabs"><li><a href="#most-popular-wrapper">Popular</a></li><li><a href="#editors-picks-wrapper">Best of</a></li></ul>      <div id="most-popular-wrapper" class="highlighted-posts-wrapper">
+          <div id="most-popular-inner" class="highlighted-posts-inner">
+            <ul class="most-popular">
+                        <li class="article-listing">
+              <h2>
+                <a href="http://venturebeat.com/2015/03/28/the-debate-continues-a-4-inch-iphone-6-would-be-welcomed-by-many-users/" title="A 4-inch iPhone 6 would be welcomed by many users (but will Apple&nbsp;deliver?)" rel="bookmark">
+                A 4-inch iPhone 6 would be welcomed by many users (but will Apple&nbsp;deliver?)                </a>
+              </h2>
+            </li>
+                        <li class="article-listing">
+              <h2>
+                <a href="http://venturebeat.com/2015/03/25/google-quietly-launches-data-saver-extension-for-chrome/" title="Google quietly launches Data Saver extension for&nbsp;Chrome" rel="bookmark">
+                Google quietly launches Data Saver extension for&nbsp;Chrome                </a>
+              </h2>
+            </li>
+                        <li class="article-listing">
+              <h2>
+                <a href="http://venturebeat.com/2015/03/25/everything-facebook-announced-today-during-its-f8-developer-conference/" title="Everything Facebook announced during its F8 developer&nbsp;conference" rel="bookmark">
+                Everything Facebook announced during its F8 developer&nbsp;conference               </a>
+              </h2>
+            </li>
+                        <li class="article-listing">
+              <h2>
+                <a href="http://venturebeat.com/2015/03/23/woz-goes-off-leash-disses-the-17k-apple-watch-says-computers-will-make-humans-into-pets/" title="Woz goes off-leash &#8212; disses the $17K Apple Watch, says computers will make humans into&nbsp;pets" rel="bookmark">
+                Woz goes off-leash &#8212; disses the $17K Apple Watch, says computers will make humans into&nbsp;pets                </a>
+              </h2>
+            </li>
+                        </ul>
+            <span class="read-more"><a href="/most-popular/">View more</a></span>
+          </div><!-- #most-popular-inner -->
+      </div><!-- #most-popular-wrapper -->
+
+          <div id="editors-picks-wrapper" class="highlighted-posts-wrapper">
+          <div id="editors-picks-inner" class="highlighted-posts-inner">
+            <ul class="editors-pick">
+                        <li class="article-listing">
+              <h2>
+                <a href="http://venturebeat.com/2015/03/30/the-ellen-pao-trial-verdict-is-a-loss-for-the-tech-industry-and-a-loss-for-women/" title="The Ellen Pao trial verdict is a loss for the tech industry and a loss for&nbsp;women" rel="bookmark">
+                The Ellen Pao trial verdict is a loss for the tech industry and a loss for&nbsp;women               </a>
+              </h2>
+            </li>
+                        <li class="article-listing">
+              <h2>
+                <a href="http://venturebeat.com/2015/03/26/samsungs-galaxy-s6-and-s6-edge-bring-better-design-more-power-and-less-clutter-than-predecessors/" title="Samsung&#8217;s Galaxy S6 and S6 Edge bring better design, more power, and less clutter than&nbsp;predecessors" rel="bookmark">
+                Samsung&#8217;s Galaxy S6 and S6 Edge bring better design, more power, and less clutter than&nbsp;predecessors                </a>
+              </h2>
+            </li>
+                        <li class="article-listing">
+              <h2>
+                <a href="http://venturebeat.com/2015/03/25/whatsapp-voice-calling-coming-to-ios-in-a-couple-weeks/" title="WhatsApp cofounder: Voice calling coming to iOS in a &#8216;couple&nbsp;weeks&#8217;" rel="bookmark">
+                WhatsApp cofounder: Voice calling coming to iOS in a &#8216;couple&nbsp;weeks&#8217;                </a>
+              </h2>
+            </li>
+                        <li class="article-listing">
+              <h2>
+                <a href="http://venturebeat.com/2015/03/25/facebook-expands-liverail-ad-network-but-its-not-in-a-deathmatch-with-google-yet/" title="Facebook expands LiveRail ad platform, but it&#8217;s not in a deathmatch with Google &#8212;&nbsp;yet" rel="bookmark">
+                Facebook expands LiveRail ad platform, but it&#8217;s not in a deathmatch with Google &#8212;&nbsp;yet                </a>
+              </h2>
+            </li>
+                        <li class="article-listing">
+              <h2>
+                <a href="http://venturebeat.com/2015/03/25/facebooks-parse-unveils-sdks-for-the-internet-of-things/" title="Facebook&#8217;s Parse unveils SDKs for the Internet of&nbsp;Things" rel="bookmark">
+                Facebook&#8217;s Parse unveils SDKs for the Internet of&nbsp;Things               </a>
+              </h2>
+            </li>
+                        </ul>
+            <span class="read-more"><a href="/tag/editors-pick/">View more</a></span>
+          </div><!-- #editors-picks-inner -->
+      </div><!-- #editors-picks-wrapper -->
+
+    </div>        <div class="stories-header-wrapper clearfix">
+            <h2 id="stories-header">Latest News</h2>
+        </div><!-- .stories-header-wrapper -->
+
+      <div id="content" class="story-river" >
+
+  <article id="post-1687913" class="post-1687913 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-mobile tag-file-sharing tag-infinit tag-techstars border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/31/infinit-and-beyond-the-ultimate-file-sharing-app-just-launched-on-mobile/" title="'Permalink to Infinit and beyond: The ultimate file-sharing app just launched on&nbsp;mobile" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/Infinit-on-Mobile-Desktop.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Infinit now on Mobile &amp; Desktop" Infinit_and_beyond:_The_ultimate_file-sharing_app_just_launched_on="" nbsp;mobile="" /><noscript><img src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/Infinit-on-Mobile-Desktop.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Infinit now on Mobile &amp; Desktop" Infinit_and_beyond:_The_ultimate_file-sharing_app_just_launched_on="" nbsp;mobile="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/31/infinit-and-beyond-the-ultimate-file-sharing-app-just-launched-on-mobile/" title="'Permalink to Infinit and beyond: The ultimate file-sharing app just launched on&nbsp;mobile" rel="bookmark">Infinit and beyond: The ultimate file-sharing app just launched on&nbsp;mobile</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-31T06:17:07+00:00" datetime="2015-03-31T06:17:07+00:00">March 31, 2015 6:17 AM</time> |
+          <a href="http://venturebeat.com/author/paul-sawers/" title="Posts by Paul Sawers" class="author url fn" rel="author">Paul Sawers</a>                  </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>Having originally launched for Mac last year, Techstars alumnus Infinit arrived for Windows last month as part of its mission to create the ultimate file-sharing app. And today, the Paris-based startup has launched a version for mobile too, kicking off with both Android and&nbsp;iOS.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1687913 -->
+
+  <article id="post-1688310" class="post-1688310 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-gadgets category-mobile tag-microsoft tag-microsoft-surface tag-surface-3 tag-top-stories border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/31/microsoft-unveils-surface-3-with-windows-8-1-for-499-preorder-today-in-26-countries-ships-on-may-5/" title="'Permalink to Microsoft unveils Surface 3 with Windows 8.1 for $499: Preorder today in 26 countries, ships on May&nbsp;5" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/surface_3_red.png?resize=160%2C140" class="attachment-river wp-post-image" alt="surface_3_red" Microsoft_unveils_Surface_3_with_Windows_8_1_for_$499:_Preorder_today_in_26_countries,_ships_on_May="" nbsp;5="" /><noscript><img src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/surface_3_red.png?resize=160%2C140" class="attachment-river wp-post-image" alt="surface_3_red" Microsoft_unveils_Surface_3_with_Windows_8_1_for_$499:_Preorder_today_in_26_countries,_ships_on_May="" nbsp;5="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/31/microsoft-unveils-surface-3-with-windows-8-1-for-499-preorder-today-in-26-countries-ships-on-may-5/" title="'Permalink to Microsoft unveils Surface 3 with Windows 8.1 for $499: Preorder today in 26 countries, ships on May&nbsp;5" rel="bookmark">Microsoft unveils Surface 3 with Windows 8.1 for $499: Preorder today in 26 countries, ships on May&nbsp;5</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-31T06:00:19+00:00" datetime="2015-03-31T06:00:19+00:00">March 31, 2015 6:00 AM</time> |
+          <a href="http://venturebeat.com/author/emil-protalinski/" title="Posts by Emil Protalinski" class="author url fn" rel="author">Emil Protalinski</a>                 </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>This is Microsoft&#8217;s thinnest and lightest Surface&nbsp;yet.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1688310 -->
+
+  <article id="post-1688428" class="post-1688428 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-deals border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/31/it-management-startup-tanium-brings-in-52m-to-expand-internationally/" title="'Permalink to IT management startup Tanium brings in $52M to expand&nbsp;internationally" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2014/12/Servers-Beraldo-Leal-Flickr.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Servers Beraldo Leal Flickr" IT_management_startup_Tanium_brings_in_$52M_to_expand="" nbsp;internationally="" /><noscript><img src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2014/12/Servers-Beraldo-Leal-Flickr.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Servers Beraldo Leal Flickr" IT_management_startup_Tanium_brings_in_$52M_to_expand="" nbsp;internationally="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/31/it-management-startup-tanium-brings-in-52m-to-expand-internationally/" title="'Permalink to IT management startup Tanium brings in $52M to expand&nbsp;internationally" rel="bookmark">IT management startup Tanium brings in $52M to expand&nbsp;internationally</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-31T06:00:06+00:00" datetime="2015-03-31T06:00:06+00:00">March 31, 2015 6:00 AM</time> |
+          <a href="http://venturebeat.com/author/ruth-reader/" title="Posts by Ruth Reader" class="author url fn" rel="author">Ruth Reader</a>                  </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>Tanium, which makes an IT management tool, just raised another $52 million from Andreessen Horowitz.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1688428 -->
+
+  <article id="post-1687927" class="post-1687927 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-games category-mobile tag-ltv tag-tapjoy border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/31/how-to-know-if-your-game-is-on-its-way-to-1m-in-revenues/" title="'Permalink to How to know if your mobile game is on its way to $1M in&nbsp;revenues" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/tapjoy.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Tapjoy&#039;s  Mobile Signals report" How_to_know_if_your_mobile_game_is_on_its_way_to_$1M_in="" nbsp;revenues="" /><noscript><img src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/tapjoy.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Tapjoy&#039;s  Mobile Signals report" How_to_know_if_your_mobile_game_is_on_its_way_to_$1M_in="" nbsp;revenues="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/31/how-to-know-if-your-game-is-on-its-way-to-1m-in-revenues/" title="'Permalink to How to know if your mobile game is on its way to $1M in&nbsp;revenues" rel="bookmark">How to know if your mobile game is on its way to $1M in&nbsp;revenues</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-31T05:00:15+00:00" datetime="2015-03-31T05:00:15+00:00">March 31, 2015 5:00 AM</time> |
+          <a href="http://venturebeat.com/author/dean-takahashi/" title="Posts by Dean Takahashi" class="author url fn" rel="author">Dean Takahashi</a>                 </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>There&#8217;s something important about the number three in this&nbsp;report.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1687927 -->
+
+  <article id="post-1688405" class="post-1688405 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-offbeat tag-douglas-engelbart border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/31/greatest-computer-demo-in-history-debuts-as-an-opera-at-stanford-this-week/" title="'Permalink to Greatest computer demo in history debuts as an opera at Stanford this&nbsp;week" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/demo.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="&quot;The Demo&quot; is a music theater work written by composer/performers Mikel Rouse and Ben Neill based on Douglas Engelbart’s historic 1968 demonstration of early computer technology." Greatest_computer_demo_in_history_debuts_as_an_opera_at_Stanford_this="" nbsp;week="" /><noscript><img src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/demo.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="&quot;The Demo&quot; is a music theater work written by composer/performers Mikel Rouse and Ben Neill based on Douglas Engelbart’s historic 1968 demonstration of early computer technology." Greatest_computer_demo_in_history_debuts_as_an_opera_at_Stanford_this="" nbsp;week="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/31/greatest-computer-demo-in-history-debuts-as-an-opera-at-stanford-this-week/" title="'Permalink to Greatest computer demo in history debuts as an opera at Stanford this&nbsp;week" rel="bookmark">Greatest computer demo in history debuts as an opera at Stanford this&nbsp;week</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-31T04:54:17+00:00" datetime="2015-03-31T04:54:17+00:00">March 31, 2015 4:54 AM</time> |
+          <a href="http://venturebeat.com/author/chris-obrien/" title="Posts by Chris O&#039;Brien" class="author url fn" rel="author">Chris O&#039;Brien</a>                 </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>On December 9, 1968, a man named Douglas Engelbart gave a presentation on new computing technologies that is still considered one of the most epic demos in history. Now, it&#8217;s an&nbsp;opera.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1688405 -->
+
+  <article id="post-1688402" class="post-1688402 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-marketing tag-bitly tag-bundles border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/31/bitly-closes-its-bulk-link-shortening-bundles-service-cites-abuse-and-lack-of-interest/" title="'Permalink to Bitly closes its bulk link-shortening ‘bundles’ service, cites ‘abuse’ and lack of&nbsp;interest" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2015/03/URLs.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="URLs" Bitly_closes_its_bulk_link-shortening_‘bundles’_service,_cites_‘abuse’_and_lack_of="" nbsp;interest="" /><noscript><img src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2015/03/URLs.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="URLs" Bitly_closes_its_bulk_link-shortening_‘bundles’_service,_cites_‘abuse’_and_lack_of="" nbsp;interest="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/31/bitly-closes-its-bulk-link-shortening-bundles-service-cites-abuse-and-lack-of-interest/" title="'Permalink to Bitly closes its bulk link-shortening ‘bundles’ service, cites ‘abuse’ and lack of&nbsp;interest" rel="bookmark">Bitly closes its bulk link-shortening ‘bundles’ service, cites ‘abuse’ and lack of&nbsp;interest</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-31T04:48:43+00:00" datetime="2015-03-31T04:48:43+00:00">March 31, 2015 4:48 AM</time> |
+          <a href="http://venturebeat.com/author/paul-sawers/" title="Posts by Paul Sawers" class="author url fn" rel="author">Paul Sawers</a>                  </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>Bitly, famous for its near-ubiquitous URL-shortening service, has revealed that its &#8220;susetting&#8221; its bundles featured due to lack of uptake, a little over four years after launch.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1688402 -->
+
+  <article id="post-1688176" class="post-1688176 post type-post status-publish format-standard has-post-thumbnail hentry category-games tag-dennis-fong tag-plays-tv tag-raptr border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/31/raptr-launches-plays-tv-gameplay-video-sharing-and-raises-14m/" title="'Permalink to Raptr launches Plays.tv gameplay video sharing and raises&nbsp;$14M" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i2.wp.com/venturebeat.com/wp-content/uploads/2015/03/dennis-fong.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Dennis Fong, the CEO of Raptr, showing Plays.tv." Raptr_launches_Plays_tv_gameplay_video_sharing_and_raises="" nbsp;$14M="" /><noscript><img src="http://i2.wp.com/venturebeat.com/wp-content/uploads/2015/03/dennis-fong.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Dennis Fong, the CEO of Raptr, showing Plays.tv." Raptr_launches_Plays_tv_gameplay_video_sharing_and_raises="" nbsp;$14M="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/31/raptr-launches-plays-tv-gameplay-video-sharing-and-raises-14m/" title="'Permalink to Raptr launches Plays.tv gameplay video sharing and raises&nbsp;$14M" rel="bookmark">Raptr launches Plays.tv gameplay video sharing and raises&nbsp;$14M</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-31T04:30:16+00:00" datetime="2015-03-31T04:30:16+00:00">March 31, 2015 4:30 AM</time> |
+          <a href="http://venturebeat.com/author/dean-takahashi/" title="Posts by Dean Takahashi" class="author url fn" rel="author">Dean Takahashi</a>                 </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>Plays.tv lets you capture short video moments that are like Instagram for&nbsp;gamers.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1688176 -->
+
+  <article id="post-1688397" class="post-1688397 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-games tag-browsers tag-nintendo tag-super-mario-64-hd border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/31/game-over-fan-takes-down-his-super-mario-64-hd-for-browsers-after-legal-threat-from-nintendo/" title="'Permalink to Game over: Fan&#8217;s Super Mario 64 HD for browsers taken down after legal threat from&nbsp;Nintendo" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i2.wp.com/venturebeat.com/wp-content/uploads/2015/03/bobombvalley1.png?resize=160%2C140" class="attachment-river wp-post-image" alt="Image from the version of Super Mario 64 HD built for browsers by developer Roystan Ross." Game_over:_Fan="" #8217;s_Super_Mario_64_HD_for_browsers_taken_down_after_legal_threat_from="" nbsp;Nintendo="" /><noscript><img src="http://i2.wp.com/venturebeat.com/wp-content/uploads/2015/03/bobombvalley1.png?resize=160%2C140" class="attachment-river wp-post-image" alt="Image from the version of Super Mario 64 HD built for browsers by developer Roystan Ross." Game_over:_Fan="" #8217;s_Super_Mario_64_HD_for_browsers_taken_down_after_legal_threat_from="" nbsp;Nintendo="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/31/game-over-fan-takes-down-his-super-mario-64-hd-for-browsers-after-legal-threat-from-nintendo/" title="'Permalink to Game over: Fan&#8217;s Super Mario 64 HD for browsers taken down after legal threat from&nbsp;Nintendo" rel="bookmark">Game over: Fan&#8217;s Super Mario 64 HD for browsers taken down after legal threat from&nbsp;Nintendo</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-31T04:21:26+00:00" datetime="2015-03-31T04:21:26+00:00">March 31, 2015 4:21 AM</time> |
+          <a href="http://venturebeat.com/author/chris-obrien/" title="Posts by Chris O&#039;Brien" class="author url fn" rel="author">Chris O&#039;Brien</a>                 </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>The dream that was playing Super Mario 64 HD in your browser was as beautiful as it was&nbsp;short-lived.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1688397 -->
+
+  <article id="post-1688338" class="post-1688338 post type-post status-publish format-standard has-post-thumbnail hentry category-big-data category-business category-cloud category-deals category-enterprise category-entrepreneur category-marketing category-mobile category-small-biz tag-crm tag-customer-relationship-management tag-marketing-technology tag-martech tag-prosperworks border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/31/prosperworks-raise-7-5-million-to-put-crm-in-your-google/" title="'Permalink to ProsperWorks raise $7.5 million to put CRM in your&nbsp;Google" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2015/03/prosperworks.png?resize=160%2C140" class="attachment-river wp-post-image" alt="prosperworks" ProsperWorks_raise_$7_5_million_to_put_CRM_in_your="" nbsp;Google="" /><noscript><img src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2015/03/prosperworks.png?resize=160%2C140" class="attachment-river wp-post-image" alt="prosperworks" ProsperWorks_raise_$7_5_million_to_put_CRM_in_your="" nbsp;Google="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/31/prosperworks-raise-7-5-million-to-put-crm-in-your-google/" title="'Permalink to ProsperWorks raise $7.5 million to put CRM in your&nbsp;Google" rel="bookmark">ProsperWorks raise $7.5 million to put CRM in your&nbsp;Google</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-31T04:00:30+00:00" datetime="2015-03-31T04:00:30+00:00">March 31, 2015 4:00 AM</time> |
+          <a href="http://venturebeat.com/author/stewart-rogers/" title="Posts by Stewart Rogers - VB Insight" class="author url fn" rel="author">Stewart Rogers - VB Insight</a>                 </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>ProsperWorks, announced today that the company has raised $7.5 million to put CRM within Google&nbsp;Apps.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1688338 -->
+
+  <article id="post-1688365" class="post-1688365 post type-post status-publish format-standard has-post-thumbnail hentry category-business tag-court tag-paris tag-taxi tag-uber border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/31/uber-wins-temporary-victory-in-french-court-allowing-uberpop-to-operate-for-now/" title="'Permalink to Uber wins temporary victory in French court, allowing uberPOP to operate for&nbsp;now" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2014/11/uber.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Uber petition" Uber_wins_temporary_victory_in_French_court,_allowing_uberPOP_to_operate_for="" nbsp;now="" /><noscript><img src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2014/11/uber.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Uber petition" Uber_wins_temporary_victory_in_French_court,_allowing_uberPOP_to_operate_for="" nbsp;now="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/31/uber-wins-temporary-victory-in-french-court-allowing-uberpop-to-operate-for-now/" title="'Permalink to Uber wins temporary victory in French court, allowing uberPOP to operate for&nbsp;now" rel="bookmark">Uber wins temporary victory in French court, allowing uberPOP to operate for&nbsp;now</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-31T03:50:38+00:00" datetime="2015-03-31T03:50:38+00:00">March 31, 2015 3:50 AM</time> |
+          <a href="http://venturebeat.com/author/chris-obrien/" title="Posts by Chris O&#039;Brien" class="author url fn" rel="author">Chris O&#039;Brien</a>                 </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>Uber won a reprieve for its low-cost car sharing service today when a Paris court ruled in the company&#8217;s favor in a complex legal dispute.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1688365 -->
+
+  <article id="post-1688358" class="post-1688358 post type-post status-publish format-standard has-post-thumbnail hentry category-business tag-android tag-facebook tag-whatsapp border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/31/all-whatsapp-users-can-now-access-the-voice-call-feature-on-android/" title="'Permalink to WhatsApp for Android now lets all users make&nbsp;voice-calls" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/WhatsApp-Call.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="WhatsApp Calls" WhatsApp_for_Android_now_lets_all_users_make="" nbsp;voice-calls="" /><noscript><img src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/WhatsApp-Call.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="WhatsApp Calls" WhatsApp_for_Android_now_lets_all_users_make="" nbsp;voice-calls="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/31/all-whatsapp-users-can-now-access-the-voice-call-feature-on-android/" title="'Permalink to WhatsApp for Android now lets all users make&nbsp;voice-calls" rel="bookmark">WhatsApp for Android now lets all users make&nbsp;voice-calls</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-31T03:46:19+00:00" datetime="2015-03-31T03:46:19+00:00">March 31, 2015 3:46 AM</time> |
+          <a href="http://venturebeat.com/author/paul-sawers/" title="Posts by Paul Sawers" class="author url fn" rel="author">Paul Sawers</a>                  </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>WhatsApp&#8217;s much-mooted move to support voice-calls is nearing completion, as news emerges that anyone on Android can now make calls in-app to other WhatsApp&nbsp;users.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1688358 -->
+
+  <article id="post-1688188" class="post-1688188 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-gadgets category-media category-mobile tag-app tag-beat tag-indiegogo tag-iphone tag-metronome tag-music tag-pulse tag-soundbrenner tag-vibration border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/31/beat-it-new-wearable-device-for-musicians-is-like-a-sexy-wearable-metronome/" title="'Permalink to Beat it! New wearable device for musicians is like a sexy, wearable&nbsp;metronome" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/Use-Case-Photo-Violin.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="A violinist plays to the beat set by the Pulse wearable device, which she&#039;s wearing on her arm." Beat_it!_New_wearable_device_for_musicians_is_like_a_sexy,_wearable="" nbsp;metronome="" /><noscript><img src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/Use-Case-Photo-Violin.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="A violinist plays to the beat set by the Pulse wearable device, which she&#039;s wearing on her arm." Beat_it!_New_wearable_device_for_musicians_is_like_a_sexy,_wearable="" nbsp;metronome="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/31/beat-it-new-wearable-device-for-musicians-is-like-a-sexy-wearable-metronome/" title="'Permalink to Beat it! New wearable device for musicians is like a sexy, wearable&nbsp;metronome" rel="bookmark">Beat it! New wearable device for musicians is like a sexy, wearable&nbsp;metronome</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-31T03:30:06+00:00" datetime="2015-03-31T03:30:06+00:00">March 31, 2015 3:30 AM</time> |
+          <a href="http://venturebeat.com/author/daniel-terdiman/" title="Posts by Daniel Terdiman" class="author url fn" rel="author">Daniel Terdiman</a>                  </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>The Pulse aims to bring the 200-year-old metronome into the mobile app and wearable&nbsp;era.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1688188 -->
+
+  <article id="post-1688343" class="post-1688343 post type-post status-publish format-standard has-post-thumbnail hentry category-business tag-baidu tag-bing tag-emarketer tag-google tag-microsoft tag-search tag-sohu-com tag-yahoo border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/31/chinas-ban-on-google-is-costing-search-giant-billions-of-dollars-while-giving-huge-boost-to-baidu/" title="'Permalink to China&#8217;s ban on Google is costing search giant billions of dollars while giving huge boost to&nbsp;Baidu" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2010/12/google-china.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Image (1) google-china.jpg for post 230590" China="" #8217;s_ban_on_Google_is_costing_search_giant_billions_of_dollars_while_giving_huge_boost_to="" nbsp;Baidu="" /><noscript><img src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2010/12/google-china.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Image (1) google-china.jpg for post 230590" China="" #8217;s_ban_on_Google_is_costing_search_giant_billions_of_dollars_while_giving_huge_boost_to="" nbsp;Baidu="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/31/chinas-ban-on-google-is-costing-search-giant-billions-of-dollars-while-giving-huge-boost-to-baidu/" title="'Permalink to China&#8217;s ban on Google is costing search giant billions of dollars while giving huge boost to&nbsp;Baidu" rel="bookmark">China&#8217;s ban on Google is costing search giant billions of dollars while giving huge boost to&nbsp;Baidu</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-31T03:06:03+00:00" datetime="2015-03-31T03:06:03+00:00">March 31, 2015 3:06 AM</time> |
+          <a href="http://venturebeat.com/author/chris-obrien/" title="Posts by Chris O&#039;Brien" class="author url fn" rel="author">Chris O&#039;Brien</a>                 </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>It&#8217;s no surprise that by being blocked in China, Google is missing out on some serious search advertising revenues. But a new report today from eMarketer provides more insight into just how much Google may be losing.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1688343 -->
+
+  <article id="post-1687925" class="post-1687925 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-cloud category-enterprise category-entrepreneur category-security category-small-biz tag-attacks tag-hackers tag-hacking tag-heartbleed tag-openssl tag-security tag-security-vulnerabilities border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/31/one-year-on-from-heartbleed-you-dont-remember-it-and-thats-a-big-problem/" title="'Permalink to One year on from Heartbleed, you don’t remember it &#8212; and that&#8217;s a big&nbsp;problem" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/heartbleed-anniversary.png?resize=160%2C140" class="attachment-river wp-post-image" alt="heartbleed-anniversary" One_year_on_from_Heartbleed,_you_don’t_remember_it_="" #8212;_and_that="" #8217;s_a_big="" nbsp;problem="" /><noscript><img src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/heartbleed-anniversary.png?resize=160%2C140" class="attachment-river wp-post-image" alt="heartbleed-anniversary" One_year_on_from_Heartbleed,_you_don’t_remember_it_="" #8212;_and_that="" #8217;s_a_big="" nbsp;problem="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/31/one-year-on-from-heartbleed-you-dont-remember-it-and-thats-a-big-problem/" title="'Permalink to One year on from Heartbleed, you don’t remember it &#8212; and that&#8217;s a big&nbsp;problem" rel="bookmark">One year on from Heartbleed, you don’t remember it &#8212; and that&#8217;s a big&nbsp;problem</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-31T02:30:42+00:00" datetime="2015-03-31T02:30:42+00:00">March 31, 2015 2:30 AM</time> |
+          <a href="http://venturebeat.com/author/stewart-rogers/" title="Posts by Stewart Rogers - VB Insight" class="author url fn" rel="author">Stewart Rogers - VB Insight</a>                 </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>&#8220;Break the Internet&#8221;, they say. One year ago a security vulnerability came to light that could have, potentially, achieved this terrifying&nbsp;goal.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1687925 -->
+
+  <article id="post-1688337" class="post-1688337 post type-post status-publish format-standard has-post-thumbnail hentry category-business tag-golden-state-warriors tag-stubhub tag-ticketmaster border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/31/ticketmaster-responds-to-stubhub-lawsuit-denies-it-forced-nba-fans-to-resell-tickets-on-its-own-platform/" title="'Permalink to Ticketmaster responds to StubHub lawsuit, denies it forced NBA fans to resell tickets on its own&nbsp;platform" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/Tickets2.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Tickets" Ticketmaster_responds_to_StubHub_lawsuit,_denies_it_forced_NBA_fans_to_resell_tickets_on_its_own="" nbsp;platform="" /><noscript><img src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/Tickets2.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Tickets" Ticketmaster_responds_to_StubHub_lawsuit,_denies_it_forced_NBA_fans_to_resell_tickets_on_its_own="" nbsp;platform="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/31/ticketmaster-responds-to-stubhub-lawsuit-denies-it-forced-nba-fans-to-resell-tickets-on-its-own-platform/" title="'Permalink to Ticketmaster responds to StubHub lawsuit, denies it forced NBA fans to resell tickets on its own&nbsp;platform" rel="bookmark">Ticketmaster responds to StubHub lawsuit, denies it forced NBA fans to resell tickets on its own&nbsp;platform</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-31T02:16:03+00:00" datetime="2015-03-31T02:16:03+00:00">March 31, 2015 2:16 AM</time> |
+          <a href="http://venturebeat.com/author/paul-sawers/" title="Posts by Paul Sawers" class="author url fn" rel="author">Paul Sawers</a>                  </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>Ticketing titan Ticketmaster has responded to the anti-competition lawsuit initiated by rival StubHub, callling the case &#8220;baseless&#8221; and entirely &#8220;without&nbsp;merit.&#8221;</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1688337 -->
+
+  <article id="post-1687218" class="post-1687218 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-entrepreneur tag-entrepreneur tag-entrepreneurship border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/30/entrepreneurship-there-will-always-be-a-reason-not-to-make-the-leap/" title="'Permalink to Entrepreneurship: There will always be a reason not to make the&nbsp;leap" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i2.wp.com/venturebeat.com/wp-content/uploads/2015/03/8347177104_fc428e7c2d_h.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="8347177104_fc428e7c2d_h" Entrepreneurship:_There_will_always_be_a_reason_not_to_make_the="" nbsp;leap="" /><noscript><img src="http://i2.wp.com/venturebeat.com/wp-content/uploads/2015/03/8347177104_fc428e7c2d_h.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="8347177104_fc428e7c2d_h" Entrepreneurship:_There_will_always_be_a_reason_not_to_make_the="" nbsp;leap="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/30/entrepreneurship-there-will-always-be-a-reason-not-to-make-the-leap/" title="'Permalink to Entrepreneurship: There will always be a reason not to make the&nbsp;leap" rel="bookmark">Entrepreneurship: There will always be a reason not to make the&nbsp;leap</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-30T22:30:31+00:00" datetime="2015-03-30T22:30:31+00:00">March 30, 2015 10:30 PM</time> |
+          <a href="http://venturebeat.com/author/fdao/" title="Posts by Francisco Dao" class="author url fn" rel="author">Francisco Dao</a>                 </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>There may always be a reason not to make the leap, but don&#8217;t wait until it&#8217;s too&nbsp;late.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1687218 -->
+
+  <article id="post-1687926" class="post-1687926 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-deals tag-deals tag-smartnews border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/30/news-reader-app-smartnews-raises-10m-to-open-up-shop-in-san-francisco/" title="'Permalink to News reader app SmartNews raises $10M to open up shop in San&nbsp;Francisco" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i2.wp.com/venturebeat.com/wp-content/uploads/2015/03/phone1-e1427752449284.png?resize=160%2C140" class="attachment-river wp-post-image" alt="SmartNews" News_reader_app_SmartNews_raises_$10M_to_open_up_shop_in_San="" nbsp;Francisco="" /><noscript><img src="http://i2.wp.com/venturebeat.com/wp-content/uploads/2015/03/phone1-e1427752449284.png?resize=160%2C140" class="attachment-river wp-post-image" alt="SmartNews" News_reader_app_SmartNews_raises_$10M_to_open_up_shop_in_San="" nbsp;Francisco="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/30/news-reader-app-smartnews-raises-10m-to-open-up-shop-in-san-francisco/" title="'Permalink to News reader app SmartNews raises $10M to open up shop in San&nbsp;Francisco" rel="bookmark">News reader app SmartNews raises $10M to open up shop in San&nbsp;Francisco</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-30T21:33:23+00:00" datetime="2015-03-30T21:33:23+00:00">March 30, 2015 9:33 PM</time> |
+          <a href="http://venturebeat.com/author/ruth-reader/" title="Posts by Ruth Reader" class="author url fn" rel="author">Ruth Reader</a>                  </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>Japan-based news aggregating application SmartNews just snagged $10 million to open up an office in San Francisco and attract top machine-learning engineers.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1687926 -->
+
+  <article id="post-1688245" class="post-1688245 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-gadgets tag-ibm tag-internet-of-things border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/30/ibm-commits-3b-for-new-internet-of-things-business-unit/" title="'Permalink to IBM commits $3B for new Internet of Things business&nbsp;unit" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/Ginni-Rometty-IBM-2-IBM.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="IBM chief executive Ginni Rometty." IBM_commits_$3B_for_new_Internet_of_Things_business="" nbsp;unit="" /><noscript><img src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/Ginni-Rometty-IBM-2-IBM.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="IBM chief executive Ginni Rometty." IBM_commits_$3B_for_new_Internet_of_Things_business="" nbsp;unit="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/30/ibm-commits-3b-for-new-internet-of-things-business-unit/" title="'Permalink to IBM commits $3B for new Internet of Things business&nbsp;unit" rel="bookmark">IBM commits $3B for new Internet of Things business&nbsp;unit</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-30T21:01:44+00:00" datetime="2015-03-30T21:01:44+00:00">March 30, 2015 9:01 PM</time> |
+          <a href="http://venturebeat.com/author/jordan-novet/" title="Posts by Jordan Novet" class="author url fn" rel="author">Jordan Novet</a>                 </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>More tech companies are investing in the Internet of&nbsp;Things.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1688245 -->
+
+  <article id="post-1687759" class="post-1687759 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-gadgets tag-air-purifier tag-dyson border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/30/dyson-launches-its-first-air-purifier-to-help-tackle-pollution/" title="'Permalink to Dyson launches an air purifier to help tackle&nbsp;pollution" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i2.wp.com/venturebeat.com/wp-content/uploads/2015/03/Screenshot-2015-03-30-17.07.10.png?resize=160%2C140" class="attachment-river wp-post-image" alt="Dyson Air Purifier: Filter" Dyson_launches_an_air_purifier_to_help_tackle="" nbsp;pollution="" /><noscript><img src="http://i2.wp.com/venturebeat.com/wp-content/uploads/2015/03/Screenshot-2015-03-30-17.07.10.png?resize=160%2C140" class="attachment-river wp-post-image" alt="Dyson Air Purifier: Filter" Dyson_launches_an_air_purifier_to_help_tackle="" nbsp;pollution="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/30/dyson-launches-its-first-air-purifier-to-help-tackle-pollution/" title="'Permalink to Dyson launches an air purifier to help tackle&nbsp;pollution" rel="bookmark">Dyson launches an air purifier to help tackle&nbsp;pollution</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-30T21:00:00+00:00" datetime="2015-03-30T21:00:00+00:00">March 30, 2015 9:00 PM</time> |
+          <a href="http://venturebeat.com/author/paul-sawers/" title="Posts by Paul Sawers" class="author url fn" rel="author">Paul Sawers</a>                  </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>Today, the consumer appliance company that first made a name for itself with bagless vacuum cleaners more than 20 years ago is officially lifting the lid on its next product: an air&nbsp;purifier.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1687759 -->
+
+  <article id="post-1688240" class="post-1688240 post type-post status-publish format-standard has-post-thumbnail hentry category-business tag-top-stories border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/30/im-pretty-sure-i-hate-jay-zs-music-streaming-service-heres-why/" title="'Permalink to I&#8217;m pretty sure I hate Jay Z&#8217;s music streaming service. Here&#8217;s&nbsp;why." rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/Screen-Shot-2015-03-30-at-10.44.09-PM.png?resize=160%2C140" class="attachment-river wp-post-image" alt="Screen Shot 2015-03-30 at 10.44.09 PM" I="" #8217;m_pretty_sure_I_hate_Jay_Z="" #8217;s_music_streaming_service__Here="" #8217;s="" nbsp;why_="" /><noscript><img src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/Screen-Shot-2015-03-30-at-10.44.09-PM.png?resize=160%2C140" class="attachment-river wp-post-image" alt="Screen Shot 2015-03-30 at 10.44.09 PM" I="" #8217;m_pretty_sure_I_hate_Jay_Z="" #8217;s_music_streaming_service__Here="" #8217;s="" nbsp;why_="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/30/im-pretty-sure-i-hate-jay-zs-music-streaming-service-heres-why/" title="'Permalink to I&#8217;m pretty sure I hate Jay Z&#8217;s music streaming service. Here&#8217;s&nbsp;why." rel="bookmark">I&#8217;m pretty sure I hate Jay Z&#8217;s music streaming service. Here&#8217;s&nbsp;why.</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-30T20:00:42+00:00" datetime="2015-03-30T20:00:42+00:00">March 30, 2015 8:00 PM</time> |
+          <a href="http://venturebeat.com/author/fletcher-babb/" title="Posts by Fletcher Babb" class="author url fn" rel="author">Fletcher Babb</a>                  </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>This afternoon Jay Z held a press conference officially relaunching Tidal, the subscription music streaming service he recently acquired for $56 million.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1688240 -->
+
+  <article id="post-1688187" class="post-1688187 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-gadgets category-mobile tag-apple tag-intellectual-property tag-legal tag-patent tag-smartphones tag-tablets border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/30/ericsson-whines-loudly-u-s-trade-commission-agrees-to-investigate-apple/" title="'Permalink to Ericsson whines loudly; U.S. trade commission agrees to investigate&nbsp;Apple" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2014/04/apple-patent.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Apple patent" Ericsson_whines_loudly;_U_S__trade_commission_agrees_to_investigate="" nbsp;Apple="" /><noscript><img src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2014/04/apple-patent.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Apple patent" Ericsson_whines_loudly;_U_S__trade_commission_agrees_to_investigate="" nbsp;Apple="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/30/ericsson-whines-loudly-u-s-trade-commission-agrees-to-investigate-apple/" title="'Permalink to Ericsson whines loudly; U.S. trade commission agrees to investigate&nbsp;Apple" rel="bookmark">Ericsson whines loudly; U.S. trade commission agrees to investigate&nbsp;Apple</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-30T19:30:35+00:00" datetime="2015-03-30T19:30:35+00:00">March 30, 2015 7:30 PM</time> |
+          <a href="http://venturebeat.com/author/mark-sullivan/" title="Posts by Mark Sullivan" class="author url fn" rel="author">Mark Sullivan</a>                  </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>The ITC has the power to ban the importation of products it believes violate patents, which could have an immediate and painful effect on&nbsp;sales.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1688187 -->
+
+  <article id="post-1687937" class="post-1687937 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-mobile tag-facebook-messenger tag-sean-killian border-top clearfix has-thumbnail guest-post" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/30/facebook-is-breaking-the-app-store-rules-and-apple-probably-cant-stop-it/" title="'Permalink to Facebook seems to be breaking the App Store rules, but Apple probably can&#8217;t stop&nbsp;it" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/App-Store.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="App Store" Facebook_seems_to_be_breaking_the_App_Store_rules,_but_Apple_probably_can="" #8217;t_stop="" nbsp;it="" /><noscript><img src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/App-Store.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="App Store" Facebook_seems_to_be_breaking_the_App_Store_rules,_but_Apple_probably_can="" #8217;t_stop="" nbsp;it="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/30/facebook-is-breaking-the-app-store-rules-and-apple-probably-cant-stop-it/" title="'Permalink to Facebook seems to be breaking the App Store rules, but Apple probably can&#8217;t stop&nbsp;it" rel="bookmark">Facebook seems to be breaking the App Store rules, but Apple probably can&#8217;t stop&nbsp;it</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-30T18:00:50+00:00" datetime="2015-03-30T18:00:50+00:00">March 30, 2015 6:00 PM</time> |
+          <a href="http://venturebeat.com/author/sean-killian-enola-labs/" title="Posts by Sean Killian, Enola Labs" class="author url fn" rel="author">Sean Killian, Enola Labs</a>                  </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p><span class="post-label guest-post">Guest</span>Here&#8217;s why Facebook&#8217;s Messenger app may not be forced to adhere to the same rules and regulations everyone else in the App Store is required to&nbsp;follow.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1687937 -->
+
+  <article id="post-1687968" class="post-1687968 post type-post status-publish format-standard has-post-thumbnail hentry category-deals category-gadgets category-health category-lifestyle tag-fitbit tag-fitness-wearables tag-funding tag-health-2 tag-venture-capital tag-wearables border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/30/fitbit-has-raised-a-new-18m-round-to-pay-for-fitstar-acquisition-exclusive/" title="'Permalink to Fitbit likely paid at least $17.8M to acquire Fitstar&nbsp;(updated)" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2014/10/fitbit-new-products-image.png?resize=160%2C140" class="attachment-river wp-post-image" alt="Fitbit&#039;s new Charge, Charge HR, and Surge fitness wearables." Fitbit_likely_paid_at_least_$17_8M_to_acquire_Fitstar="" nbsp;(updated)="" /><noscript><img src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2014/10/fitbit-new-products-image.png?resize=160%2C140" class="attachment-river wp-post-image" alt="Fitbit&#039;s new Charge, Charge HR, and Surge fitness wearables." Fitbit_likely_paid_at_least_$17_8M_to_acquire_Fitstar="" nbsp;(updated)="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/30/fitbit-has-raised-a-new-18m-round-to-pay-for-fitstar-acquisition-exclusive/" title="'Permalink to Fitbit likely paid at least $17.8M to acquire Fitstar&nbsp;(updated)" rel="bookmark">Fitbit likely paid at least $17.8M to acquire Fitstar&nbsp;(updated)</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-30T17:21:28+00:00" datetime="2015-03-30T17:21:28+00:00">March 30, 2015 5:21 PM</time> |
+          <a href="http://venturebeat.com/author/mark-sullivan/" title="Posts by Mark Sullivan" class="author url fn" rel="author">Mark Sullivan</a>                  </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>The San Francisco-based company can add that to the $66 million it&#8217;s already raised since its&nbsp;founding.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1687968 -->
+
+  <article id="post-1688173" class="post-1688173 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-deals category-enterprise category-green tag-bonds tag-elon-musk tag-solarcity tag-spacex tag-tesla tag-top-stories border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/30/elon-musks-spacex-buying-90-million-of-elon-musks-solar-city-solar-bonds/" title="'Permalink to Elon Musk&#8217;s SpaceX buying $90 million of Elon Musk&#8217;s Solar City solar&nbsp;bonds" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2015/03/Screen-Shot-2015-03-30-at-4.12.23-PM.png?resize=160%2C140" class="attachment-river wp-post-image" alt="SolarCity is one of the world&#039;s-largest installers of solar panels." Elon_Musk="" #8217;s_SpaceX_buying_$90_million_of_Elon_Musk="" #8217;s_Solar_City_solar="" nbsp;bonds="" /><noscript><img src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2015/03/Screen-Shot-2015-03-30-at-4.12.23-PM.png?resize=160%2C140" class="attachment-river wp-post-image" alt="SolarCity is one of the world&#039;s-largest installers of solar panels." Elon_Musk="" #8217;s_SpaceX_buying_$90_million_of_Elon_Musk="" #8217;s_Solar_City_solar="" nbsp;bonds="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/30/elon-musks-spacex-buying-90-million-of-elon-musks-solar-city-solar-bonds/" title="'Permalink to Elon Musk&#8217;s SpaceX buying $90 million of Elon Musk&#8217;s Solar City solar&nbsp;bonds" rel="bookmark">Elon Musk&#8217;s SpaceX buying $90 million of Elon Musk&#8217;s Solar City solar&nbsp;bonds</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-30T16:13:32+00:00" datetime="2015-03-30T16:13:32+00:00">March 30, 2015 4:13 PM</time> |
+          <a href="http://venturebeat.com/author/daniel-terdiman/" title="Posts by Daniel Terdiman" class="author url fn" rel="author">Daniel Terdiman</a>                  </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>SolarCity said that SpaceX is essentially getting paid back by the&nbsp;sun.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1688173 -->
+
+  <article id="post-1687923" class="post-1687923 post type-post status-publish format-standard has-post-thumbnail hentry category-games tag-dota-2 tag-eedar tag-heroes-of-newerth tag-heroes-of-the-storm tag-league-of-legends tag-moba tag-riot-games tag-top-stories tag-valve-software border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/30/league-of-legends-dota-2-will-lead-pc-gamings-fastest-growing-sector-to-500m-this-year-in-north-america/" title="'Permalink to League of Legends, Dota 2 will lead PC gaming&#8217;s fastest-growing sector to $500M this year in North&nbsp;America" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2013/07/dota4.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Dota 2" League_of_Legends,_Dota_2_will_lead_PC_gaming="" #8217;s_fastest-growing_sector_to_$500M_this_year_in_North="" nbsp;America="" /><noscript><img src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2013/07/dota4.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Dota 2" League_of_Legends,_Dota_2_will_lead_PC_gaming="" #8217;s_fastest-growing_sector_to_$500M_this_year_in_North="" nbsp;America="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/30/league-of-legends-dota-2-will-lead-pc-gamings-fastest-growing-sector-to-500m-this-year-in-north-america/" title="'Permalink to League of Legends, Dota 2 will lead PC gaming&#8217;s fastest-growing sector to $500M this year in North&nbsp;America" rel="bookmark">League of Legends, Dota 2 will lead PC gaming&#8217;s fastest-growing sector to $500M this year in North&nbsp;America</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-30T15:20:48+00:00" datetime="2015-03-30T15:20:48+00:00">March 30, 2015 3:20 PM</time> |
+          <a href="http://venturebeat.com/author/jeff-grubb/" title="Posts by Jeff Grubb" class="author url fn" rel="author">Jeff Grubb</a>                 </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>The fastest-growing genre on PC is about to turn into the&nbsp;biggest.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1687923 -->
+
+  <article id="post-1688044" class="post-1688044 post type-post status-publish format-standard has-post-thumbnail hentry category-business tag-internet-explorer tag-microsoft tag-project-spartan tag-top-stories tag-windows-10 tag-windows-10-preview border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/30/microsoft-releases-new-windows-10-preview-with-project-spartan/" title="'Permalink to Microsoft releases new Windows 10 preview with Project&nbsp;Spartan" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/project_spartan_preview.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="project_spartan_preview" Microsoft_releases_new_Windows_10_preview_with_Project="" nbsp;Spartan="" /><noscript><img src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/project_spartan_preview.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="project_spartan_preview" Microsoft_releases_new_Windows_10_preview_with_Project="" nbsp;Spartan="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/30/microsoft-releases-new-windows-10-preview-with-project-spartan/" title="'Permalink to Microsoft releases new Windows 10 preview with Project&nbsp;Spartan" rel="bookmark">Microsoft releases new Windows 10 preview with Project&nbsp;Spartan</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-30T14:59:50+00:00" datetime="2015-03-30T14:59:50+00:00">March 30, 2015 2:59 PM</time> |
+          <a href="http://venturebeat.com/author/emil-protalinski/" title="Posts by Emil Protalinski" class="author url fn" rel="author">Emil Protalinski</a>                 </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>You can now try Internet Explorer&#8217;s&nbsp;successor.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1688044 -->
+
+  <article id="post-1687914" class="post-1687914 post type-post status-publish format-standard has-post-thumbnail hentry category-gadgets category-health category-mobile category-security tag-cyberterror tag-medical-devices tag-security border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/30/new-security-report-raises-possibility-of-medical-zero-day-exploits/" title="'Permalink to New security report raises possibility of &#8216;medical zero day&#8217;&nbsp;exploits" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2014/04/heartbleed-logos-global-panorama-flickr.png?resize=160%2C140" class="attachment-river wp-post-image" alt="Heartbleed logos Global Panorama Flickr" New_security_report_raises_possibility_of_="" #8216;medical_zero_day="" #8217;="" nbsp;exploits="" /><noscript><img src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2014/04/heartbleed-logos-global-panorama-flickr.png?resize=160%2C140" class="attachment-river wp-post-image" alt="Heartbleed logos Global Panorama Flickr" New_security_report_raises_possibility_of_="" #8216;medical_zero_day="" #8217;="" nbsp;exploits="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/30/new-security-report-raises-possibility-of-medical-zero-day-exploits/" title="'Permalink to New security report raises possibility of &#8216;medical zero day&#8217;&nbsp;exploits" rel="bookmark">New security report raises possibility of &#8216;medical zero day&#8217;&nbsp;exploits</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-30T14:39:13+00:00" datetime="2015-03-30T14:39:13+00:00">March 30, 2015 2:39 PM</time> |
+          <a href="http://venturebeat.com/author/mark-sullivan/" title="Posts by Mark Sullivan" class="author url fn" rel="author">Mark Sullivan</a>                  </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>Unfortunately, history has shown that if you can think of these scenarios, hackers will usually eventually make them&nbsp;real.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1687914 -->
+
+  <article id="post-1687839" class="post-1687839 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-media border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/30/coachup-grabs-basketball-star-stephen-curry-for-private-one-on-one-coaching/" title="'Permalink to NBA star Steph Curry joins CoachUp for private 1-on-1&nbsp;coaching" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2015/03/stephen-curry.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Warriors player Stephen Curry" NBA_star_Steph_Curry_joins_CoachUp_for_private_1-on-1="" nbsp;coaching="" /><noscript><img src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2015/03/stephen-curry.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Warriors player Stephen Curry" NBA_star_Steph_Curry_joins_CoachUp_for_private_1-on-1="" nbsp;coaching="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/30/coachup-grabs-basketball-star-stephen-curry-for-private-one-on-one-coaching/" title="'Permalink to NBA star Steph Curry joins CoachUp for private 1-on-1&nbsp;coaching" rel="bookmark">NBA star Steph Curry joins CoachUp for private 1-on-1&nbsp;coaching</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-30T12:00:02+00:00" datetime="2015-03-30T12:00:02+00:00">March 30, 2015 12:00 PM</time> |
+          <a href="http://venturebeat.com/author/dean-takahashi/" title="Posts by Dean Takahashi" class="author url fn" rel="author">Dean Takahashi</a>                 </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>Curry is now part-owner of the one-on-one coaching&nbsp;company.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1687839 -->
+
+  <article id="post-1687880" class="post-1687880 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-mobile tag-android tag-gmail tag-google border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/30/gmail-for-android-gets-all-inboxes-view-threaded-conversations-for-non-google-accounts-better-search-and-more/" title="'Permalink to Gmail for Android gets All Inboxes view, threaded conversations for all accounts, better autocomplete, and&nbsp;more" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2014/03/gmail.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Gmail" Gmail_for_Android_gets_All_Inboxes_view,_threaded_conversations_for_all_accounts,_better_autocomplete,_and="" nbsp;more="" /><noscript><img src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2014/03/gmail.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Gmail" Gmail_for_Android_gets_All_Inboxes_view,_threaded_conversations_for_all_accounts,_better_autocomplete,_and="" nbsp;more="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/30/gmail-for-android-gets-all-inboxes-view-threaded-conversations-for-non-google-accounts-better-search-and-more/" title="'Permalink to Gmail for Android gets All Inboxes view, threaded conversations for all accounts, better autocomplete, and&nbsp;more" rel="bookmark">Gmail for Android gets All Inboxes view, threaded conversations for all accounts, better autocomplete, and&nbsp;more</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-30T11:35:23+00:00" datetime="2015-03-30T11:35:23+00:00">March 30, 2015 11:35 AM</time> |
+          <a href="http://venturebeat.com/author/emil-protalinski/" title="Posts by Emil Protalinski" class="author url fn" rel="author">Emil Protalinski</a>                 </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>Gmail now finally has a unified&nbsp;inbox.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1687880 -->
+
+  <article id="post-1687864" class="post-1687864 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-gadgets border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/30/raining-wearables-idc-says-126-million-will-ship-in-2019/" title="'Permalink to Raining wearables: IDC says 126 million will ship in&nbsp;2019" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i2.wp.com/venturebeat.com/wp-content/uploads/2015/01/WEARABLES-HELL-FEATURED-IMG.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="WEARABLES HELL FEATURED IMG" Raining_wearables:_IDC_says_126_million_will_ship_in="" nbsp;2019="" /><noscript><img src="http://i2.wp.com/venturebeat.com/wp-content/uploads/2015/01/WEARABLES-HELL-FEATURED-IMG.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="WEARABLES HELL FEATURED IMG" Raining_wearables:_IDC_says_126_million_will_ship_in="" nbsp;2019="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/30/raining-wearables-idc-says-126-million-will-ship-in-2019/" title="'Permalink to Raining wearables: IDC says 126 million will ship in&nbsp;2019" rel="bookmark">Raining wearables: IDC says 126 million will ship in&nbsp;2019</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-30T11:35:05+00:00" datetime="2015-03-30T11:35:05+00:00">March 30, 2015 11:35 AM</time> |
+          <a href="http://venturebeat.com/author/mark-sullivan/" title="Posts by Mark Sullivan" class="author url fn" rel="author">Mark Sullivan</a>                  </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>IDC attributes the rapid growth to a combination of new vendors, new devices, and greater end-user awareness. Oh, and that new thing Apple&#8217;s&nbsp;launching.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1687864 -->
+
+  <article id="post-1687858" class="post-1687858 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-cloud category-media tag-google tag-google-drive tag-google-photos border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/30/your-google-photos-and-videos-are-now-available-in-google-drive/" title="'Permalink to Your Google+ photos and videos are now available in Google&nbsp;Drive" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i2.wp.com/venturebeat.com/wp-content/uploads/2015/03/Google.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Google" Your_Google__photos_and_videos_are_now_available_in_Google="" nbsp;Drive="" /><noscript><img src="http://i2.wp.com/venturebeat.com/wp-content/uploads/2015/03/Google.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Google" Your_Google__photos_and_videos_are_now_available_in_Google="" nbsp;Drive="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/30/your-google-photos-and-videos-are-now-available-in-google-drive/" title="'Permalink to Your Google+ photos and videos are now available in Google&nbsp;Drive" rel="bookmark">Your Google+ photos and videos are now available in Google&nbsp;Drive</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-30T11:15:51+00:00" datetime="2015-03-30T11:15:51+00:00">March 30, 2015 11:15 AM</time> |
+          <a href="http://venturebeat.com/author/emil-protalinski/" title="Posts by Emil Protalinski" class="author url fn" rel="author">Emil Protalinski</a>                 </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>Google just made it easier to ditch&nbsp;Google+.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1687858 -->
+
+  <article id="post-1687844" class="post-1687844 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-health border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/30/patients-are-cool-with-mobile-tech-in-the-exam-room-as-long-as-it-isnt-a-barrier/" title="'Permalink to Patients are cool with mobile tech in the exam room, as long as it isn&#8217;t a&nbsp;barrier" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2013/03/doctor-tablet.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="doctor tablet" Patients_are_cool_with_mobile_tech_in_the_exam_room,_as_long_as_it_isn="" #8217;t_a="" nbsp;barrier="" /><noscript><img src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2013/03/doctor-tablet.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="doctor tablet" Patients_are_cool_with_mobile_tech_in_the_exam_room,_as_long_as_it_isn="" #8217;t_a="" nbsp;barrier="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/30/patients-are-cool-with-mobile-tech-in-the-exam-room-as-long-as-it-isnt-a-barrier/" title="'Permalink to Patients are cool with mobile tech in the exam room, as long as it isn&#8217;t a&nbsp;barrier" rel="bookmark">Patients are cool with mobile tech in the exam room, as long as it isn&#8217;t a&nbsp;barrier</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-30T11:09:28+00:00" datetime="2015-03-30T11:09:28+00:00">March 30, 2015 11:09 AM</time> |
+          <a href="http://venturebeat.com/author/mark-sullivan/" title="Posts by Mark Sullivan" class="author url fn" rel="author">Mark Sullivan</a>                  </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>Almost 6 out of 10 patients said they think technology in the exam room makes the exam a richer experience, especially when it’s “used collaboratively to educate or&nbsp;explain.”</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1687844 -->
+
+  <article id="post-1687720" class="post-1687720 post type-post status-publish format-standard has-post-thumbnail hentry category-business tag-editors-pick tag-top-stories border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/30/the-ellen-pao-trial-verdict-is-a-loss-for-the-tech-industry-and-a-loss-for-women/" title="'Permalink to The Ellen Pao trial verdict is a loss for the tech industry and a loss for&nbsp;women" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2012/05/ellen-pao.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Ellen Pao" The_Ellen_Pao_trial_verdict_is_a_loss_for_the_tech_industry_and_a_loss_for="" nbsp;women="" /><noscript><img src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2012/05/ellen-pao.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Ellen Pao" The_Ellen_Pao_trial_verdict_is_a_loss_for_the_tech_industry_and_a_loss_for="" nbsp;women="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/30/the-ellen-pao-trial-verdict-is-a-loss-for-the-tech-industry-and-a-loss-for-women/" title="'Permalink to The Ellen Pao trial verdict is a loss for the tech industry and a loss for&nbsp;women" rel="bookmark">The Ellen Pao trial verdict is a loss for the tech industry and a loss for&nbsp;women</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-30T10:56:43+00:00" datetime="2015-03-30T10:56:43+00:00">March 30, 2015 10:56 AM</time> |
+          <a href="http://venturebeat.com/author/ruth-reader/" title="Posts by Ruth Reader" class="author url fn" rel="author">Ruth Reader</a>                  </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>If you live in the abyss of tech media, you no doubt have heard about the Ellen Pao sexual discrimination lawsuit that has dominated the news cycle for the last month.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1687720 -->
+
+  <article id="post-1687811" class="post-1687811 post type-post status-publish format-standard has-post-thumbnail hentry category-cloud category-dev category-enterprise tag-cloud-monitoring tag-google tag-google-cloud-console tag-google-cloud-platform tag-google-compute-engine tag-infrastructure-as-a-service border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/30/google-launches-cloud-console-for-android-says-ios-version-coming-next/" title="'Permalink to Google launches Cloud Console for Android, says iOS version coming&nbsp;next" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/Google-Cloud-Console.png?resize=160%2C140" class="attachment-river wp-post-image" alt="Google&#039;s new Cloud Console cloud-monitoring app." Google_launches_Cloud_Console_for_Android,_says_iOS_version_coming="" nbsp;next="" /><noscript><img src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/Google-Cloud-Console.png?resize=160%2C140" class="attachment-river wp-post-image" alt="Google&#039;s new Cloud Console cloud-monitoring app." Google_launches_Cloud_Console_for_Android,_says_iOS_version_coming="" nbsp;next="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/30/google-launches-cloud-console-for-android-says-ios-version-coming-next/" title="'Permalink to Google launches Cloud Console for Android, says iOS version coming&nbsp;next" rel="bookmark">Google launches Cloud Console for Android, says iOS version coming&nbsp;next</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-30T10:24:24+00:00" datetime="2015-03-30T10:24:24+00:00">March 30, 2015 10:24 AM</time> |
+          <a href="http://venturebeat.com/author/jordan-novet/" title="Posts by Jordan Novet" class="author url fn" rel="author">Jordan Novet</a>                 </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>Google has been steadily rolling out monitoring tools for its public cloud in recent&nbsp;months.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1687811 -->
+
+  <article id="post-1687349" class="post-1687349 post type-post status-publish format-standard has-post-thumbnail hentry category-games category-mobile tag-derby-games tag-derby-jackpot tag-walter-hessert border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/30/derby-games-offers-real-money-gambling-app-for-horse-racing-fans-on-ios/" title="'Permalink to Derby Games offers real-money gambling app for horse racing fans on&nbsp;iOS" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i2.wp.com/venturebeat.com/wp-content/uploads/2015/03/derby.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Derby Games&#039; Derby Jackpot lets you bet real money on horse races." Derby_Games_offers_real-money_gambling_app_for_horse_racing_fans_on="" nbsp;iOS="" /><noscript><img src="http://i2.wp.com/venturebeat.com/wp-content/uploads/2015/03/derby.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Derby Games&#039; Derby Jackpot lets you bet real money on horse races." Derby_Games_offers_real-money_gambling_app_for_horse_racing_fans_on="" nbsp;iOS="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/30/derby-games-offers-real-money-gambling-app-for-horse-racing-fans-on-ios/" title="'Permalink to Derby Games offers real-money gambling app for horse racing fans on&nbsp;iOS" rel="bookmark">Derby Games offers real-money gambling app for horse racing fans on&nbsp;iOS</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-30T10:00:27+00:00" datetime="2015-03-30T10:00:27+00:00">March 30, 2015 10:00 AM</time> |
+          <a href="http://venturebeat.com/author/dean-takahashi/" title="Posts by Dean Takahashi" class="author url fn" rel="author">Dean Takahashi</a>                 </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>Derby Jackpot brings horse-racing betting to the iPhone in a form that will appeal to veteran gamblers and casual players&nbsp;alike.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1687349 -->
+
+  <article id="post-1687765" class="post-1687765 post type-post status-publish format-standard has-post-thumbnail hentry category-business tag-business-sponsored-company-news border-top clearfix has-thumbnail partnered-post" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/30/augure-raises-16-million-to-break-into-the-us-influencer-engagement-market/" title="'Permalink to Augure Raises $16 Million to Break Into the US Influencer Engagement&nbsp;Market" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2014/11/businesswire-4.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="businesswire-4" Augure_Raises_$16_Million_to_Break_Into_the_US_Influencer_Engagement="" nbsp;Market="" /><noscript><img src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2014/11/businesswire-4.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="businesswire-4" Augure_Raises_$16_Million_to_Break_Into_the_US_Influencer_Engagement="" nbsp;Market="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/30/augure-raises-16-million-to-break-into-the-us-influencer-engagement-market/" title="'Permalink to Augure Raises $16 Million to Break Into the US Influencer Engagement&nbsp;Market" rel="bookmark">Augure Raises $16 Million to Break Into the US Influencer Engagement&nbsp;Market</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-30T08:57:18+00:00" datetime="2015-03-30T08:57:18+00:00">March 30, 2015 8:57 AM</time> |
+          <a href="http://venturebeat.com/author/businesswire/" title="Posts by Business Wire" class="author url fn" rel="author">Business Wire</a>                 </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p><span class="post-label press-post">Press Release</span>Augure,       the European market leader in Influencer Engagement software, has just       announced that it has raised $16 Million to finance its expansion       over the next 3 years.              Through this investment the company wants to&nbsp;become&#8230;</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1687765 -->
+
+  <article id="post-1687729" class="post-1687729 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-gadgets category-mobile tag-android tag-apple tag-blackberry tag-iphone tag-pc tag-top-stories tag-trade-in tag-windows-phone border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/30/apple-expands-iphone-trade-in-program-to-include-android-blackberry-windows-phone-and-pcs/" title="'Permalink to Apple expands iPhone trade-in program to include Android, BlackBerry, Windows Phone, and&nbsp;PCs" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2014/11/2-CamioCam-view-on-iPhone.png?resize=160%2C140" class="attachment-river wp-post-image" alt="CamioCam on iPhone" Apple_expands_iPhone_trade-in_program_to_include_Android,_BlackBerry,_Windows_Phone,_and="" nbsp;PCs="" /><noscript><img src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2014/11/2-CamioCam-view-on-iPhone.png?resize=160%2C140" class="attachment-river wp-post-image" alt="CamioCam on iPhone" Apple_expands_iPhone_trade-in_program_to_include_Android,_BlackBerry,_Windows_Phone,_and="" nbsp;PCs="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/30/apple-expands-iphone-trade-in-program-to-include-android-blackberry-windows-phone-and-pcs/" title="'Permalink to Apple expands iPhone trade-in program to include Android, BlackBerry, Windows Phone, and&nbsp;PCs" rel="bookmark">Apple expands iPhone trade-in program to include Android, BlackBerry, Windows Phone, and&nbsp;PCs</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-30T08:31:31+00:00" datetime="2015-03-30T08:31:31+00:00">March 30, 2015 8:31 AM</time> |
+          <a href="http://venturebeat.com/author/emil-protalinski/" title="Posts by Emil Protalinski" class="author url fn" rel="author">Emil Protalinski</a>                 </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>Apple wants to make it easy for you to&nbsp;switch.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1687729 -->
+
+  <article id="post-1687598" class="post-1687598 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-enterprise tag-mdm tag-microsoft tag-microsoft-intune tag-microsoft-office tag-office-365 border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/30/microsoft-launches-office-365-mobile-device-management-for-android-ios-and-windows-phone-devices/" title="'Permalink to Microsoft launches Office 365 mobile device management for Android, iOS, and Windows Phone&nbsp;devices" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i2.wp.com/venturebeat.com/wp-content/uploads/2015/01/Microsoft-sign-campus.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="At the Microsoft campus in Redmond, Washington" Microsoft_launches_Office_365_mobile_device_management_for_Android,_iOS,_and_Windows_Phone="" nbsp;devices="" /><noscript><img src="http://i2.wp.com/venturebeat.com/wp-content/uploads/2015/01/Microsoft-sign-campus.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="At the Microsoft campus in Redmond, Washington" Microsoft_launches_Office_365_mobile_device_management_for_Android,_iOS,_and_Windows_Phone="" nbsp;devices="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/30/microsoft-launches-office-365-mobile-device-management-for-android-ios-and-windows-phone-devices/" title="'Permalink to Microsoft launches Office 365 mobile device management for Android, iOS, and Windows Phone&nbsp;devices" rel="bookmark">Microsoft launches Office 365 mobile device management for Android, iOS, and Windows Phone&nbsp;devices</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-30T08:01:35+00:00" datetime="2015-03-30T08:01:35+00:00">March 30, 2015 8:01 AM</time> |
+          <a href="http://venturebeat.com/author/emil-protalinski/" title="Posts by Emil Protalinski" class="author url fn" rel="author">Emil Protalinski</a>                 </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>Office 365 mobile device management is&nbsp;here.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1687598 -->
+
+  <article id="post-1685700" class="post-1685700 post type-post status-publish format-standard has-post-thumbnail hentry category-business category-marketing tag-digital-signage tag-enplug tag-ryan-gushue tag-top-stories border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/30/enplugs-new-app-marketplace-offers-more-ways-to-create-a-giant-smartphone/" title="'Permalink to Enplug&#8217;s new App Marketplace offers more ways to create &#8216;a giant smartphone&#8217;" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/Enplug_Image3.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Enplug_Image3" Enplug="" #8217;s_new_App_Marketplace_offers_more_ways_to_create_="" #8216;a_giant_smartphone="" #8217;="" /><noscript><img src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/Enplug_Image3.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Enplug_Image3" Enplug="" #8217;s_new_App_Marketplace_offers_more_ways_to_create_="" #8216;a_giant_smartphone="" #8217;="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/30/enplugs-new-app-marketplace-offers-more-ways-to-create-a-giant-smartphone/" title="'Permalink to Enplug&#8217;s new App Marketplace offers more ways to create &#8216;a giant smartphone&#8217;" rel="bookmark">Enplug&#8217;s new App Marketplace offers more ways to create &#8216;a giant smartphone&#8217;</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-30T08:00:29+00:00" datetime="2015-03-30T08:00:29+00:00">March 30, 2015 8:00 AM</time> |
+          <a href="http://venturebeat.com/author/barry-levine/" title="Posts by Barry Levine" class="author url fn" rel="author">Barry Levine</a>                 </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>The Los Angeles-based company says this is the first such marketplace of third-party apps for the growing population of digital&nbsp;signage.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1685700 -->
+
+  <article id="post-1687712" class="post-1687712 post type-post status-publish format-standard has-post-thumbnail hentry category-games tag-bigpoint tag-drakensang-online tag-tencent border-top clearfix has-thumbnail" >
+    <div class="entry-summary-thumbnail shadow">
+      <a href="http://venturebeat.com/2015/03/30/germanys-bigpoint-partners-with-tencent-to-take-drakensang-online-to-china/" title="'Permalink to Germany&#8217;s Bigpoint partners with Tencent to take Drakensang Online to&nbsp;China" rel="bookmark">
+        <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/drakensang-online.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Drakensang Online has pvp combat." Germany="" #8217;s_Bigpoint_partners_with_Tencent_to_take_Drakensang_Online_to="" nbsp;China="" /><noscript><img src="http://i0.wp.com/venturebeat.com/wp-content/uploads/2015/03/drakensang-online.jpg?resize=160%2C140" class="attachment-river wp-post-image" alt="Drakensang Online has pvp combat." Germany="" #8217;s_Bigpoint_partners_with_Tencent_to_take_Drakensang_Online_to="" nbsp;China="" /></noscript>     </a>
+    </div><!-- .entry-summary-thumbnail -->
+
+      <div class="entry-wrapper">
+
+        <header class="entry-header">
+          <h2 class="entry-title"><a href="http://venturebeat.com/2015/03/30/germanys-bigpoint-partners-with-tencent-to-take-drakensang-online-to-china/" title="'Permalink to Germany&#8217;s Bigpoint partners with Tencent to take Drakensang Online to&nbsp;China" rel="bookmark">Germany&#8217;s Bigpoint partners with Tencent to take Drakensang Online to&nbsp;China</a></h2>
+        <div class="entry-meta">
+          <time class="the-time" title="2015-03-30T07:45:41+00:00" datetime="2015-03-30T07:45:41+00:00">March 30, 2015 7:45 AM</time> |
+          <a href="http://venturebeat.com/author/dean-takahashi/" title="Posts by Dean Takahashi" class="author url fn" rel="author">Dean Takahashi</a>                 </div>
+        </header><!-- .entry-header -->
+
+        <div class="entry-summary">
+          <p>Tencent will publish the fantasy game with 29 million players in mainland&nbsp;China.</p>
+        </div><!-- .entry-summary -->
+
+    </div><!-- .entry-wrapper-->
+  </article><!-- #post-1687712 -->
+      </div>
+    </div>
+
+
+<div id="secondary" class="column widget-area">
+  <aside role="complementary">
+    <div class="xoxo">
+    <div class="dfp_container"></div><div class="dfp_container"></div>    <script type="text/javascript" src="http://jsc.madisonlogic.com/jsc?pub=532&pgr=975&tgt=3315&src=10682&layrf=7232"></script>
+    <div class="dfp_container"></div><div class="dfp_container"></div>          <style type="text/css">
+            .vb-recent-business-sponsored-company-news-posts .read-more { float: none; } .vb-recent-business-sponsored-company-news-posts .recent-posts-attribution { min-height: 35px; } .vb-recent-business-sponsored-company-news-posts .recent-posts-attribution img { float: right; margin-top: -15px; }         </style>
+                <div class="vb_widget widget">
+          <div class="vb-recent-posts-widget vb-recent-business-sponsored-company-news-posts">
+            <h2 class="widgettitle">Press Releases</h2>
+            <ul class="recent-posts-list">
+                          <li class="mini-post">
+                              <div class="image-wrap">
+                  <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2014/11/businesswire-4.jpg?resize=52%2C52" class="attachment-mini wp-post-image" alt="businesswire-4" Private_Wealth_Systems_Adds_$1_3_Billion_in_New="" nbsp;Assets="" /><noscript><img src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2014/11/businesswire-4.jpg?resize=52%2C52" class="attachment-mini wp-post-image" alt="businesswire-4" Private_Wealth_Systems_Adds_$1_3_Billion_in_New="" nbsp;Assets="" /></noscript>               </div>
+                              <div class="post-box">
+                  <a class="post-title" href="http://venturebeat.com/2015/03/31/private-wealth-systems-adds-1-3-billion-in-new-assets/">
+                    Private Wealth Systems Adds $1.3 Billion in New Assets                  </a>
+                </div>
+              </li>
+                          <li class="mini-post">
+                              <div class="image-wrap">
+                  <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2014/11/businesswire-4.jpg?resize=52%2C52" class="attachment-mini wp-post-image" alt="businesswire-4" Signostics_Appoints_Medical_Ultrasound_Pioneer_Kevin_Goodwin_as_New="" nbsp;CEO="" /><noscript><img src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2014/11/businesswire-4.jpg?resize=52%2C52" class="attachment-mini wp-post-image" alt="businesswire-4" Signostics_Appoints_Medical_Ultrasound_Pioneer_Kevin_Goodwin_as_New="" nbsp;CEO="" /></noscript>               </div>
+                              <div class="post-box">
+                  <a class="post-title" href="http://venturebeat.com/2015/03/31/signostics-appoints-medical-ultrasound-pioneer-kevin-goodwin-as-new-ceo/">
+                    Signostics Appoints Medical Ultrasound Pioneer Kevin Goodwin as New CEO                 </a>
+                </div>
+              </li>
+                          <li class="mini-post">
+                              <div class="image-wrap">
+                  <img  src="//vbstatic.co/assets/img/logo-placeholder.png" data-src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2014/11/businesswire-4.jpg?resize=52%2C52" class="attachment-mini wp-post-image" alt="businesswire-4" Tyrogenex,_Xcovery_Appoint_Michael_Webb_as_President_and_Chief_Executive="" nbsp;Officer="" /><noscript><img src="http://i1.wp.com/venturebeat.com/wp-content/uploads/2014/11/businesswire-4.jpg?resize=52%2C52" class="attachment-mini wp-post-image" alt="businesswire-4" Tyrogenex,_Xcovery_Appoint_Michael_Webb_as_President_and_Chief_Executive="" nbsp;Officer="" /></noscript>               </div>
+                              <div class="post-box">
+                  <a class="post-title" href="http://venturebeat.com/2015/03/31/tyrogenex-xcovery-appoint-michael-webb-as-president-and-chief-executive-officer/">
+                    Tyrogenex, Xcovery Appoint Michael Webb as President and Chief Executive Officer                  </a>
+                </div>
+              </li>
+                        </ul>
+            <div class="recent-posts-attribution">
+              <a href="http://venturebeat.com/tag/business-sponsored-company-news/" class="read-more">View more</a>
+                              <a target="_blank" href="/tag/business-sponsored-company-news/">                  <img width="150" src="http://venturebeat.wpengine.com/wp-content/uploads/2014/11/business-wire-widget.png" class="recent-posts-logo" />
+                </a>                          </div>
+          </div>
+        </div>
+            </div>
+  </aside>
+</div><!-- #secondary .widget-area -->
+
+
+  </div><!-- END .content-wrap -->
+  </div><!-- END .body-container -->
+  </div><!-- END .skin-wrapper -->
+
+      <footer id="the_footer">
+        <div class="container footcontainer">
+          <ul class="nav navbar-nav">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/careers/">Careers</a></li>
+            <li><a href="/advertise/">Advertise</a></li>
+            <li><a href="http://events.venturebeat.com">Events</a></li>
+            <li><a href="/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="/terms-of-service/">Terms of Service</a></li>
+          </ul>
+          <div class="row">
+            <div class="col-xs-12">
+              <p class="copyright">&copy; Copyright 2015 <a href="http://venturebeat.com">VentureBeat</a>. All rights reserved.</small>
+            </div>
+          </div>
+        </div>
+      </footer>
+        <script type="text/javascript">
+    //<![CDATA[
+    var infiniteScroll = {"settings":{"id":"content","ajaxurl":"http:\/\/venturebeat.com\/?infinity=scrolling","type":"scroll","wrapper":true,"wrapper_class":"infinite-wrap","footer":"the_footer","click_handle":"1","text":"Older posts","totop":"Scroll back to top","currentday":"30.03.15","order":"DESC","scripts":[],"styles":[],"google_analytics":true,"offset":0,"history":{"host":"venturebeat.com","path":"\/page\/%d\/","use_trailing_slashes":true,"parameters":""},"query_args":{"error":"","m":"","p":0,"post_parent":"","subpost":"","subpost_id":"","attachment":"","attachment_id":0,"name":"","static":"","pagename":"","page_id":0,"second":"","minute":"","hour":"","day":0,"monthnum":0,"year":0,"w":0,"category_name":"","tag":"","cat":"","tag_id":"","author":"","author_name":"","feed":"","tb":"","paged":0,"comments_popup":"","meta_key":"","meta_value":"","preview":"","s":"","sentence":"","fields":"","menu_order":"","category__in":[],"category__not_in":[],"category__and":[],"post__in":[],"post__not_in":[],"tag__in":[],"tag__not_in":[],"tag__and":[],"tag_slug__in":[],"tag_slug__and":[],"post_parent__in":[],"post_parent__not_in":[],"author__in":[],"author__not_in":[],"tax_query":[{"taxonomy":"vb_post_designations","field":"slug","terms":"homepage"}],"posts_per_page":40,"ignore_sticky_posts":false,"suppress_filters":false,"cache_results":false,"update_post_term_cache":true,"update_post_meta_cache":true,"post_type":"","nopaging":false,"comments_per_page":"50","no_found_rows":false,"taxonomy":"vb_post_designations","term":"homepage","order":"DESC"},"last_post_date":"2015-03-30 07:45:41","stats":"blog=78053529&host=venturebeat.com&v=ext&j=1:3.3.2&x_pagetype=infinite-jetpack"}};
+    //]]>
+    </script>
+        <!-- Bizo Insight Tag -->
+    <script type="text/javascript">
+      _bizo_data_partner_id = "2938";
+    </script>
+    <script type="text/javascript">
+    (function(){var b,a,u;a=document.createElement("script");a.type="text/javascript";a.async=true;u=(window.location.protocol==="https:"?"https://sjs.":"http://js.")+"bizographics.com/insight.min.js";a.src=u;b=document.getElementsByTagName("script")[0];return b.parentNode.insertBefore(a,b)})();
+    </script>
+    <noscript>
+      <img height="1" width="1" alt="" style="display:none;" src="//www.bizographics.com/collect/?pid=2938&fmt=gif" />
+    </noscript>
+      <!-- Perfect Audience -->
+    <script type="text/javascript">
+    (function() {
+      window._pa = window._pa || {};
+      var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
+      pa.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + "//tag.perfectaudience.com/serve/527cb3327a43f8412500003a.js";
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa, s);
+    })();
+    </script>
+        <div id="infinite-footer">
+      <div class="container">
+        <div class="blog-info">
+          <a id="infinity-blog-title" href="http://venturebeat.com/" rel="home">
+            VentureBeat         </a>
+        </div>
+        <div class="blog-credits">
+          <a href="javascript:void(0);" class="vb-infinite-stop-start footer-jump">Take me to the footer &darr;</a><a href="javascript:void(0);" class="vb-infinite-stop-start footer-resume">Back to stories &uarr;</a><div class="menu-footer-links-container"><ul id="menu-footer-links" class="menu"><li id="menu-item-1608682" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1608682 active"><a href="http://venturebeat.com">Home</a></li>
+<li id="menu-item-1608684" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1608684"><a href="http://venturebeat.com/about/">About</a></li>
+<li id="menu-item-1608685" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1608685"><a href="http://venturebeat.com/contact/">Contact</a></li>
+<li id="menu-item-1608686" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1608686"><a href="http://venturebeat.com/careers/">Careers</a></li>
+<li id="menu-item-1608687" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1608687"><a href="http://venturebeat.com/advertise/">Advertise</a></li>
+<li id="menu-item-1608688" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1608688"><a href="http://venturebeat.com/privacy-policy/">Privacy Policy</a></li>
+<li id="menu-item-1608689" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1608689"><a href="http://venturebeat.com/terms-of-service/">Terms of Service</a></li>
+</ul></div>       </div>
+      </div>
+    </div><!-- #infinite-footer -->
+    <script type='text/javascript' src='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/plugins/jetpack/modules/infinite-scroll/infinity.js?ver=20141016'></script>
+<script type='text/javascript' src='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/themes/vbnews/lib/jquery.cycle.all.js?ver=2.9999'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var jetpackSlideshowSettings = {"spinner":"http:\/\/venturebeat.com\/wp-content\/plugins\/jetpack\/modules\/shortcodes\/img\/slideshow-loader.gif"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/plugins/jetpack/modules/shortcodes/js/slideshow-shortcode.js?ver=20121214.1'></script>
+<script type='text/javascript' src='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/plugins/jetpack/modules/photon/photon.js?ver=20130122'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201514'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mejsL10n = {"language":"en-US","strings":{"Close":"Close","Fullscreen":"Fullscreen","Download File":"Download File","Download Video":"Download Video","Play\/Pause":"Play\/Pause","Mute Toggle":"Mute Toggle","None":"None","Turn off Fullscreen":"Turn off Fullscreen","Go Fullscreen":"Go Fullscreen","Unmute":"Unmute","Mute":"Mute","Captions\/Subtitles":"Captions\/Subtitles"}};
+var _wpmejsSettings = {"pluginPath":"\/wp-includes\/js\/mediaelement\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-includes/js/mediaelement/mediaelement-and-player.min.js?ver=2.15.1'></script>
+<script type='text/javascript' src='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-includes/js/mediaelement/wp-mediaelement.js?ver=4.1.1'></script>
+<script type='text/javascript' src='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/themes/vbnews/lib/infinite-scroll-extend.js?ver=1'></script>
+<script type='text/javascript' src='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/themes/vbnews/plugins/vb-lazy-load/js/lazyload.js?ver=1.3'></script>
+<script type='text/javascript' src='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-includes/js/jquery/suggest.min.js?ver=1.1-20110113'></script>
+<script type='text/javascript' src='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var stories = "{\"qty\":\"5\",\"stories\":[{\"postID\":1688310,\"title\":\"Microsoft unveils Surface 3 with Windows 8.1 for $499\",\"link\":\"http:\\\/\\\/venturebeat.com\\\/2015\\\/03\\\/31\\\/microsoft-unveils-surface-3-with-windows-8-1-for-499-preorder-today-in-26-countries-ships-on-may-5\\\/\",\"huge\":\"http:\\\/\\\/i0.wp.com\\\/venturebeat.com\\\/wp-content\\\/uploads\\\/2015\\\/03\\\/surface_3_red.png?resize=3000%2C1688\",\"large\":\"http:\\\/\\\/i0.wp.com\\\/venturebeat.com\\\/wp-content\\\/uploads\\\/2015\\\/03\\\/surface_3_red.png?fit=800%2C600\",\"medium\":\"http:\\\/\\\/i0.wp.com\\\/venturebeat.com\\\/wp-content\\\/uploads\\\/2015\\\/03\\\/surface_3_red.png?fit=300%2C400\",\"regular\":\"http:\\\/\\\/i0.wp.com\\\/venturebeat.com\\\/wp-content\\\/uploads\\\/2015\\\/03\\\/surface_3_red.png?resize=160%2C140\",\"post_date\":1427781619,\"post_status\":\"publish\",\"id\":1688310,\"image\":\"\"},{\"postID\":1688240,\"title\":\"I'm pretty sure I hate Jay Z's music streaming service. Here's why\",\"link\":\"http:\\\/\\\/venturebeat.com\\\/2015\\\/03\\\/30\\\/im-pretty-sure-i-hate-jay-zs-music-streaming-service-heres-why\\\/\",\"huge\":\"http:\\\/\\\/i0.wp.com\\\/venturebeat.com\\\/wp-content\\\/uploads\\\/2015\\\/03\\\/Screen-Shot-2015-03-30-at-10.44.09-PM.png?resize=1323%2C734\",\"large\":\"http:\\\/\\\/i0.wp.com\\\/venturebeat.com\\\/wp-content\\\/uploads\\\/2015\\\/03\\\/Screen-Shot-2015-03-30-at-10.44.09-PM.png?fit=800%2C600\",\"medium\":\"http:\\\/\\\/i0.wp.com\\\/venturebeat.com\\\/wp-content\\\/uploads\\\/2015\\\/03\\\/Screen-Shot-2015-03-30-at-10.44.09-PM.png?fit=300%2C400\",\"regular\":\"http:\\\/\\\/i0.wp.com\\\/venturebeat.com\\\/wp-content\\\/uploads\\\/2015\\\/03\\\/Screen-Shot-2015-03-30-at-10.44.09-PM.png?resize=160%2C140\",\"post_date\":1427745642,\"post_status\":\"publish\",\"id\":1688240,\"image\":\"http:\\\/\\\/venturebeat.com\\\/wp-content\\\/uploads\\\/2015\\\/03\\\/Screen-Shot-2015-03-30-at-10.44.09-PM-300x166.png\"},{\"postID\":1688044,\"title\":\"Microsoft releases new Windows 10 preview with Project Spartan\",\"link\":\"http:\\\/\\\/venturebeat.com\\\/2015\\\/03\\\/30\\\/microsoft-releases-new-windows-10-preview-with-project-spartan\\\/\",\"huge\":\"http:\\\/\\\/i0.wp.com\\\/venturebeat.com\\\/wp-content\\\/uploads\\\/2015\\\/03\\\/project_spartan_preview.jpg?resize=1920%2C1080\",\"large\":\"http:\\\/\\\/i0.wp.com\\\/venturebeat.com\\\/wp-content\\\/uploads\\\/2015\\\/03\\\/project_spartan_preview.jpg?fit=800%2C600\",\"medium\":\"http:\\\/\\\/i0.wp.com\\\/venturebeat.com\\\/wp-content\\\/uploads\\\/2015\\\/03\\\/project_spartan_preview.jpg?fit=300%2C400\",\"regular\":\"http:\\\/\\\/i0.wp.com\\\/venturebeat.com\\\/wp-content\\\/uploads\\\/2015\\\/03\\\/project_spartan_preview.jpg?resize=160%2C140\",\"post_date\":1427727590,\"post_status\":\"publish\",\"id\":1688044,\"image\":\"http:\\\/\\\/venturebeat.com\\\/wp-content\\\/uploads\\\/2015\\\/03\\\/project_spartan_preview-300x169.jpg\"},{\"postID\":1688173,\"title\":\"Elon Musk's SpaceX buying $90 million of Elon Musk's Solar City solar bonds\",\"link\":\"http:\\\/\\\/venturebeat.com\\\/2015\\\/03\\\/30\\\/elon-musks-spacex-buying-90-million-of-elon-musks-solar-city-solar-bonds\\\/\",\"huge\":\"http:\\\/\\\/i1.wp.com\\\/venturebeat.com\\\/wp-content\\\/uploads\\\/2015\\\/03\\\/Screen-Shot-2015-03-30-at-4.12.23-PM.png?resize=914%2C504\",\"large\":\"http:\\\/\\\/i1.wp.com\\\/venturebeat.com\\\/wp-content\\\/uploads\\\/2015\\\/03\\\/Screen-Shot-2015-03-30-at-4.12.23-PM.png?fit=800%2C600\",\"medium\":\"http:\\\/\\\/i1.wp.com\\\/venturebeat.com\\\/wp-content\\\/uploads\\\/2015\\\/03\\\/Screen-Shot-2015-03-30-at-4.12.23-PM.png?fit=300%2C400\",\"regular\":\"http:\\\/\\\/i1.wp.com\\\/venturebeat.com\\\/wp-content\\\/uploads\\\/2015\\\/03\\\/Screen-Shot-2015-03-30-at-4.12.23-PM.png?resize=160%2C140\",\"post_date\":1427732012,\"post_status\":\"publish\",\"id\":1688173,\"image\":\"http:\\\/\\\/venturebeat.com\\\/wp-content\\\/uploads\\\/2015\\\/03\\\/Screen-Shot-2015-03-30-at-4.12.23-PM-300x165.png\"},{\"postID\":1687720,\"title\":\"The Ellen Pao trial verdict is a loss for the tech industry and a loss for women\",\"link\":\"http:\\\/\\\/venturebeat.com\\\/2015\\\/03\\\/30\\\/the-ellen-pao-trial-verdict-is-a-loss-for-the-tech-industry-and-a-loss-for-women\\\/\",\"huge\":\"http:\\\/\\\/i0.wp.com\\\/venturebeat.com\\\/wp-content\\\/uploads\\\/2012\\\/05\\\/ellen-pao.jpg?resize=655%2C491\",\"large\":\"http:\\\/\\\/i0.wp.com\\\/venturebeat.com\\\/wp-content\\\/uploads\\\/2012\\\/05\\\/ellen-pao.jpg?fit=800%2C600\",\"medium\":\"http:\\\/\\\/i0.wp.com\\\/venturebeat.com\\\/wp-content\\\/uploads\\\/2012\\\/05\\\/ellen-pao.jpg?fit=300%2C400\",\"regular\":\"http:\\\/\\\/i0.wp.com\\\/venturebeat.com\\\/wp-content\\\/uploads\\\/2012\\\/05\\\/ellen-pao.jpg?resize=160%2C140\",\"post_date\":1427713003,\"post_status\":\"publish\",\"id\":1687720,\"image\":\"http:\\\/\\\/venturebeat.com\\\/wp-content\\\/uploads\\\/2012\\\/05\\\/ellen-pao-300x224.jpg\"},{\"id\":0,\"title\":\"\",\"link\":\"\",\"image\":\"\",\"offset\":[]},{\"id\":0,\"title\":\"\",\"link\":\"\",\"image\":\"\",\"offset\":[]},{\"id\":0,\"title\":\"\",\"link\":\"\",\"image\":\"\",\"offset\":[]},{\"id\":0,\"title\":\"\",\"link\":\"\",\"image\":\"\",\"offset\":[]},{\"id\":0,\"title\":\"\",\"link\":\"\",\"image\":\"\",\"offset\":[]}]}";
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/themes/vbnews/plugins/helm/js/top-stories.js?ver=1.2'></script>
+<script type='text/javascript' src='//cdn.livefyre.com/Livefyre.js?ver=3.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var vb_config = {"networkConfig":{"network":"venturebeat.fyre.co"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/themes/vbnews/plugins/livefyre/js/livefyre.js?ver=2.2'></script>
+<script type='text/javascript' src='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/themes/vbnews/lib/jquery.tools.min.js?ver=1.1.2'></script>
+<script type='text/javascript' src='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/themes/vbnews/lib/vb-frontend.js?ver=1.51'></script>
+<script type='text/javascript' src='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-includes/js/jquery/ui/tabs.min.js?ver=1.11.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var vb_gigya_settings = {"ajax":{"url":"http:\/\/venturebeat.com\/wp-admin\/admin-ajax.php","actions":{"login":"vb_gigya_login","logout":"vb_gigya_logout","update":"vb_gigya_update_account"}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/themes/vbnews/plugins/gigya/js/login.js?ver=1.2'></script>
+<script type='text/javascript' src='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/themes/vbnews/plugins/vb-dfp/js/vb-dfp.js?ver=3.3'></script>
+<script type='text/javascript' src='//c.amazon-adsystem.com/aax2/amzn_ads.js?ver=1.0'></script>
+<script type='text/javascript' src='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/themes/vbnews/plugins/vb-dfp/js/a9-get-ads.js?ver=1.1'></script>
+<script type='text/javascript' src='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/themes/vbnews/plugins/vb-dfp/js/a9-call.js?ver=1.1'></script>
+<script type='text/javascript' src='http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/themes/vbnews/plugins/vb-analytics/tracking.js?ver=1.1'></script>
+<script type="text/javascript">
+      jQuery.extend( infiniteScroll.settings.scripts, ["jquery-core","jquery-migrate","jquery","spin","jquery.spin","google-dfp","optimizely","the-neverending-homepage","jquery-cycle","jetpack-slideshow","jetpack-photon","devicepx","mediaelement","wp-mediaelement","vb-infinite-scroll","vb-lazyload","suggest","jquery-ui-core","jquery-ui-widget","jquery-ui-mouse","jquery-ui-sortable","top-stories","Livefyre.js","vb-livefyre","jquery-tools","vb-frontend","jquery-ui-tabs","vb-gigya-login","vb-dfp","a9-external","a9-get-ads","a9-call","segmentio-tracking"] );
+      jQuery.extend( infiniteScroll.settings.styles, ["spoke-admin","the-neverending-homepage","jetpack-slideshow","mediaelement","wp-mediaelement","community-styles","vb-featured","vb-highlighted-posts","vb_gigya_styles","vb-v3","vb-v3-adjust","vb-google-fonts","taxonomy-image-plugin-public"] );
+    </script>
+  <script src="http://stats.wp.com/e-201514.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  st_go({v:'ext',j:'1:3.3.2',blog:'78053529',post:'0',tz:'-7'});
+  var load_cmc = function(){linktracker_init(78053529,0,2);};
+  if ( typeof addLoadEvent != 'undefined' ) addLoadEvent(load_cmc);
+  else load_cmc();
+  </script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"40195a0833","applicationID":"5451966","transactionName":"b1NRMRdTChAEBRFaDlYZcgYRWwsNSg4KXgQ=","queueTime":0,"applicationTime":2756,"atts":"QxRSR19JGR4=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-536.min.js"}</script></body>
+</html>
