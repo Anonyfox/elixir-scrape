@@ -31,7 +31,7 @@ defmodule Scrape.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      {:floki, "~> 0.3"}, # html parser
+      {:floki, "~> 0.6.1"}, # html parser
       {:httpoison, "~> 0.7"}, # http client
       {:feeder_ex, "~> 0.0.2"}, # RSS/Atom parser
       {:mix_test_watch, "~> 0.1.1", only: :dev}, # run tests on file changes

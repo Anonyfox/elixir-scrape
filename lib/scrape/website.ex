@@ -1,22 +1,29 @@
 defmodule Scrape.Website do
-  alias Scrape.Website
-
   @moduledoc """
-    Every function in this module takes an HTML string, and returns some 
+    Every function in this module takes an HTML string, and returns some
     data extracted from it, mostly strings. Floki is used for parsing
     the raw HTML.
 
     Usually, we want some general metadata from websites, not a deep text
     analysis or the like. Since this is the foundation of a web crawler
     in the future, the used algorithms should be as fast as possible, even
-    when the resulting quality suffers somewhat. 
+    when the resulting quality suffers a little.
   """
+  alias Scrape.Website
+  alias Scrape.Util.HTML
 
-  defstruct title: "", description: "", url: "", image: "", favicon: "", feeds: [], html: ""
+  defstruct title: "",
+    description: "",
+    url: "",
+    image: "",
+    favicon: "",
+    feeds: [],
+    html: ""
 
-  @spec parse(String.t, String.t) :: Website.Website
+  @spec parse(String.t, String.t) :: %Website{}
+
   def parse(html, url) do
-    %Website{url: url, html: html}
+    %Scrape.Website{url: url, html: html}
     |> title
     |> description
     |> image
@@ -26,67 +33,49 @@ defmodule Scrape.Website do
     |> finalize # post-processing before returning the result
   end
 
-  defp title(site) do 
-    value = Floki.find(site.html, "title") 
-    |> Floki.text
-    %{site | title: value}
+  defp title(site) do
+    %{site | title: HTML.text(site.html, "title")}
   end
 
   defp description(site) do
-    value = Floki.find(site.html, """
-      meta[property=og:description],
-      meta[name=twitter:description],
-      meta[name=description]
-    """)
-    # |> List.first
-    |> Floki.attribute("content")
-    |> Util.first_element
-    %{site | description: value}
+    selector = """
+      meta[property='og:description'],
+      meta[name='twitter:description'],
+      meta[name='description']
+    """
+    %{site | description: HTML.meta(site.html, selector)}
   end
 
   defp image(site) do
-    value = Floki.find(site.html, """
-      meta[property=og:image],
-      meta[name=twitter:image]
-    """)
-    # |> List.first
-    |> Floki.attribute("content")
-    |> List.first
-    %{site | image: value}
+    selector = """
+      meta[property='og:image'],
+      meta[name='twitter:image']
+    """
+    %{site | image: HTML.meta(site.html, selector)}
   end
 
   defp favicon(site) do
-    value = Floki.find(site.html, """
-      link[rel=apple-touch-icon],
-      link[rel=shortcut icon],
-      link[rel=icon]
-    """)
-    # |> List.first
-    |> Floki.attribute("href")
-    |> List.first
-    %{site | favicon: value}
+    selector = """
+      link[rel='apple-touch-icon'],
+      link[rel='apple-touch-icon-precomposed'],
+      link[rel='shortcut icon'],
+      link[rel='icon']
+    """
+    %{site | favicon: HTML.meta(site.html, selector, "href")}
   end
 
   defp feeds(site) do
-    value = Floki.find(site.html, """
-      link[type=application/rss+xml],
-      link[type=application/atom+xml],
-      link[rel=alternate]
-    """)
-    |> Floki.attribute("href")
-    |> Enum.uniq
-    %{site | feeds: value}
+    selector = """
+      link[type='application/rss+xml'],
+      link[type='application/atom+xml'],
+      link[rel='alternate']
+    """
+    %{site | feeds: HTML.meta_all(site.html, selector, "href")}
   end
 
   defp link(site) do
-    canonical = Floki.find(site.html, "link[rel=canonical]")
-    |> Floki.attribute("href")
-    |> List.first
-    if canonical && URI.parse(canonical).host do
-      %{site | url: canonical}
-    else 
-      site
-    end
+    canonical = HTML.meta(site.html, "link[rel=canonical]", "href")
+    %{site | url: canonical || site.url}
   end
 
   # defp references({site, html}, url) do
@@ -96,10 +85,10 @@ defmodule Scrape.Website do
   #   { %{site | references: value}, html }
   # end
 
-  # POST_PROCESSING: 
+  # POST_PROCESSING:
   # filter out crap and polish the results!
 
-  defp finalize(site) do 
+  defp finalize(site) do
     %{site | html: :ok} # the HTML is possibly huge, and not needed any longer now.
     # ToDo: normalize the all URLs/Links to absolute ones
   end
