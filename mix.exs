@@ -48,7 +48,7 @@ defmodule Scrape.Mixfile do
   defp package do
     [
       files: ["lib", "mix.exs", "README.md", "LICENSE.txt"],
-      contributors: ["Maximilian Stroh"],
+      maintainers: ["Maximilian Stroh"],
       licenses: ["LGPLv3"],
       links: %{"GitHub" => "https://github.com/Anonyfox/elixir-scrape"}
     ]
