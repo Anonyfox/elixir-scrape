@@ -130,10 +130,10 @@ defmodule Scrape.Website do
   end
 
   defp put_lazy(website, key, fun) do
-    if !!Map.get(website, key) do
-      website
-    else
+    if Map.get(website, key) do
       Map.put website, key, fun.(website)
+    else
+      website
     end
   end
 

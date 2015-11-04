@@ -1,8 +1,9 @@
 defmodule FetchTest do
   use ExUnit.Case
   alias Scrape.Fetch
+  @moduletag :external
 
-  test "works for utf-8 website" do
+  test "works for english utf-8 website" do
     html = Fetch.run "http://www.bbc.com"
     assert html =~ "BBC"
   end
