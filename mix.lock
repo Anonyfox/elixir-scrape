@@ -1,4 +1,5 @@
-%{"dogma": {:hex, :dogma, "0.0.1"},
+%{"codepagex": {:hex, :codepagex, "0.1.2"},
+  "dogma": {:hex, :dogma, "0.0.1"},
   "feeder": {:hex, :feeder, "1.4.6"},
   "feeder_ex": {:hex, :feeder_ex, "0.0.2"},
   "floki": {:hex, :floki, "0.6.1"},
