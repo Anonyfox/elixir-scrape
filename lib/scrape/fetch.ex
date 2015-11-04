@@ -12,7 +12,8 @@ defmodule Scrape.Fetch do
       |> String.downcase
       |> to_char_list
       |> List.to_atom
-      Codepagex.to_string response.body, encoding
+      {status, result} = Codepagex.to_string response.body, encoding
+      result
     else
       response.body
     end
@@ -21,14 +22,17 @@ defmodule Scrape.Fetch do
   defp charset(headers) do
     header = headers
     |> Enum.filter(fn({k,v}) -> k == "Content-Type" end)
-    |> List.first
+    |> first
     if header do
       {name, content} = header
       ~r/charset=(ISO-8859-[1-9])/i
       |> Regex.run(content, capture: :all_but_first)
-      |> List.first
+      |> first
     else
       nil
     end
   end
+
+  defp first([h|_]), do: h
+  defp first(_), do: nil
 end
