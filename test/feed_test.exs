@@ -1,5 +1,5 @@
 defmodule FeedTest do
-  use ExUnit.Case
+  use ExUnit.Case, async: true
   alias Scrape.Feed
 
   test "parser works" do

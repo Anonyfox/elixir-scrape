@@ -1,6 +1,10 @@
 defmodule WebsiteTest do
-  use ExUnit.Case
+  use ExUnit.Case, async: true
   alias Scrape.Website
+
+  doctest Scrape.Exquery
+  doctest Scrape.Filter
+  doctest Scrape.Link
 
   test "parser works" do
     html = sample_website "venturebeat"
