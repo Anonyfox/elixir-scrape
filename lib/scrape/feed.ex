@@ -3,7 +3,7 @@ defmodule Scrape.Feed do
   alias Scrape.Exquery
   use Timex
 
-  def parse(xml, url) do
+  def parse(xml, _url) do
     items = xml
     |> Floki.find("item, entry")
     |> transform_items
@@ -19,6 +19,7 @@ defmodule Scrape.Feed do
       title: find_title(item),
       description: find_description(item),
       url: find_url(item),
+      categories: find_categories(item),
       image: find_image(item),
       pubdate: find_pubdate(item)
     }
@@ -41,6 +42,10 @@ defmodule Scrape.Feed do
     clean_text url
   end
 
+  defp find_categories(item) do
+    item |> Exquery.find("category", :all)
+  end
+
   defp find_image(item) do
     enclosure = item |> Exquery.attr("enclosure", "url")
     media = enclosure || item |> Exquery.attr("media, content", :first)
@@ -55,18 +60,10 @@ defmodule Scrape.Feed do
   end
 
   defp find_pubdate(item) do
-    str = item |> Exquery.find("updated,pubDate,pubdate", :first)  |> clean_text
-    {status, date_rfc} = str |> DateFormat.parse("{RFC1123}")
-    if status == :ok do
-      date_rfc
-    else
-      {status, date_iso} = str |> DateFormat.parse("{ISO}")
-      if status == :ok do
-        date_iso
-      else
-        Date.now
-      end
-    end
+    item
+    |> Exquery.find("updated,pubDate,pubdate", :first)
+    |> clean_text
+    |> try_date
   end
 
   @datetime_patterns [
@@ -75,7 +72,7 @@ defmodule Scrape.Feed do
   ]
 
   defp try_date(str, patterns \\ @datetime_patterns)
-  defp try_date(str, []), do: Date.now
+  defp try_date(_, []), do: Date.now
   defp try_date(str, [format | others]) do
     case DateFormat.parse(str, format) do
       {:ok, result} -> result

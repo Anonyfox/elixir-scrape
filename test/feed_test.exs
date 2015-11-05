@@ -24,6 +24,6 @@ defmodule FeedTest do
   end
 
   defp sample_feed(name) do
-    File.read! "test/sample_data/#{name}-feed.xml"
+    File.read! "test/sample_data/#{name}-feed.xml.eex"
   end
 end
