@@ -1,4 +1,5 @@
 %{"codepagex": {:hex, :codepagex, "0.1.2"},
+  "combine": {:hex, :combine, "0.5.3"},
   "dogma": {:hex, :dogma, "0.0.1"},
   "feeder": {:hex, :feeder, "1.4.6"},
   "feeder_ex": {:hex, :feeder_ex, "0.0.2"},
@@ -9,5 +10,8 @@
   "idna": {:hex, :idna, "1.0.2"},
   "mix_test_watch": {:hex, :mix_test_watch, "0.1.1"},
   "mochiweb": {:hex, :mochiweb, "2.12.2"},
+  "parallel": {:hex, :parallel, "0.0.2"},
   "porcelain": {:hex, :porcelain, "2.0.0"},
-  "ssl_verify_hostname": {:hex, :ssl_verify_hostname, "1.0.5"}}
+  "ssl_verify_hostname": {:hex, :ssl_verify_hostname, "1.0.5"},
+  "timex": {:hex, :timex, "0.19.5"},
+  "tzdata": {:hex, :tzdata, "0.5.4"}}

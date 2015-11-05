@@ -9,10 +9,10 @@ defmodule Scrape do
     |> Website.parse(url)
   end
 
-  def feed(url) do 
+  def feed(url) do
     url
     |> Fetch.run
-    |> Feed.parse
+    |> Feed.parse(url)
   end
 
 end

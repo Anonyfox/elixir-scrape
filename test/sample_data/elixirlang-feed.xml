@@ -1,7 +1,6 @@
-
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/atom10full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><feed xmlns="http://www.w3.org/2005/Atom">
- 
+
 <title>Elixir Lang</title>
 
 <link href="http://elixir-lang.org" />
@@ -12,11 +11,11 @@
 <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/atom+xml" href="http://feeds.feedburner.com/ElixirLang" /><feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="elixirlang" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><entry>
   <title>Elixir v1.0 released</title>
   <link href="http://elixir-lang.org/blog/2014/09/18/elixir-v1-0-0-released/" />
-  
+
   <author>
     <name>José Valim</name>
   </author>
-  
+
   <updated>2014-09-18T00:00:00+00:00</updated>
   <id>/blog/2014/09/18/elixir-v1-0-0-released</id>
   <content type="html">&lt;p&gt;Hello everyone!&lt;/p&gt;
@@ -80,11 +79,11 @@
 <entry>
   <title>Elixir v0.15.0 released</title>
   <link href="http://elixir-lang.org/blog/2014/08/07/elixir-v0-15-0-released/" />
-  
+
   <author>
     <name>José Valim</name>
   </author>
-  
+
   <updated>2014-08-07T00:00:00+00:00</updated>
   <id>/blog/2014/08/07/elixir-v0-15-0-released</id>
   <content type="html">&lt;p&gt;Hello everyone!&lt;/p&gt;
@@ -239,11 +238,11 @@ Function: #Function&amp;lt;20.90072148/0 in :erl_eval.expr/5&amp;gt;
 <entry>
   <title>Elixir v0.14.0 released</title>
   <link href="http://elixir-lang.org/blog/2014/06/17/elixir-v0-14-0-released/" />
-  
+
   <author>
     <name>José Valim</name>
   </author>
-  
+
   <updated>2014-06-17T00:00:00+00:00</updated>
   <id>/blog/2014/06/17/elixir-v0-14-0-released</id>
   <content type="html">&lt;p&gt;Hello everyone!&lt;/p&gt;
@@ -369,11 +368,11 @@ Function: #Function&amp;lt;20.90072148/0 in :erl_eval.expr/5&amp;gt;
 <entry>
   <title>Elixir v0.13.0 released, hex.pm and ElixirConf announced</title>
   <link href="http://elixir-lang.org/blog/2014/04/21/elixir-v0-13-0-released/" />
-  
+
   <author>
     <name>José Valim</name>
   </author>
-  
+
   <updated>2014-04-21T00:00:00+00:00</updated>
   <id>/blog/2014/04/21/elixir-v0-13-0-released</id>
   <content type="html">&lt;p&gt;Hello folks!&lt;/p&gt;
@@ -599,11 +598,11 @@ Function: #Function&amp;lt;20.90072148/0 in :erl_eval.expr/5&amp;gt;
 <entry>
   <title>Elixir v0.12.0 released</title>
   <link href="http://elixir-lang.org/blog/2013/12/15/elixir-v0-12-0-released/" />
-  
+
   <author>
     <name>José Valim</name>
   </author>
-  
+
   <updated>2013-12-15T00:00:00+00:00</updated>
   <id>/blog/2013/12/15/elixir-v0-12-0-released</id>
   <content type="html">&lt;p&gt;Elixir v0.12.0 has been released with improved enumerables, build patterns and welcoming a new member to our team.&lt;/p&gt;
@@ -653,11 +652,11 @@ Function: #Function&amp;lt;20.90072148/0 in :erl_eval.expr/5&amp;gt;
 <entry>
   <title>Elixir's new continuable enumerators</title>
   <link href="http://elixir-lang.org/blog/2013/12/11/elixir-s-new-continuable-enumerators/" />
-  
+
   <author>
     <name>Peter Minten</name>
   </author>
-  
+
   <updated>2013-12-11T00:00:00+00:00</updated>
   <id>/blog/2013/12/11/elixir-s-new-continuable-enumerators</id>
   <content type="html">&lt;p&gt;As you may have heard in the upcoming 0.12.0 release Elixir&amp;#39;s enumerators gained
@@ -859,11 +858,11 @@ built on top of it.&lt;/p&gt;
 <entry>
   <title>Elixir v0.11.0 released</title>
   <link href="http://elixir-lang.org/blog/2013/11/05/elixir-v0-11-0-released/" />
-  
+
   <author>
     <name>José Valim</name>
   </author>
-  
+
   <updated>2013-11-05T00:00:00+00:00</updated>
   <id>/blog/2013/11/05/elixir-v0-11-0-released</id>
   <content type="html">&lt;p&gt;After 4 months, Elixir v0.11.0 has been released with 832 commits since the previous minor release, done by more than 40 contributors. Although we have some great features in this release, the major focus in those 4 months was improving the common patterns used by the community and streamlining the existing workflows.&lt;/p&gt;
@@ -930,11 +929,11 @@ built on top of it.&lt;/p&gt;
 <entry>
   <title>Elixir Design Goals</title>
   <link href="http://elixir-lang.org/blog/2013/08/08/elixir-design-goals/" />
-  
+
   <author>
     <name>José Valim</name>
   </author>
-  
+
   <updated>2013-08-08T00:00:00+00:00</updated>
   <id>/blog/2013/08/08/elixir-design-goals</id>
   <content type="html">&lt;p&gt;During the last year, we have spoken at many conferences spreading the word about Elixir. We &lt;a href="http://vimeo.com/53221562"&gt;usually started with introducing the Erlang VM&lt;/a&gt;, then went on to talk about Elixir goals, saving some time at the end to do a live demo, showing some goodies like exchanging information between remote nodes and even hot code swapping.&lt;/p&gt;
@@ -1128,11 +1127,11 @@ built on top of it.&lt;/p&gt;
 <entry>
   <title>Elixir v0.10.0 released</title>
   <link href="http://elixir-lang.org/blog/2013/07/13/elixir-v0-10-0-released/" />
-  
+
   <author>
     <name>José Valim</name>
   </author>
-  
+
   <updated>2013-07-13T00:00:00+00:00</updated>
   <id>/blog/2013/07/13/elixir-v0-10-0-released</id>
   <content type="html">&lt;p&gt;Elixir v0.10.0 is released with support for streams, sets and many improvements to the Mix and ExUnit applications.&lt;/p&gt;
@@ -1202,11 +1201,11 @@ built on top of it.&lt;/p&gt;
 <entry>
   <title>Elixir v0.9.0 released</title>
   <link href="http://elixir-lang.org/blog/2013/05/23/elixir-v0-9-0-released/" />
-  
+
   <author>
     <name>José Valim</name>
   </author>
-  
+
   <updated>2013-05-23T00:00:00+00:00</updated>
   <id>/blog/2013/05/23/elixir-v0-9-0-released</id>
   <content type="html">&lt;p&gt;While &lt;a href="http://pragprog.com/book/elixir/programming-elixir"&gt;Programming Elixir&lt;/a&gt; was being announced, we have been working on Elixir v0.9.0 which is finally out. This release contains new features, important performance optimizations and bug fixes.&lt;/p&gt;
@@ -1327,11 +1326,11 @@ README.md
 <entry>
   <title>Elixir on Xen</title>
   <link href="http://elixir-lang.org/blog/2013/05/02/elixir-on-xen/" />
-  
+
   <author>
     <name>José Valim</name>
   </author>
-  
+
   <updated>2013-05-02T00:00:00+00:00</updated>
   <id>/blog/2013/05/02/elixir-on-xen</id>
   <content type="html">&lt;p&gt;Elixir uses Erlang underneath, all the way down. Thanks to this, an Elixir project can run on the recently revealed “OS-less” Erlang VM called LING VM. LING VM is the core technology of &lt;a href="http://erlangonxen.org"&gt;Erlang on Xen&lt;/a&gt;.&lt;/p&gt;
@@ -1399,11 +1398,11 @@ to the mix tool (&lt;code&gt;lingex.build&lt;/code&gt;, &lt;code&gt;lingex.image
 <entry>
   <title>Elixir v0.8.2 released</title>
   <link href="http://elixir-lang.org/blog/2013/04/29/elixir-v0-8-2-released/" />
-  
+
   <author>
     <name>José Valim</name>
   </author>
-  
+
   <updated>2013-04-29T00:00:00+00:00</updated>
   <id>/blog/2013/04/29/elixir-v0-8-2-released</id>
   <content type="html">&lt;p&gt;The past week we have released Elixir v0.8.2. It contains many bug fixes and better support for Erlang R16, including &lt;a href="https://github.com/elixir-lang/elixir/commit/0fad1883df9da541628e8485d28372fd4b977b89"&gt;the new built-in functions &lt;code&gt;insert_elem/3&lt;/code&gt; and &lt;code&gt;delete_elem/2&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
@@ -1447,11 +1446,11 @@ to the mix tool (&lt;code&gt;lingex.build&lt;/code&gt;, &lt;code&gt;lingex.image
 <entry>
   <title>Google Summer of Code 2013</title>
   <link href="http://elixir-lang.org/blog/2013/04/19/google-summer-of-code-2013/" />
-  
+
   <author>
     <name>José Valim</name>
   </author>
-  
+
   <updated>2013-04-19T00:00:00+00:00</updated>
   <id>/blog/2013/04/19/google-summer-of-code-2013</id>
   <content type="html">&lt;p&gt;We are pleased to announce that Elixir is taking part in Google Summer of Code 2013
@@ -1480,11 +1479,11 @@ or talk to us on &lt;code&gt;#beam-community&lt;/code&gt; on irc.freenode.net.&l
 <entry>
   <title>Elixir v0.8.0 released</title>
   <link href="http://elixir-lang.org/blog/2013/01/27/elixir-v0-8-0-released/" />
-  
+
   <author>
     <name>José Valim</name>
   </author>
-  
+
   <updated>2013-01-27T00:00:00+00:00</updated>
   <id>/blog/2013/01/27/elixir-v0-8-0-released</id>
   <content type="html">&lt;p&gt;On the last 9th January, we celebrated &lt;a href="https://github.com/elixir-lang/elixir/commit/337c3f2d569a42ebd5fcab6fef18c5e012f9be5b"&gt;two years since Elixir&amp;#39;s first commit&lt;/a&gt; and to celebrate this occasion we have prepared a big release. Elixir v0.8 is out, with documentation, optimizations, bug fixes and shiny new features. Let&amp;#39;s take a look at them!&lt;/p&gt;
@@ -1574,11 +1573,11 @@ or talk to us on &lt;code&gt;#beam-community&lt;/code&gt; on irc.freenode.net.&l
 <entry>
   <title>Elixir v0.7.2 released</title>
   <link href="http://elixir-lang.org/blog/2012/12/04/elixir-v0-7-2-released/" />
-  
+
   <author>
     <name>Yurii Rashkovskii</name>
   </author>
-  
+
   <updated>2012-12-04T00:00:00+00:00</updated>
   <id>/blog/2012/12/04/elixir-v0-7-2-released</id>
   <content type="html">&lt;p&gt;Hot out of the oven! We just released Elixir v0.7.2 with a number of delicious improvements.&lt;/p&gt;
@@ -1628,11 +1627,11 @@ under some circunstances when using records.&lt;/p&gt;
 <entry>
   <title>Elixir v0.7.1 released</title>
   <link href="http://elixir-lang.org/blog/2012/11/18/elixir-v0-7-1-released/" />
-  
+
   <author>
     <name>José Valim</name>
   </author>
-  
+
   <updated>2012-11-18T00:00:00+00:00</updated>
   <id>/blog/2012/11/18/elixir-v0-7-1-released</id>
   <content type="html">&lt;p&gt;Elixir v0.7.1 was released this weekend to celebrate the end of a two months journey traveling around Europe, United States and Brazil talking about and exposing Elixir to new developers.&lt;/p&gt;
@@ -1652,11 +1651,11 @@ under some circunstances when using records.&lt;/p&gt;
 <entry>
   <title>Elixir v0.7.0 released</title>
   <link href="http://elixir-lang.org/blog/2012/10/20/elixir-v0-7-0-released/" />
-  
+
   <author>
     <name>José Valim</name>
   </author>
-  
+
   <updated>2012-10-20T00:00:00+00:00</updated>
   <id>/blog/2012/10/20/elixir-v0-7-0-released</id>
   <content type="html">&lt;p&gt;Elixir v0.7.0 was released with bug fixes and many improvements, like a &lt;code&gt;String&lt;/code&gt; module to handle utf-8 binaries and support to environments and nested dependencies in Mix.&lt;/p&gt;
@@ -1674,11 +1673,11 @@ under some circunstances when using records.&lt;/p&gt;
 <entry>
   <title>Elixir v0.6.0 released</title>
   <link href="http://elixir-lang.org/blog/2012/08/01/elixir-v0-6-0-released/" />
-  
+
   <author>
     <name>José Valim</name>
   </author>
-  
+
   <updated>2012-08-01T00:00:00+00:00</updated>
   <id>/blog/2012/08/01/elixir-v0-6-0-released</id>
   <content type="html">&lt;p&gt;We have finally released &lt;a href="/"&gt;Elixir&lt;/a&gt; v0.6.0! This release includes a build tool called Mix, support for Erlang typespecs, many improvements to IEx and improved IO, File and Macro support.&lt;/p&gt;
@@ -1708,11 +1707,11 @@ under some circunstances when using records.&lt;/p&gt;
 <entry>
   <title>Elixir v0.5.0 released</title>
   <link href="http://elixir-lang.org/blog/2012/05/25/elixir-v0-5-0-released/" />
-  
+
   <author>
     <name>José Valim</name>
   </author>
-  
+
   <updated>2012-05-25T00:00:00+00:00</updated>
   <id>/blog/2012/05/25/elixir-v0-5-0-released</id>
   <content type="html">&lt;p&gt;We have finally released &lt;a href="/"&gt;Elixir&lt;/a&gt; v0.5.0! This marks the first release since the language was rewritten. In this blog post, we will discuss what we achieved during this time and what are the next steps!&lt;/p&gt;
@@ -1760,11 +1759,11 @@ under some circunstances when using records.&lt;/p&gt;
 <entry>
   <title>A peek inside Elixir's Parallel Compiler</title>
   <link href="http://elixir-lang.org/blog/2012/04/24/a-peek-inside-elixir-s-parallel-compiler/" />
-  
+
   <author>
     <name>José Valim</name>
   </author>
-  
+
   <updated>2012-04-24T00:00:00+00:00</updated>
   <id>/blog/2012/04/24/a-peek-inside-elixir-s-parallel-compiler</id>
   <content type="html">&lt;p&gt;Today, a parallel compiler just landed in Elixir master. The goal of the parallel compiler is to compile files in parallel, automatically detecting dependencies between files. In this blog post, we are going to take a peek into the parallel compiler internals and learn more about Erlang and Elixir in the process.&lt;/p&gt;
@@ -1937,5 +1936,5 @@ end
 </content>
 </entry>
 
- 
+
 </feed>

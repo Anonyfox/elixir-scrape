@@ -3,7 +3,7 @@ defmodule Scrape.Mixfile do
 
   def project do
     [app: :scrape,
-     version: "0.0.4",
+     version: "0.1.0",
      elixir: "~> 1.0",
      description: description,
      package: package,
@@ -17,7 +17,7 @@ defmodule Scrape.Mixfile do
   #
   # Type `mix help compile.app` for more information
   def application do
-    [applications: [:logger, :httpoison]]
+    [applications: [:logger, :httpoison, :tzdata]]
   end
 
   # Dependencies can be Hex packages:
@@ -31,11 +31,13 @@ defmodule Scrape.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      {:floki, "~> 0.6"}, # html parser
-      {:httpoison, "~> 0.7"}, # http client
-      {:codepagex, "~> 0.1"}, # iconv written in pure elixir
-      {:feeder_ex, "~> 0.0.2"}, # RSS/Atom parser
-      {:dogma, "~> 0.0.1", only: :dev} # static code linter
+      {:floki,      "~> 0.6"}, # html/xml parser
+      {:httpoison,  "~> 0.7"}, # http client
+      {:codepagex,  "~> 0.1"}, # iconv written in pure elixir
+      {:feeder_ex,  "~> 0.0.2"}, # RSS/Atom parser
+      {:timex,      "~> 0.19"}, # date/time processing
+      {:parallel,   "~> 0.0.2"}, # easy parallel processing
+      {:dogma,      "~> 0.0.1", only: :dev} # static code linter
     ]
   end
 
