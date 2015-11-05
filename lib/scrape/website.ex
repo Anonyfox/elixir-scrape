@@ -14,20 +14,21 @@ defmodule Scrape.Website do
   alias Scrape.Link
 
   defstruct title: "", description: "", url: "", image: "", favicon: "",
-    feeds: []
+    feeds: [], keywords: []
 
   @spec parse(String.t, String.t) :: %Website{}
 
   def parse(html, url) do
     %Scrape.Website{
       url: url,
-      title: title(html),
-      description: description(html),
-      image: image(html),
-      favicon: favicon(html),
-      feeds: feeds(html)
+      title: find_title(html),
+      description: find_description(html),
+      image: find_image(html),
+      favicon: find_favicon(html),
+      feeds: find_feeds(html),
+      keywords: find_keywords(html)
     }
-    |> canonical(html)
+    |> find_canonical(html)
     |> normalize_urls
   end
 
@@ -35,9 +36,9 @@ defmodule Scrape.Website do
     Returns the title of a HTML site
   """
 
-  @spec title(String.t) :: String.t
+  @spec find_title(String.t) :: String.t
 
-  def title(html) do
+  def find_title(html) do
     Exquery.find html, "title", :longest
   end
 
@@ -45,9 +46,9 @@ defmodule Scrape.Website do
     Returns the description of a HTML site
   """
 
-  @spec description(String.t) :: String.t
+  @spec find_description(String.t) :: String.t
 
-  def description(html) do
+  def find_description(html) do
     selector = """
       meta[property='og:description'],
       meta[name='twitter:description'],
@@ -60,9 +61,9 @@ defmodule Scrape.Website do
     Returns the main image url of a HTML site
   """
 
-  @spec image(String.t) :: String.t
+  @spec find_image(String.t) :: String.t
 
-  def image(html) do
+  def find_image(html) do
     selector = """
       meta[property='og:image'],
       meta[name='twitter:image']
@@ -74,9 +75,9 @@ defmodule Scrape.Website do
     Returns the favicon url of a HTML site
   """
 
-  @spec favicon(String.t) :: String.t
+  @spec find_favicon(String.t) :: String.t
 
-  def favicon(html) do
+  def find_favicon(html) do
     selector = """
       link[rel='apple-touch-icon'],
       link[rel='apple-touch-icon-precomposed'],
@@ -90,9 +91,9 @@ defmodule Scrape.Website do
     Returns a list of feed urls for a HTML site
   """
 
-  @spec feeds(String.t) :: [String.t]
+  @spec find_feeds(String.t) :: [String.t]
 
-  def feeds(html) do
+  def find_feeds(html) do
     selector = """
       link[type='application/rss+xml'],
       link[type='application/atom+xml'],
@@ -102,12 +103,22 @@ defmodule Scrape.Website do
   end
 
   @doc """
+    Fetch the meta-keywords if exists
+  """
+
+  @spec find_keywords(String.t) :: [String.t]
+
+  def find_keywords(html) do
+    Exquery.attr(html, "meta[name=keywords]", "content", :all)
+  end
+
+  @doc """
     Look for a canonical url and use it, choose the given URL otherwise
   """
 
-  @spec canonical(%Website{}, String.t) :: %Website{}
+  @spec find_canonical(%Website{}, String.t) :: %Website{}
 
-  def canonical(website, html) do
+  def find_canonical(website, html) do
     canonical = Exquery.attr html, "link[rel=canonical]", "href"
     %{website | url: canonical || website.url}
   end

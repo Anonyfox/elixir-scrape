@@ -3,7 +3,7 @@ defmodule Scrape.Mixfile do
 
   def project do
     [app: :scrape,
-     version: "0.1.0",
+     version: "0.1.1",
      elixir: "~> 1.0",
      description: description,
      package: package,

@@ -15,6 +15,7 @@ defmodule WebsiteTest do
     assert data.favicon == "http://venturebeat.com/wp-content/themes/vbnews/img/favicon.ico"
     assert data.feeds == ["http://feeds.venturebeat.com/VentureBeat"]
     assert data.url == "http://venturebeat.com"
+    assert data.keywords == []
   end
 
   test "parser works with german" do
@@ -26,6 +27,7 @@ defmodule WebsiteTest do
     assert data.favicon == "http://www.n-tv.de/resources/ts24099052/ver1-0/responsive/img/touch/apple-touch-icon-144x144-precomposed.png"
     assert data.feeds == ["http://www.n-tv.de/rss", "http://mobil.n-tv.de/"]
     assert data.url == "http://www.n-tv.de/"
+    assert data.keywords == ["Schlagzeilen"]
   end
 
   test "parser works with german ISO site" do
@@ -40,6 +42,7 @@ defmodule WebsiteTest do
             "http://m.spiegel.de/",
             "android-app://de.spiegel.android.app.spon/http/a.spiegel.de/"]
     assert data.url == "http://www.spiegel.de/"
+    assert data.keywords == []
   end
 
   defp sample_website(name) do
