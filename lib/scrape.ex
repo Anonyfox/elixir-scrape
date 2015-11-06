@@ -1,7 +1,14 @@
 defmodule Scrape do
   alias Scrape.Fetch
-  alias Scrape.Website
   alias Scrape.Feed
+  alias Scrape.Website
+  alias Scrape.Article
+
+  def feed(url) do
+    url
+    |> Fetch.run
+    |> Feed.parse(url)
+  end
 
   def website(url) do
     url
@@ -9,10 +16,10 @@ defmodule Scrape do
     |> Website.parse(url)
   end
 
-  def feed(url) do
-    url
-    |> Fetch.run
-    |> Feed.parse(url)
+  def article(url) do
+    html = Fetch.run url
+    website = Website.parse(html)
+    Article.parse(website, html)
   end
 
 end
