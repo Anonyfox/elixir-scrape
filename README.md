@@ -1,5 +1,9 @@
 # Scrape
 
+[![Hex.pm](https://img.shields.io/hexpm/dt/scrape.svg)](https://hex.pm/packages/scrape)
+[![Hex.pm](https://img.shields.io/hexpm/v/scrape.svg)](https://hex.pm/packages/scrape)
+[![Hex.pm](https://img.shields.io/hexpm/l/scrape.svg)](https://hex.pm/packages/scrape)
+
 An Elixir package to scrape websites. This is an attempt to rewrite
 [meteor-scrape](https://github.com/Anonyfox/meteor-scrape) from scratch,
 leveraging the expressiveness and power of Elixir. Current features:
