@@ -111,7 +111,20 @@ defmodule Scrape.Website do
   def find_tags(html) do
     html
     |> Exquery.attr("meta[name=keywords]", "content", :all)
-    |> Enum.map(fn k -> %{name: k, accuracy: 0.9} end) # *mostly* set by humans
+    |> split_phrases
+    |> Enum.map(fn s -> s |> String.strip |> String.downcase end)
+    |> Enum.map(fn s -> %{name: s, accuracy: 0.9} end)
+  end
+
+  defp split_phrases([]), do: []
+  defp split_phrases(list, results \\ [])
+  defp split_phrases([], results), do: results
+  defp split_phrases([h | t], results) do
+    if String.contains?(h, [";", ",", "|"]) do
+      split_phrases t, results ++ String.split(h, ~r/[;,|]/, trim: true)
+    else
+      split_phrases t, [h | results]
+    end
   end
 
   @doc """
@@ -136,14 +149,17 @@ defmodule Scrape.Website do
     |> put_lazy(:image, fn(w) -> Link.expand(w.image, w.url) end)
     |> put_lazy(:favicon, fn(w) -> Link.expand(w.favicon, w.url) end)
     |> put_lazy(:feeds, fn(w) ->
-      Enum.map(w.feeds, fn(feed) ->
-        feed |> Link.expand(w.url)
-      end)
-      |> Enum.filter(fn url -> String.contains?(url, ["http://", "https://"]) end)
-      |> Enum.filter(fn url -> URI.parse(url).path != "/" end)
-      |> Enum.filter(fn url -> URI.parse(url).path != "" end)
-      |> Enum.filter(fn url -> !String.contains?(url, ["comment", "comments"]) end)
+      w.feeds
+      |> Enum.map(fn(feed) -> feed |> Link.expand(w.url) end)
+      |> Enum.filter(&url_is_feed?/1)
     end)
+  end
+
+  defp url_is_feed?(url) do
+    (String.contains?(url, ["http://", "https://"])) &&
+    (URI.parse(url).path != "/") &&
+    (URI.parse(url).path != "") &&
+    (!String.contains?(url, ["comment", "comments"]))
   end
 
   defp put_lazy(website, key, fun) do
