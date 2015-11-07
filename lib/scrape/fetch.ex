@@ -1,10 +1,8 @@
 defmodule Scrape.Fetch do
 
-  # http://www.erlang.org/doc/apps/stdlib/unicode_usage.html
-  # http://www.erlang.org/doc/man/unicode.html
-  # http://www.reddit.com/r/elixir/comments/39azpw/character_encoding_conversion_in_elixir/
+  # "http://www.heise.de/newsticker/heise-atom.xml"
   def run(url) do
-    response = HTTPoison.get! url
+    response = HTTPoison.get! url, [], [ hackney: [follow_redirect: true] ]
     cs = charset(response.headers)
     if cs do
       encoding = cs
