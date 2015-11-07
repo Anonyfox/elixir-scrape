@@ -11,7 +11,7 @@ defmodule Scrape.Link do
     "http://example.com/some/path"
   """
 
-  def expand(nil, base), do: nil
+  def expand(nil, _base), do: nil
   def expand(target, base) do
     base_uri = base
     |> URI.parse
