@@ -18,7 +18,7 @@ defmodule Scrape do
 
   def article(url) do
     html = Fetch.run url
-    website = Website.parse(html)
+    website = Website.parse(html, url)
     Article.parse(website, html)
   end
 
