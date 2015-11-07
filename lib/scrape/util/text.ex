@@ -65,6 +65,18 @@ defmodule Scrape.Util.Text do
   end
 
   @doc """
+    Strip all HTML tags from a text
+  """
+
+  @spec without_html(String.t) :: String.t
+
+  def without_html(text) do
+    text
+    |> Floki.parse
+    |> Floki.text
+  end
+
+  @doc """
     Split a given text up into a list of (*downcased*) meaningful words.
   """
 

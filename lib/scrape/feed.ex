@@ -1,6 +1,7 @@
 defmodule Scrape.Feed do
 
   alias Scrape.Exquery
+  alias Scrape.Util.Text
   use Timex
 
   def parse(xml, _url) do
@@ -85,7 +86,9 @@ defmodule Scrape.Feed do
   defp clean_text(nil), do: nil
   defp clean_text(str) do
     str
-    |> String.strip
+    |> Text.without_js
+    |> Text.without_html
+    |> Text.normalize_whitespace
   end
-  
+
 end
