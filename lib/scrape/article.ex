@@ -11,13 +11,13 @@ defmodule Scrape.Article do
   alias Scrape.Stopwords
 
   defstruct title: "", description: "", url: "", image: "", favicon: "",
-    feeds: [], keywords: [], fulltext: ""
+    feeds: [], tags: [], fulltext: ""
 
   def parse(website, html) do
     website
     |> website_to_article
     |> fulltext_from_html(html)
-    |> extract_keywords
+    |> extract_tags
   end
 
   defp website_to_article(website) do
@@ -31,7 +31,10 @@ defmodule Scrape.Article do
     |> Enum.map(fn x -> Floki.text(x, deep: false) end)
     |> Enum.map(fn s -> String.replace(s, ~r/\s+/, " ") end)
     |> Enum.filter(fn s -> String.length(s) > 30 end)
-    |> Enum.filter(fn s -> String.contains?([". ","? ", "! ", "\" ", "\", "]) end)
+    |> Enum.map(fn s -> String.strip(s) end)
+    |> Enum.filter(fn s ->
+      s |> String.contains?([". ","? ", "! ", "\" ", "\", "]) 
+    end)
     |> Enum.join("\n\n")
     %{article | fulltext: text}
   end
@@ -41,19 +44,19 @@ defmodule Scrape.Article do
     String.replace(html, rx, "")
   end
 
-  defp extract_keywords(article) do
+  defp extract_tags(article) do
     words = article.fulltext
     |> text_to_words
-    keywords = words
+    tags = words
     |> count_words
     |> pick_results(article)
     |> calculate_accuracy(words, article)
-    result = article.keywords
+    result = article.tags
     |> Enum.map(fn k -> {k, 1.0} end)
-    |> Enum.concat(keywords)
+    |> Enum.concat(tags)
     |> Enum.take(20)
     |> Enum.reverse
-    %{article | keywords: result}
+    %{article | tags: result}
   end
 
   defp text_to_words(text) do

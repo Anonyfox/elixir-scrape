@@ -14,7 +14,7 @@ defmodule Scrape.Website do
   alias Scrape.Link
 
   defstruct title: "", description: "", url: "", image: "", favicon: "",
-    feeds: [], keywords: []
+    feeds: [], tags: []
 
   @spec parse(String.t, String.t) :: %Website{}
 
@@ -26,7 +26,7 @@ defmodule Scrape.Website do
       image: find_image(html),
       favicon: find_favicon(html),
       feeds: find_feeds(html),
-      keywords: find_keywords(html)
+      tags: find_tags(html)
     }
     |> find_canonical(html)
     |> normalize_urls
@@ -99,17 +99,19 @@ defmodule Scrape.Website do
       link[type='application/atom+xml'],
       link[rel='alternate']
     """
-    Exquery.attr html, selector, "href", :all
+    html |> Exquery.attr(selector, "href", :all)
   end
 
   @doc """
     Fetch the meta-keywords if exists
   """
 
-  @spec find_keywords(String.t) :: [String.t]
+  @spec find_tags(String.t) :: [%{name: String.t, accuracy: float}]
 
-  def find_keywords(html) do
-    Exquery.attr(html, "meta[name=keywords]", "content", :all)
+  def find_tags(html) do
+    html
+    |> Exquery.attr("meta[name=keywords]", "content", :all)
+    |> Enum.map(fn k -> %{name: k, accuracy: 0.9} end) # *mostly* set by humans
   end
 
   @doc """
@@ -135,8 +137,12 @@ defmodule Scrape.Website do
     |> put_lazy(:favicon, fn(w) -> Link.expand(w.favicon, w.url) end)
     |> put_lazy(:feeds, fn(w) ->
       Enum.map(w.feeds, fn(feed) ->
-        Link.expand(feed, w.url)
+        feed |> Link.expand(w.url)
       end)
+      |> Enum.filter(fn url -> String.contains?(url, ["http://", "https://"]) end)
+      |> Enum.filter(fn url -> URI.parse(url).path != "/" end)
+      |> Enum.filter(fn url -> URI.parse(url).path != "" end)
+      |> Enum.filter(fn url -> !String.contains?(url, ["comment", "comments"]) end)
     end)
   end
 
