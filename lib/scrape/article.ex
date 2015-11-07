@@ -31,7 +31,7 @@ defmodule Scrape.Article do
     |> Enum.map(fn x -> Floki.text(x, deep: false) end)
     |> Enum.map(fn s -> String.replace(s, ~r/\s+/, " ") end)
     |> Enum.filter(fn s -> String.length(s) > 30 end)
-    |> Enum.filter(fn s -> String.contains?([". ","? ", "! "]) end)
+    |> Enum.filter(fn s -> String.contains?([". ","? ", "! ", "\" ", "\", "]) end)
     |> Enum.join("\n\n")
     %{article | fulltext: text}
   end
