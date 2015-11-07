@@ -19,7 +19,7 @@ defmodule Scrape.Feed do
       title: find_title(item),
       description: find_description(item),
       url: find_url(item),
-      categories: find_categories(item),
+      tags: find_tags(item),
       image: find_image(item),
       pubdate: find_pubdate(item)
     }
@@ -42,8 +42,10 @@ defmodule Scrape.Feed do
     clean_text url
   end
 
-  defp find_categories(item) do
-    item |> Exquery.find("category", :all)
+  defp find_tags(item) do
+    item
+    |> Exquery.find("category", :all)
+    |> Enum.map(fn c -> %{accuracy: 0.9, name: c} end) # *mostly* set by humans
   end
 
   defp find_image(item) do
