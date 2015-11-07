@@ -5,15 +5,17 @@ An Elixir package to scrape websites. This is an attempt to rewrite
 leveraging the expressiveness and power of Elixir. Current features:
 
 - can handle non-utf-8 sources.
-- parse common websites
-- parse RSS/Atom feeds
+- can deal with timezones.
+- parse RSS/Atom feeds.
+- parse common websites.
+- parse advanced content websites ("articles").
 
 ## Installation
 
 Add `scrape` to your mixfile:
 
 ````Elixir
-{:scrape, "~> 0.1"}
+{:scrape, "~> 0.2"}
 ````
 
 ## Usage
@@ -66,7 +68,46 @@ Scrape.website "http://montrealgazette.com/"
 }
 ````
 
+````Elixir
+# Scrape an article (aka "content website")
+Scrape.article "http://www.bbc.com/news/world-europe-34753464"
+
+# Result
+%Scrape.Article{
+  description: "The Russian plane crash in Egypt last week was not due to technical failures, French aviation officials familiar with the investigation tell the BBC.",
+  favicon: "http://static.bbci.co.uk/news/1.96.1453/apple-touch-icon.png",
+  feeds: ["http://www.bbc.co.uk/news/world-europe-34753464",
+  "http://www.bbc.com/news/world-europe-34753464"],
+  fulltext: "The Russian plane crash in Egypt last week was not due to technical failures, French aviation officials familiar with the investigation have told the BBC.\n\nOther French officials said the flight data recorder suggested a \"violent, sudden\" explosion caused the crash, killing all 224 people on board.\ [...shortened...]"
+  image: "http://ichef-1.bbci.co.uk/news/1024/cpsprodpb/A4F2/production/_86562224_86562223.jpg",
+  keywords: [
+    %{accuracy: 1.0, name: "egypt"},
+    %{accuracy: 1.0, name: "russia"},
+    %{accuracy: 1.0, name: "bbc"},
+    %{accuracy: 1.0, name: "crash"},
+    %{accuracy: 1.0, name: "plane"},
+    %{accuracy: 1.0, name: "french"},
+    %{accuracy: 1.0, name: "russian"},
+    %{accuracy: 0.7246376811594203, name: "officials"},
+    %{accuracy: 0.7246376811594203, name: "tell"},
+    %{accuracy: 0.4830917874396135, name: "technical"},
+    %{accuracy: 0.4830917874396135, name: "familiar"},
+    %{accuracy: 0.4830917874396135, name: "aviation"},
+    %{accuracy: 0.4830917874396135, name: "week"},
+    %{accuracy: 0.4830917874396135, name: "investigation"},
+    %{accuracy: 0.24154589371980675, name: "news"},
+    %{accuracy: 0.0966183574879227, name: "contact"},
+    %{accuracy: 0.07246376811594203, name: "sharm"},
+    %{accuracy: 0.07246376811594203, name: "tourism"},
+    %{accuracy: 0.07246376811594203, name: "flights"},
+    %{accuracy: 0.07246376811594203, name: "flight"}
+  ],
+  title: "Russian plane crash: French 'rule out engine failure' - BBC News",
+  url: "http://www.bbc.com/news/world-europe-34753464"
+}
+````
+
 ## License
 
 LGPLv3. Use this library however you want, but I want improvements & bugfixes
-to flow back into this package. 
+to flow back into this package.

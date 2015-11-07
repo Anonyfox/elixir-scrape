@@ -51,6 +51,7 @@ defmodule Scrape.Article do
     |> Enum.map(fn k -> {k, 1.0} end)
     |> Enum.concat(keywords)
     |> Enum.take(20)
+    |> Enum.reverse
     %{article | keywords: result}
   end
 
