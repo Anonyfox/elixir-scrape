@@ -28,6 +28,9 @@ defmodule Scrape.Util.Text do
   @doc """
     A text paragraph shall not include any whitespace except single spaces
     between words.
+
+    iex> Scrape.Util.Text.normalize_whitespace("\r\thello world\r ")
+    "hello world"
   """
 
   @spec normalize_whitespace(String.t) :: String.t

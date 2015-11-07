@@ -9,6 +9,9 @@ defmodule Scrape.Util.Tags do
     A rough accuracy for every tag is provided, too! The returned data
     structure is simply a map structured like this:
     `[%{name: "bla", accuracy: 0.42}, ...]`
+
+    iex> Scrape.Util.Tags.from_text("hello world")
+    [%{accuracy: 1, name: "world"}, %{accuracy: 1, name: "hello"}]
   """
 
   @spec from_text(String.t) :: [%{name: String.t, accuracy: float}]

@@ -46,6 +46,7 @@ defmodule Scrape.Feed do
   defp find_tags(item) do
     item
     |> Exquery.find("category", :all)
+    |> Enum.map(fn s -> s |> String.strip |> String.downcase end)
     |> Enum.map(fn c -> %{accuracy: 0.9, name: c} end) # *mostly* set by humans
   end
 

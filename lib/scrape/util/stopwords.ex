@@ -7,6 +7,9 @@ defmodule Scrape.Util.Stopwords do
 
   @doc """
     Filter out stopwords from a given list of words.
+
+    iex> Scrape.Util.Stopwords.remove(["a","nice","day","again"])
+    ["nice","day"]
   """
 
   @spec remove([String.t]) :: [String.t]

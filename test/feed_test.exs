@@ -4,23 +4,23 @@ defmodule FeedTest do
 
   test "parser works" do
     xml = sample_feed "elixirlang"
-    data = Feed.parse xml, "http://example.com"
-    # require Logger
-    # Logger.debug(inspect data, pretty: true)
+    [ item | _ ] = Feed.parse xml, "http://example.com"
+    assert item.title == "Elixir v1.0 released"
+    assert item.url == "http://elixir-lang.org/blog/2014/09/18/elixir-v1-0-0-released/"
   end
 
   test "parser works for german" do
     xml = sample_feed "ntv"
-    data = Feed.parse xml, "http://example.com"
-    # require Logger
-    # Logger.debug(inspect data, pretty: true)
+    [ item | _ ] = Feed.parse xml, "http://example.com"
+    assert item.title == "Ökonomen warnen: Jobaufschwung verliert an Tempo"
+    assert item.tags == [%{accuracy: 0.9, name: "wirtschaft"}]
+    assert item.image == "http://bilder1.n-tv.de/img/incoming/crop15393436/2298675318-cImg_4_3-w250/3q7h0527.jpg"
   end
 
   test "parser works for german with ISO" do
     xml = sample_feed "spiegel"
-    data = Feed.parse xml, "http://example.com"
-    # require Logger
-    # Logger.debug(inspect data, pretty: true)
+    [ item | _ ] = Feed.parse xml, "http://example.com"
+    assert item.title == "Unglück in Bayern: Zug erfasst Schwertransporter - mehrere Tote"
   end
 
   defp sample_feed(name) do
