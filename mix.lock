@@ -10,7 +10,7 @@
   "idna": {:hex, :idna, "1.0.2"},
   "mix_test_watch": {:hex, :mix_test_watch, "0.1.1"},
   "mochiweb": {:hex, :mochiweb, "2.12.2"},
-  "parallel": {:hex, :parallel, "0.0.2"},
+  "parallel": {:hex, :parallel, "0.0.3"},
   "porcelain": {:hex, :porcelain, "2.0.0"},
   "ssl_verify_hostname": {:hex, :ssl_verify_hostname, "1.0.5"},
   "timex": {:hex, :timex, "0.19.5"},

@@ -76,6 +76,7 @@ defmodule Scrape.Feed do
   ]
 
   defp try_date(str, patterns \\ @datetime_patterns)
+  defp try_date(nil, _), do: Date.now
   defp try_date(_, []), do: Date.now
   defp try_date(str, [format | others]) do
     case DateFormat.parse(str, format) do

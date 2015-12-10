@@ -1,0 +1,2282 @@
+<!DOCTYPE html>
+<html lang="de" class="no-js">
+<head>
+	<meta charset="utf-8">
+	<link href='http://guruads.de' rel='preconnect' crossorigin>
+	<link href='http://widgets.outbrain.com' rel='preconnect' crossorigin>
+	<link href='https://fonts.gstatic.com' rel='preconnect' crossorigin>
+	<link href="//fonts.googleapis.com/css?family=Droid+Sans:400,700|Droid+Sans+Mono" rel="stylesheet" type="text/css">
+		        	<link rel="stylesheet" type="text/css" media="screen,projection" href="//t3n.sc/core/compressed/desktop.css?v=56e1054c">
+	        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>t3n – digital pioneers | Das Magazin für digitales Business</title>
+<meta name="title" content="t3n – digital pioneers | Das Magazin für digitales Business" />
+<meta name="robots" content="index, follow" />
+<meta name="description" content="t3n ist das Print- und Online-Magazin für digitale Pioniere zu den Themen E-Business, Social Media, Startups und Webdesign." />
+            <!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<script type="text/javascript">document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
+
+	<script type="text/javascript">
+		var Ads_BA_ADIDsite 		= "t3n.de";
+		var Ads_BA_ADIDsection 	= "startseite";
+		var Ads_BA_keyword 			= "";
+		var Ads_BA_Mobile 		 	=  false
+	</script>
+	<script type="text/javascript" src="//t3n.sc/core/js/libs/adlib.js?v=56e1054c"></script>
+
+
+
+
+	<script src="https://script.ioam.de/iam.js"></script>
+
+
+
+
+	<link rel="icon" href="//t3n.sc/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="//t3n.sc/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="//t3n.sc/core/images/mobile/AppIcon152.png?v=56e1054c">
+	<link rel="apple-touch-icon" href="//t3n.sc/core/images/mobile/AppIcon57.png?v=56e1054c" sizes="57x57">
+	<link rel="apple-touch-icon" href="//t3n.sc/core/images/mobile/AppIcon72.png?v=56e1054c" sizes="72x72">
+	<link rel="apple-touch-icon" href="//t3n.sc/core/images/mobile/AppIcon76.png?v=56e1054c" sizes="76x76">
+	<link rel="apple-touch-icon" href="//t3n.sc/core/images/mobile/AppIcon114.png?v=56e1054c" sizes="114x114">
+	<link rel="apple-touch-icon" href="//t3n.sc/core/images/mobile/AppIcon120.png?v=56e1054c" sizes="120x120">
+	<link rel="apple-touch-icon" href="//t3n.sc/core/images/mobile/AppIcon144.png?v=56e1054c" sizes="144x144">
+	<link rel="apple-touch-icon" href="//t3n.sc/core/images/mobile/AppIcon152.png?v=56e1054c" sizes="152x152">
+
+	<meta property="fb:page_id" content="100942084485">
+	<link href="https://plus.google.com/101559871572415719072" rel="publisher">
+
+	<script type="text/javascript">
+		(function() {
+			var projectId = '1841250180';
+			var protocol = ('https:' == document.location.protocol ? 'https://' : 'http://');
+			var scriptTag = document.createElement('script');
+			scriptTag.type = 'text/javascript';
+			scriptTag.async = true;
+			scriptTag.src = protocol + 'cdn.optimizely.com/js/' + projectId + '.js';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(scriptTag, s);
+		})();
+		function optimizelyTimeout() {
+			window.optimizely = window.optimizely|| [];
+			if (!window.optimizely.data) {
+				window.optimizely.push("timeout");
+			}
+		}
+		setTimeout(optimizelyTimeout, 1000);
+	</script>
+
+			<!--Visual Revenue Reader Response Tracking Script (v6) -->
+		<script type="text/javascript">
+			var _vrq = _vrq || [];
+			_vrq.push(['id', 488]);
+			_vrq.push(['automate', true]);
+			_vrq.push(['track', function(){}]);
+			(function(d, a){
+				var s = d.createElement(a),
+					x = d.getElementsByTagName(a)[0];
+				s.async = true;
+				s.src = 'http://a.visualrevenue.com/vrs.js';
+				x.parentNode.insertBefore(s, x);
+			})(document, 'script');
+		</script>
+		<!-- End of VR RR Tracking Script - All rights reserved -->
+
+	<script type="application/ld+json">
+	{
+		"@context": "http://schema.org",
+		"@type": "WebSite",
+		"name": "t3n",
+		"sameAs" : [
+			"https://www.facebook.com/t3nMagazin",
+			"https://twitter.com/t3n",
+			"https://www.xing.com/news/pages/t3n-magazin-67",
+			"https://plus.google.com/+t3nMagazin/",
+			"https://instagram.com/t3n_magazin/"
+		],
+		"url": "http://t3n.de/",
+		"potentialAction": {
+			"@type": "SearchAction",
+			"target": "http://t3n.de/search?q={search_term_string}",
+			"query-input": "required name=search_term_string"
+		}
+	}
+	</script>
+
+	<script type="text/javascript">
+        window.cookieconsent_options = {"message":"Cookies erleichtern die Bereitstellung unserer Dienste. Mit der Nutzung unserer Dienste erklärst du dich damit einverstanden, dass wir Cookies verwenden","dismiss":"Verstanden","learnMore":"Mehr Infos","link":"https://t3n.de/store/page/datenschutz","theme":"dark-bottom"};
+    </script>
+    <script type="text/javascript" src="//s3.amazonaws.com/cc.silktide.com/cookieconsent.latest.min.js"></script>
+
+</head>
+
+<body>
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-MJGTHP"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>var dataLayer = dataLayer || []; dataLayer.push({
+  't3nLayoutType': 'desktop' //t3nLayoutType 'desktop', 'mobile'
+});
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MJGTHP');</script>
+<!-- End Google Tag Manager -->
+
+
+
+	<div id="szm">
+		<script>
+			var iam_data = {
+				"st":"t3n",
+				"cp":"t3nStart",
+				"sv":"in"
+			};
+			iom.c(iam_data,1);
+		</script>
+	</div>
+
+
+
+<div id="pageWrapper" class="hidePrev">
+<div id="Ads_BA_TakeOver">
+<div id="Ads_BA_BS" class="adbLeaderboard">
+	<script type="text/javascript">Ads_BA_AD('BS');</script>
+</div>
+<div id="ContentWrapper">
+
+<div id="head">
+<div id="headMain" class="clearfix">
+<nav class="tmbNav cf">
+	<ul>
+		<li id="tmBadge">
+			<a href="/">t3n</a>
+		</li>
+				<li><a href="https://t3n.de/store/mediadaten" class="tmbl">Werben</a></li>
+		<li><a href="/news/sponsored-post-info/" class="tmbl">Sponsored Post</a></li>
+					<li class="tmbNavAccount">
+						<a href="https://t3n.de/signin" class="tmbl ">
+				Anmelden<i class="icon-angle-down"></i>
+			</a>
+
+			<ul class="flnav">
+									<li class="flnav flnavInner">
+						<section>
+							<div class="flnav-headline">Anmeldung</div>
+							<form action="https://t3n.de/signin?redirect=http%3A%2F%2Ft3n.de%2F" id="signInForm" method="post">
+								<div>
+									<div>
+										<input type="email" name="signin[username]" id="loginBoxUser" value="" placeholder="E-Mail-Adresse" class="flnavForm colFull" aria-required="true" required>
+										<input type="password" name="signin[password]" id="loginBoxPass" value="" placeholder="Passwort" class="flnavForm colFull" aria-required="true" required>
+									</div>
+									<div class="cf">
+										<p class="col60">
+											<input type="checkbox" name="signin[remember]" id="signin_remember">
+											<label for="signin_remember" class="text-small inline"> Angemeldet bleiben</label>
+										</p>
+										<div class="col40r r">
+											<button type="submit" class="tbutton primary">Anmelden</button>
+										</div>
+									</div>
+								</div>
+							</form>
+						</section>
+					</li>
+					<li class="flnav flnavInner">
+						<div class="line-through"><span>oder anmelden mit:</span></div>
+						<div class="tmbNavSocialLogin">
+							<a href="https://t3n.de/connect/facebook" rel="nofollow" class="color-facebook">
+								<i class="icon-facebook icon-large"></i> Facebook
+							</a>
+							<a href="https://t3n.de/connect/twitter" rel="nofollow" class="color-twitter">
+								<i class="icon-twitter icon-large"></i> Twitter
+							</a>
+							<a href="https://t3n.de/connect/google" rel="nofollow" class="color-google">
+								<i class="icon-google-plus icon-large"></i> Google
+							</a>
+						</div>
+					</li>
+					<li class="flnav flnavBreak">
+						<a href="https://t3n.de/signup?redirect=http%3A%2F%2Ft3n.de%2F" rel="nofollow">Jetzt registrieren</a>
+					</li>
+					<li class="flnav"><a href="https://t3n.de/account/password" rel="nofollow">Passwort vergessen?</a></li>
+								<li class="flnav flnavBreak"><a href="http://yeebase.com/kontakt/">Support (Technik/Abo)</a></li>
+				<li class="flnav"><a href="mailto:redaktion@t3n.de">Support (Redaktion)</a></li>
+			</ul>
+		</li>
+	</ul>
+</nav>
+<div id="headTitle" >
+	<a href="/">
+					<h1>t3n Magazin<span>digital pioneers</span></h1>
+			</a>
+</div>
+
+	<div id="headCampaign">
+		<a href="http://t3n.de/magazin/t3n-nr-41-bargeld-nervt/?utm_source=t3n.de&utm_medium=Banner&utm_campaign=t3n-Headerkampagne" class="tg-headcampaign"><span class="headCampaignText">4 Ausgaben + Shirt nur 35 €</span></a>
+	</div>
+
+	<div id="headMainActions">
+		<div id="headTitleSmall"><a href="http://t3n.de/">t3n Startseite</a></div>
+		<nav id="headNav">
+			<ul>
+				<li class="newsItem">
+					<a href="/news/">
+						Newsticker <i class="icon-angle-down"></i>
+					</a>
+				</li>
+				<li>
+					<a href="/magazin/">Magazin</a>
+				</li>
+				<li>
+					<a href="/fragen/">Fragen & Antworten</a>
+				</li>
+				<li>
+					<a href="/jobs/">Jobbörse</a>
+				</li>
+				<li>
+					<a href="https://t3n.de/store/">Shop</a>
+				</li>
+				<li>
+					<a href="/marktplatz/">Marktplatz</a>
+				</li>
+			</ul>
+		</nav>
+
+					<div class="headSocial">
+				<ul>
+					<li>
+						<a href="http://t3n.de/news/feed/" class="tg-socialfeed-header feed" rel="external nofollow" title="RSS-Feed">
+							<i class="icon-rss"></i><span>RSS</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.facebook.com/t3nMagazin" class="tg-socialfacebook-header facebook" rel="external nofollow" title="Facebook">
+							<i class="icon-facebook"></i><span>Facebook</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://twitter.com/t3n" class="tg-socialtwitter-header twitter" rel="external nofollow" title="Twitter">
+							<i class="icon-twitter"></i><span>Twitter</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://www.xing.com/news/pages/67" class="tg-socialxing-header xing" rel="external nofollow" title="XING">
+							<i class="icon-xing"></i><span>XING</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://plus.google.com/+t3nMagazin/posts" class="tg-socialgoogle-header google" rel="external nofollow" title="Google+">
+							<i class="icon-google-plus"></i><span>Google+</span>
+						</a>
+					</li>
+					<li>
+						<a href="https://instagram.com/t3n_magazin/" class="tg-socialinstagram-header instagram" rel="external nofollow" title="Instagram">
+							<i class="icon-instagram"></i><span>Instagram</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+					<div class="headSearch">
+				<form action="http://t3n.de/search" method="get">
+					<label for="s">t3n.de durchsuchen</label>
+					<input type="text" name="q" id="s" value="" placeholder="Suche">
+					<button type="submit"><i class="icon-search"></i> <span>Suchen</span></button>
+					<span class="submitButton"><i class="icon-search"></i></span>
+				</form>
+			</div>
+
+	</div>
+
+
+	<div id="headTopics">
+					<ul class="headTopics clearfix">
+									<li>
+						<a class="openDropdown tg-ressortnavi-header" href="http://t3n.de/tag/entwicklung">Entwicklung<i class="icon-angle-down"></i></a>
+						<div class='headTopicsDropdown'>
+							<!-- show last 4 articles -->
+							<div class='headTopicsDropdownInner'>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/trix-basecamp-neue-652082/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-652082_WYSIWYG-Editor-Trix_small.jpg" alt="Trix von Basecamp: Der neue WYSIWYG-Editor für eure Webseite" width="205" height="105">
+												<strong>Trix von Basecamp: Der neue WYSIWYG-Editor für eure Webseite</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/eigene-wordpress-theme-erstellen-653702/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-653702_wordpress_serie_small.jpg" alt="Das eigene WordPress-Theme erstellen – #10: Die Galerie-Sidebar mit Galerien aus derselben Kategorie" width="205" height="105">
+												<strong>Das eigene WordPress-Theme erstellen – #10: Die Galerie-Sidebar mit Galerien aus derselben Kategorie</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/stupid-hackathon-653367/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-653367_Stupid_Hackathon_Holdr_small.jpg" alt="„Stupid Hackathon“: Bei diesem Wettbewerb werden die lächerlichsten Innovationen gesucht" width="205" height="105">
+												<strong>„Stupid Hackathon“: Bei diesem Wettbewerb werden die lächerlichsten Innovationen gesucht</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/entwickler-zusammenarbeit-653270/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-653270_codegirl_dokumentation_1_small.jpg" alt="6 Dinge, die du wissen musst, wenn du mit Entwicklern arbeitest" width="205" height="105">
+												<strong>6 Dinge, die du wissen musst, wenn du mit Entwicklern arbeitest</strong>
+											</a>
+										</header>
+									</article>
+															</div>
+							<!-- link to ressort -->
+							<div class="headTopicsLink"><a class="button button--red tg-ressortnavi-button" href="http://t3n.de/tag/entwicklung">Alle News zu Entwicklung</a></div>
+						</div>
+					</li>
+									<li>
+						<a class="openDropdown tg-ressortnavi-header" href="http://t3n.de/tag/design">Design<i class="icon-angle-down"></i></a>
+						<div class='headTopicsDropdown'>
+							<!-- show last 4 articles -->
+							<div class='headTopicsDropdownInner'>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/shutterstock-beliebtesten-farben-2015-654208/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-654208_die-beliebtesten-Farben-shutterstock_small.jpg" alt="Inspiration gesucht? Die beliebtesten Farben aus 2015" width="205" height="105">
+												<strong>Inspiration gesucht? Die beliebtesten Farben aus 2015</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/stockfotos-kostenlose-qualitative-bilder-539479/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-539479_83H_small.jpg" alt="Hochglanz und für lau: 11 Seiten, die langweiligen Stockfotos den Kampf ansagen" width="205" height="105">
+												<strong>Hochglanz und für lau: 11 Seiten, die langweiligen Stockfotos den Kampf ansagen</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/yearbook-of-type-2015-designer-weihnachtsgeschenk-653007/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-653007_yearbookoftypeii_20_small.jpg" alt="Das „Yearbook of Type“ zeigt die schönsten Schriftarten aus 2015" width="205" height="105">
+												<strong>Das „Yearbook of Type“ zeigt die schönsten Schriftarten aus 2015</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/designer-niemals-sagen-652876/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-652876_Dinge-die-Designer-NIEMALS-sagen_small.jpg" alt="11 Dinge, die Designer NIEMALS sagen würden [Bildergalerie]" width="205" height="105">
+												<strong>11 Dinge, die Designer NIEMALS sagen würden [Bildergalerie]</strong>
+											</a>
+										</header>
+									</article>
+															</div>
+							<!-- link to ressort -->
+							<div class="headTopicsLink"><a class="button button--red tg-ressortnavi-button" href="http://t3n.de/tag/design">Alle News zu Design</a></div>
+						</div>
+					</li>
+									<li>
+						<a class="openDropdown tg-ressortnavi-header" href="http://t3n.de/tag/marketing">Marketing<i class="icon-angle-down"></i></a>
+						<div class='headTopicsDropdown'>
+							<!-- show last 4 articles -->
+							<div class='headTopicsDropdownInner'>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/bild-adblocker-erfolgreich-653483/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-653483_adblock-plus-bild_small.jpg" alt="Bild will Adblocker-Rate deutlich gesenkt haben" width="205" height="105">
+												<strong>Bild will Adblocker-Rate deutlich gesenkt haben</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/mobilegeddon-overlays-653377/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-653377_google-update-21-april_small.jpg" alt="Mobilegeddon: Google straft Vollbild-Overlays ab" width="205" height="105">
+												<strong>Mobilegeddon: Google straft Vollbild-Overlays ab</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/preisfindung-produktlaunch-652776/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-652776_preisfindung-produktlaunch_small.jpg" alt="So findest du den perfekten Preis für dein Produkt" width="205" height="105">
+												<strong>So findest du den perfekten Preis für dein Produkt</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/twitter-herzen-favs-gefaellt-mir-653242/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-653242_Bildschirmfoto-2015-06-19-um-16.20.02_small.jpg" alt="„Fuck You“ – Wie Twitter-Nutzer auf die neue Gefällt-mir-Funktion reagieren" width="205" height="105">
+												<strong>„Fuck You“ – Wie Twitter-Nutzer auf die neue Gefällt-mir-Funktion reagieren</strong>
+											</a>
+										</header>
+									</article>
+															</div>
+							<!-- link to ressort -->
+							<div class="headTopicsLink"><a class="button button--red tg-ressortnavi-button" href="http://t3n.de/tag/marketing">Alle News zu Marketing</a></div>
+						</div>
+					</li>
+									<li>
+						<a class="openDropdown tg-ressortnavi-header" href="http://t3n.de/tag/e-commerce">E-Commerce<i class="icon-angle-down"></i></a>
+						<div class='headTopicsDropdown'>
+							<!-- show last 4 articles -->
+							<div class='headTopicsDropdownInner'>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/e-commerce-news-pinterest-gibt-654207/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-654207_t3n__E-Commerce-News_B_Featured-Image_small.jpg" alt="E-Commerce-News: Pinterest gibt Gas – nach den Buyable Pins soll der eigene Shop folgen" width="205" height="105">
+												<strong>E-Commerce-News: Pinterest gibt Gas – nach den Buyable Pins soll der eigene Shop folgen</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/amazon-prime-music-deutschland-653457/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-653457_Amazon-Prime-Music-Deutschland_small.jpg" alt="Amazon startet Musikflatrate Prime Music in Deutschland" width="205" height="105">
+												<strong>Amazon startet Musikflatrate Prime Music in Deutschland</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/google-ab-2017-produkte-drohnen-653052/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-653052_drohnen-alphabet-google-x-wing_small.jpg" alt="Google will ab 2017 Produkte mit Drohnen ausliefern" width="205" height="105">
+												<strong>Google will ab 2017 Produkte mit Drohnen ausliefern</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/amazon-books-buchladen-652864/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-652864_Amazon-erster-Buchladen-Geekwire-2015-11-03-um-10.29.26_small.jpg" alt="Amazon Books: Ein Rundgang durch Amazons ersten Buchladen" width="205" height="105">
+												<strong>Amazon Books: Ein Rundgang durch Amazons ersten Buchladen</strong>
+											</a>
+										</header>
+									</article>
+															</div>
+							<!-- link to ressort -->
+							<div class="headTopicsLink"><a class="button button--red tg-ressortnavi-button" href="http://t3n.de/tag/e-commerce">Alle News zu E-Commerce</a></div>
+						</div>
+					</li>
+									<li>
+						<a class="openDropdown tg-ressortnavi-header" href="http://t3n.de/tag/startups">Startups<i class="icon-angle-down"></i></a>
+						<div class='headTopicsDropdown'>
+							<!-- show last 4 articles -->
+							<div class='headTopicsDropdownInner'>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/club-der-einhoerner-infografik-654360/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-654360_einhorn-club-der-einhoerner_small.jpg" alt="Der Club der Einhörner explodiert: Schon mehr als 60 neue Milliarden-Dollar-Startups in diesem Jahr [Infografik]" width="205" height="105">
+												<strong>Der Club der Einhörner explodiert: Schon mehr als 60 neue Milliarden-Dollar-Startups in diesem Jahr [Infografik]</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/leanlab-hannover-startup-gruendung-653172/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-653172_inhaltsbild_leanlab_hannover_2_small.jpg" alt="LeanLab Hannover: In Rekordgeschwindigkeit zum Startup [Sponsored Event]" width="205" height="105">
+												<strong>LeanLab Hannover: In Rekordgeschwindigkeit zum Startup [Sponsored Event]</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/internet-equity-telekom-652719/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-652719_internet_for_equity_telekom_hoettges_small.jpg" alt="Zerstören, was verbindet! So genial ist die neue Startup-Strategie der Telekom [Glosse]" width="205" height="105">
+												<strong>Zerstören, was verbindet! So genial ist die neue Startup-Strategie der Telekom [Glosse]</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/kickstarter-meilensteine-2015-653680/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-653680_kickstarter_small.jpg" alt="Was du schon immer über Kickstarter wissen wolltest – diese Webseite verrät es dir" width="205" height="105">
+												<strong>Was du schon immer über Kickstarter wissen wolltest – diese Webseite verrät es dir</strong>
+											</a>
+										</header>
+									</article>
+															</div>
+							<!-- link to ressort -->
+							<div class="headTopicsLink"><a class="button button--red tg-ressortnavi-button" href="http://t3n.de/tag/startups">Alle News zu Startups</a></div>
+						</div>
+					</li>
+									<li>
+						<a class="openDropdown tg-ressortnavi-header" href="http://t3n.de/tag/software">Software<i class="icon-angle-down"></i></a>
+						<div class='headTopicsDropdown'>
+							<!-- show last 4 articles -->
+							<div class='headTopicsDropdownInner'>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/wordpress-joomla-drupal-cms-updates-oktober-652422/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-652422_cms-update-featured-1_small.jpg" alt="WordPress, Joomla!, Drupal und Co.: Die wichtigsten Updates für die wichtigsten CMS (Oktober)" width="205" height="105">
+												<strong>WordPress, Joomla!, Drupal und Co.: Die wichtigsten Updates für die wichtigsten CMS (Oktober)</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/youtube-google-vr-modus-fuer-654048/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-654048_cardboard_small.jpg" alt="YouTube: Google bringt VR-Modus für alle Videos" width="205" height="105">
+												<strong>YouTube: Google bringt VR-Modus für alle Videos</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/music-stories-facebook-spielt-653993/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-653993_facebook-musicstories_small.jpg" alt="„Music Stories“: Facebook spielt Clips von Spotify und iTunes im News Feed ab" width="205" height="105">
+												<strong>„Music Stories“: Facebook spielt Clips von Spotify und iTunes im News Feed ab</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/links-schneller-teilen-hat-skype-653584/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-653584_skype-social_small.jpg" alt="Links schneller teilen: Jetzt hat auch Skype einen Share-Button" width="205" height="105">
+												<strong>Links schneller teilen: Jetzt hat auch Skype einen Share-Button</strong>
+											</a>
+										</header>
+									</article>
+															</div>
+							<!-- link to ressort -->
+							<div class="headTopicsLink"><a class="button button--red tg-ressortnavi-button" href="http://t3n.de/tag/software">Alle News zu Software</a></div>
+						</div>
+					</li>
+									<li>
+						<a class="openDropdown tg-ressortnavi-header" href="http://t3n.de/tag/infrastruktur">Infrastruktur<i class="icon-angle-down"></i></a>
+						<div class='headTopicsDropdown'>
+							<!-- show last 4 articles -->
+							<div class='headTopicsDropdownInner'>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/tech-branche-2020-idc-studie-654148/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-654148_tech-branche-2020_small.jpg" alt="Was die Tech-Branche bis 2020 erwartet, sagt dir diese IDC-Studie" width="205" height="105">
+												<strong>Was die Tech-Branche bis 2020 erwartet, sagt dir diese IDC-Studie</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/atlassian-summit-2015-highlights-654111/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-654111_atlassian-summit-2015-hero1_small.jpg" alt="Jira, Confluence und Co: Die Neuerungen des Atlassian Summit 2015 im Überblick" width="205" height="105">
+												<strong>Jira, Confluence und Co: Die Neuerungen des Atlassian Summit 2015 im Überblick</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/corehub-kompromittiert-botnetz-653943/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-653943_corehub-hero_small.jpg" alt="COREhub kompromittiert: Botnetz versendet Phishing-Mails an Kunden" width="205" height="105">
+												<strong>COREhub kompromittiert: Botnetz versendet Phishing-Mails an Kunden</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/cloud-microsoft-red-hat-653658/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-653658_american-dream_small.jpg" alt="Alles für die Cloud: Microsoft kooperiert mit Red Hat" width="205" height="105">
+												<strong>Alles für die Cloud: Microsoft kooperiert mit Red Hat</strong>
+											</a>
+										</header>
+									</article>
+															</div>
+							<!-- link to ressort -->
+							<div class="headTopicsLink"><a class="button button--red tg-ressortnavi-button" href="http://t3n.de/tag/infrastruktur">Alle News zu Infrastruktur</a></div>
+						</div>
+					</li>
+									<li>
+						<a class="openDropdown tg-ressortnavi-header" href="http://t3n.de/tag/karriere">Karriere<i class="icon-angle-down"></i></a>
+						<div class='headTopicsDropdown'>
+							<!-- show last 4 articles -->
+							<div class='headTopicsDropdownInner'>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/kuriose-kuendigungsgruende-614940/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-614940_kuriose-kuendigungsgruende-teaser_small.jpg" alt="8 kuriose Kündigungsgründe: Selber Schuld, oder etwa nicht?" width="205" height="105">
+												<strong>8 kuriose Kündigungsgründe: Selber Schuld, oder etwa nicht?</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/team-google-manager-653727/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-653727_team_64660_small.jpg" alt="Google zeigt dir, wie du ein besserer Manager werden kannst" width="205" height="105">
+												<strong>Google zeigt dir, wie du ein besserer Manager werden kannst</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/vorstellungsgespraech-haenden-653700/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-653700_vorstellungsgesprach_small.jpg" alt="Jede Geste zählt: Was du beim Vorstellungsgespräch mit deinen Händen machen solltest" width="205" height="105">
+												<strong>Jede Geste zählt: Was du beim Vorstellungsgespräch mit deinen Händen machen solltest</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/fehler-job-machst-beste-daraus-653382/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-653382_fehler-im-job-aergern_small.jpg" alt="Fehler im Job: So machst du das Beste daraus" width="205" height="105">
+												<strong>Fehler im Job: So machst du das Beste daraus</strong>
+											</a>
+										</header>
+									</article>
+															</div>
+							<!-- link to ressort -->
+							<div class="headTopicsLink"><a class="button button--red tg-ressortnavi-button" href="http://t3n.de/tag/karriere">Alle News zu Karriere</a></div>
+						</div>
+					</li>
+									<li>
+						<a class="openDropdown tg-ressortnavi-header" href="http://t3n.de/tag/hardware">Hardware<i class="icon-angle-down"></i></a>
+						<div class='headTopicsDropdown'>
+							<!-- show last 4 articles -->
+							<div class='headTopicsDropdownInner'>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/apple-tv-4-e-commerce-games-films-654115/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-654115_Apple-TV-4-Remote-Hand_MainMenu-Movies-PRINT_small.jpg" alt="Apple TV 4: Der lange Marsch ins Wohnzimmer nähert sich dem Ziel" width="205" height="105">
+												<strong>Apple TV 4: Der lange Marsch ins Wohnzimmer nähert sich dem Ziel</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/fairphone-2-fairer-produziertes-653789/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-653789_fairphone-2-hands-on-8623_small.jpg" alt="Fairphone 2: Fairer produziertes und selbst zerlegbares Smartphone im Hands-On" width="205" height="105">
+												<strong>Fairphone 2: Fairer produziertes und selbst zerlegbares Smartphone im Hands-On</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/iphone-apple-4-zoll-653624/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-653624_iphone-6s-hero_small.jpg" alt="Gegen den Trend: Apple bringt neues iPhone mit kleinerem Display, sagt Analyst" width="205" height="105">
+												<strong>Gegen den Trend: Apple bringt neues iPhone mit kleinerem Display, sagt Analyst</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/canon-3d-drucker-deutschland-653281/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-653281_projet6000hd-overview_small.jpg" alt="Canon vermarktet ab Januar 2016 3D-Drucker von 3D Systems in Deutschland" width="205" height="105">
+												<strong>Canon vermarktet ab Januar 2016 3D-Drucker von 3D Systems in Deutschland</strong>
+											</a>
+										</header>
+									</article>
+															</div>
+							<!-- link to ressort -->
+							<div class="headTopicsLink"><a class="button button--red tg-ressortnavi-button" href="http://t3n.de/tag/hardware">Alle News zu Hardware</a></div>
+						</div>
+					</li>
+									<li>
+						<a class="openDropdown tg-ressortnavi-header" href="http://t3n.de/tag/digitales-leben">Digitales Leben<i class="icon-angle-down"></i></a>
+						<div class='headTopicsDropdown'>
+							<!-- show last 4 articles -->
+							<div class='headTopicsDropdownInner'>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/fussball-bundesliga-instagram-check-652447/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-652447_Bildschirmfoto-2015-11-06-um-14.59.10_small.jpg" alt="Fußball-Bundesliga: Alle 18 Erstligisten im großen Instagram-Check" width="205" height="105">
+												<strong>Fußball-Bundesliga: Alle 18 Erstligisten im großen Instagram-Check</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/10-beliebtesten-artikel-woche-88-654209/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-654209_t3n_FeaturedImage_Top10_A_Photocase_MMchen_small.jpg" alt="Die 10 beliebtesten Artikel der Woche: Selbstinszenierung bis zum Burnout und die besten Google-Alternativen" width="205" height="105">
+												<strong>Die 10 beliebtesten Artikel der Woche: Selbstinszenierung bis zum Burnout und die besten Google-Alternativen</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/instagram-essena-o-neill-burnout-653117/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-653117_essena-o-neill-instagram-teaser_small.jpg" alt="Selbstinszenierung bis zum Burnout: Instagramerin Essena will keine Social-Media-Ikone mehr sein" width="205" height="105">
+												<strong>Selbstinszenierung bis zum Burnout: Instagramerin Essena will keine Social-Media-Ikone mehr sein</strong>
+											</a>
+										</header>
+									</article>
+																	<article class='DropdownItem'>
+										<header>
+											<a class="tg-ressortnavi-article" href="http://t3n.de/news/abschaffung-netzneutralitaet-652569/">
+												<img class="js-lazyload-img" data-original="http://t3n.sc/uploads/t3n-news-post-652569_eu-europa-shutterstock_253692781_small.jpg" alt="Abschaffung der Netzneutralität: Die EU-Länder wollen das Internet zähmen [Kolumne]" width="205" height="105">
+												<strong>Abschaffung der Netzneutralität: Die EU-Länder wollen das Internet zähmen [Kolumne]</strong>
+											</a>
+										</header>
+									</article>
+															</div>
+							<!-- link to ressort -->
+							<div class="headTopicsLink"><a class="button button--red tg-ressortnavi-button" href="http://t3n.de/tag/digitales-leben">Alle News zu Digitales Leben</a></div>
+						</div>
+					</li>
+							</ul>
+			</div>
+</div>
+
+</div>
+
+
+	<div id="adbContentFlashWrapper">
+		<div id="Ads_BA_FLB" class="adbContentFlash abContent">
+			<script>Ads_BA_AD('FLB');</script>
+		</div>
+	</div>
+
+
+
+<div id="stage" class="wide cf">
+	<div class="OUTBRAIN" data-widget-type="hp" data-fbk="T3NHOP" data-src="http://t3n.de/" data-widget-id="HOP" data-ob-template="t3nde"></div>
+<script type="text/javascript" async="async" src="http://widgets.outbrain.com/outbrain.js"></script>
+<div class="cf">
+	<div class="content js-topnews-compare">
+                        <div class="newsStreamHeadline">Neueste Artikel</div>
+		<div class="content" data-vr-zone="News Stream 2">
+				<article
+		class="listView"  data-vr-contentbox="">
+		<header>
+											<h2>
+					<a id="headline-652447" href="http://t3n.de/news/fussball-bundesliga-instagram-check-652447/">
+                        Fußball-Bundesliga: Alle 18 Erstligisten im großen Instagram-Check
+                    </a>
+				</h2>
+					</header>
+
+		<div class="listViewImage">
+									<a href="http://t3n.de/news/fussball-bundesliga-instagram-check-652447/"
+			   id="headline-652447-img">
+									<img src="http://t3n.sc/uploads/t3n-news-post-652447_Bildschirmfoto-2015-11-06-um-14.59.10_small.jpg" width="205" height="115" alt="" title=""></a>
+
+						</div>
+
+		<p>
+
+			 Viele Fußball-Vereine sind längst zu Medienhäusern geworden. Der Grund liegt auf der Hand: Mit der liebsten Sportart der Deutschen verfügen sie über hoch attraktive Inhalte, die sie auf eigenen …							<a href="http://t3n.de/news/fussball-bundesliga-instagram-check-652447/" id="headline-652447-more"
+				   rel="nofollow">»
+					weiterlesen</a>
+
+		</p>
+
+				<footer role="contentinfo">
+							<div class="socialIconsList">
+					<a class="button button--light button--orange tg-socialcomments-homepagelistview" href="http://t3n.de/news/fussball-bundesliga-instagram-check-652447/#comments" title="Kommentare"><i class="icon-comments"></i></a>
+					<a class="button button--light button--blue tg-socialfacebook-homepagelistview" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ft3n.de%2Fnews%2Ffussball-bundesliga-instagram-check-652447%2F%26utm_source%3Dfacebook.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;amp;t=Fu%C3%9Fball-Bundesliga%3A+Alle+18+Erstligisten+im+gro%C3%9Fen+Instagram-Check" rel="popup" title="like me!"><i class="icon-facebook icon-white"></i></a>
+					<a class="button button--light button--cyan tg-socialtwitter-homepagelistview" href="http://twitter.com/intent/tweet?related=t3n&amp;text=Fu%C3%9Fball-Bundesliga%3A+Alle+18+Erstligisten+im+gro%C3%9Fen+Instagram-Check&amp;url=http%3A%2F%2Ft3n.de%2Fnews%2Ffussball-bundesliga-instagram-check-652447%2F%3Futm_source%3Dtwitter.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;via=t3n&amp;lang=de" rel="popup" title="tweet me!"><i class="icon-twitter icon-white"></i></a>
+					<a class="button button--light button--turquoise tg-socialxing-homepagelistview" href="https://www.xing.com/spi/shares/new?url=http%3A%2F%2Ft3n.de%2Fnews%2Ffussball-bundesliga-instagram-check-652447%2F&amp;utm_source=xing.com&amp;utm_medium=social&amp;utm_campaign=social-buttons&amp;button_style=rectangle-right_counter&amp;follow_url=https%3A%2F%2Fwww.xing.com%2Fnews%2Fpages%2Ft3n-magazin-67" rel="popup" title="share me!"><i class="icon-xing icon-white"></i></a>
+					<small class="socialReactions">102 Reaktionen</small>
+									</div>
+								</footer>
+	</article>
+	<article
+		class="listView"  data-vr-contentbox="">
+		<header>
+											<h2>
+					<a id="headline-654209" href="http://t3n.de/news/10-beliebtesten-artikel-woche-88-654209/">
+                        Die 10 beliebtesten Artikel der Woche: Selbstinszenierung bis zum Burnout und die besten Google-Alternativen
+                    </a>
+				</h2>
+					</header>
+
+		<div class="listViewImage">
+									<a href="http://t3n.de/news/10-beliebtesten-artikel-woche-88-654209/"
+			   id="headline-654209-img">
+									<img src="http://t3n.sc/uploads/t3n-news-post-654209_t3n_FeaturedImage_Top10_A_Photocase_MMchen_small.jpg" width="205" height="115" alt="" title=""></a>
+
+						</div>
+
+		<p>
+
+			 Auch diese Woche haben wir euch wieder die Artikel zusammengestellt, die besonders viel Interesse geweckt haben. Dieses Mal unter anderem dabei: Die „Selbstinszenierung bis zum Burnout“ auf …							<a href="http://t3n.de/news/10-beliebtesten-artikel-woche-88-654209/" id="headline-654209-more"
+				   rel="nofollow">»
+					weiterlesen</a>
+
+		</p>
+
+				<footer role="contentinfo">
+							<div class="socialIconsList">
+					<a class="button button--light button--orange tg-socialcomments-homepagelistview" href="http://t3n.de/news/10-beliebtesten-artikel-woche-88-654209/#comments" title="Kommentare"><i class="icon-comments"></i></a>
+					<a class="button button--light button--blue tg-socialfacebook-homepagelistview" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ft3n.de%2Fnews%2F10-beliebtesten-artikel-woche-88-654209%2F%26utm_source%3Dfacebook.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;amp;t=Die+10+beliebtesten+Artikel+der+Woche%3A+Selbstinszenierung+bis+zum+Burnout+und+die+besten+Google-Alternativen" rel="popup" title="like me!"><i class="icon-facebook icon-white"></i></a>
+					<a class="button button--light button--cyan tg-socialtwitter-homepagelistview" href="http://twitter.com/intent/tweet?related=t3n&amp;text=Die+10+beliebtesten+Artikel+der+Woche%3A+Selbstinszenierung+bis+zum+Burnout+und+die+besten+Google-Alternativen&amp;url=http%3A%2F%2Ft3n.de%2Fnews%2F10-beliebtesten-artikel-woche-88-654209%2F%3Futm_source%3Dtwitter.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;via=t3n&amp;lang=de" rel="popup" title="tweet me!"><i class="icon-twitter icon-white"></i></a>
+					<a class="button button--light button--turquoise tg-socialxing-homepagelistview" href="https://www.xing.com/spi/shares/new?url=http%3A%2F%2Ft3n.de%2Fnews%2F10-beliebtesten-artikel-woche-88-654209%2F&amp;utm_source=xing.com&amp;utm_medium=social&amp;utm_campaign=social-buttons&amp;button_style=rectangle-right_counter&amp;follow_url=https%3A%2F%2Fwww.xing.com%2Fnews%2Fpages%2Ft3n-magazin-67" rel="popup" title="share me!"><i class="icon-xing icon-white"></i></a>
+					<small class="socialReactions">58 Reaktionen</small>
+									</div>
+								</footer>
+	</article>
+	<article
+		class="listView"  data-vr-contentbox="">
+		<header>
+											<h2>
+					<a id="headline-652422" href="http://t3n.de/news/wordpress-joomla-drupal-cms-updates-oktober-652422/">
+                        WordPress, Joomla!, Drupal und Co.: Die wichtigsten Updates für die wichtigsten CMS (Oktober)
+                    </a>
+				</h2>
+					</header>
+
+		<div class="listViewImage">
+									<a href="http://t3n.de/news/wordpress-joomla-drupal-cms-updates-oktober-652422/"
+			   id="headline-652422-img">
+									<img src="http://t3n.sc/uploads/t3n-news-post-652422_cms-update-featured-1_small.jpg" width="205" height="115" alt="cms" title="cms"></a>
+
+						</div>
+
+		<p>
+
+			 Bei den großen <a class="contentTagLink" title="Weitere News zu CMS" href="http://t3n.de/tag/cms">CMS</a> gibt es regelmäßig Updates, die neue Funktionen liefern oder Sicherheitslücken schließen. Die wichtigsten Updates aus dem Monat Oktober stellen wir euch hier kurz vor.							<a href="http://t3n.de/news/wordpress-joomla-drupal-cms-updates-oktober-652422/" id="headline-652422-more"
+				   rel="nofollow">»
+					weiterlesen</a>
+
+		</p>
+
+				<footer role="contentinfo">
+							<div class="socialIconsList">
+					<a class="button button--light button--orange tg-socialcomments-homepagelistview" href="http://t3n.de/news/wordpress-joomla-drupal-cms-updates-oktober-652422/#comments" title="Kommentare"><i class="icon-comments"></i></a>
+					<a class="button button--light button--blue tg-socialfacebook-homepagelistview" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ft3n.de%2Fnews%2Fwordpress-joomla-drupal-cms-updates-oktober-652422%2F%26utm_source%3Dfacebook.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;amp;t=WordPress%2C+Joomla%21%2C+Drupal+und+Co.%3A+Die+wichtigsten+Updates+f%C3%BCr+die+wichtigsten+CMS+%28Oktober%29" rel="popup" title="like me!"><i class="icon-facebook icon-white"></i></a>
+					<a class="button button--light button--cyan tg-socialtwitter-homepagelistview" href="http://twitter.com/intent/tweet?related=t3n&amp;text=WordPress%2C+Joomla%21%2C+Drupal+und+Co.%3A+Die+wichtigsten+Updates+f%C3%BCr+die+wichtigsten+CMS+%28Oktober%29&amp;url=http%3A%2F%2Ft3n.de%2Fnews%2Fwordpress-joomla-drupal-cms-updates-oktober-652422%2F%3Futm_source%3Dtwitter.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;via=t3n&amp;lang=de" rel="popup" title="tweet me!"><i class="icon-twitter icon-white"></i></a>
+					<a class="button button--light button--turquoise tg-socialxing-homepagelistview" href="https://www.xing.com/spi/shares/new?url=http%3A%2F%2Ft3n.de%2Fnews%2Fwordpress-joomla-drupal-cms-updates-oktober-652422%2F&amp;utm_source=xing.com&amp;utm_medium=social&amp;utm_campaign=social-buttons&amp;button_style=rectangle-right_counter&amp;follow_url=https%3A%2F%2Fwww.xing.com%2Fnews%2Fpages%2Ft3n-magazin-67" rel="popup" title="share me!"><i class="icon-xing icon-white"></i></a>
+					<small class="socialReactions">165 Reaktionen</small>
+									</div>
+								</footer>
+	</article>
+							<div id="Ads_BA_CAD2" class="gasListView">
+								<div id="label-for-Ads_BA_CAD2" class="ad-label ad-start">Anzeige</div>
+								<script type="text/javascript">Ads_BA_AD('CAD2');</script>
+							</div>
+								<article
+		class="listView"  data-vr-contentbox="">
+		<header>
+											<h2>
+					<a id="headline-654360" href="http://t3n.de/news/club-der-einhoerner-infografik-654360/">
+                        Der Club der Einhörner explodiert: Schon mehr als 60 neue Milliarden-Dollar-Startups in diesem Jahr [Infografik]
+                    </a>
+				</h2>
+					</header>
+
+		<div class="listViewImage">
+									<a href="http://t3n.de/news/club-der-einhoerner-infografik-654360/"
+			   id="headline-654360-img">
+									<img src="http://t3n.sc/uploads/t3n-news-post-654360_einhorn-club-der-einhoerner_small.jpg" width="205" height="115" alt="club der einhörner" title="club der einhörner"></a>
+
+						</div>
+
+		<p>
+
+			 <a class="contentTagLink" title="Weitere News zu Startups" href="http://t3n.de/tag/startups">Startups</a>, die mindestens eine Milliarde US-Dollar wert sein sollen, gibt es inzwischen einige. Eine neue <a class="contentTagLink" title="Weitere News zu Infografik" href="http://t3n.de/tag/infografik">Infografik</a> zeigt jetzt jedoch: Es werden immer mehr im Club der Einhörner.							<a href="http://t3n.de/news/club-der-einhoerner-infografik-654360/" id="headline-654360-more"
+				   rel="nofollow">»
+					weiterlesen</a>
+
+		</p>
+
+				<footer role="contentinfo">
+							<div class="socialIconsList">
+					<a class="button button--light button--orange tg-socialcomments-homepagelistview" href="http://t3n.de/news/club-der-einhoerner-infografik-654360/#comments" title="Kommentare"><i class="icon-comments"></i></a>
+					<a class="button button--light button--blue tg-socialfacebook-homepagelistview" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ft3n.de%2Fnews%2Fclub-der-einhoerner-infografik-654360%2F%26utm_source%3Dfacebook.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;amp;t=Der+Club+der+Einh%C3%B6rner+explodiert%3A+Schon+mehr+als+60+neue+Milliarden-Dollar-Startups+in+diesem+Jahr+%5BInfografik%5D" rel="popup" title="like me!"><i class="icon-facebook icon-white"></i></a>
+					<a class="button button--light button--cyan tg-socialtwitter-homepagelistview" href="http://twitter.com/intent/tweet?related=t3n&amp;text=Der+Club+der+Einh%C3%B6rner+explodiert%3A+Schon+mehr+als+60+neue+Milliarden-Dollar-Startups+in+diesem+Jahr+%5BInfografik%5D&amp;url=http%3A%2F%2Ft3n.de%2Fnews%2Fclub-der-einhoerner-infografik-654360%2F%3Futm_source%3Dtwitter.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;via=t3n&amp;lang=de" rel="popup" title="tweet me!"><i class="icon-twitter icon-white"></i></a>
+					<a class="button button--light button--turquoise tg-socialxing-homepagelistview" href="https://www.xing.com/spi/shares/new?url=http%3A%2F%2Ft3n.de%2Fnews%2Fclub-der-einhoerner-infografik-654360%2F&amp;utm_source=xing.com&amp;utm_medium=social&amp;utm_campaign=social-buttons&amp;button_style=rectangle-right_counter&amp;follow_url=https%3A%2F%2Fwww.xing.com%2Fnews%2Fpages%2Ft3n-magazin-67" rel="popup" title="share me!"><i class="icon-xing icon-white"></i></a>
+					<small class="socialReactions">167 Reaktionen</small>
+									</div>
+								</footer>
+	</article>
+	<article
+		class="listView"  data-vr-contentbox="">
+		<header>
+											<h2>
+					<a id="headline-654208" href="http://t3n.de/news/shutterstock-beliebtesten-farben-2015-654208/">
+                        Inspiration gesucht? Die beliebtesten Farben aus 2015
+                    </a>
+				</h2>
+					</header>
+
+		<div class="listViewImage">
+									<a href="http://t3n.de/news/shutterstock-beliebtesten-farben-2015-654208/"
+			   id="headline-654208-img">
+									<img src="http://t3n.sc/uploads/t3n-news-post-654208_die-beliebtesten-Farben-shutterstock_small.jpg" width="205" height="115" alt="farben" title="farben"></a>
+
+						</div>
+
+		<p>
+
+			2015 war ein gutes Jahr für Blau und Grün – sagt zumindest Shutterstock: Der Fotodienst hat die beliebtesten Farben des Jahres ausgewertet.							<a href="http://t3n.de/news/shutterstock-beliebtesten-farben-2015-654208/" id="headline-654208-more"
+				   rel="nofollow">»
+					weiterlesen</a>
+
+		</p>
+
+				<footer role="contentinfo">
+							<div class="socialIconsList">
+					<a class="button button--light button--orange tg-socialcomments-homepagelistview" href="http://t3n.de/news/shutterstock-beliebtesten-farben-2015-654208/#comments" title="Kommentare"><i class="icon-comments"></i></a>
+					<a class="button button--light button--blue tg-socialfacebook-homepagelistview" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ft3n.de%2Fnews%2Fshutterstock-beliebtesten-farben-2015-654208%2F%26utm_source%3Dfacebook.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;amp;t=Inspiration+gesucht%3F+Die+beliebtesten+Farben+aus+2015" rel="popup" title="like me!"><i class="icon-facebook icon-white"></i></a>
+					<a class="button button--light button--cyan tg-socialtwitter-homepagelistview" href="http://twitter.com/intent/tweet?related=t3n&amp;text=Inspiration+gesucht%3F+Die+beliebtesten+Farben+aus+2015&amp;url=http%3A%2F%2Ft3n.de%2Fnews%2Fshutterstock-beliebtesten-farben-2015-654208%2F%3Futm_source%3Dtwitter.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;via=t3n&amp;lang=de" rel="popup" title="tweet me!"><i class="icon-twitter icon-white"></i></a>
+					<a class="button button--light button--turquoise tg-socialxing-homepagelistview" href="https://www.xing.com/spi/shares/new?url=http%3A%2F%2Ft3n.de%2Fnews%2Fshutterstock-beliebtesten-farben-2015-654208%2F&amp;utm_source=xing.com&amp;utm_medium=social&amp;utm_campaign=social-buttons&amp;button_style=rectangle-right_counter&amp;follow_url=https%3A%2F%2Fwww.xing.com%2Fnews%2Fpages%2Ft3n-magazin-67" rel="popup" title="share me!"><i class="icon-xing icon-white"></i></a>
+					<small class="socialReactions">107 Reaktionen</small>
+									</div>
+								</footer>
+	</article>
+	<article
+		class="listView"  data-vr-contentbox="">
+		<header>
+											<h2>
+					<a id="headline-654207" href="http://t3n.de/news/e-commerce-news-pinterest-gibt-654207/">
+                        E-Commerce-News: Pinterest gibt Gas – nach den Buyable Pins soll der eigene Shop folgen
+                    </a>
+				</h2>
+					</header>
+
+		<div class="listViewImage">
+									<a href="http://t3n.de/news/e-commerce-news-pinterest-gibt-654207/"
+			   id="headline-654207-img">
+									<img src="http://t3n.sc/uploads/t3n-news-post-654207_t3n__E-Commerce-News_B_Featured-Image_small.jpg" width="205" height="115" alt="" title=""></a>
+
+						</div>
+
+		<p>
+
+			 In den E-Commerce-News fassen wir für euch regelmäßig relevante Themen zusammen. Heute mit dabei: Die Paket-Shops von Hermes in Hamburg und <a class="contentTagLink" title="Weitere News zu Pinterest" href="http://t3n.de/tag/pinterest">Pinterests</a> Versuch, mit einem eigenen <a class="contentTagLink" title="Weitere News zu Online-Shop" href="http://t3n.de/tag/online-shop">Shop</a> durchzustarten. 							<a href="http://t3n.de/news/e-commerce-news-pinterest-gibt-654207/" id="headline-654207-more"
+				   rel="nofollow">»
+					weiterlesen</a>
+
+		</p>
+
+				<footer role="contentinfo">
+							<div class="socialIconsList">
+					<a class="button button--light button--orange tg-socialcomments-homepagelistview" href="http://t3n.de/news/e-commerce-news-pinterest-gibt-654207/#comments" title="Kommentare"><i class="icon-comments"></i></a>
+					<a class="button button--light button--blue tg-socialfacebook-homepagelistview" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ft3n.de%2Fnews%2Fe-commerce-news-pinterest-gibt-654207%2F%26utm_source%3Dfacebook.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;amp;t=E-Commerce-News%3A+Pinterest+gibt+Gas+%E2%80%93+nach+den+Buyable+Pins+soll+der+eigene+Shop+folgen" rel="popup" title="like me!"><i class="icon-facebook icon-white"></i></a>
+					<a class="button button--light button--cyan tg-socialtwitter-homepagelistview" href="http://twitter.com/intent/tweet?related=t3n&amp;text=E-Commerce-News%3A+Pinterest+gibt+Gas+%E2%80%93+nach+den+Buyable+Pins+soll+der+eigene+Shop+folgen&amp;url=http%3A%2F%2Ft3n.de%2Fnews%2Fe-commerce-news-pinterest-gibt-654207%2F%3Futm_source%3Dtwitter.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;via=t3n&amp;lang=de" rel="popup" title="tweet me!"><i class="icon-twitter icon-white"></i></a>
+					<a class="button button--light button--turquoise tg-socialxing-homepagelistview" href="https://www.xing.com/spi/shares/new?url=http%3A%2F%2Ft3n.de%2Fnews%2Fe-commerce-news-pinterest-gibt-654207%2F&amp;utm_source=xing.com&amp;utm_medium=social&amp;utm_campaign=social-buttons&amp;button_style=rectangle-right_counter&amp;follow_url=https%3A%2F%2Fwww.xing.com%2Fnews%2Fpages%2Ft3n-magazin-67" rel="popup" title="share me!"><i class="icon-xing icon-white"></i></a>
+					<small class="socialReactions">66 Reaktionen</small>
+									</div>
+								</footer>
+	</article>
+	<article
+		class="listView"  data-vr-contentbox="">
+		<header>
+											<h2>
+					<a id="headline-654148" href="http://t3n.de/news/tech-branche-2020-idc-studie-654148/">
+                        Was die Tech-Branche bis 2020 erwartet, sagt dir diese IDC-Studie
+                    </a>
+				</h2>
+					</header>
+
+		<div class="listViewImage">
+									<a href="http://t3n.de/news/tech-branche-2020-idc-studie-654148/"
+			   id="headline-654148-img">
+									<img src="http://t3n.sc/uploads/t3n-news-post-654148_tech-branche-2020_small.jpg" width="205" height="115" alt="2020" title="2020"></a>
+
+						</div>
+
+		<p>
+
+			 Jedes Jahr erscheinen sie erneut, die Zukunftsprognosen der Marktforschungsunternehmen. Die International Data Corporation blickt mit uns auf die Tech-Branche im Jahr 2020 – und glaubt an starke …							<a href="http://t3n.de/news/tech-branche-2020-idc-studie-654148/" id="headline-654148-more"
+				   rel="nofollow">»
+					weiterlesen</a>
+
+		</p>
+
+				<footer role="contentinfo">
+							<div class="socialIconsList">
+					<a class="button button--light button--orange tg-socialcomments-homepagelistview" href="http://t3n.de/news/tech-branche-2020-idc-studie-654148/#comments" title="Kommentare"><i class="icon-comments"></i></a>
+					<a class="button button--light button--blue tg-socialfacebook-homepagelistview" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ft3n.de%2Fnews%2Ftech-branche-2020-idc-studie-654148%2F%26utm_source%3Dfacebook.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;amp;t=Was+die+Tech-Branche+bis+2020+erwartet%2C+sagt+dir+diese+IDC-Studie" rel="popup" title="like me!"><i class="icon-facebook icon-white"></i></a>
+					<a class="button button--light button--cyan tg-socialtwitter-homepagelistview" href="http://twitter.com/intent/tweet?related=t3n&amp;text=Was+die+Tech-Branche+bis+2020+erwartet%2C+sagt+dir+diese+IDC-Studie&amp;url=http%3A%2F%2Ft3n.de%2Fnews%2Ftech-branche-2020-idc-studie-654148%2F%3Futm_source%3Dtwitter.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;via=t3n&amp;lang=de" rel="popup" title="tweet me!"><i class="icon-twitter icon-white"></i></a>
+					<a class="button button--light button--turquoise tg-socialxing-homepagelistview" href="https://www.xing.com/spi/shares/new?url=http%3A%2F%2Ft3n.de%2Fnews%2Ftech-branche-2020-idc-studie-654148%2F&amp;utm_source=xing.com&amp;utm_medium=social&amp;utm_campaign=social-buttons&amp;button_style=rectangle-right_counter&amp;follow_url=https%3A%2F%2Fwww.xing.com%2Fnews%2Fpages%2Ft3n-magazin-67" rel="popup" title="share me!"><i class="icon-xing icon-white"></i></a>
+					<small class="socialReactions">102 Reaktionen</small>
+									</div>
+								</footer>
+	</article>
+	<article
+		class="listView"  data-vr-contentbox="">
+		<header>
+											<h2>
+					<a id="headline-654115" href="http://t3n.de/news/apple-tv-4-e-commerce-games-films-654115/">
+                        Apple TV 4: Der lange Marsch ins Wohnzimmer nähert sich dem Ziel
+                    </a>
+				</h2>
+					</header>
+
+		<div class="listViewImage">
+									<a href="http://t3n.de/news/apple-tv-4-e-commerce-games-films-654115/"
+			   id="headline-654115-img">
+									<img src="http://t3n.sc/uploads/t3n-news-post-654115_Apple-TV-4-Remote-Hand_MainMenu-Movies-PRINT_small.jpg" width="205" height="115" alt="apple tv" title="apple tv"></a>
+
+						</div>
+
+		<p>
+
+			 Seit Jahren wird gemutmaßt, dass <a class="contentTagLink" title="Weitere News zu Apple" href="http://t3n.de/tag/apple">Apple</a> das Fernsehen neu erfindet. Drei Generationen <a class="contentTagLink" title="Weitere News zu Apple TV" href="http://t3n.de/tag/apple-tv">Apple TV</a> haben diese Vermutung allerdings nicht Wirklichkeit werden lassen. Mit dem neuen Apple TV 4 könnte sich …							<a href="http://t3n.de/news/apple-tv-4-e-commerce-games-films-654115/" id="headline-654115-more"
+				   rel="nofollow">»
+					weiterlesen</a>
+
+		</p>
+
+				<footer role="contentinfo">
+							<div class="socialIconsList">
+					<a class="button button--light button--orange tg-socialcomments-homepagelistview" href="http://t3n.de/news/apple-tv-4-e-commerce-games-films-654115/#comments" title="Kommentare"><i class="icon-comments"></i></a>
+					<a class="button button--light button--blue tg-socialfacebook-homepagelistview" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ft3n.de%2Fnews%2Fapple-tv-4-e-commerce-games-films-654115%2F%26utm_source%3Dfacebook.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;amp;t=Apple+TV+4%3A+Der+lange+Marsch+ins+Wohnzimmer+n%C3%A4hert+sich+dem+Ziel" rel="popup" title="like me!"><i class="icon-facebook icon-white"></i></a>
+					<a class="button button--light button--cyan tg-socialtwitter-homepagelistview" href="http://twitter.com/intent/tweet?related=t3n&amp;text=Apple+TV+4%3A+Der+lange+Marsch+ins+Wohnzimmer+n%C3%A4hert+sich+dem+Ziel&amp;url=http%3A%2F%2Ft3n.de%2Fnews%2Fapple-tv-4-e-commerce-games-films-654115%2F%3Futm_source%3Dtwitter.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;via=t3n&amp;lang=de" rel="popup" title="tweet me!"><i class="icon-twitter icon-white"></i></a>
+					<a class="button button--light button--turquoise tg-socialxing-homepagelistview" href="https://www.xing.com/spi/shares/new?url=http%3A%2F%2Ft3n.de%2Fnews%2Fapple-tv-4-e-commerce-games-films-654115%2F&amp;utm_source=xing.com&amp;utm_medium=social&amp;utm_campaign=social-buttons&amp;button_style=rectangle-right_counter&amp;follow_url=https%3A%2F%2Fwww.xing.com%2Fnews%2Fpages%2Ft3n-magazin-67" rel="popup" title="share me!"><i class="icon-xing icon-white"></i></a>
+					<small class="socialReactions">66 Reaktionen</small>
+									</div>
+								</footer>
+	</article>
+		</div>
+	</div>
+	<aside class="sidebar js-topnews-container" role="complementary">
+
+    <div id="Ads_BA_CAD" class="adbRectangleSidebar abContent">
+        <div id="label-for-Ads_BA_CAD" class="ad-label">Anzeige</div><script type="text/javascript">Ads_BA_AD('CAD');</script>
+    </div>
+
+
+
+
+
+
+	<section class="newsletterbox -SIDEBAR">
+		<div class="newsletterbox__title">
+			Newsletter
+		</div>
+        <p class="newsletterbox__text">Bleibe immer up-to-date. Sichere dir deinen Wissensvorsprung!</p>
+
+		<form action="http://t3n.us1.list-manage.com/subscribe/post?u=367517f69d61ffa782ba141be&amp;id=faba600569" method="post" target="_blank" class="tg-newslettersubmit-sidebar">
+            <input type="hidden" name="SOURCE" value="Formular">
+            <input id="newsletterMailSidebar" type="text" name="EMAIL" placeholder="E-Mail-Adresse" class="newsletterbox__input -SIDEBAR" required>
+            <button type="submit" class="newsletterbox__submit -SIDEBAR">Abonnieren</button>
+		</form>
+	</section>
+
+
+        <div id="Ads_BA_BUT" class="abContent">
+			<div id="label-for-Ads_BA_BUT" class="ad-label">Anzeige</div>
+        	<script>Ads_BA_AD('BUT');</script>
+        </div>
+
+				<script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'></script>
+		<script type='text/javascript'>GS_googleAddAdSenseService("ca-pub-9099290824123989"); GS_googleEnableAllServices();</script>
+		<script type='text/javascript'>GA_googleAddSlot("ca-pub-9099290824123989", "Sidebar2");</script>
+		<script type='text/javascript'>GA_googleFetchAds();</script>
+		<script type='text/javascript'>GA_googleFillSlot("Sidebar2");</script>
+
+		<div class="adb sidebarInner cf">
+						<script src="http://guruads.de/api/view/506427d349795973020000ac,4dac0ed12834570d3d000001,4dac0f1b283457103d000002,4dac0f30283457133d000000,4dac0f432834570c3d000003,4dac0f5e2834570f3d000001,4dac0f6d283457123d000000,4dac0f822834570b3d000003,4dac0f942834570e3d000002"></script>
+			<p class="clear"><a href="https://t3n.de/store/mediadaten" class="btn largeButton tg-werbenbutton-sidebar">Banner jetzt buchen</a></p>
+		</div>
+
+
+		<div class="columnMeta section-headline">Marktplatz</div>
+
+<ul class="thumbList">
+            <li class="clear"><a href="http://t3n.de/marktplatz/entry/xovi-gmbh/" rel="nofollow" class="tg-marktplatz-sidebar">
+			<img src="http://t3n.de/marktplatz/logos/_469_9920f831_thumb.jpg" width="50" height="50" alt=""><strong>Xovi GmbH</strong>SEO, SEM, Online Marketin…<span>50968 Köln</span>        </a></li>
+            <li class=""><a href="http://t3n.de/marktplatz/entry/zeroseven-design-studios/" rel="nofollow" class="tg-marktplatz-sidebar">
+			<img src="http://t3n.de/marktplatz/logos/_226_0dd2c9fd_thumb.jpg" width="50" height="50" alt=""><strong>zeroseven design studios</strong>Beratung und Konzeption, …<span>89073 Ulm</span>        </a></li>
+    </ul>
+
+                                    <div class="js-topnews-widget ranking-container">
+                        <div class="columnMeta section-headline -HIGHLIGHT">Top-5-News des Tages</div>
+
+                        <div class="ranking">
+                                                                <a class="ranking__item tg-beliebtestenews-widget" href="http://t3n.de/news/vorstellungsgespraech-haenden-653700/">
+                                        <div class="ranking__award -FIRST"></div>
+                                        <div class="ranking__text">
+                                            Jede Geste zählt: Was du beim Vorstellungsgespräch mit deinen Händen machen solltest                                        </div>
+                                    </a>
+                                                                        <a class="ranking__item tg-beliebtestenews-widget" href="http://t3n.de/news/kuriose-kuendigungsgruende-614940/">
+                                        <div class="ranking__award -SECOND"></div>
+                                        <div class="ranking__text">
+                                            8 kuriose Kündigungsgründe: Selber Schuld, oder etwa nicht?                                        </div>
+                                    </a>
+                                                                        <a class="ranking__item tg-beliebtestenews-widget" href="http://t3n.de/news/apple-tv-4-e-commerce-games-films-654115/">
+                                        <div class="ranking__award -THIRD"></div>
+                                        <div class="ranking__text">
+                                            Apple TV 4: Der lange Marsch ins Wohnzimmer nähert sich dem Ziel                                        </div>
+                                    </a>
+                                                                        <a class="ranking__item tg-beliebtestenews-widget" href="http://t3n.de/news/stockfotos-kostenlose-qualitative-bilder-539479/">
+                                        <div class="ranking__award -FOURTH"></div>
+                                        <div class="ranking__text">
+                                            Hochglanz und für lau: 11 Seiten, die langweiligen Stockfotos den Kampf ansagen                                        </div>
+                                    </a>
+                                                                        <a class="ranking__item tg-beliebtestenews-widget" href="http://t3n.de/news/internet-equity-telekom-652719/">
+                                        <div class="ranking__award -FIFTH"></div>
+                                        <div class="ranking__text">
+                                            Zerstören, was verbindet! So genial ist die neue Startup-Strategie der Telekom [Glosse]                                        </div>
+                                    </a>
+                                                            </div>
+                    </div>
+                	</aside>
+</div>
+
+	<aside class="contentInner contentDivider noPaddingBottom cf" role="complementary">
+
+		<div class="columnMeta">
+			Kolumnen-Autoren auf t3n.de
+		</div>
+				<div class="frontpage-slider js-frontpage-slider author-slider">
+
+<ul class="thumbList columnAuthor">
+	<li><a href="http://t3n.de/tag/weigerts-world-kolumne" class="tg-column-homepage">
+			<strong>Martin Weigert</strong><img src="//t3n.sc/core/images/column-author/martin-weigert.jpg" width="100" height="100" alt=""><span>Weigerts World</span>		</a></li>
+		<li><a href="http://t3n.de/tag/doppelklick-kolumne" class="tg-column-homepage">
+			<strong>Florian Blaschke</strong><img src="//t3n.sc/core/images/column-author/florian-trotzendorff.jpg" width="100" height="100" alt=""><span>Doppelklick</span>		</a></li>
+		<li><a href="http://t3n.de/tag/luca-analytics-kolumne" class="tg-column-homepage">
+			<strong>Luca Caracciolo</strong><img src="//t3n.sc/core/images/column-author/luca-caracciolo.jpg" width="100" height="100" alt=""><span>Luca Analytics</span>		</a></li>
+		<li><a href="http://t3n.de/tag/e-commerce-fuchs-kolumne" class="tg-column-homepage">
+			<strong>Jochen G. Fuchs</strong><img src="//t3n.sc/core/images/column-author/jochen-g-fuchs.jpg" width="100" height="100" alt=""><span>E-Commerce-Fuchs</span>		</a></li>
+		<li><a href="http://t3n.de/tag/aufgeweckt-kolumne" class="tg-column-homepage">
+			<strong>Andreas Weck</strong><img src="//t3n.sc/core/images/column-author/andreas-weck.jpg" width="100" height="100" alt=""><span>Aufgeweckt</span>		</a></li>
+	</ul>
+
+<ul class="thumbList columnAuthor">
+	<li><a href="http://t3n.de/tag/clued-up-kolumne" class="tg-column-homepage">
+			<strong>Thilo Specht</strong><img src="//t3n.sc/core/images/column-author/thilo-specht.png" width="100" height="100" alt=""><span>Clued up!</span>		</a></li>
+	</ul>
+		</div>
+	</aside>
+
+	<aside class="contentInnerGray noPaddingBottom cf" role="complementary">
+			<div class="columnMeta"><a href="/jobs/">Jobs für Webworker und Entwickler</a> <span class="meta"><a href="/jobs/choose/" class="btn tg-jobschoosebutton-homepage">Job schalten: 30 Tage / 149 €</a></span></div>
+							<div class="frontpage-slider js-frontpage-slider">
+
+<ul class="thumbList columnSet3">
+            <li class="clear"><a href="http://t3n.de/jobs/job/consultant-digital-experience-director-mw/" class="tg-jobs-homepage">
+			<img src="http://t3n.de/jobs/logos/_13162_0dbb216b_thumb.jpg" width="50" height="50" alt=""><strong>Consultant Digital Experience - Directo…</strong><span>40225 Düsseldorf</span>        </a></li>
+            <li class=""><a href="http://t3n.de/jobs/job/frontend-developer-mw-36/" class="tg-jobs-homepage">
+			<img src="http://t3n.de/jobs/logos/_13161_0dbb216b_thumb.jpg" width="50" height="50" alt=""><strong>Frontend Developer (m/w)</strong><span>40225 Düsseldorf</span>        </a></li>
+            <li class="last"><a href="http://t3n.de/jobs/job/content-marketing-redakteur-senior-mw-1/" class="tg-jobs-homepage">
+			<img src="http://t3n.de/jobs/logos/_13160_0dbb216b_thumb.jpg" width="50" height="50" alt=""><strong>Content Marketing Redakteur - Senior (m…</strong><span>40225 Düsseldorf</span>        </a></li>
+            <li class="clear"><a href="http://t3n.de/jobs/job/mediengestalterin-print-und-digital-mitarbeiterin-im-bereich-marketing/" class="tg-jobs-homepage">
+			<img src="http://t3n.de/jobs/logos/_13158_0fdbb45b_thumb.jpg" width="50" height="50" alt=""><strong>Mediengestalter/in Print- und Digital M…</strong><span>21217 Seevetal</span>        </a></li>
+            <li class=""><a href="http://t3n.de/jobs/job/designer-mw/" class="tg-jobs-homepage">
+			<img src="http://t3n.de/jobs/logos/_13157_eabc3427_thumb.jpg" width="50" height="50" alt=""><strong>Designer (m/w)</strong><span>08261 Schöneck/Vogtland</span>        </a></li>
+            <li class="last"><a href="http://t3n.de/jobs/job/frontend-enwickler-mw/" class="tg-jobs-homepage">
+			<img src="http://t3n.de/jobs/logos/_13155_695e0129_thumb.png" width="50" height="50" alt=""><strong>Frontend Enwickler (m/w)</strong><span>80336 München</span>        </a></li>
+    </ul>
+
+<ul class="thumbList columnSet3">
+            <li class="clear"><a href="http://t3n.de/jobs/job/webdeveloper-mw-fur-frontend-und-backendanwendungen/" class="tg-jobs-homepage">
+			<img src="http://t3n.de/jobs/logos/_13156_1f2a8805_thumb.jpg" width="50" height="50" alt=""><strong>Webdeveloper (m/w) für Frontend- und Ba…</strong><span>75334 Straubenhardt</span>        </a></li>
+            <li class=""><a href="http://t3n.de/jobs/job/social-media-agent-mw/" class="tg-jobs-homepage">
+			<img src="http://t3n.de/jobs/logos/_13154_c6cb078a_thumb.jpg" width="50" height="50" alt=""><strong>Social Media Agent (m/w)</strong><span>60329 Frankfurt am Main</span>        </a></li>
+            <li class="last"><a href="http://t3n.de/jobs/job/projekt-manager-account-management-e-commerce-wm/" class="tg-jobs-homepage">
+			<img src="http://t3n.de/jobs/logos/_13153_57525884_thumb.png" width="50" height="50" alt=""><strong>Projekt-Manager - Account Management E-…</strong><span>81541 München</span>        </a></li>
+            <li class="clear"><a href="http://t3n.de/jobs/job/mediengestalter-mw-32/" class="tg-jobs-homepage">
+			<img src="http://t3n.de/jobs/logos/_13152_26e6fa5a_thumb.jpg" width="50" height="50" alt=""><strong>Mediengestalter (m/w)</strong><span>46325 Borken</span>        </a></li>
+            <li class=""><a href="http://t3n.de/jobs/job/wanted-ux-designer-mw-zur-festanstellung/" class="tg-jobs-homepage">
+			<img src="http://t3n.de/jobs/logos/_13139_7da49a17_thumb.jpg" width="50" height="50" alt=""><strong>WANTED: UX-Designer (m/w) zur Festanste…</strong><span>40211 Düsseldorf</span>        </a></li>
+            <li class="last"><a href="http://t3n.de/jobs/job/scrummaster-mw-2/" class="tg-jobs-homepage">
+			<img src="http://t3n.de/jobs/logos/_13151_0f19f563_thumb.jpg" width="50" height="50" alt=""><strong>ScrumMaster (m/w)</strong><span>90344 Nürnberg</span>        </a></li>
+    </ul>
+
+<ul class="thumbList columnSet3">
+            <li class="clear"><a href="http://t3n.de/jobs/job/marketingreferent-e-channel-mw/" class="tg-jobs-homepage">
+			<img src="http://t3n.de/jobs/logos/_13150_5f15b196_thumb.jpg" width="50" height="50" alt=""><strong>Marketingreferent e-Channel (m/w)</strong><span>82049 Pullach bei München</span>        </a></li>
+            <li class=""><a href="http://t3n.de/jobs/job/it-support-engineer-mw-e-commerce/" class="tg-jobs-homepage">
+			<img src="http://t3n.de/jobs/logos/_13149_6aa4e62d_thumb.jpg" width="50" height="50" alt=""><strong>IT Support Engineer (m/w) E-Commerce</strong><span>96224 Burgkunstadt</span>        </a></li>
+            <li class="last"><a href="http://t3n.de/jobs/job/trainee-marketing-data-analyst-mw/" class="tg-jobs-homepage">
+			<img src="http://t3n.de/jobs/logos/_13148_44d1b5b9_thumb.jpg" width="50" height="50" alt=""><strong>Trainee Marketing Data Analyst (m/w)</strong><span>80331 München</span>        </a></li>
+            <li class="clear"><a href="http://t3n.de/jobs/job/head-of-development-wm/" class="tg-jobs-homepage">
+			<img src="http://t3n.de/jobs/logos/_13147_99367017_thumb.jpg" width="50" height="50" alt=""><strong>Head Of Development (w/m)</strong><span>10999 Berlin</span>        </a></li>
+            <li class=""><a href="http://t3n.de/jobs/job/app-senior-developer-architect-mw/" class="tg-jobs-homepage">
+			<img src="http://t3n.de/jobs/logos/_13146_2db80e3c_thumb.jpg" width="50" height="50" alt=""><strong>App Senior Developer / Architect (m/w)</strong><span>1010 Wien, Österreich</span>        </a></li>
+            <li class="last"><a href="http://t3n.de/jobs/job/qualitatsingenieur-in-produkttechnik-connected-infotainment-backend-und-apps-i-dm-29125/" class="tg-jobs-homepage">
+			<img src="http://t3n.de/jobs/logos/_13145_a1574e08_thumb.jpg" width="50" height="50" alt=""><strong>Qualitätsingenieur/-in Produkttechnik c…</strong><span>85045 Ingolstadt</span>        </a></li>
+    </ul>
+			</div>
+
+	</aside>
+
+
+<div class="contentDivider cf">
+	<div class="content" data-vr-zone="News Stream 3">
+			<article
+		class="listView"  data-vr-contentbox="">
+		<header>
+											<h2>
+					<a id="headline-652225" href="http://t3n.de/news/server-deutschland-652225/">
+                        4 überzeugende Gründe, warum Deutschland der beste Standort für deinen Server ist [Sponsored Post]
+                    </a>
+				</h2>
+					</header>
+
+		<div class="listViewImage">
+									<a href="http://t3n.de/news/server-deutschland-652225/"
+			   id="headline-652225-img">
+									<img src="http://t3n.sc/uploads/t3n-news-post-652225_server_deutschland_teaser_small.jpg" width="205" height="115" alt="server deutschland" title="server deutschland"></a>
+
+						</div>
+
+		<p>
+                            <span class="meta">Anzeige</span>
+
+			 Natürlich kann man seine Webseite in der ganzen Welt hosten, aber: Dienstleister wie Agenturen sollten sich vorab informieren, welche Konsequenzen es haben kann, wenn man sich für einen …							<a href="http://t3n.de/news/server-deutschland-652225/" id="headline-652225-more"
+				   rel="nofollow">»
+					weiterlesen</a>
+
+		</p>
+
+				<footer role="contentinfo">
+							<div class="socialIconsList">
+					<a class="button button--light button--orange tg-socialcomments-homepagelistview" href="http://t3n.de/news/server-deutschland-652225/#comments" title="Kommentare"><i class="icon-comments"></i></a>
+					<a class="button button--light button--blue tg-socialfacebook-homepagelistview" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ft3n.de%2Fnews%2Fserver-deutschland-652225%2F%26utm_source%3Dfacebook.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;amp;t=4+%C3%BCberzeugende+Gr%C3%BCnde%2C+warum+Deutschland+der+beste+Standort+f%C3%BCr+deinen+Server+ist+%5BSponsored+Post%5D" rel="popup" title="like me!"><i class="icon-facebook icon-white"></i></a>
+					<a class="button button--light button--cyan tg-socialtwitter-homepagelistview" href="http://twitter.com/intent/tweet?related=t3n&amp;text=4+%C3%BCberzeugende+Gr%C3%BCnde%2C+warum+Deutschland+der+beste+Standort+f%C3%BCr+deinen+Server+ist+%5BSponsored+Post%5D&amp;url=http%3A%2F%2Ft3n.de%2Fnews%2Fserver-deutschland-652225%2F%3Futm_source%3Dtwitter.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;via=t3n&amp;lang=de" rel="popup" title="tweet me!"><i class="icon-twitter icon-white"></i></a>
+					<a class="button button--light button--turquoise tg-socialxing-homepagelistview" href="https://www.xing.com/spi/shares/new?url=http%3A%2F%2Ft3n.de%2Fnews%2Fserver-deutschland-652225%2F&amp;utm_source=xing.com&amp;utm_medium=social&amp;utm_campaign=social-buttons&amp;button_style=rectangle-right_counter&amp;follow_url=https%3A%2F%2Fwww.xing.com%2Fnews%2Fpages%2Ft3n-magazin-67" rel="popup" title="share me!"><i class="icon-xing icon-white"></i></a>
+					<small class="socialReactions">94 Reaktionen</small>
+									</div>
+								</footer>
+	</article>
+	<article
+		class="listView"  data-vr-contentbox="">
+		<header>
+											<h2>
+					<a id="headline-654111" href="http://t3n.de/news/atlassian-summit-2015-highlights-654111/">
+                        Jira, Confluence und Co: Die Neuerungen des Atlassian Summit 2015 im Überblick
+                    </a>
+				</h2>
+					</header>
+
+		<div class="listViewImage">
+									<a href="http://t3n.de/news/atlassian-summit-2015-highlights-654111/"
+			   id="headline-654111-img">
+									<img src="http://t3n.sc/uploads/t3n-news-post-654111_atlassian-summit-2015-hero1_small.jpg" width="205" height="115" alt="atlassian" title="atlassian"></a>
+
+						</div>
+
+		<p>
+
+			 Nicht nur <a class="contentTagLink" title="Weitere News zu Dropbox" href="http://t3n.de/tag/dropbox">Dropbox</a> hat in dieser Woche ein großes <a class="contentTagLink" title="Weitere News zu Veranstaltungen und Events" href="http://t3n.de/tag/veranstaltungen-und-events">Event</a> in <a class="contentTagLink" title="Weitere News zu San Francisco" href="http://t3n.de/tag/san-francisco">San Francisco</a> veranstaltet, sondern auch das australische Unternehmen Atlassian, das unter anderem für Jira und Confluence verantwortlich …							<a href="http://t3n.de/news/atlassian-summit-2015-highlights-654111/" id="headline-654111-more"
+				   rel="nofollow">»
+					weiterlesen</a>
+
+		</p>
+
+				<footer role="contentinfo">
+							<div class="socialIconsList">
+					<a class="button button--light button--orange tg-socialcomments-homepagelistview" href="http://t3n.de/news/atlassian-summit-2015-highlights-654111/#comments" title="Kommentare"><i class="icon-comments"></i></a>
+					<a class="button button--light button--blue tg-socialfacebook-homepagelistview" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ft3n.de%2Fnews%2Fatlassian-summit-2015-highlights-654111%2F%26utm_source%3Dfacebook.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;amp;t=Jira%2C+Confluence+und+Co%3A+Die+Neuerungen+des+Atlassian+Summit+2015+im+%C3%9Cberblick" rel="popup" title="like me!"><i class="icon-facebook icon-white"></i></a>
+					<a class="button button--light button--cyan tg-socialtwitter-homepagelistview" href="http://twitter.com/intent/tweet?related=t3n&amp;text=Jira%2C+Confluence+und+Co%3A+Die+Neuerungen+des+Atlassian+Summit+2015+im+%C3%9Cberblick&amp;url=http%3A%2F%2Ft3n.de%2Fnews%2Fatlassian-summit-2015-highlights-654111%2F%3Futm_source%3Dtwitter.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;via=t3n&amp;lang=de" rel="popup" title="tweet me!"><i class="icon-twitter icon-white"></i></a>
+					<a class="button button--light button--turquoise tg-socialxing-homepagelistview" href="https://www.xing.com/spi/shares/new?url=http%3A%2F%2Ft3n.de%2Fnews%2Fatlassian-summit-2015-highlights-654111%2F&amp;utm_source=xing.com&amp;utm_medium=social&amp;utm_campaign=social-buttons&amp;button_style=rectangle-right_counter&amp;follow_url=https%3A%2F%2Fwww.xing.com%2Fnews%2Fpages%2Ft3n-magazin-67" rel="popup" title="share me!"><i class="icon-xing icon-white"></i></a>
+					<small class="socialReactions">135 Reaktionen</small>
+									</div>
+								</footer>
+	</article>
+							<div id="Ads_BA_TEXT2" class="gasListView">
+								<div id="label-for-Ads_BA_TEXT2" class="ad-label ad-start">Anzeige</div>
+								<script type="text/javascript">Ads_BA_AD('TEXT2');</script>
+							</div>
+							<article
+		class="listView"  data-vr-contentbox="">
+		<header>
+											<h2>
+					<a id="headline-652082" href="http://t3n.de/news/trix-basecamp-neue-652082/">
+                        Trix von Basecamp: Der neue WYSIWYG-Editor für eure Webseite
+                    </a>
+				</h2>
+					</header>
+
+		<div class="listViewImage">
+									<a href="http://t3n.de/news/trix-basecamp-neue-652082/"
+			   id="headline-652082-img">
+									<img src="http://t3n.sc/uploads/t3n-news-post-652082_WYSIWYG-Editor-Trix_small.jpg" width="205" height="115" alt="wysiwyg-editor" title="wysiwyg-editor"></a>
+
+						</div>
+
+		<p>
+
+			 Wer Basecamp kennt, der wird den einfachen und übersichtlichen WYSIWYG-Editor lieben. Damit wir ihn jetzt auch außerhalb von Basecamp einsetzen können, hat Basecamp diesen unter dem Namen Trix …							<a href="http://t3n.de/news/trix-basecamp-neue-652082/" id="headline-652082-more"
+				   rel="nofollow">»
+					weiterlesen</a>
+
+		</p>
+
+				<footer role="contentinfo">
+							<div class="socialIconsList">
+					<a class="button button--light button--orange tg-socialcomments-homepagelistview" href="http://t3n.de/news/trix-basecamp-neue-652082/#comments" title="Kommentare"><i class="icon-comments"></i></a>
+					<a class="button button--light button--blue tg-socialfacebook-homepagelistview" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ft3n.de%2Fnews%2Ftrix-basecamp-neue-652082%2F%26utm_source%3Dfacebook.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;amp;t=Trix+von+Basecamp%3A+Der+neue+WYSIWYG-Editor+f%C3%BCr+eure+Webseite" rel="popup" title="like me!"><i class="icon-facebook icon-white"></i></a>
+					<a class="button button--light button--cyan tg-socialtwitter-homepagelistview" href="http://twitter.com/intent/tweet?related=t3n&amp;text=Trix+von+Basecamp%3A+Der+neue+WYSIWYG-Editor+f%C3%BCr+eure+Webseite&amp;url=http%3A%2F%2Ft3n.de%2Fnews%2Ftrix-basecamp-neue-652082%2F%3Futm_source%3Dtwitter.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;via=t3n&amp;lang=de" rel="popup" title="tweet me!"><i class="icon-twitter icon-white"></i></a>
+					<a class="button button--light button--turquoise tg-socialxing-homepagelistview" href="https://www.xing.com/spi/shares/new?url=http%3A%2F%2Ft3n.de%2Fnews%2Ftrix-basecamp-neue-652082%2F&amp;utm_source=xing.com&amp;utm_medium=social&amp;utm_campaign=social-buttons&amp;button_style=rectangle-right_counter&amp;follow_url=https%3A%2F%2Fwww.xing.com%2Fnews%2Fpages%2Ft3n-magazin-67" rel="popup" title="share me!"><i class="icon-xing icon-white"></i></a>
+					<small class="socialReactions">69 Reaktionen</small>
+									</div>
+								</footer>
+	</article>
+	<article
+		class="listView"  data-vr-contentbox="">
+		<header>
+											<h2>
+					<a id="headline-654048" href="http://t3n.de/news/youtube-google-vr-modus-fuer-654048/">
+                        YouTube: Google bringt VR-Modus für alle Videos
+                    </a>
+				</h2>
+					</header>
+
+		<div class="listViewImage">
+									<a href="http://t3n.de/news/youtube-google-vr-modus-fuer-654048/"
+			   id="headline-654048-img">
+									<img src="http://t3n.sc/uploads/t3n-news-post-654048_cardboard_small.jpg" width="205" height="115" alt="youtube" title="youtube"></a>
+
+						</div>
+
+		<p>
+
+			 Seit Anfang dieses Jahres unterstützt <a class="contentTagLink" title="Weitere News zu YouTube" href="http://t3n.de/tag/youtube">YouTube</a> die Wiedergabe von 360-Grad-Videos. Jetzt hat <a class="contentTagLink" title="Weitere News zu Google" href="http://t3n.de/tag/google">Google</a> zusätzlich den Support von Virtual-Reality-Videos (VR-Video) angekündigt, die in Kombination mit …							<a href="http://t3n.de/news/youtube-google-vr-modus-fuer-654048/" id="headline-654048-more"
+				   rel="nofollow">»
+					weiterlesen</a>
+
+		</p>
+
+				<footer role="contentinfo">
+							<div class="socialIconsList">
+					<a class="button button--light button--orange tg-socialcomments-homepagelistview" href="http://t3n.de/news/youtube-google-vr-modus-fuer-654048/#comments" title="Kommentare"><i class="icon-comments"></i></a>
+					<a class="button button--light button--blue tg-socialfacebook-homepagelistview" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ft3n.de%2Fnews%2Fyoutube-google-vr-modus-fuer-654048%2F%26utm_source%3Dfacebook.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;amp;t=YouTube%3A+Google+bringt+VR-Modus+f%C3%BCr+alle+Videos" rel="popup" title="like me!"><i class="icon-facebook icon-white"></i></a>
+					<a class="button button--light button--cyan tg-socialtwitter-homepagelistview" href="http://twitter.com/intent/tweet?related=t3n&amp;text=YouTube%3A+Google+bringt+VR-Modus+f%C3%BCr+alle+Videos&amp;url=http%3A%2F%2Ft3n.de%2Fnews%2Fyoutube-google-vr-modus-fuer-654048%2F%3Futm_source%3Dtwitter.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;via=t3n&amp;lang=de" rel="popup" title="tweet me!"><i class="icon-twitter icon-white"></i></a>
+					<a class="button button--light button--turquoise tg-socialxing-homepagelistview" href="https://www.xing.com/spi/shares/new?url=http%3A%2F%2Ft3n.de%2Fnews%2Fyoutube-google-vr-modus-fuer-654048%2F&amp;utm_source=xing.com&amp;utm_medium=social&amp;utm_campaign=social-buttons&amp;button_style=rectangle-right_counter&amp;follow_url=https%3A%2F%2Fwww.xing.com%2Fnews%2Fpages%2Ft3n-magazin-67" rel="popup" title="share me!"><i class="icon-xing icon-white"></i></a>
+					<small class="socialReactions">124 Reaktionen</small>
+									</div>
+								</footer>
+	</article>
+	</div>
+
+	<aside class="sidebar" role="complementary">
+		<div class="columnMeta section-headline">Featured Events</div>
+
+<ul class="thumbList">
+            <li class="clear"><a href="https://www.oracle.com/marketingcloud/about/events/modern-marketing-experience/emea.html" rel="nofollow" class="tg-events-homepage">
+			<img src="http://t3n.sc/news/wp-content/uploads/event_pictures/_1446039676.jpg" width="50" height="50" alt=""><strong>Oracle Marketing Cloud, London</strong>17. - 19. November 2015        </a></li>
+            <li class=""><a href="https://www.hub.berlin/de" rel="nofollow" class="tg-events-homepage">
+			<img src="http://t3n.sc/news/wp-content/uploads/event_pictures/_1446042427.jpg" width="50" height="50" alt=""><strong>hub conference, Berlin </strong>10. Dezember 2015        </a></li>
+    </ul>
+
+<ul class="thumbList">
+            <li class="noImage clear"><a href="http://www.ecfi.eu/" rel="nofollow" class="tg-events-homepage">
+			<strong>European Conference on the Future Internet, Hamburg</strong>04. - 07. November 2015        </a></li>
+            <li class="noImage "><a href="http:///www.appathon.eu" rel="nofollow" class="tg-events-homepage">
+			<strong>UniCredit Appathon, München</strong>06. - 08. November 2015        </a></li>
+            <li class="noImage last"><a href="http://www.hackathon-stuttgart.de/" rel="nofollow" class="tg-events-homepage">
+			<strong>Hackathon, Stuttgart</strong>06. - 08. November 2015        </a></li>
+            <li class="noImage clear"><a href="http://project-networks.com/ecom" rel="nofollow" class="tg-events-homepage">
+			<strong>Strategiegipfel B2B E-Commerce &amp; Omnichannel, Berlin</strong>09. - 10. November 2015        </a></li>
+            <li class="noImage "><a href="http://html5-master-class.de/2015/" rel="nofollow" class="tg-events-homepage">
+			<strong>HTML5 MasterClass, Leipzig</strong>9. - 11. November 2015        </a></li>
+            <li class="noImage last"><a href="http://www.tracks-summit.de/" rel="nofollow" class="tg-events-homepage">
+			<strong>TRACKS SUMMIT, Hamburg</strong>11. November 2015        </a></li>
+            <li class="noImage clear"><a href="http://www.conferencegroup.de/kongresse/e-commerce/etailment-2-015" rel="nofollow" class="tg-events-homepage">
+			<strong>etailment 2.015, Frankfurt am Main</strong>11. - 12. November 2015        </a></li>
+            <li class="noImage "><a href="http://berlingamesforum.de/" rel="nofollow" class="tg-events-homepage">
+			<strong>Berlin Games Forum, Berlin</strong>12. - 13. November 2015        </a></li>
+            <li class="noImage last"><a href="http://www.bosch-softtec.com/events.html" rel="nofollow" class="tg-events-homepage">
+			<strong>Bosch UniHackathon, Hildesheim</strong>13. - 14. November 2015        </a></li>
+            <li class="noImage clear"><a href="https://www.bankathon.net/" rel="nofollow" class="tg-events-homepage">
+			<strong>Bankathon, Frankfurt am Main</strong>16. - 18. November 2015        </a></li>
+            <li class="noImage "><a href="http://www.eurofinanceweek.com/konferenzen/donnerstag-19-nov-2015/euro-finance-tech" rel="nofollow" class="tg-events-homepage">
+			<strong>Euro Finance Tech, Frankfurt</strong>19. November 2015        </a></li>
+            <li class="noImage last"><a href="http://yearofthegoat.co/frankfurt/" rel="nofollow" class="tg-events-homepage">
+			<strong>Year of the Goat,  Frankfurt</strong>19. November 2015        </a></li>
+            <li class="noImage clear"><a href="http://ubx.info/konferenz/" rel="nofollow" class="tg-events-homepage">
+			<strong>UBX Konferenz. München</strong>19. November 2015        </a></li>
+    </ul>
+	</aside>
+</div>
+
+
+	<section class="columnSet3 fullColumn contentDivider cf" data-vr-zone="Neue Bildergalerien">
+		<div class="columnMeta"><a href="/news/category/stream/">Neue Bildergalerien</a></div>
+
+					<article class="column" data-vr-contentbox="">
+				<header>
+					<a href="http://t3n.de/news/instagram-essena-o-neill-burnout-653117/essena-oneil-instagram1/" class="tg-galleries-homepage">
+						<img width="283" height="159" src="http://t3n.de/news/wp-content/uploads/2015/11/essena-o-neill-instagram-teaser-283x159.jpg" class="attachment-preview wp-post-image" alt="essena o neill instagram teaser" />					</a>
+
+					<h2>
+						<a href="http://t3n.de/news/instagram-essena-o-neill-burnout-653117/essena-oneil-instagram1/" class="tg-galleries-homepage">Selbstinszenierung bis zum Burnout: Instagramerin Essena will keine…</a>
+					</h2>
+				</header>
+				<span class="small">6 Fotos</span>
+			</article>
+					<article class="column" data-vr-contentbox="">
+				<header>
+					<a href="http://t3n.de/news/nexus-6p-5x-tests-presse-uebersicht-update-649258/nexus-5x-test-engadget/" class="tg-galleries-homepage">
+						<img width="283" height="159" src="http://t3n.de/news/wp-content/uploads/2015/10/nexus-5x-6p-android-6-0-marshmallow-283x159.jpg" class="attachment-preview wp-post-image" alt="nexus 5x-6p-android-6-0-marshmallow" />					</a>
+
+					<h2>
+						<a href="http://t3n.de/news/nexus-6p-5x-tests-presse-uebersicht-update-649258/nexus-5x-test-engadget/" class="tg-galleries-homepage">Nexus 6P &amp; 5X: Das sagt die US-Presse zu den neuen Google-Phones…</a>
+					</h2>
+				</header>
+				<span class="small">5 Fotos</span>
+			</article>
+					<article class="column" data-vr-contentbox="">
+				<header>
+					<a href="http://t3n.de/news/raspbmc-baust-mediaplayer-50-452902/raspbmc_distris/" class="tg-galleries-homepage">
+						<img width="283" height="159" src="http://t3n.de/news/wp-content/uploads/2013/04/raspberrypiteaser-283x159.jpg" class="attachment-preview wp-post-image" alt="raspberrypiteaser" />					</a>
+
+					<h2>
+						<a href="http://t3n.de/news/raspbmc-baust-mediaplayer-50-452902/raspbmc_distris/" class="tg-galleries-homepage">Raspbmc: So baust du einen Mediaplayer für 50 Euro mit Raspberry Pi…</a>
+					</h2>
+				</header>
+				<span class="small">34 Fotos</span>
+			</article>
+			</section>
+
+	<aside class="columnSet3 cf contentDivider">
+		<section class="column" data-vr-zone="Beliebteste News">
+							<div class="columnMeta section-headline">Beliebteste News</div>
+
+				<ol class="sectionRankList">
+											<li data-vr-contentbox=""><a href="http://t3n.de/news/vorstellungsgespraech-haenden-653700/" class="tg-beliebtestenews-homepage"><span class="rank">1</span>
+								<h2>Jede Geste zählt: Was du beim Vorstellungsgespräch mit deinen Händen machen solltest</h2></a></li>
+												<li data-vr-contentbox=""><a href="http://t3n.de/news/kuriose-kuendigungsgruende-614940/" class="tg-beliebtestenews-homepage"><span class="rank">2</span>
+								<h2>8 kuriose Kündigungsgründe: Selber Schuld, oder etwa nicht?</h2></a></li>
+												<li data-vr-contentbox=""><a href="http://t3n.de/news/apple-tv-4-e-commerce-games-films-654115/" class="tg-beliebtestenews-homepage"><span class="rank">3</span>
+								<h2>Apple TV 4: Der lange Marsch ins Wohnzimmer nähert sich dem Ziel</h2></a></li>
+												<li data-vr-contentbox=""><a href="http://t3n.de/news/stockfotos-kostenlose-qualitative-bilder-539479/" class="tg-beliebtestenews-homepage"><span class="rank">4</span>
+								<h2>Hochglanz und für lau: 11 Seiten, die langweiligen Stockfotos den Kampf ansagen</h2></a></li>
+												<li data-vr-contentbox=""><a href="http://t3n.de/news/internet-equity-telekom-652719/" class="tg-beliebtestenews-homepage"><span class="rank">5</span>
+								<h2>Zerstören, was verbindet! So genial ist die neue Startup-Strategie der Telekom [Glosse]</h2></a></li>
+										</ol>
+					</section>
+
+		<div id="Ads_BA_TEXT" class="column">
+			<div id="label-for-Ads_BA_TEXT" class="ad-label ad-start">Anzeige</div>
+			<script type="text/javascript">Ads_BA_AD('TEXT');</script>
+		</div>
+
+		<section class="column columnSmallR" data-vr-zone="Beliebteste Magazin Artikel">
+						<div class="columnMeta section-headline">Beliebteste Magazin Artikel</div>
+
+				<ol class="sectionRankList">
+											<li data-vr-contentbox=""><a href="http://t3n.de/magazin/praxisbericht-scrum-kanban-scrumbuts-agiles-232822/" class="tg-beliebtestemagazinartikel-homepage"><span class="rank">1</span>
+								<h2>Agiles Projektmanagement: Scrum, Kanban und Scrumbuts im Einsatz</h2></a></li>
+												<li data-vr-contentbox=""><a href="http://t3n.de/magazin/entwicklung-ionic-237246/" class="tg-beliebtestemagazinartikel-homepage"><span class="rank">2</span>
+								<h2>App-Entwicklung leicht gemacht: Mit Ionic, AngularJS und ngCordova zur mobilen Applikation</h2></a></li>
+												<li data-vr-contentbox=""><a href="http://t3n.de/magazin/uberblick-cloud-hosting-flexible-datenspeicher-232775/" class="tg-beliebtestemagazinartikel-homepage"><span class="rank">3</span>
+								<h2>Marktübersicht Cloud-Hosting: Die wichtigsten Anbieter im Überblick</h2></a></li>
+												<li data-vr-contentbox=""><a href="http://t3n.de/magazin/serverseitige-javascript-entwicklung-nodejs-einsatz-231152/" class="tg-beliebtestemagazinartikel-homepage"><span class="rank">4</span>
+								<h2>Node.js: Das JavaScript-Framework im Überblick</h2></a></li>
+												<li data-vr-contentbox=""><a href="http://t3n.de/magazin/direktueberweisung-237203/" class="tg-beliebtestemagazinartikel-homepage"><span class="rank">5</span>
+								<h2>Direktüberweisung im Onlinehandel: Das müssen Shop-Betreiber wissen</h2></a></li>
+										</ol>
+					</section>
+	</aside>
+
+<div class="contentDivider cf">
+	<div class="content" data-vr-zone="News Stream 4">
+			<article
+		class="listView"  data-vr-contentbox="">
+		<header>
+											<h2>
+					<a id="headline-614940" href="http://t3n.de/news/kuriose-kuendigungsgruende-614940/">
+                        8 kuriose Kündigungsgründe: Selber Schuld, oder etwa nicht?
+                    </a>
+				</h2>
+					</header>
+
+		<div class="listViewImage">
+									<a href="http://t3n.de/news/kuriose-kuendigungsgruende-614940/"
+			   id="headline-614940-img">
+									<img src="http://t3n.sc/uploads/t3n-news-post-614940_kuriose-kuendigungsgruende-teaser_small.jpg" width="205" height="115" alt="kündigungsgründe" title="kündigungsgründe"></a>
+
+						</div>
+
+		<p>
+
+			Es gibt viele nachvollziehbare Kündigungsgründe – etwa wenn ein Mitarbeiter klaut oder ständig unpünktlich ist. So weit, so verständlich. Aber es gibt auch Fälle, die mindestens verwundern …							<a href="http://t3n.de/news/kuriose-kuendigungsgruende-614940/" id="headline-614940-more"
+				   rel="nofollow">»
+					weiterlesen</a>
+
+		</p>
+
+				<footer role="contentinfo">
+							<div class="socialIconsList">
+					<a class="button button--light button--orange tg-socialcomments-homepagelistview" href="http://t3n.de/news/kuriose-kuendigungsgruende-614940/#comments" title="Kommentare"><i class="icon-comments"></i></a>
+					<a class="button button--light button--blue tg-socialfacebook-homepagelistview" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ft3n.de%2Fnews%2Fkuriose-kuendigungsgruende-614940%2F%26utm_source%3Dfacebook.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;amp;t=8+kuriose+K%C3%BCndigungsgr%C3%BCnde%3A+Selber+Schuld%2C+oder+etwa+nicht%3F" rel="popup" title="like me!"><i class="icon-facebook icon-white"></i></a>
+					<a class="button button--light button--cyan tg-socialtwitter-homepagelistview" href="http://twitter.com/intent/tweet?related=t3n&amp;text=8+kuriose+K%C3%BCndigungsgr%C3%BCnde%3A+Selber+Schuld%2C+oder+etwa+nicht%3F&amp;url=http%3A%2F%2Ft3n.de%2Fnews%2Fkuriose-kuendigungsgruende-614940%2F%3Futm_source%3Dtwitter.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;via=t3n&amp;lang=de" rel="popup" title="tweet me!"><i class="icon-twitter icon-white"></i></a>
+					<a class="button button--light button--turquoise tg-socialxing-homepagelistview" href="https://www.xing.com/spi/shares/new?url=http%3A%2F%2Ft3n.de%2Fnews%2Fkuriose-kuendigungsgruende-614940%2F&amp;utm_source=xing.com&amp;utm_medium=social&amp;utm_campaign=social-buttons&amp;button_style=rectangle-right_counter&amp;follow_url=https%3A%2F%2Fwww.xing.com%2Fnews%2Fpages%2Ft3n-magazin-67" rel="popup" title="share me!"><i class="icon-xing icon-white"></i></a>
+					<small class="socialReactions">147 Reaktionen</small>
+									</div>
+								</footer>
+	</article>
+	<article
+		class="listView"  data-vr-contentbox="">
+		<header>
+											<h2>
+					<a id="headline-653172" href="http://t3n.de/news/leanlab-hannover-startup-gruendung-653172/">
+                        LeanLab Hannover: In Rekordgeschwindigkeit zum Startup [Sponsored Event]
+                    </a>
+				</h2>
+					</header>
+
+		<div class="listViewImage">
+									<a href="http://t3n.de/news/leanlab-hannover-startup-gruendung-653172/"
+			   id="headline-653172-img">
+									<img src="http://t3n.sc/uploads/t3n-news-post-653172_inhaltsbild_leanlab_hannover_2_small.jpg" width="205" height="115" alt="" title=""></a>
+
+						</div>
+
+		<p>
+
+			 Übers Wochenende ein Geschäftsmodell auf die Beine stellen und am Montag mit Jury-Auszeichnung gleich an den Start damit gehen. Ist das möglich? Ja, das läuft – beim LeanLab Gründercamp vom …							<a href="http://t3n.de/news/leanlab-hannover-startup-gruendung-653172/" id="headline-653172-more"
+				   rel="nofollow">»
+					weiterlesen</a>
+
+		</p>
+
+				<footer role="contentinfo">
+							<div class="socialIconsList">
+					<a class="button button--light button--orange tg-socialcomments-homepagelistview" href="http://t3n.de/news/leanlab-hannover-startup-gruendung-653172/#comments" title="Kommentare"><i class="icon-comments"></i></a>
+					<a class="button button--light button--blue tg-socialfacebook-homepagelistview" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ft3n.de%2Fnews%2Fleanlab-hannover-startup-gruendung-653172%2F%26utm_source%3Dfacebook.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;amp;t=LeanLab+Hannover%3A+In+Rekordgeschwindigkeit+zum+Startup+%5BSponsored+Event%5D" rel="popup" title="like me!"><i class="icon-facebook icon-white"></i></a>
+					<a class="button button--light button--cyan tg-socialtwitter-homepagelistview" href="http://twitter.com/intent/tweet?related=t3n&amp;text=LeanLab+Hannover%3A+In+Rekordgeschwindigkeit+zum+Startup+%5BSponsored+Event%5D&amp;url=http%3A%2F%2Ft3n.de%2Fnews%2Fleanlab-hannover-startup-gruendung-653172%2F%3Futm_source%3Dtwitter.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;via=t3n&amp;lang=de" rel="popup" title="tweet me!"><i class="icon-twitter icon-white"></i></a>
+					<a class="button button--light button--turquoise tg-socialxing-homepagelistview" href="https://www.xing.com/spi/shares/new?url=http%3A%2F%2Ft3n.de%2Fnews%2Fleanlab-hannover-startup-gruendung-653172%2F&amp;utm_source=xing.com&amp;utm_medium=social&amp;utm_campaign=social-buttons&amp;button_style=rectangle-right_counter&amp;follow_url=https%3A%2F%2Fwww.xing.com%2Fnews%2Fpages%2Ft3n-magazin-67" rel="popup" title="share me!"><i class="icon-xing icon-white"></i></a>
+					<small class="socialReactions">80 Reaktionen</small>
+									</div>
+								</footer>
+	</article>
+	<article
+		class="listView"  data-vr-contentbox="">
+		<header>
+											<h2>
+					<a id="headline-653702" href="http://t3n.de/news/eigene-wordpress-theme-erstellen-653702/">
+                        Das eigene WordPress-Theme erstellen – #10: Die Galerie-Sidebar mit Galerien aus derselben Kategorie
+                    </a>
+				</h2>
+					</header>
+
+		<div class="listViewImage">
+									<a href="http://t3n.de/news/eigene-wordpress-theme-erstellen-653702/"
+			   id="headline-653702-img">
+									<img src="http://t3n.sc/uploads/t3n-news-post-653702_wordpress_serie_small.jpg" width="205" height="115" alt="wordpress-theme" title="wordpress-theme"></a>
+
+						</div>
+
+		<p>
+
+			 In dieser Serie geht es darum, ein WordPress-Theme zu erstellen – von Grund auf. Im zehnten Teil beschäftigen wir uns mit der Sidebar, die unter der Einzelansicht einer Galerie angezeigt werden soll.							<a href="http://t3n.de/news/eigene-wordpress-theme-erstellen-653702/" id="headline-653702-more"
+				   rel="nofollow">»
+					weiterlesen</a>
+
+		</p>
+
+				<footer role="contentinfo">
+							<div class="socialIconsList">
+					<a class="button button--light button--orange tg-socialcomments-homepagelistview" href="http://t3n.de/news/eigene-wordpress-theme-erstellen-653702/#comments" title="Kommentare"><i class="icon-comments"></i></a>
+					<a class="button button--light button--blue tg-socialfacebook-homepagelistview" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ft3n.de%2Fnews%2Feigene-wordpress-theme-erstellen-653702%2F%26utm_source%3Dfacebook.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;amp;t=Das+eigene+WordPress-Theme+erstellen+%E2%80%93+%2310%3A+Die+Galerie-Sidebar+mit+Galerien+aus+derselben+Kategorie" rel="popup" title="like me!"><i class="icon-facebook icon-white"></i></a>
+					<a class="button button--light button--cyan tg-socialtwitter-homepagelistview" href="http://twitter.com/intent/tweet?related=t3n&amp;text=Das+eigene+WordPress-Theme+erstellen+%E2%80%93+%2310%3A+Die+Galerie-Sidebar+mit+Galerien+aus+derselben+Kategorie&amp;url=http%3A%2F%2Ft3n.de%2Fnews%2Feigene-wordpress-theme-erstellen-653702%2F%3Futm_source%3Dtwitter.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;via=t3n&amp;lang=de" rel="popup" title="tweet me!"><i class="icon-twitter icon-white"></i></a>
+					<a class="button button--light button--turquoise tg-socialxing-homepagelistview" href="https://www.xing.com/spi/shares/new?url=http%3A%2F%2Ft3n.de%2Fnews%2Feigene-wordpress-theme-erstellen-653702%2F&amp;utm_source=xing.com&amp;utm_medium=social&amp;utm_campaign=social-buttons&amp;button_style=rectangle-right_counter&amp;follow_url=https%3A%2F%2Fwww.xing.com%2Fnews%2Fpages%2Ft3n-magazin-67" rel="popup" title="share me!"><i class="icon-xing icon-white"></i></a>
+					<small class="socialReactions">63 Reaktionen</small>
+									</div>
+								</footer>
+	</article>
+	</div>
+
+	<aside class="sidebar" role="complementary">
+		<div class="columnMeta section-headline -HIGHLIGHT">Heiß diskutiert</div>
+		<section class="ranking" data-vr-zone="Heiß diskutiert">
+			                                        <a data-vr-contentbox="" class="ranking__item -COMMENT tg-mostdiscussed-homepage" href="http://t3n.de/news/stockfotos-kostenlose-qualitative-bilder-539479/" >
+                            <div class="ranking__award -FIRST -COMMENT"></div>
+                            <div class="ranking__text -COMMENT">
+                                Hochglanz und für lau: 11 Seiten, die langweiligen Stockfotos den Kampf ansagen                            </div>
+                        </a>
+                                            <a data-vr-contentbox="" class="ranking__item -COMMENT tg-mostdiscussed-homepage" href="http://t3n.de/news/crm-systeme-551886/" >
+                            <div class="ranking__award -SECOND -COMMENT"></div>
+                            <div class="ranking__text -COMMENT">
+                                CRM-Systeme für Startups und Webworker: 15 Tools, um dem Kundendschungel zu entkommen                            </div>
+                        </a>
+                                            <a data-vr-contentbox="" class="ranking__item -COMMENT tg-mostdiscussed-homepage" href="http://t3n.de/news/raspberry-pi-projekte-434138/" >
+                            <div class="ranking__award -THIRD -COMMENT"></div>
+                            <div class="ranking__text -COMMENT">
+                                25 unglaubliche Raspberry-Pi-Projekte                            </div>
+                        </a>
+                                            <a data-vr-contentbox="" class="ranking__item -COMMENT tg-mostdiscussed-homepage" href="http://t3n.de/news/google-chrome-erweiterungen-471219/" >
+                            <div class="ranking__award -FOURTH -COMMENT"></div>
+                            <div class="ranking__text -COMMENT">
+                                30 praktische Erweiterungen für den Chrome-Browser                            </div>
+                        </a>
+                                            <a data-vr-contentbox="" class="ranking__item -COMMENT tg-mostdiscussed-homepage" href="http://t3n.de/news/entwickler-zusammenarbeit-653270/" >
+                            <div class="ranking__award -FIFTH -COMMENT"></div>
+                            <div class="ranking__text -COMMENT">
+                                6 Dinge, die du wissen musst, wenn du mit Entwicklern arbeitest                            </div>
+                        </a>
+                    					</section>
+	</aside>
+
+</div>
+
+
+<div class="cf">
+	<div class="content" data-vr-zone="News Stream 5">
+			<article
+		class="listView"  data-vr-contentbox="">
+		<header>
+											<h2>
+					<a id="headline-653993" href="http://t3n.de/news/music-stories-facebook-spielt-653993/">
+                        „Music Stories“: Facebook spielt Clips von Spotify und iTunes im News Feed ab
+                    </a>
+				</h2>
+					</header>
+
+		<div class="listViewImage">
+									<a href="http://t3n.de/news/music-stories-facebook-spielt-653993/"
+			   id="headline-653993-img">
+									<img src="http://t3n.sc/uploads/t3n-news-post-653993_facebook-musicstories_small.jpg" width="205" height="115" alt="facebook" title="facebook"></a>
+
+						</div>
+
+		<p>
+
+			 <a class="contentTagLink" title="Weitere News zu Facebook" href="http://t3n.de/tag/facebook">Facebook</a> integriert 30-sekündige Previews in den News Feed der iOS-App. Bisher führten Musik-Links immer auf externe Seiten, jetzt will das Portal Musik-Fans bei sich behalten. 							<a href="http://t3n.de/news/music-stories-facebook-spielt-653993/" id="headline-653993-more"
+				   rel="nofollow">»
+					weiterlesen</a>
+
+		</p>
+
+				<footer role="contentinfo">
+							<div class="socialIconsList">
+					<a class="button button--light button--orange tg-socialcomments-homepagelistview" href="http://t3n.de/news/music-stories-facebook-spielt-653993/#comments" title="Kommentare"><i class="icon-comments"></i></a>
+					<a class="button button--light button--blue tg-socialfacebook-homepagelistview" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ft3n.de%2Fnews%2Fmusic-stories-facebook-spielt-653993%2F%26utm_source%3Dfacebook.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;amp;t=%E2%80%9EMusic+Stories%E2%80%9C%3A+Facebook+spielt+Clips+von+Spotify+und+iTunes+im+News+Feed+ab" rel="popup" title="like me!"><i class="icon-facebook icon-white"></i></a>
+					<a class="button button--light button--cyan tg-socialtwitter-homepagelistview" href="http://twitter.com/intent/tweet?related=t3n&amp;text=%E2%80%9EMusic+Stories%E2%80%9C%3A+Facebook+spielt+Clips+von+Spotify+und+iTunes+im+News+Feed+ab&amp;url=http%3A%2F%2Ft3n.de%2Fnews%2Fmusic-stories-facebook-spielt-653993%2F%3Futm_source%3Dtwitter.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;via=t3n&amp;lang=de" rel="popup" title="tweet me!"><i class="icon-twitter icon-white"></i></a>
+					<a class="button button--light button--turquoise tg-socialxing-homepagelistview" href="https://www.xing.com/spi/shares/new?url=http%3A%2F%2Ft3n.de%2Fnews%2Fmusic-stories-facebook-spielt-653993%2F&amp;utm_source=xing.com&amp;utm_medium=social&amp;utm_campaign=social-buttons&amp;button_style=rectangle-right_counter&amp;follow_url=https%3A%2F%2Fwww.xing.com%2Fnews%2Fpages%2Ft3n-magazin-67" rel="popup" title="share me!"><i class="icon-xing icon-white"></i></a>
+					<small class="socialReactions">100 Reaktionen</small>
+									</div>
+								</footer>
+	</article>
+	<article
+		class="listView"  data-vr-contentbox="">
+		<header>
+											<h2>
+					<a id="headline-653943" href="http://t3n.de/news/corehub-kompromittiert-botnetz-653943/">
+                        COREhub kompromittiert: Botnetz versendet Phishing-Mails an Kunden
+                    </a>
+				</h2>
+					</header>
+
+		<div class="listViewImage">
+									<a href="http://t3n.de/news/corehub-kompromittiert-botnetz-653943/"
+			   id="headline-653943-img">
+									<img src="http://t3n.sc/uploads/t3n-news-post-653943_corehub-hero_small.jpg" width="205" height="115" alt="corehub" title="corehub"></a>
+
+						</div>
+
+		<p>
+
+			 Zur Stunde erhalten viele Domain-Inhaber COREhub <a class="contentTagLink" title="Weitere News zu E-Mail" href="http://t3n.de/tag/e-mail">E-Mails</a> mit Warnungen oder Suspendierung ihres Kontos. Diese Mails stammen aber nicht von COREhub direkt, sondern werden von einem Botnetzwerk …							<a href="http://t3n.de/news/corehub-kompromittiert-botnetz-653943/" id="headline-653943-more"
+				   rel="nofollow">»
+					weiterlesen</a>
+
+		</p>
+
+				<footer role="contentinfo">
+							<div class="socialIconsList">
+					<a class="button button--light button--orange tg-socialcomments-homepagelistview" href="http://t3n.de/news/corehub-kompromittiert-botnetz-653943/#comments" title="Kommentare"><i class="icon-comments"></i></a>
+					<a class="button button--light button--blue tg-socialfacebook-homepagelistview" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ft3n.de%2Fnews%2Fcorehub-kompromittiert-botnetz-653943%2F%26utm_source%3Dfacebook.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;amp;t=COREhub+kompromittiert%3A+Botnetz+versendet+Phishing-Mails+an+Kunden" rel="popup" title="like me!"><i class="icon-facebook icon-white"></i></a>
+					<a class="button button--light button--cyan tg-socialtwitter-homepagelistview" href="http://twitter.com/intent/tweet?related=t3n&amp;text=COREhub+kompromittiert%3A+Botnetz+versendet+Phishing-Mails+an+Kunden&amp;url=http%3A%2F%2Ft3n.de%2Fnews%2Fcorehub-kompromittiert-botnetz-653943%2F%3Futm_source%3Dtwitter.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;via=t3n&amp;lang=de" rel="popup" title="tweet me!"><i class="icon-twitter icon-white"></i></a>
+					<a class="button button--light button--turquoise tg-socialxing-homepagelistview" href="https://www.xing.com/spi/shares/new?url=http%3A%2F%2Ft3n.de%2Fnews%2Fcorehub-kompromittiert-botnetz-653943%2F&amp;utm_source=xing.com&amp;utm_medium=social&amp;utm_campaign=social-buttons&amp;button_style=rectangle-right_counter&amp;follow_url=https%3A%2F%2Fwww.xing.com%2Fnews%2Fpages%2Ft3n-magazin-67" rel="popup" title="share me!"><i class="icon-xing icon-white"></i></a>
+					<small class="socialReactions">116 Reaktionen</small>
+									</div>
+								</footer>
+	</article>
+	<article
+		class="listView"  data-vr-contentbox="">
+		<header>
+											<h2>
+					<a id="headline-653789" href="http://t3n.de/news/fairphone-2-fairer-produziertes-653789/">
+                        Fairphone 2: Fairer produziertes und selbst zerlegbares Smartphone im Hands-On
+                    </a>
+				</h2>
+					</header>
+
+		<div class="listViewImage">
+									<a href="http://t3n.de/news/fairphone-2-fairer-produziertes-653789/"
+			   id="headline-653789-img">
+									<img src="http://t3n.sc/uploads/t3n-news-post-653789_fairphone-2-hands-on-8623_small.jpg" width="205" height="115" alt="fairphone 2" title="fairphone 2"></a>
+
+						</div>
+
+		<p>
+
+			 Das am fairsten und nachhaltig produzierte <a class="contentTagLink" title="Weitere News zu Smartphone" href="http://t3n.de/tag/smartphone">Smartphone</a>, das Fairphone 2, wird in wenigen Tagen in Deutschland erhältlich sein, t3n hat im Zuge einer Presseveranstaltung in Berlin schon einen ersten …							<a href="http://t3n.de/news/fairphone-2-fairer-produziertes-653789/" id="headline-653789-more"
+				   rel="nofollow">»
+					weiterlesen</a>
+
+		</p>
+
+				<footer role="contentinfo">
+							<div class="socialIconsList">
+					<a class="button button--light button--orange tg-socialcomments-homepagelistview" href="http://t3n.de/news/fairphone-2-fairer-produziertes-653789/#comments" title="Kommentare"><i class="icon-comments"></i></a>
+					<a class="button button--light button--blue tg-socialfacebook-homepagelistview" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ft3n.de%2Fnews%2Ffairphone-2-fairer-produziertes-653789%2F%26utm_source%3Dfacebook.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;amp;t=Fairphone+2%3A+Fairer+produziertes+und+selbst+zerlegbares+Smartphone+im+Hands-On" rel="popup" title="like me!"><i class="icon-facebook icon-white"></i></a>
+					<a class="button button--light button--cyan tg-socialtwitter-homepagelistview" href="http://twitter.com/intent/tweet?related=t3n&amp;text=Fairphone+2%3A+Fairer+produziertes+und+selbst+zerlegbares+Smartphone+im+Hands-On&amp;url=http%3A%2F%2Ft3n.de%2Fnews%2Ffairphone-2-fairer-produziertes-653789%2F%3Futm_source%3Dtwitter.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;via=t3n&amp;lang=de" rel="popup" title="tweet me!"><i class="icon-twitter icon-white"></i></a>
+					<a class="button button--light button--turquoise tg-socialxing-homepagelistview" href="https://www.xing.com/spi/shares/new?url=http%3A%2F%2Ft3n.de%2Fnews%2Ffairphone-2-fairer-produziertes-653789%2F&amp;utm_source=xing.com&amp;utm_medium=social&amp;utm_campaign=social-buttons&amp;button_style=rectangle-right_counter&amp;follow_url=https%3A%2F%2Fwww.xing.com%2Fnews%2Fpages%2Ft3n-magazin-67" rel="popup" title="share me!"><i class="icon-xing icon-white"></i></a>
+					<small class="socialReactions">170 Reaktionen</small>
+									</div>
+								</footer>
+	</article>
+	</div>
+
+</div>
+
+	<aside class="contentInnerGray noPaddingBottom" role="complementary">
+		<div class="columnMeta"><a href="/marktplatz/">Marktplatz für Agenturen und Dienstleister</a> <span class="meta"><a href="/marktplatz/choose/" class="btn tg-marktplatzchoosebutton-homepage">Eigenen Marktplatzeintrag schalten</a></span></div>
+
+<ul class="thumbList columnSet3">
+            <li class="clear"><a href="http://t3n.de/marktplatz/entry/xovi-gmbh/" class="tg-marktplatz-homepage">
+			<img src="http://t3n.de/marktplatz/logos/_469_9920f831_thumb.jpg" width="50" height="50" alt=""><strong>Xovi GmbH</strong>SEO, SEM, Online Marketin…<span>50968 Köln</span>        </a></li>
+            <li class=""><a href="http://t3n.de/marktplatz/entry/zeroseven-design-studios/" class="tg-marktplatz-homepage">
+			<img src="http://t3n.de/marktplatz/logos/_226_0dd2c9fd_thumb.jpg" width="50" height="50" alt=""><strong>zeroseven design studios</strong>Beratung und Konzeption, …<span>89073 Ulm</span>        </a></li>
+            <li class="last"><a href="http://t3n.de/marktplatz/entry/plehn-media/" class="tg-marktplatz-homepage">
+			<img src="http://t3n.de/marktplatz/logos/_413_thumb.png" width="50" height="50" alt=""><strong>plehn media</strong>TYPO3 Enterprise Content …<span>49080 Osnabrück</span>        </a></li>
+            <li class="clear"><a href="http://t3n.de/marktplatz/entry/concedra-gmbh/" class="tg-marktplatz-homepage">
+			<img src="http://t3n.de/marktplatz/logos/_483_thumb.jpg" width="50" height="50" alt=""><strong>concedra gmbh</strong>Konzeption + Projektmanag…<span>44789 Bochum</span>        </a></li>
+            <li class=""><a href="http://t3n.de/marktplatz/entry/zmp-solutions-gmbh/" class="tg-marktplatz-homepage">
+			<img src="http://t3n.de/marktplatz/logos/_204_thumb.png" width="50" height="50" alt=""><strong>ZMP Solutions GmbH</strong>Beratung, Programmierung,…<span>66123 Saarbrücken</span>        </a></li>
+            <li class="last"><a href="http://t3n.de/marktplatz/entry/datamints-gmbh/" class="tg-marktplatz-homepage">
+			<img src="http://t3n.de/marktplatz/logos/_239_b5c8921f_thumb.png" width="50" height="50" alt=""><strong>datamints GmbH</strong>Konzeption und Design, We…<span>82377 Penzberg</span>        </a></li>
+    </ul>
+	</aside>
+
+<div class="cf contentDivider">
+	<div class="content" data-vr-zone="News Stream 6">
+			<article
+		class="listView"  data-vr-contentbox="">
+		<header>
+											<h2>
+					<a id="headline-539479" href="http://t3n.de/news/stockfotos-kostenlose-qualitative-bilder-539479/">
+                        Hochglanz und für lau: 11 Seiten, die langweiligen Stockfotos den Kampf ansagen
+                    </a>
+				</h2>
+					</header>
+
+		<div class="listViewImage">
+									<a href="http://t3n.de/news/stockfotos-kostenlose-qualitative-bilder-539479/"
+			   id="headline-539479-img">
+									<img src="http://t3n.sc/uploads/t3n-news-post-539479_83H_small.jpg" width="205" height="115" alt="stockfotos" title="stockfotos"></a>
+
+						</div>
+
+		<p>
+
+			 Ihr wollt nicht mehr auf hässliche <a class="contentTagLink" title="Weitere News zu Stockfotos" href="http://t3n.de/tag/stockfotos">Stockfotos</a> zurückgreifen? Wir zeigen euch 11 Plattformen, die hochwertige und kostenfreie Bilder zur Verfügung stellen – damit euer Web-Projekt zum Hingucker wird!							<a href="http://t3n.de/news/stockfotos-kostenlose-qualitative-bilder-539479/" id="headline-539479-more"
+				   rel="nofollow">»
+					weiterlesen</a>
+
+		</p>
+
+				<footer role="contentinfo">
+							<div class="socialIconsList">
+					<a class="button button--light button--orange tg-socialcomments-homepagelistview" href="http://t3n.de/news/stockfotos-kostenlose-qualitative-bilder-539479/#comments" title="Kommentare"><i class="icon-comments"></i></a>
+					<a class="button button--light button--blue tg-socialfacebook-homepagelistview" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ft3n.de%2Fnews%2Fstockfotos-kostenlose-qualitative-bilder-539479%2F%26utm_source%3Dfacebook.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;amp;t=Hochglanz+und+f%C3%BCr+lau%3A+11+Seiten%2C+die+langweiligen+Stockfotos+den+Kampf+ansagen" rel="popup" title="like me!"><i class="icon-facebook icon-white"></i></a>
+					<a class="button button--light button--cyan tg-socialtwitter-homepagelistview" href="http://twitter.com/intent/tweet?related=t3n&amp;text=Hochglanz+und+f%C3%BCr+lau%3A+11+Seiten%2C+die+langweiligen+Stockfotos+den+Kampf+ansagen&amp;url=http%3A%2F%2Ft3n.de%2Fnews%2Fstockfotos-kostenlose-qualitative-bilder-539479%2F%3Futm_source%3Dtwitter.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;via=t3n&amp;lang=de" rel="popup" title="tweet me!"><i class="icon-twitter icon-white"></i></a>
+					<a class="button button--light button--turquoise tg-socialxing-homepagelistview" href="https://www.xing.com/spi/shares/new?url=http%3A%2F%2Ft3n.de%2Fnews%2Fstockfotos-kostenlose-qualitative-bilder-539479%2F&amp;utm_source=xing.com&amp;utm_medium=social&amp;utm_campaign=social-buttons&amp;button_style=rectangle-right_counter&amp;follow_url=https%3A%2F%2Fwww.xing.com%2Fnews%2Fpages%2Ft3n-magazin-67" rel="popup" title="share me!"><i class="icon-xing icon-white"></i></a>
+					<small class="socialReactions">2678 Reaktionen</small>
+									</div>
+								</footer>
+	</article>
+	<article
+		class="listView"  data-vr-contentbox="">
+		<header>
+											<h2>
+					<a id="headline-652719" href="http://t3n.de/news/internet-equity-telekom-652719/">
+                        Zerstören, was verbindet! So genial ist die neue Startup-Strategie der Telekom [Glosse]
+                    </a>
+				</h2>
+					</header>
+
+		<div class="listViewImage">
+									<a href="http://t3n.de/news/internet-equity-telekom-652719/"
+			   id="headline-652719-img">
+									<img src="http://t3n.sc/uploads/t3n-news-post-652719_internet_for_equity_telekom_hoettges_small.jpg" width="205" height="115" alt="telekom" title="telekom"></a>
+
+						</div>
+
+		<p>
+
+			 Gerne hätte Telekom-Chef Tim Höttges selbst gegründet. Weil ihm aber eine fürstlich bezahlte Manager-Karriere dazwischengekommen ist, tingelt er heute im Dienst der guten Sache durch die …							<a href="http://t3n.de/news/internet-equity-telekom-652719/" id="headline-652719-more"
+				   rel="nofollow">»
+					weiterlesen</a>
+
+		</p>
+
+				<footer role="contentinfo">
+							<div class="socialIconsList">
+					<a class="button button--light button--orange tg-socialcomments-homepagelistview" href="http://t3n.de/news/internet-equity-telekom-652719/#comments" title="Kommentare"><i class="icon-comments"></i></a>
+					<a class="button button--light button--blue tg-socialfacebook-homepagelistview" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ft3n.de%2Fnews%2Finternet-equity-telekom-652719%2F%26utm_source%3Dfacebook.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;amp;t=Zerst%C3%B6ren%2C+was+verbindet%21+So+genial+ist+die+neue+Startup-Strategie+der+Telekom+%5BGlosse%5D" rel="popup" title="like me!"><i class="icon-facebook icon-white"></i></a>
+					<a class="button button--light button--cyan tg-socialtwitter-homepagelistview" href="http://twitter.com/intent/tweet?related=t3n&amp;text=Zerst%C3%B6ren%2C+was+verbindet%21+So+genial+ist+die+neue+Startup-Strategie+der+Telekom+%5BGlosse%5D&amp;url=http%3A%2F%2Ft3n.de%2Fnews%2Finternet-equity-telekom-652719%2F%3Futm_source%3Dtwitter.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;via=t3n&amp;lang=de" rel="popup" title="tweet me!"><i class="icon-twitter icon-white"></i></a>
+					<a class="button button--light button--turquoise tg-socialxing-homepagelistview" href="https://www.xing.com/spi/shares/new?url=http%3A%2F%2Ft3n.de%2Fnews%2Finternet-equity-telekom-652719%2F&amp;utm_source=xing.com&amp;utm_medium=social&amp;utm_campaign=social-buttons&amp;button_style=rectangle-right_counter&amp;follow_url=https%3A%2F%2Fwww.xing.com%2Fnews%2Fpages%2Ft3n-magazin-67" rel="popup" title="share me!"><i class="icon-xing icon-white"></i></a>
+					<small class="socialReactions">540 Reaktionen</small>
+									</div>
+								</footer>
+	</article>
+	<article
+		class="listView"  data-vr-contentbox="">
+		<header>
+											<h2>
+					<a id="headline-653727" href="http://t3n.de/news/team-google-manager-653727/">
+                        Google zeigt dir, wie du ein besserer Manager werden kannst
+                    </a>
+				</h2>
+					</header>
+
+		<div class="listViewImage">
+									<a href="http://t3n.de/news/team-google-manager-653727/"
+			   id="headline-653727-img">
+									<img src="http://t3n.sc/uploads/t3n-news-post-653727_team_64660_small.jpg" width="205" height="115" alt="manager" title="manager"></a>
+
+						</div>
+
+		<p>
+
+			 <a class="contentTagLink" title="Weitere News zu Google" href="http://t3n.de/tag/google">Google</a> hat erforscht, was einen richtig guten Manager ausmacht. Das Ergebnis: Teams mit einem guten Manager sind glücklicher und produktiver. Acht Eigenschaften teilen alle großartigen Manager.							<a href="http://t3n.de/news/team-google-manager-653727/" id="headline-653727-more"
+				   rel="nofollow">»
+					weiterlesen</a>
+
+		</p>
+
+				<footer role="contentinfo">
+							<div class="socialIconsList">
+					<a class="button button--light button--orange tg-socialcomments-homepagelistview" href="http://t3n.de/news/team-google-manager-653727/#comments" title="Kommentare"><i class="icon-comments"></i></a>
+					<a class="button button--light button--blue tg-socialfacebook-homepagelistview" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ft3n.de%2Fnews%2Fteam-google-manager-653727%2F%26utm_source%3Dfacebook.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;amp;t=Google+zeigt+dir%2C+wie+du+ein+besserer+Manager+werden+kannst" rel="popup" title="like me!"><i class="icon-facebook icon-white"></i></a>
+					<a class="button button--light button--cyan tg-socialtwitter-homepagelistview" href="http://twitter.com/intent/tweet?related=t3n&amp;text=Google+zeigt+dir%2C+wie+du+ein+besserer+Manager+werden+kannst&amp;url=http%3A%2F%2Ft3n.de%2Fnews%2Fteam-google-manager-653727%2F%3Futm_source%3Dtwitter.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;via=t3n&amp;lang=de" rel="popup" title="tweet me!"><i class="icon-twitter icon-white"></i></a>
+					<a class="button button--light button--turquoise tg-socialxing-homepagelistview" href="https://www.xing.com/spi/shares/new?url=http%3A%2F%2Ft3n.de%2Fnews%2Fteam-google-manager-653727%2F&amp;utm_source=xing.com&amp;utm_medium=social&amp;utm_campaign=social-buttons&amp;button_style=rectangle-right_counter&amp;follow_url=https%3A%2F%2Fwww.xing.com%2Fnews%2Fpages%2Ft3n-magazin-67" rel="popup" title="share me!"><i class="icon-xing icon-white"></i></a>
+					<small class="socialReactions">158 Reaktionen</small>
+									</div>
+								</footer>
+	</article>
+	<article
+		class="listView"  data-vr-contentbox="">
+		<header>
+											<h2>
+					<a id="headline-653700" href="http://t3n.de/news/vorstellungsgespraech-haenden-653700/">
+                        Jede Geste zählt: Was du beim Vorstellungsgespräch mit deinen Händen machen solltest
+                    </a>
+				</h2>
+					</header>
+
+		<div class="listViewImage">
+									<a href="http://t3n.de/news/vorstellungsgespraech-haenden-653700/"
+			   id="headline-653700-img">
+									<img src="http://t3n.sc/uploads/t3n-news-post-653700_vorstellungsgesprach_small.jpg" width="205" height="115" alt="vorstellungsgespräch" title="vorstellungsgespräch"></a>
+
+						</div>
+
+		<p>
+
+			Beim Vorstellungsgespräch zählt jede Geste. Der gelangweilte Blick auf die Uhr oder das Fingertrommeln auf dem Tisch sind tabu. Aber wohin mit den Händen? Zwei US-Autoren geben Auskunft.							<a href="http://t3n.de/news/vorstellungsgespraech-haenden-653700/" id="headline-653700-more"
+				   rel="nofollow">»
+					weiterlesen</a>
+
+		</p>
+
+				<footer role="contentinfo">
+							<div class="socialIconsList">
+					<a class="button button--light button--orange tg-socialcomments-homepagelistview" href="http://t3n.de/news/vorstellungsgespraech-haenden-653700/#comments" title="Kommentare"><i class="icon-comments"></i></a>
+					<a class="button button--light button--blue tg-socialfacebook-homepagelistview" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ft3n.de%2Fnews%2Fvorstellungsgespraech-haenden-653700%2F%26utm_source%3Dfacebook.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;amp;t=Jede+Geste+z%C3%A4hlt%3A+Was+du+beim+Vorstellungsgespr%C3%A4ch+mit+deinen+H%C3%A4nden+machen+solltest" rel="popup" title="like me!"><i class="icon-facebook icon-white"></i></a>
+					<a class="button button--light button--cyan tg-socialtwitter-homepagelistview" href="http://twitter.com/intent/tweet?related=t3n&amp;text=Jede+Geste+z%C3%A4hlt%3A+Was+du+beim+Vorstellungsgespr%C3%A4ch+mit+deinen+H%C3%A4nden+machen+solltest&amp;url=http%3A%2F%2Ft3n.de%2Fnews%2Fvorstellungsgespraech-haenden-653700%2F%3Futm_source%3Dtwitter.com%26utm_medium%3Dsocial%26utm_campaign%3Dsocial-buttons&amp;via=t3n&amp;lang=de" rel="popup" title="tweet me!"><i class="icon-twitter icon-white"></i></a>
+					<a class="button button--light button--turquoise tg-socialxing-homepagelistview" href="https://www.xing.com/spi/shares/new?url=http%3A%2F%2Ft3n.de%2Fnews%2Fvorstellungsgespraech-haenden-653700%2F&amp;utm_source=xing.com&amp;utm_medium=social&amp;utm_campaign=social-buttons&amp;button_style=rectangle-right_counter&amp;follow_url=https%3A%2F%2Fwww.xing.com%2Fnews%2Fpages%2Ft3n-magazin-67" rel="popup" title="share me!"><i class="icon-xing icon-white"></i></a>
+					<small class="socialReactions">152 Reaktionen</small>
+									</div>
+								</footer>
+	</article>
+					<div id="Ads_BA_TEXT3" class="gasListView">
+						<div id="label-for-Ads_BA_TEXT3" class="ad-label ad-start">Anzeige</div>
+						<script type="text/javascript">Ads_BA_AD('TEXT3');</script>
+					</div>
+
+	</div>
+
+	</div>
+
+<div class="contentInnerGray cf">
+	<div class="col50">
+		<a href="/news/" class="tbutton danger large">Weitere Nachrichten im Newsticker</a>
+	</div>
+
+	<div class="col50r r">
+		<strong>Du möchtest noch mehr News lesen?</strong><br>
+		In unserem <a href="/news/">Newsticker</a> werden alle News chronologisch angezeigt.
+	</div>
+
+</div>
+
+<article data-vr-zone="Bottom News" class="columnSet3 contentDivider cf" data-panel="categories">
+	<div class="section-headline">Related-News</div>
+
+		<article
+		class="column"  data-vr-contentbox="">
+		<header>
+							<a class="category" href="/tag/apple">
+					Apple				</a>
+						<a href="http://t3n.de/news/ios-8-tipps-tricks-567383/" class="tg-9erbox-homepage">
+				<img src="http://t3n.sc/uploads/t3n-news-post-567383_Apple_iPhone_6_Plus_016_medium.jpg" width="283" height="159" alt="Apple" title="ios 8">
+				<h2>iOS 8: 30 Tipps, Tricks und clevere Features</h2>
+			</a>
+		</header>
+
+		<p> <a class="contentTagLink" title="Weitere News zu iOS 8" href="http://t3n.de/tag/ios-8">IOS 8</a> ist da und wird von <a class="contentTagLink" title="Weitere News zu Apple" href="http://t3n.de/tag/apple">Apple</a> vollmundig als „der beste iOS-Release aller Zeiten“ beworben. Das neue Betriebssystem für <a class="contentTagLink" title="Weitere News zu iPhone" href="http://t3n.de/tag/iphone">iPhone</a> und <a class="contentTagLink" title="Weitere News zu iPad" href="http://t3n.de/tag/ipad">iPad</a> bietet tatsächlich viel Neues, doch viele Funktionen, …<a href="http://t3n.de/news/ios-8-tipps-tricks-567383/" rel="nofollow" class="tg-9erbox-homepage">» weiterlesen</a></p>
+
+		<div class="socialIconsList">
+											</div>
+
+			</article>
+	<article
+		class="column"  data-vr-contentbox="">
+		<header>
+							<a class="category" href="/tag/webdesign">
+					Webdesign				</a>
+						<a href="http://t3n.de/news/404-error-in-kreativ-333407/" class="tg-9erbox-homepage">
+				<img src="http://t3n.sc/uploads/t3n-news-post-333407_tripomatic_404_error_medium.jpg" width="283" height="159" alt="Webdesign" title="404 error">
+				<h2>404-Error mal anders: 40 Beispiele für richtig kreative Fehlerseiten</h2>
+			</a>
+		</header>
+
+		<p>Halt, Stopp! Jetzt redet der 404-Error. Wer im Internet surft, kommt an nervenden Standardfehlerseiten von Webservern kaum vorbei. Die Begegnung kann aber auch Spaß machen, wie folgende Beispiele …<a href="http://t3n.de/news/404-error-in-kreativ-333407/" rel="nofollow" class="tg-9erbox-homepage">» weiterlesen</a></p>
+
+		<div class="socialIconsList">
+											</div>
+
+			</article>
+	<article
+		class="column"  data-vr-contentbox="">
+		<header>
+							<a class="category" href="/tag/marketing">
+					Marketing				</a>
+						<a href="http://t3n.de/news/passives-einkommen-geld-verdienen-576909/" class="tg-9erbox-homepage">
+				<img src="http://t3n.sc/uploads/t3n-news-post-576909_Passives-Einkommen_698182_original_R_K_B_by_filorosso.de-Manfred-Gerber_pixelio.de__medium.jpg" width="283" height="159" alt="Marketing" title="passives einkommen">
+				<h2>Passives Einkommen: 7 lukrative Ideen, nebenbei Geld zu verdienen</h2>
+			</a>
+		</header>
+
+		<p>Passives Einkommen im Autopilot? Auch im Internet setzt dies viel Arbeit voraus. Wie du am besten vorgehst, klärt dieser Artikel und liefert Inspiration für deine ersten Gehversuche. <a href="http://t3n.de/news/passives-einkommen-geld-verdienen-576909/" rel="nofollow" class="tg-9erbox-homepage">» weiterlesen</a></p>
+
+		<div class="socialIconsList">
+											</div>
+
+			</article>
+	<article
+		class="column clear"  data-vr-contentbox="">
+		<header>
+							<a class="category" href="/tag/marketing">
+					Marketing				</a>
+						<a href="http://t3n.de/news/guerilla-marketing-25-kreative-401325/" class="tg-9erbox-homepage">
+				<img src="http://t3n.sc/uploads/t3n-news-post-401325_guerilla-marketing-zoo_medium.jpg" width="283" height="159" alt="Marketing" title="guerilla marketing">
+				<h2>Guerilla-Marketing: 35 kreative Beispiele für etwas andere Werbung</h2>
+			</a>
+		</header>
+
+		<p> <a class="contentTagLink" title="Weitere News zu Werbung" href="http://t3n.de/tag/werbung">Werbung</a> ist zum integralen Bestandteil unser aller Leben geworden, was unser Gehirn schlauerweise mit Reizfiltern beantwortet. Guerilla-Marketing heißt das Zauberwort für die Werber, um dennoch in.. ...<a href="http://t3n.de/news/guerilla-marketing-25-kreative-401325/" rel="nofollow" class="tg-9erbox-homepage">» weiterlesen</a></p>
+
+		<div class="socialIconsList">
+											</div>
+
+			</article>
+	<article
+		class="column"  data-vr-contentbox="">
+		<header>
+							<a class="category" href="/tag/adobe">
+					Adobe				</a>
+						<a href="http://t3n.de/news/besten-photoshop-alternativen-436275/" class="tg-9erbox-homepage">
+				<img src="http://t3n.sc/uploads/t3n-news-post-436275_photoshop-alternativen_aufmacher_medium.jpg" width="283" height="159" alt="Adobe" title="photoshop-alternativen">
+				<h2>Die besten Photoshop-Alternativen für Windows, Mac und Linux</h2>
+			</a>
+		</header>
+
+		<p><a class="contentTagLink" title="Weitere News zu Adobe" href="http://t3n.de/tag/adobe">Adobe</a> <a class="contentTagLink" title="Weitere News zu Photoshop" href="http://t3n.de/tag/photoshop">Photoshop</a> gehört zur Standardausrüstung von Designern und Fotografen, wären da nicht die vielen Photoshop-Alternativen. Sie erhalten vor allem im Zuge der Umstellung auf die Creative <a class="contentTagLink" title="Weitere News zu Cloud-Computing" href="http://t3n.de/tag/cloud-computing">Cloud</a> …<a href="http://t3n.de/news/besten-photoshop-alternativen-436275/" rel="nofollow" class="tg-9erbox-homepage">» weiterlesen</a></p>
+
+		<div class="socialIconsList">
+											</div>
+
+			</article>
+	<article
+		class="column"  data-vr-contentbox="">
+		<header>
+							<a class="category" href="/tag/handy">
+					Handy				</a>
+						<a href="http://t3n.de/news/akku-laden-tipps-mythen-fakten-524416/" class="tg-9erbox-homepage">
+				<img src="http://t3n.sc/uploads/t3n-news-post-524416_charging-phone_medium.jpg" width="283" height="159" alt="Handy" title="akku laden">
+				<h2>8 ultimative Tipps: Akku laden bei Smartphone und Tablet</h2>
+			</a>
+		</header>
+
+		<p>Wie wird das <a class="contentTagLink" title="Weitere News zu Handy" href="http://t3n.de/tag/handy">Handy</a> richtig geladen? Erst vollständig entladen? Nein, nicht vorher entladen! Vor dem Lagern den <a class="contentTagLink" title="Weitere News zu Akku" href="http://t3n.de/tag/akku">Akku</a> laden? Nein: entladen. Wir machen Schluss mit Mythen und erklären, wie man den …<a href="http://t3n.de/news/akku-laden-tipps-mythen-fakten-524416/" rel="nofollow" class="tg-9erbox-homepage">» weiterlesen</a></p>
+
+		<div class="socialIconsList">
+											</div>
+
+			</article>
+	<article
+		class="column clear"  data-vr-contentbox="">
+		<header>
+							<a class="category" href="/tag/responsive-webdesign">
+					Responsive Webdesign				</a>
+						<a href="http://t3n.de/news/kostenlose-wordpress-themes-responsive-webdesign-376838/" class="tg-9erbox-homepage">
+				<img src="http://t3n.sc/uploads/t3n-news-post-376838_responsive-wordpress-themes-featured1_medium.jpg" width="283" height="159" alt="Responsive Webdesign" title="wordpress themes">
+				<h2>40 kostenlose WordPress-Themes für Responsive Design</h2>
+			</a>
+		</header>
+
+		<p> Das Angebot an kostenlosen <a class="contentTagLink" title="Weitere News zu Templates" href="http://t3n.de/tag/templates">Templates</a> für die eigene Website wächst stetig. Auch die Auswahl an <a class="contentTagLink" title="Weitere News zu WordPress-Themes" href="http://t3n.de/tag/wordpress-themes">Wordpress-Themes</a>, die <a class="contentTagLink" title="Weitere News zu Responsive Webdesign" href="http://t3n.de/tag/responsive-webdesign">Responsive Webdesign</a> unterstützen, ist inzwischen beachtlich....<a href="http://t3n.de/news/kostenlose-wordpress-themes-responsive-webdesign-376838/" rel="nofollow" class="tg-9erbox-homepage">» weiterlesen</a></p>
+
+		<div class="socialIconsList">
+											</div>
+
+			</article>
+	<article
+		class="column"  data-vr-contentbox="">
+		<header>
+							<a class="category" href="/tag/google">
+					Google				</a>
+						<a href="http://t3n.de/news/google-alternative-474551/" class="tg-9erbox-homepage">
+				<img src="http://t3n.sc/uploads/t3n-news-post-474551_google_alternativen_suchmaschinen_suche_suchalternativen_medium.jpg" width="283" height="159" alt="Google" title="google alternative">
+				<h2>Google-Alternativen: Die 10 besten Suchmaschinen im Kurztest</h2>
+			</a>
+		</header>
+
+		<p> „Googlen“ ist nicht nur im deutschen Sprachschatz synonym für eine Internetsuche, doch gerade hierzulande wünschen sich viele Nutzer in Zeiten des PRISM-Leaks andere Möglichkeiten zur...<a href="http://t3n.de/news/google-alternative-474551/" rel="nofollow" class="tg-9erbox-homepage">» weiterlesen</a></p>
+
+		<div class="socialIconsList">
+											</div>
+
+			</article>
+	<article
+		class="column"  data-vr-contentbox="">
+		<header>
+							<a class="category" href="/tag/raspberry-pi">
+					Raspberry Pi				</a>
+						<a href="http://t3n.de/news/raspberry-pi-projekte-434138/" class="tg-9erbox-homepage">
+				<img src="http://t3n.sc/uploads/t3n-news-post-434138_raspberry-pi-projekte_medium.jpg" width="283" height="159" alt="Raspberry Pi" title="raspberry pi">
+				<h2>15 unglaubliche Raspberry-Pi-Projekte</h2>
+			</a>
+		</header>
+
+		<p>Kaum ein anderes Gerät dürfte die Bastlerszene in den letzten Jahren so begeistert haben, wie der scheckkartengroße Minirechner. Wir zeigen euch 15 spannende Raspberry-Projekte, die auch euren...<a href="http://t3n.de/news/raspberry-pi-projekte-434138/" rel="nofollow" class="tg-9erbox-homepage">» weiterlesen</a></p>
+
+		<div class="socialIconsList">
+											</div>
+
+			</article>
+
+	</article>
+
+
+<script>
+    var newPostsRequestTimestamp = 1446934207;
+    var newPostsUrl = 'http://t3n.de/api/newposts.json?timestamp=';
+</script>
+
+<script id="newPostsOverlay" type="text/x-jquery-tmpl">
+    <div class="box boxSmall">
+        <div class="cf contentInner" style="width: 290px;">
+            <h1>Es wurde ein neuer Artikel auf t3n.de veröffentlicht!</h1>
+            <article class="column">
+		<header>
+                    <a href="${article.url}" class="tg-newpostsoverlay-article js-newpostsoverlay-close">
+                            <img src="${article.imageUrlMedium}" width="283" height="159" alt="">
+                            <h2>${article.name}</h2>
+                    </a>
+                </header>
+
+                <p>${article.description} <a href="${article.url}" class="tg-newpostsoverlay-article js-newpostsoverlay-close">» weiterlesen</a></p>
+            </article>
+            <div><a href="${article.url}" class="button button--red tg-newpostsoverlay-article js-newpostsoverlay-close">Artikel aufrufen</a> <button class="button js-newpostsoverlay-reload tg-newpostsoverlay-reload">Startseite aktualisieren</button></div>
+        </div>
+    </div>
+</script>
+
+</div>
+
+				<section class="stageIssues">
+		<p class="R">
+  			<a href="http://t3n.de/magazin/ausgaben/" class="button">Alle Hefte</a>
+  			<a href="https://t3n.de/store/order/t3nmagazinaboprint" class="button button--red">Jetzt abonnieren – für nur 35 €</a>
+		</p>
+		<p class="stageIssues-headline">Kennst Du schon unser t3n Magazin?</p>
+
+		<ul class="teaerIssues cf">
+							<li class="cf">
+					<a href="http://t3n.de/magazin/t3n-nr-41-bargeld-nervt/" class="tg-magazineissues-footer">
+						<p><img src="http://t3n.sc/magazin/wp-content/uploads/covers/t3n_cover_41_web_small.jpg" width="140" height="197" alt="t3n Nr. 41 - Bargeld nervt" title="t3n Nr. 41 - Bargeld nervt"></p>
+						t3n Nr. 41 - Bargeld nervt					</a>
+				</li>
+							<li class="cf">
+					<a href="http://t3n.de/magazin/t3n-nr-40-wachstum-mit-werten/" class="tg-magazineissues-footer">
+						<p><img src="http://t3n.sc/magazin/wp-content/uploads/covers/t3n_cover_40_web_small.jpg" width="140" height="197" alt="t3n Nr. 40 - Wachstum mit Werten" title="t3n Nr. 40 - Wachstum mit Werten"></p>
+						t3n Nr. 40 - Wachstum mit Werten					</a>
+				</li>
+							<li class="cf">
+					<a href="http://t3n.de/magazin/t3n-nr-39-neuen-chefs/" class="tg-magazineissues-footer">
+						<p><img src="http://t3n.sc/magazin/wp-content/uploads/covers/t3n_cover_39_web_small.jpg" width="140" height="197" alt="t3n Nr. 39 - Die neuen Chefs" title="t3n Nr. 39 - Die neuen Chefs"></p>
+						t3n Nr. 39 - Die neuen Chefs					</a>
+				</li>
+							<li class="cf">
+					<a href="http://t3n.de/magazin/t3n-nr-38-jetzt-bloss-nicht-durchdrehen/" class="tg-magazineissues-footer">
+						<p><img src="http://t3n.sc/magazin/wp-content/uploads/covers/t3n_cover_38_web_small.jpg" width="140" height="197" alt="t3n Nr. 38 - Jetzt bloß nicht durchdrehen" title="t3n Nr. 38 - Jetzt bloß nicht durchdrehen"></p>
+						t3n Nr. 38 - Jetzt bloß nicht durchdrehen					</a>
+				</li>
+							<li class="cf last">
+					<a href="http://t3n.de/magazin/t3n-nr-37-glueck-beginnt-arbeitsplatz/" class="tg-magazineissues-footer">
+						<p><img src="http://t3n.sc/magazin/wp-content/uploads/covers/t3n_cover_37_web_small.jpg" width="140" height="197" alt="t3n Nr. 37: Glück beginnt am Arbeitsplatz" title="t3n Nr. 37: Glück beginnt am Arbeitsplatz"></p>
+						t3n Nr. 37: Glück beginnt am Arbeitsplatz					</a>
+				</li>
+					</ul>
+	</section>
+
+			<div id="foot">
+				<div id="footInner" class="cf">
+					<ul class="footTopics">
+						<li><a href="/tag">Themen:</a></li>
+						<li><a href="/tag/a">A</a></li>
+						<li><a href="/tag/b">B</a></li>
+						<li><a href="/tag/c">C</a></li>
+						<li><a href="/tag/d">D</a></li>
+						<li><a href="/tag/e">E</a></li>
+						<li><a href="/tag/f">F</a></li>
+						<li><a href="/tag/g">G</a></li>
+						<li><a href="/tag/h">H</a></li>
+						<li><a href="/tag/i">I</a></li>
+						<li><a href="/tag/j">J</a></li>
+						<li><a href="/tag/k">K</a></li>
+						<li><a href="/tag/l">L</a></li>
+						<li><a href="/tag/m">M</a></li>
+						<li><a href="/tag/n">N</a></li>
+						<li><a href="/tag/o">O</a></li>
+						<li><a href="/tag/p">P</a></li>
+						<li><a href="/tag/q">Q</a></li>
+						<li><a href="/tag/r">R</a></li>
+						<li><a href="/tag/s">S</a></li>
+						<li><a href="/tag/t">T</a></li>
+						<li><a href="/tag/u">U</a></li>
+						<li><a href="/tag/v">V</a></li>
+						<li><a href="/tag/w">W</a></li>
+						<li><a href="/tag/x">X</a></li>
+						<li><a href="/tag/y">Y</a></li>
+						<li><a href="/tag/z">Z</a></li>
+						<li><a href="/tag/0-9">#</a></li>
+					</ul>
+					<div id="footCol1">
+						<form action="http://t3n.us1.list-manage.com/subscribe/post?u=367517f69d61ffa782ba141be&amp;id=faba600569" method="post" target="_blank" class="tg-newslettersubmit-footer">
+							<div class="foot-headline">t3n-Newsletter</div>
+							<p>
+								<strong>Top-Themen der Woche auf einen Blick!</strong>
+								<br/>
+								Kostenfreier Branchen-Newsletter, redaktionell überarbeitet, 2x wöchentlich direkt per E-Mail.
+							</p>
+							<p>
+								<input type="email" name="EMAIL" placeholder="E-Mail-Adresse" required>
+								<button type="submit" class="button">eintragen</button>
+							</p>
+						</form>
+
+						<div class="award">
+                            <p class="award-images">
+                                <a href="http://www.agof.de/" id="footAgof" rel="nofollow" target="_blank">AGOF</a>
+                                <a href="http://www.ivw.de/" id="footIvw" rel="nofollow" target="_blank">IVW</a>
+                            </p>
+							<p>AGOF- und IVW-geprüft</p>
+						</div>
+						<div class="award">
+						<p class="award-images">
+							<a href="http://www.kununu.com/de/ni/hannover/in/yeebase-media-solutions/a/Tk1uVVh9" rel="nofollow" target="_blank"><img class="grayscale" src="//t3n.sc/core/images/kununu-top-company.png" alt="kununu Top Company" width="65"></a>
+							<a href="http://www.kununu.com/de/ni/hannover/in/yeebase-media-solutions/a/Tk1uVVh9" rel="nofollow" target="_blank"><img class="grayscale" src="//t3n.sc/core/images/kununu-open-company.png" alt="kununu Open Company" width="65"></a>
+                        </p>
+							<p>Ausgezeichnet von kununu</p>
+						</div>
+
+					</div>
+
+					<div id="footCol2">
+						<div class="foot-headline">yeebase media</div>
+						<ul>
+							<li><a href="http://yeebase.com/">Unternehmen &amp; Blog</a></li>
+							<li><a href="http://yeebase.com/team">Das Team</a></li>
+							<li><a href="https://t3n.de/store/mediadaten">Werben mit yeebase media</a></li>
+							<li><a href="http://yeebase.com/jobs/">Jobs bei yeebase</a></li>
+							<li><a href="http://yeebase.com/presse/">Pressebereich</a></li>
+							<li><a href="/news/t3nsitemap/">Sitemap</a></li>
+						</ul>
+						<ul>
+							<li><a href="https://t3n.de/store/page/impressum">Impressum</a></li>
+							<li><a href="https://t3n.de/store/page/nutzungsbedingungen">Nutzungsbedingungen</a></li>
+							<li><a href="https://t3n.de/store/page/agb">AGB</a></li>
+							<li><a href="https://t3n.de/store/page/datenschutz">Datenschutz</a></li>
+						</ul>
+					</div>
+
+					<div id="footCol3">
+						<div class="foot-headline">t3n-Portale</div>
+						<ul>
+							<li><a href="/">Startseite</a></li>
+							<li><a href="/news/">Newsticker</a></li>
+							<li><a href="/magazin/">Heftartikel</a></li>
+							<li><a href="/fragen/">Fragen-Portal</a></li>
+							<li><a href="/marktplatz/">Marktplatz</a></li>
+							<li><a href="/jobs/">Jobbörse</a></li>
+							<li><a href="https://t3n.de/store/">Shop</a></li>
+							<li><a href="/archive/">Newsarchiv</a></li>
+						</ul>
+					</div>
+
+					<div id="footCol4">
+						<div class="foot-headline">RSS-Feeds</div>
+						<ul>
+							<li><a href="/news/feed/">Aktuelle News</a></li>
+							<li><a href="/magazin/feed/">Die neuesten Artikel</a></li>
+							<li><a href="/fragen/latest.atom">Die neuesten Fragen</a></li>
+							<li><a href="/marktplatz/rss/all/">Die neuesten Marktplatzeinträge</a></li>
+							<li><a href="/jobs/rss/all/">Aktuelle Jobangebote</a></li>
+							<li><a href="/news/feeds/">weitere Feeds &#187;</a></li>
+						</ul>
+					</div>
+
+					<div id="footCol5">
+						<div class="foot-headline">Kontakt</div>
+						<ul>
+							<li><a href="https://plus.google.com/101559871572415719072" rel="nofollow">Google+</a></li>
+							<li><a href="http://twitter.com/t3n" rel="nofollow">Twitter</a></li>
+							<li><a href="https://www.facebook.com/t3nMagazin" rel="nofollow">Facebook</a></li>
+							<li><a href="mailto:support@yeebase.com">E-Mail</a></li>
+						</ul>
+
+						<div itemscope itemtype="http://schema.org/Organization">
+							<a href="http://t3n.de" itemprop="url"><img src="//t3n.sc/core/images/t3n-logo-180.png" width="80" height="80" alt="t3n Magazin" itemprop="logo"></a>
+							<meta itemprop="name" content="t3n Magazin">
+						</div>
+					</div>
+
+					<div class="footSearch">
+						<form action="http://t3n.de/search" method="get">
+							<div class="cf">
+								<label class="hidden" for="sfoot">Suche nach:</label>
+								<input type="text" name="q" id="sfoot" value="" placeholder="Jetzt t3n.de durchsuchen">
+								<button type="submit"><i class="fa fa-search icon-search"></i> <span>Suchen</span></button>
+							</div>
+						</form>
+					</div>
+
+					<div class="clear">
+						<p id="footMeta">
+							<a href="/" id="switchToMobile"><strong>Mobile Seite</strong></a> &nbsp;•&nbsp; &#169; <a href="http://yeebase.com">yeebase media GmbH</a> 2005 - 2015 &nbsp;•&nbsp; hosted by <a href="http://www.unbelievable-machine.com/" rel="nofollow" target="_blank">unbelievable machine</a>
+						</p>
+					</div>
+				</div>
+			</div>
+
+								<div id="SkyWrapper">
+						<div id="Ads_BA_SKY" class="adbSky"><script type="text/javascript">Ads_BA_AD('SKY');</script></div>
+					</div>
+				</div> <!--Ads_BA_TakeOver-->
+					</div>
+		</div>
+
+
+
+			<script type="text/javascript" src="//t3n.sc/core/compressed/desktop.js?v=bf4c2be0"></script>
+
+
+
+<script type="text/javascript">
+var npc = npc || [];
+npc.push(['_customerId', '9e3e14fdddccfeb4690b']);
+(function() { if ('https:' != document.location.protocol) { var nc = document.createElement('script'); nc.type = 'text/javascript'; nc.async = true; nc.src = 'http://t.neodatagroup.com/npc.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(nc, s); } })();
+</script>
+
+<script src="//my.hellobar.com/bcf25daa185f1ff193f7bbc0934bc739248f9669.js" type="text/javascript" async="async"></script>
+
+</body>
+</html>
