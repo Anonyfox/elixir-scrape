@@ -30,9 +30,9 @@ defmodule Scrape.Article do
   end
 
   defp extract_tags(article) do
-    tags = article.fulltext <> " " <>
-      String.duplicate(article.title, 10) <> " " <>
-      String.duplicate(article.description, 5)
+    tags = (article.fulltext || "") <> " " <>
+      String.duplicate((article.title || ""), 10) <> " " <>
+      String.duplicate((article.description || ""), 5)
     |> Tags.from_text
     |> Enum.concat(article.tags)
     |> Enum.uniq(fn t -> t.name end)

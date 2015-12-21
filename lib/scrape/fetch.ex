@@ -1,8 +1,19 @@
 defmodule Scrape.Fetch do
 
-  # "http://www.heise.de/newsticker/heise-atom.xml"
+  @opts [
+    follow_redirect: true,
+    timeout: 33_000,
+    recv_timeout: 30_000
+  ]
+
   def run(url) do
-    response = HTTPoison.get! url, [], [ hackney: [follow_redirect: true] ]
+    url
+    |> HTTPoison.get([], @opts)
+    |> evaluate
+  end
+
+  defp evaluate({:error, _}), do: ""
+  defp evaluate({:ok, response}) do
     cs = charset(response.headers)
     if cs do
       encoding = cs

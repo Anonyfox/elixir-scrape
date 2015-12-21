@@ -1,6 +1,6 @@
 defmodule Scrape.Website do
   @moduledoc """
-    Every function in this module takes an HTML string, and returns some
+   very function in this module takes an HTML string, and returns some
     data extracted from it, mostly strings. Floki is used for parsing
     the raw HTML.
 
@@ -39,7 +39,14 @@ defmodule Scrape.Website do
   @spec find_title(String.t) :: String.t
 
   def find_title(html) do
-    Exquery.find html, "title", :longest
+    title = Exquery.find html, "title", :longest
+    if String.match?(title, ~r/\s[\|-]\s.+$/) do
+      title
+      |> String.split(~r/\s[\|-]\s.+$/)
+      |> List.first
+    else
+      title
+    end
   end
 
   @doc """
@@ -84,7 +91,12 @@ defmodule Scrape.Website do
       link[rel='shortcut icon'],
       link[rel='icon']
     """
-    Exquery.attr html, selector, "href", :first
+    favicon = Exquery.attr html, selector, "href", :first
+    if favicon do
+      favicon
+    else
+      Exquery.attr html, "meta[name='msapplication-TileImage']", "content", :first
+    end
   end
 
   @doc """
@@ -99,7 +111,13 @@ defmodule Scrape.Website do
       link[type='application/atom+xml'],
       link[rel='alternate']
     """
-    html |> Exquery.attr(selector, "href", :all)
+    feeds = Exquery.attr(html, selector, "href", :all)
+    if length(feeds) > 0 do
+      feeds
+    else
+      Regex.scan(~r{href=['"]([^'"]*(rss|atom|feed|xml)[^'"]*)['"]}, html, capture: :all_but_first)
+      |> Enum.map(fn matches -> List.first(matches) end)
+    end
   end
 
   @doc """
@@ -113,7 +131,7 @@ defmodule Scrape.Website do
     |> Exquery.attr("meta[name=keywords]", "content", :all)
     |> split_phrases
     |> Enum.map(fn s -> s |> String.strip |> String.downcase end)
-    |> Enum.map(fn s -> %{name: s, accuracy: 0.9} end)
+    |> Enum.map(fn s -> %{name: s, accuracy: 0.6} end)
   end
 
   defp split_phrases([]), do: []
@@ -135,7 +153,11 @@ defmodule Scrape.Website do
 
   def find_canonical(website, html) do
     canonical = Exquery.attr html, "link[rel=canonical]", "href"
-    %{website | url: canonical || website.url}
+    if !canonical || String.length(canonical) < 3 do
+      website
+    else
+      %{website | url: canonical}
+    end
   end
 
   @doc """
@@ -157,9 +179,10 @@ defmodule Scrape.Website do
 
   defp url_is_feed?(url) do
     (String.contains?(url, ["http://", "https://"])) &&
+    (!String.ends_with?(url, [".html", ".png", ".jpg", ".gif"])) &&
     (URI.parse(url).path != "/") &&
     (URI.parse(url).path != "") &&
-    (!String.contains?(url, ["comment", "comments"]))
+    (!String.contains?(url, ["comment", "comments", "target="]))
   end
 
   defp put_lazy(website, key, fun) do

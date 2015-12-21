@@ -51,7 +51,9 @@ defmodule Scrape.Link do
 
     if uri.scheme,   do: result = result <> uri.scheme <> ":"
     if authority,    do: result = result <> "//" <> authority
-    if uri.path,     do: result = result <> uri.path
+    if uri.path do
+      result = if String.first(uri.path) == "/", do: result <> uri.path, else: result <> "/" <> uri.path
+    end
     if uri.query,    do: result = result <> "?" <> uri.query
     if uri.fragment, do: result = result <> "#" <> uri.fragment
 
