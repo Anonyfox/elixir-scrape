@@ -40,9 +40,10 @@ defmodule Scrape.Website do
 
   def find_title(html) do
     title = Exquery.find html, "title", :longest
-    if String.match?(title, ~r/\s[\|-]\s.+$/) do
+    rx = ~r/\s[|-].{1}.+$/
+    if title && String.match?(title, rx) do
       title
-      |> String.split(~r/\s[\|-]\s.+$/)
+      |> String.split(rx)
       |> List.first
     else
       title
