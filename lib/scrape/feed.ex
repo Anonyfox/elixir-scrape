@@ -2,7 +2,6 @@ defmodule Scrape.Feed do
 
   alias Scrape.Exquery
   alias Scrape.Util.Text
-  use Timex
 
   def parse(xml, _url) do
     items = xml
@@ -79,7 +78,7 @@ defmodule Scrape.Feed do
   defp try_date(nil, _), do: Date.now
   defp try_date(_, []), do: Date.now
   defp try_date(str, [format | others]) do
-    case DateFormat.parse(str, format) do
+    case Timex.parse(str, format) do
       {:ok, result} -> result
       _ -> try_date(str, others)
     end
