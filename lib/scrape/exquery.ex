@@ -11,18 +11,17 @@ defmodule Scrape.Exquery do
     parameter, which refers to the functions of the `Scrape.Filter`, default
     is `:longest`.
 
-    iex> Scrape.Exquery.find("<p><i>abc</i><i>abcd</i></p>", "i")
-    "abcd"
+    ## Example
+        iex> Scrape.Exquery.find("<p><i>abc</i><i>abcd</i></p>", "i")
+        "abcd"
 
-    iex> Scrape.Exquery.find("<p><i>abc</i><i>abcd</i></p>", "i", :first)
-    "abc"
+        iex> Scrape.Exquery.find("<p><i>abc</i><i>abcd</i></p>", "i", :first)
+        "abc"
 
-    iex> Scrape.Exquery.find("<p><i>abc</i><i>abcd</i></p>", "i", :all)
-    ["abc", "abcd"]
+        iex> Scrape.Exquery.find("<p><i>abc</i><i>abcd</i></p>", "i", :all)
+        ["abc", "abcd"]
   """
-
   @spec find(String.t, String.t, atom) :: [String.t]
-
   def find(html, selector, filter \\ :longest) do
     html
     |> Floki.find(selector)
@@ -33,14 +32,14 @@ defmodule Scrape.Exquery do
   @doc """
     Find all matching HTML elements and return the values of the chosen
     attribute as a list of strings. The result list can then be filtered via
-    the last parameter, which refers to the functions of the `Scrape.Filter`, default is `:longest`. Filtering works similar to `find/3`.
+    the last parameter, which refers to the functions of the `Scrape.Filter`,
+    default is `:longest`. Filtering works similar to `find/3`.
 
-    iex> Scrape.Exquery.attr "<a href='abc'><a><a href='abcd'></a>", "a", "href"
-    "abcd"
+    ## Example 
+        iex> Scrape.Exquery.attr "<a href='ab'><a><a href='ab'></a>","a","href"
+        "ab"
   """
-
   @spec attr(String.t, String.t, String.t, atom) :: [String.t]
-
   def attr(html, selector, name, filter \\ :longest) do
     html
     |> Floki.find(selector)
@@ -49,5 +48,4 @@ defmodule Scrape.Exquery do
   end
 
   defp select(results, fun), do: apply(Scrape.Filter, fun, [results])
-
 end
