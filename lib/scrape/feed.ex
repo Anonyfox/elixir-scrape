@@ -1,5 +1,4 @@
 defmodule Scrape.Feed do
-
   alias Scrape.Exquery
   alias Scrape.Util.Text
 
@@ -7,6 +6,7 @@ defmodule Scrape.Feed do
     items = xml
     |> Floki.find("item, entry")
     |> transform_items
+
     items || []
   end
 
@@ -33,12 +33,14 @@ defmodule Scrape.Feed do
     description = item |> Exquery.find("description")
     summary = description || item |> Exquery.find("summary")
     content = summary || item |> Exquery.find("content")
+
     clean_text content
   end
 
   defp find_url(item) do
     href = item |> Exquery.attr("link", "href", :first)
     url = href || item |> Exquery.find("link", :first)
+
     clean_text url
   end
 
@@ -52,12 +54,14 @@ defmodule Scrape.Feed do
   defp find_image(item) do
     enclosure = item |> Exquery.attr("enclosure", "url")
     media = enclosure || item |> Exquery.attr("media, content", :first)
+
     if media do
       clean_text media
     else
       image_str = item |> Floki.text
       rx = ~r/\ssrc=["']*(([^'"\s]+)\.(jpe?g)|(png))["'\s]/i
       results = Regex.run(rx, image_str || "", capture: :all_but_first)
+
       if results, do: clean_text(List.first(results)), else: nil
     end
   end
