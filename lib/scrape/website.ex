@@ -181,7 +181,8 @@ defmodule Scrape.Website do
     (!String.ends_with?(url, [".html", ".png", ".jpg", ".gif"])) &&
     (URI.parse(url).path != "/") &&
     (URI.parse(url).path != "") &&
-    (!String.contains?(url, ["comment", "comments", "target="]))
+    (!String.contains?(url, ["comment", "comments", "target="])) &&
+    (!String.contains?(url, "android-app:"))
   end
 
   defp put_lazy(website, key, fun) do

@@ -3,8 +3,8 @@ defmodule Scrape.Mixfile do
 
   def project do
     [app: :scrape,
-     version: "1.1.0",
-     elixir: "~> 1.0",
+     version: "1.2.0",
+     elixir: "~> 1.3",
      description: description,
      package: package,
      build_embedded: Mix.env == :prod,
@@ -31,7 +31,7 @@ defmodule Scrape.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      {:floki,      "~> 0.6"}, # html/xml parser
+      {:floki,      "~> 0.9"}, # html/xml parser
       {:httpoison,  "~> 0.8"}, # http client
       {:codepagex,  "~> 0.1.2"}, # iconv written in pure elixir
       {:timex,      "~> 2.1"}, # date/time processing

@@ -19,7 +19,7 @@ leveraging the expressiveness and power of Elixir. Current features:
 Add `scrape` to your mixfile:
 
 ````Elixir
-{:scrape, "~> 1.0"}
+{:scrape, "~> 1.2"}
 ````
 
 ## Usage
