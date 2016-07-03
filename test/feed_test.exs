@@ -26,6 +26,7 @@ defmodule FeedTest do
   test "minimal parser works" do
     xml = sample_feed "ntv"
     list = Feed.parse_minimal xml, "http://example.com"
+    IO.inspect list
     assert length(list) == 47
   end
 

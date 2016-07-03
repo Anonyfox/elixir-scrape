@@ -13,7 +13,7 @@ defmodule Scrape do
   def feed(url, :minimal) do
     url
     |> Fetch.run
-    |> Feed.parse_minimal(url)
+    |> Feed.parse_minimal
   end
 
   def website(url) do
