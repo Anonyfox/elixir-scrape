@@ -4,16 +4,16 @@ defmodule Scrape do
   alias Scrape.Website
   alias Scrape.Article
 
-  def feed(url) do
-    url
-    |> Fetch.run
-    |> Feed.parse(url)
-  end
-
   def feed(url, :minimal) do
     url
     |> Fetch.run
     |> Feed.parse_minimal
+  end
+
+  def feed(url) do
+    url
+    |> Fetch.run
+    |> Feed.parse(url)
   end
 
   def website(url) do
