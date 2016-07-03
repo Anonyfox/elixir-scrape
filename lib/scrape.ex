@@ -10,6 +10,12 @@ defmodule Scrape do
     |> Feed.parse(url)
   end
 
+  def feed(url, :minimal) do
+    url
+    |> Fetch.run
+    |> Feed.parse_minimal(url)
+  end
+
   def website(url) do
     url
     |> Fetch.run

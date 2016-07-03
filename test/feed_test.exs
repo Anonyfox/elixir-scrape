@@ -23,6 +23,12 @@ defmodule FeedTest do
     assert item.title == "Unglück in Bayern: Zug erfasst Schwertransporter - mehrere Tote"
   end
 
+  test "minimal parser works" do
+    xml = sample_feed "ntv"
+    list = Feed.parse_minimal xml, "http://example.com"
+    assert length(list) == 47
+  end
+
   defp sample_feed(name) do
     File.read! "test/sample_data/#{name}-feed.xml.eex"
   end

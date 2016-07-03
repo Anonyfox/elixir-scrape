@@ -10,6 +10,12 @@ defmodule Scrape.Feed do
     items || []
   end
 
+  def parse_minimal(xml, _url) do
+    items = xml
+    |> Floki.find("item, entry")
+    |> Parallel.map(&find_url/1)
+  end
+
   defp transform_items(items) when is_list (items) do
     Parallel.map items, &transform_item/1
   end
