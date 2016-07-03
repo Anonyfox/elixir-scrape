@@ -10,7 +10,7 @@ defmodule Scrape.Feed do
     items || []
   end
 
-  def parse_minimal(xml, _url) do
+  def parse_minimal(xml) do
     items = xml
     |> Floki.find("item, entry")
     |> Enum.map(&find_url/1)
