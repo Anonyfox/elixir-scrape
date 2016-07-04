@@ -22,6 +22,8 @@ Add `scrape` to your mixfile:
 {:scrape, "~> 1.2"}
 ````
 
+and add `:scrape` to your applications list in your mixfile.
+
 ## Usage
 
 ````Elixir
@@ -102,6 +104,14 @@ Scrape.article "http://www.bbc.com/news/world-europe-34753464"
   ],
   title: "Russian plane crash: French 'rule out technical failure' - BBC News",
   url: "http://www.bbc.com/news/world-europe-34753464"}
+````
+
+````Elixir
+# Scrape a feed and return only it's item urls:
+Scrape.feed "http://example.com/feed", :minimal
+
+# Result
+["url1", "url2", ...]
 ````
 
 ## License
