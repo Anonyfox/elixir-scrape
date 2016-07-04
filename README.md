@@ -28,23 +28,14 @@ and add `:scrape` to your applications list in your mixfile.
 
 ````Elixir
 # Feed scraping:
-Scrape.feed "http://feeds.venturebeat.com/VentureBeat"
+Scrape.feed "http://feeds.feedburner.com/venturebeat/SZYF"
 
 # result (list of items):
 [
   %{
     description: "GUEST: For years, many have believed the startup world would be doomed by the “Series A Crunch,” the natural result of an explosion of seed funding paired with an increasingly high bar required to earn a Series A. Industry observers believed we’d be witnessing a train wreck of epic proportions as companies died off. But the […]",
     image: "http://i1.wp.com/venturebeat.com/wp-content/uploads/2015/11/seed-extensions.jpg?resize=160%2C140",
-    pubdate: %Timex.DateTime{
-      calendar: :gregorian, day: 7,
-      hour: 19, minute: 0, month: 11, ms: 0, second: 23,
-      timezone: %Timex.TimezoneInfo{
-        abbreviation: "UTC",
-        from: :min, full_name: "UTC", offset_std: 0,
-        offset_utc: 0, until: :max
-      },
-      year: 4015
-    },
+   pubdate: #<DateTime(4016-07-03T22:10:33Z)>,
    tags: [
      %{accuracy: 0.9, name: "micah rosenbloom"},
      %{accuracy: 0.9, name: "deals"},
