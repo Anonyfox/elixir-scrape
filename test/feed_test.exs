@@ -23,6 +23,13 @@ defmodule FeedTest do
     assert item.title == "Unglück in Bayern: Zug erfasst Schwertransporter - mehrere Tote"
   end
 
+  test "parser works for technewsworld" do
+    xml = sample_feed "technewsworld"
+    [ item | _ ] = Feed.parse xml, "http://www.technewsworld.com/perl/syndication/rssfull.pl"
+    IO.inspect item
+    assert item.title == "What If We've Got Big Data and Analytics All Wrong?"
+  end
+
   test "minimal parser works" do
     xml = sample_feed "latimes"
     list = Feed.parse_minimal xml
