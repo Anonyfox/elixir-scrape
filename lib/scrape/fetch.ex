@@ -12,7 +12,7 @@ defmodule Scrape.Fetch do
   end
 
   defp evaluate({:error, _}), do: ""
-  defp evaluate({:ok, response}) do
+  defp evaluate({:ok, %HTTPoison.Response{status_code: 200} = response}) do
     cs = charset(response.headers)
 
     if cs do
@@ -29,6 +29,7 @@ defmodule Scrape.Fetch do
       response.body
     end
   end
+  defp evaluate(_), do: ""
 
   defp charset(headers) do
     header = headers

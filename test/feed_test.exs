@@ -26,7 +26,6 @@ defmodule FeedTest do
   test "parser works for technewsworld" do
     xml = sample_feed "technewsworld"
     [ item | _ ] = Feed.parse xml, "http://www.technewsworld.com/perl/syndication/rssfull.pl"
-    IO.inspect item
     assert item.title == "What If We've Got Big Data and Analytics All Wrong?"
   end
 
