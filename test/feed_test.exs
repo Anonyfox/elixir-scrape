@@ -35,6 +35,19 @@ defmodule FeedTest do
     assert length(list) == 25
   end
 
+  test "parser includes article author" do
+    [
+      {"elixirlang", "José Valim"},
+      {"latimes", "Randall Roberts"},
+      {"technewsworld", "Rob Enderle"},
+    ]
+    |> Enum.each(fn {feed, first_author} ->
+      xml = sample_feed feed
+      [ item | _ ] = Feed.parse xml, ""
+      assert item.author == first_author
+    end)
+  end
+
   defp sample_feed(name) do
     File.read! "test/sample_data/#{name}-feed.xml.eex"
   end
