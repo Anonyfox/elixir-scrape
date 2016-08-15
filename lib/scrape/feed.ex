@@ -28,7 +28,8 @@ defmodule Scrape.Feed do
       url: find_url(item),
       tags: find_tags(item),
       image: find_image(item),
-      pubdate: find_pubdate(item)
+      pubdate: find_pubdate(item),
+      author: find_author(item)
     }
   end
 
@@ -78,6 +79,12 @@ defmodule Scrape.Feed do
     |> Exquery.find("updated,pubDate,pubdate", :first)
     |> clean_text
     |> try_date
+  end
+
+  defp find_author(item, selectors \\ @author_selectors) do
+    item
+    |> Exquery.find("author name, author, dc:creator", :first)
+    |> clean_text
   end
 
   @datetime_patterns [
