@@ -93,8 +93,8 @@ defmodule Scrape.Feed do
   ]
 
   defp try_date(str, patterns \\ @datetime_patterns)
-  defp try_date(nil, _), do: Timex.Date.now
-  defp try_date(_, []), do: Timex.Date.now
+  defp try_date(nil, _), do: Timex.now
+  defp try_date(_, []), do: Timex.now
   defp try_date(str, [format | others]) do
     case Timex.parse(str, format) do
       {:ok, result} -> result
