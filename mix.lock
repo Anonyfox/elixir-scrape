@@ -1,13 +1,13 @@
 %{"certifi": {:hex, :certifi, "0.3.0", "389d4b126a47895fe96d65fcf8681f4d09eca1153dc2243ed6babad0aac1e763", [:rebar3], []},
   "codepagex": {:hex, :codepagex, "0.1.2", "584dad3a20204044d7ed5e2b15b5670421a7fdeec186a0724cb210df20c892c1", [:mix], []},
-  "combine": {:hex, :combine, "0.9.1", "5fd778ee77032ae593bf79aedb8519d9e36283e4f869abd98c2d6029ca476db8", [:mix], []},
+  "combine": {:hex, :combine, "0.9.2", "cd3c8721f378ebe032487d8a4fa2ced3181a456a3c21b16464da8c46904bb552", [:mix], []},
   "dogma": {:hex, :dogma, "0.1.7", "927f76a89a809db96e0983b922fc899f601352690aefa123529b8aa0c45123b2", [:mix], [{:poison, ">= 1.0.0", [hex: :poison, optional: false]}]},
   "feeder": {:hex, :feeder, "1.4.6"},
   "feeder_ex": {:hex, :feeder_ex, "0.0.2"},
   "floki": {:hex, :floki, "0.9.0", "e952ca71a453f7827ab5405106ac8d9ac5c9602d18aa5d2d893e5b9944e2499e", [:mix], [{:mochiweb_html, "~> 2.15", [hex: :mochiweb_html, optional: false]}]},
   "fs": {:hex, :fs, "0.9.2"},
   "gettext": {:hex, :gettext, "0.11.0", "80c1dd42d270482418fa158ec5ba073d2980e3718bacad86f3d4ad71d5667679", [:mix], []},
-  "hackney": {:hex, :hackney, "1.4.10", "7da877a7388a8bcc7d71253d4a38103c955333dd470a3af5e47fa1ad8d5e3c23", [:rebar3], [{:ssl_verify_hostname, "1.0.5", [hex: :ssl_verify_hostname, optional: false]}, {:mimerl, "1.0.2", [hex: :mimerl, optional: false]}, {:idna, "1.1.0", [hex: :idna, optional: false]}, {:certifi, "0.3.0", [hex: :certifi, optional: false]}]},
+  "hackney": {:hex, :hackney, "1.4.10", "7da877a7388a8bcc7d71253d4a38103c955333dd470a3af5e47fa1ad8d5e3c23", [:rebar3], [{:certifi, "0.3.0", [hex: :certifi, optional: false]}, {:idna, "1.1.0", [hex: :idna, optional: false]}, {:mimerl, "1.0.2", [hex: :mimerl, optional: false]}, {:ssl_verify_hostname, "1.0.5", [hex: :ssl_verify_hostname, optional: false]}]},
   "httpoison": {:hex, :httpoison, "0.8.0", "52a958d40b2aa46da418cdf6d8dfd82ba83e94d5e60920dfa5f40c05b34fe073", [:mix], [{:hackney, "~> 1.4.4", [hex: :hackney, optional: false]}]},
   "idna": {:hex, :idna, "1.1.0", "b4315c6da1c37dc8ab1df3ed18796ecd5172c4165fb886f43732ce598d145b50", [:rebar3], []},
   "mimerl": {:hex, :mimerl, "1.0.2", "993f9b0e084083405ed8252b99460c4f0563e41729ab42d9074fd5e52439be88", [:rebar3], []},
@@ -18,5 +18,5 @@
   "poison": {:hex, :poison, "2.2.0", "4763b69a8a77bd77d26f477d196428b741261a761257ff1cf92753a0d4d24a63", [:mix], []},
   "porcelain": {:hex, :porcelain, "2.0.0"},
   "ssl_verify_hostname": {:hex, :ssl_verify_hostname, "1.0.5", "2e73e068cd6393526f9fa6d399353d7c9477d6886ba005f323b592d389fb47be", [:make], []},
-  "timex": {:hex, :timex, "2.2.1", "0d69012a7fd69f4cbdaa00cc5f2a5f30f1bed56072fb362ed4bddf60db343022", [:mix], [{:gettext, "~> 0.10", [hex: :gettext, optional: false]}, {:combine, "~> 0.7", [hex: :combine, optional: false]}, {:tzdata, "~> 0.1.8 or ~> 0.5", [hex: :tzdata, optional: false]}]},
-  "tzdata": {:hex, :tzdata, "0.5.8", "a4ffe564783c6519e4df230a5d0e1cf44b7db7f576bcae76d05540b5da5b6143", [:mix], [{:hackney, "~> 1.0", [hex: :hackney, optional: false]}]}}
+  "timex": {:hex, :timex, "3.0.8", "71d5ebafcdc557c6c866cdc196c5054f587e7cd1118ad8937e2293d51fc85608", [:mix], [{:combine, "~> 0.7", [hex: :combine, optional: false]}, {:gettext, "~> 0.10", [hex: :gettext, optional: false]}, {:tzdata, "~> 0.1.8 or ~> 0.5", [hex: :tzdata, optional: false]}]},
+  "tzdata": {:hex, :tzdata, "0.5.9", "575be217b039057a47e133b72838cbe104fb5329b19906ea4e66857001c37edb", [:mix], [{:hackney, "~> 1.0", [hex: :hackney, optional: false]}]}}
