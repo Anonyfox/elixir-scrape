@@ -81,7 +81,7 @@ defmodule Scrape.Feed do
     |> try_date
   end
 
-  defp find_author(item, selectors \\ @author_selectors) do
+  defp find_author(item) do
     item
     |> Exquery.find("author name, author, dc:creator", :first)
     |> clean_text
