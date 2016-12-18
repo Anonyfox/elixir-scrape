@@ -22,7 +22,7 @@ Add `scrape` to your mixfile:
 {:scrape, "~> 1.2"}
 ````
 
-and add `:scrape, :floki, :parallel, :timex` to your applications list in your mixfile.
+and add `:scrape` to your applications list in your mixfile.
 
 ## Usage
 
