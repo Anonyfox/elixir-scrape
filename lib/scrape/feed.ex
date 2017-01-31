@@ -88,8 +88,8 @@ defmodule Scrape.Feed do
   end
 
   @datetime_patterns [
-    "{ISO}", "{ISOz}", "{RFC822}", "{RFC822z}", "{RFC1123}", "{RFC1123z}",
-    "{RFC3339}", "{RFC3339z}", "{ANSIC}", "{UNIX}"
+    "{ISO}", "{ISOz}", "{RFC3339}", "{RFC3339z}", "{RFC1123z}", "{RFC1123}", 
+    "{RFC822}", "{RFC822z}", "{ANSIC}", "{UNIX}"
   ]
 
   defp try_date(str, patterns \\ @datetime_patterns)
