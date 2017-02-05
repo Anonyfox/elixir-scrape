@@ -35,7 +35,7 @@ defmodule Scrape.Article do
       String.duplicate((article.description || ""), 5)
     |> Tags.from_text
     |> Enum.concat(article.tags)
-    |> Enum.uniq(fn t -> t.name end)
+    |> Enum.uniq_by(fn t -> t.name end)
     |> Enum.sort_by(fn t -> t.accuracy end)
     |> Enum.reverse
     %{article | tags: tags}
