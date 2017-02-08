@@ -88,14 +88,14 @@ defmodule Scrape.Website do
       link[rel='icon']
     """
 
-    favicon = Exquery.attr html, selector, "href", :first
+    favicon = Exquery.attr html, selector, "href", :longest
 
     if favicon do
       favicon
     else
       Exquery.attr html,
         "meta[name='msapplication-TileImage']",
-	"content",
+	      "content",
         :first
     end
   end

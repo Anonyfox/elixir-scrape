@@ -5,7 +5,7 @@ defmodule ArticleTest do
     html = sample_article "bbc"
     website = Scrape.Website.parse(html, "http://www.bbc.com/news/world-middle-east-34755443")
     data = Scrape.Article.parse(website, html)
-    assert data.favicon == "http://static.bbci.co.uk/news/1.96.1453/apple-touch-icon.png"
+    assert data.favicon == "http://static.bbci.co.uk/news/1.96.1453/apple-touch-icon-114x114-precomposed.png"
     assert data.image == "http://ichef-1.bbci.co.uk/news/1024/cpsprodpb/3292/production/_86564921_86564920.jpg"
     assert data.title == "Russian plane crash: Too soon to know cause"
     assert data.url == "http://www.bbc.com/news/world-middle-east-34755443"

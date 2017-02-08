@@ -30,9 +30,9 @@ defmodule FeedTest do
   end
 
   test "minimal parser works" do
-    xml = sample_feed "latimes"
+    xml = sample_feed "elixirlang"
     list = Feed.parse_minimal xml
-    assert length(list) == 25
+    assert length(list) == 20
   end
 
   test "parser includes article author" do

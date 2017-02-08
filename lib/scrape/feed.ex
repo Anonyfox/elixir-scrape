@@ -47,7 +47,11 @@ defmodule Scrape.Feed do
 
   defp find_url(item) do
     href = item |> Exquery.attr("link", "href", :first)
-    url = href || item |> Exquery.find("link", :first)
+    url = if (href && href !== "") do
+      href
+    else
+      item |> Exquery.find("link", :first)
+    end
 
     clean_text url
   end
@@ -66,7 +70,7 @@ defmodule Scrape.Feed do
     if media do
       clean_text media
     else
-      image_str = item |> Floki.text
+      image_str = item |> Floki.raw_html
       rx = ~r/\ssrc=["']*(([^'"\s]+)\.(jpe?g)|(png))["'\s]/i
       results = Regex.run(rx, image_str || "", capture: :all_but_first)
 
@@ -83,12 +87,12 @@ defmodule Scrape.Feed do
 
   defp find_author(item) do
     item
-    |> Exquery.find("author name, author, dc:creator", :first)
+    |> Exquery.find("dc|creator, author name, author", :first)
     |> clean_text
   end
 
   @datetime_patterns [
-    "{ISO}", "{ISOz}", "{RFC3339}", "{RFC3339z}", "{RFC1123z}", "{RFC1123}", 
+    "{ISO}", "{ISOz}", "{RFC3339}", "{RFC3339z}", "{RFC1123z}", "{RFC1123}",
     "{RFC822}", "{RFC822z}", "{ANSIC}", "{UNIX}"
   ]
 
