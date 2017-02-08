@@ -5,12 +5,12 @@ defmodule Scrape.Mixfile do
     [app: :scrape,
      version: "1.2.7",
      elixir: "~> 1.3",
-     description: description,
-     package: package,
+     description: description(),
+     package: package(),
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      dialyzer: [plt_add_deps: true],
-     deps: deps]
+     deps: deps()]
   end
 
   # Configuration for the OTP application
