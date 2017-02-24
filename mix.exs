@@ -36,7 +36,7 @@ defmodule Scrape.Mixfile do
       {:html5ever, "~> 0.1.0"}, # browser grade html parser (Rust NIF)
       {:httpoison,  "~> 0.11"}, # http client
       {:codepagex,  "~> 0.1.4"}, # iconv written in pure elixir
-      {:timex,      "~> 3.0"}, # date/time processing
+      {:timex,      "~> 2.2.1"}, # date/time processing
       {:parallel,   "~> 0.0.3"}, # easy parallel processing
       {:dogma,      "~> 0.1.6", only: :dev}, # static code linter
       {:ex_doc, ">= 0.0.0", only: :dev} # required now
