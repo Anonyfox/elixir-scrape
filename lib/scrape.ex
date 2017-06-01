@@ -30,7 +30,7 @@ defmodule Scrape do
     Article.parse(website, html)
   end
 
-  defp decode_if_needed(feed_data) do
+  def decode_if_needed(feed_data) do
     case Regex.scan(~r/(?<=encoding=").*?(?=")/, feed_data) do
       [[encoding]] ->
         coded_encoding =

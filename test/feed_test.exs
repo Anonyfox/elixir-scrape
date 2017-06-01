@@ -10,9 +10,10 @@ defmodule FeedTest do
   end
 
   test "parser works for different encodings" do
-    xml = sample_feed "manybooks"
-    parsed = Feed.parse xml, "http://example.com"
-    Poison.encode parsed
+    "manybooks"
+    |> sample_feed()
+    |> Scrape.decode_if_needed()
+    |> Feed.parse("http://example.com")
   end
 
   test "parser works for german" do
