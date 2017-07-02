@@ -34,7 +34,7 @@ The easiest way to get a rust compiler installed is via
 Once you have Rust installed, add `scrape` to your mixfile:
 
 ````Elixir
-{:scrape, "~> 1.2"}
+{:scrape, "~> 2.0"}
 ````
 
 and add `:scrape` to your applications list in your mixfile.
