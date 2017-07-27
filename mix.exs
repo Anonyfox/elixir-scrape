@@ -18,7 +18,7 @@ defmodule Scrape.Mixfile do
   # Type `mix help compile.app` for more information
   def application do
     [applications: [:logger, :httpoison, :tzdata,
-                    :floki, :parallel, :timex]]
+                    :floki, :parallel, :timex, :codepagex]]
   end
 
   # Dependencies can be Hex packages:
@@ -38,6 +38,7 @@ defmodule Scrape.Mixfile do
       {:codepagex,  "~> 0.1.4"}, # iconv written in pure elixir
       {:timex,      "~> 2.2.1"}, # date/time processing
       {:parallel,   "~> 0.0.3"}, # easy parallel processing
+      {:codepagex, "~> 0.1.4"}, # convert between encodings
       {:dogma,      "~> 0.1.6", only: :dev}, # static code linter
       {:ex_doc, ">= 0.0.0", only: :dev} # required now
     ]

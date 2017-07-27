@@ -9,6 +9,13 @@ defmodule FeedTest do
     assert item.url == "http://elixir-lang.org/blog/2014/09/18/elixir-v1-0-0-released/"
   end
 
+  test "parser works for different encodings" do
+    "manybooks"
+    |> sample_feed()
+    |> Scrape.decode_if_needed()
+    |> Feed.parse("http://example.com")
+  end
+
   test "parser works for german" do
     xml = sample_feed "ntv"
     [ item | _ ] = Feed.parse xml, "http://example.com"

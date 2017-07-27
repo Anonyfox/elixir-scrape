@@ -7,12 +7,14 @@ defmodule Scrape do
   def feed(url, :minimal) do
     url
     |> Fetch.run
+    |> decode_if_needed()
     |> Feed.parse_minimal
   end
 
   def feed(url) do
     url
     |> Fetch.run
+    |> decode_if_needed()
     |> Feed.parse(url)
   end
 
@@ -26,6 +28,19 @@ defmodule Scrape do
     html = Fetch.run url
     website = Website.parse(html, url)
     Article.parse(website, html)
+  end
+
+  def decode_if_needed(feed_data) do
+    case Regex.scan(~r/(?<=encoding=").*?(?=")/, feed_data) do
+      [[encoding]] ->
+        coded_encoding =
+          encoding
+            |> String.downcase
+            |> String.replace("-", "_")
+            |> String.to_atom
+        Codepagex.to_string!(feed_data, coded_encoding)
+      [] -> feed_data
+    end
   end
 
 end
