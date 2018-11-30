@@ -34,7 +34,7 @@ defmodule Scrape.Mixfile do
     [
       {:floki,      "~> 0.14"}, # html/xml parser
       {:html5ever, "~> 0.5.0"}, # browser grade html parser (Rust NIF)
-      {:httpoison,  "~> 0.11"}, # http client
+      {:httpoison,  "~> 1.4"}, # http client
       {:codepagex,  "~> 0.1.4"}, # iconv written in pure elixir
       {:timex,      "~> 3.1"}, # date/time processing
       {:parallel,   "~> 0.0.3"}, # easy parallel processing
