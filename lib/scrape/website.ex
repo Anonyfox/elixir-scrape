@@ -184,7 +184,7 @@ defmodule Scrape.Website do
     canonical = Exquery.attr html, "link[rel=canonical]", "href"
 
     if !canonical || String.length(canonical) < 3 do
-      website
+      %{website | url: verify_and_add_scheme(website.url)}
     else
       %{website | url: canonical}
     end
@@ -206,11 +206,31 @@ defmodule Scrape.Website do
     end)
   end
 
+  @doc """
+  Check if input URL specifies http or https scheme.
+  If not, it has to be added (http by default)
+  """
+  defp verify_and_add_scheme(url) do
+    if(url_has_scheme?(url)) do
+      url
+    else
+      "http://#{url}"
+    end
+  end
+
+  defp url_has_scheme?(url) do
+    case URI.parse url do
+      %URI{ host: nil, scheme: nil} -> false
+        _ -> true
+    end
+  end
+
   defp url_is_feed?(url) do
+    parsed_url = URI.parse url
     (String.contains?(url, ["http://", "https://"])) &&
     (!String.ends_with?(url, [".html", ".png", ".jpg", ".gif"])) &&
-    (URI.parse(url).path != "/") &&
-    (URI.parse(url).path != "") &&
+    (parsed_url.path != "/" || parsed_url.query != nil) &&
+    (parsed_url.path != "") &&
     (!String.contains?(url, ["comment", "comments", "target="])) &&
     (!String.contains?(url, "android-app:"))
   end
