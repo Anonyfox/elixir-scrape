@@ -12,7 +12,7 @@ defmodule WebsiteTest do
   test "parser works" do
     html = sample_website "venturebeat"
     data = Website.parse html, "http://venturebeat.com"
-    assert data.title == "VentureBeat" 
+    assert data.title == "VentureBeat"
     assert data.description == "VentureBeat is the leading source for news & perspective on tech innovation. We give context to help execs, entrepreneurs, & tech enthusiasts make smart decisions."
     assert data.image == nil # DRAGON: needs algorithm update
     assert data.favicon == "http://venturebeat.com/wp-content/themes/vbnews/img/favicon.ico"
@@ -77,6 +77,11 @@ defmodule WebsiteTest do
     assert data.feeds == ["http://www.washingtonpost.com/rss"]
   end
 
+  test "twitter accounts on page gets detected" do
+    html = sample_website("elixirstatus")
+    data = Website.parse(html, "http://elixirstatus.com/")
+    assert Enum.member?(data.twitter_accounts, "@elixirstatus")
+  end
   defp sample_website(name) do
     File.read! "test/sample_data/#{name}-website.html.eex"
   end

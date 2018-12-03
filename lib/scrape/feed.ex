@@ -22,7 +22,7 @@ defmodule Scrape.Feed do
   end
 
   defp transform_item(item) do
-    %{
+    %Scrape.FeedItem{
       title: find_title(item),
       description: find_description(item),
       url: find_url(item),

@@ -16,7 +16,7 @@ defmodule Scrape.Website do
   alias Httpoison
 
   defstruct valid: "", type: "", title: "", description: "", url: "", image: "", favicon: "",
-    feeds: [], tags: []
+    feeds: [], tags: [], twitter_accounts: []
 
   @spec parse(String.t, String.t) :: %Website{}
   def parse(html, url) do
@@ -28,6 +28,7 @@ defmodule Scrape.Website do
       description: find_description(html),
       image: find_image(html),
       favicon: find_favicon(html),
+      twitter_accounts: find_twitter_accounts(html),
       feeds: find_feeds(html),
       tags: find_tags(html)
     }
@@ -41,8 +42,8 @@ defmodule Scrape.Website do
   @spec validate_url(String.t) :: String.t
   def validate_url(url) do
     case HTTPoison.get(url) do
-      {:ok, body}      -> "valid"
-      {:error, reason} -> "invalid"
+      {:ok, _body}      -> "valid"
+      {:error, _reason} -> "invalid"
     end
   end
 
@@ -154,6 +155,30 @@ defmodule Scrape.Website do
   end
 
   @doc """
+  Returns a list of twitter urls for a HTML site
+  """
+  @spec find_twitter_accounts(String.t) :: [String.t]
+  def find_twitter_accounts(html) do
+    selector = """
+    meta[property="twitter:site"],
+    meta[name="twitter:site"]
+    """
+
+    accounts = Exquery.attr(html, selector, "content", :all)
+
+    if length(accounts) > 0 do
+      accounts
+    else
+      Regex.scan(~r{href=['"]([^'"]*(twitter.com/[A-Za-z0-9_]+)["'])},
+                                     html,
+                                     capture: :all_but_first)
+                                     |> Enum.map(fn [_ | [match]] -> match end)
+                                     |> Enum.map(fn match -> String.replace(match, "twitter.com/", "@") end)
+                                     |> Enum.uniq
+    end
+  end
+
+  @doc """
     Fetch the meta-keywords if exists
   """
   @spec find_tags(String.t) :: [%{name: String.t, accuracy: float}]
@@ -161,7 +186,7 @@ defmodule Scrape.Website do
     html
     |> Exquery.attr("meta[name=keywords]", "content", :all)
     |> split_phrases
-    |> Enum.map(fn s -> s |> String.strip |> String.downcase end)
+    |> Enum.map(fn s -> s |> String.trim |> String.downcase end)
     |> Enum.map(fn s -> %{name: s, accuracy: 0.6} end)
   end
 
@@ -184,7 +209,7 @@ defmodule Scrape.Website do
     canonical = Exquery.attr html, "link[rel=canonical]", "href"
 
     if !canonical || String.length(canonical) < 3 do
-      website
+      %{website | url: verify_and_add_scheme(website.url)}
     else
       %{website | url: canonical}
     end
@@ -206,11 +231,31 @@ defmodule Scrape.Website do
     end)
   end
 
+  @doc """
+  Check if input URL specifies http or https scheme.
+  If not, it has to be added (http by default)
+  """
+  def verify_and_add_scheme(url) do
+    if(url_has_scheme?(url)) do
+      url
+    else
+      "http://#{url}"
+    end
+  end
+
+  defp url_has_scheme?(url) do
+    case URI.parse url do
+      %URI{ host: nil, scheme: nil} -> false
+        _ -> true
+    end
+  end
+
   defp url_is_feed?(url) do
+    parsed_url = URI.parse url
     (String.contains?(url, ["http://", "https://"])) &&
     (!String.ends_with?(url, [".html", ".png", ".jpg", ".gif"])) &&
-    (URI.parse(url).path != "/") &&
-    (URI.parse(url).path != "") &&
+    (parsed_url.path != "/" || parsed_url.query != nil) &&
+    (parsed_url.path != "") &&
     (!String.contains?(url, ["comment", "comments", "target="])) &&
     (!String.contains?(url, "android-app:"))
   end
