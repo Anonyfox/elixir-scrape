@@ -3,7 +3,7 @@ defmodule Scrape.Mixfile do
 
   def project do
     [app: :scrape,
-     version: "2.0.0",
+     version: "2.0.1",
      elixir: "~> 1.4",
      description: description(),
      package: package(),
@@ -32,8 +32,8 @@ defmodule Scrape.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      {:floki,      "~> 0.14"}, # html/xml parser
-      {:html5ever, "~> 0.5.0"}, # browser grade html parser (Rust NIF)
+      {:floki,      "~> 0.20.0"}, # html/xml parser
+      {:html5ever, "~> 0.7.0"}, # browser grade html parser (Rust NIF)
       {:httpoison,  "~> 1.4"}, # http client
       {:codepagex,  "~> 0.1.4"}, # iconv written in pure elixir
       {:timex,      "~> 3.1"}, # date/time processing
