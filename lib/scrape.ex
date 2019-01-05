@@ -72,7 +72,10 @@ defmodule Scrape do
             |> String.downcase
             |> String.replace("-", "_")
             |> String.to_atom
-        Codepagex.to_string!(feed_data, coded_encoding)
+        case coded_encoding do
+          :utf_8 -> feed_data
+          _ -> Codepagex.to_string!(feed_data, coded_encoding)
+        end
       [] -> feed_data
     end
   end

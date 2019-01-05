@@ -1,13 +1,35 @@
 defmodule Scrape.Feed do
+  defstruct title: "", subtitle: "", short_desc: "", desc: "", webpage: "",
+            pubdate: DateTime, logo: "", items: [], image: "", content_encoded: "", language: "en"
+
   alias Scrape.Exquery
   alias Scrape.Util.Text
 
   def parse(xml, _url) do
-    items = xml
+    parsed_xml = Floki.parse(xml)
+
+    items = parsed_xml
     |> Floki.find("item, entry")
     |> transform_items
 
-    items || []
+    title = parsed_xml |> Exquery.find("channel > title", :first)
+    subtitle = parsed_xml |> Exquery.find("channel > itunes|subtitle")
+    webpage = parsed_xml |> Exquery.find("channel > link")
+    pubdate = parsed_xml |> Exquery.find("channel > updated, channel > pubDate, channel> pubdate", :first) |> try_date
+    image = parsed_xml |> Exquery.find("channel > itunes|image")
+    logo = find_logo_url(webpage)
+    content_encoded = parsed_xml |> Exquery.find("channel > content|encoded")
+
+    %Scrape.Feed{
+      title: title,
+      subtitle: subtitle,
+      webpage: webpage,
+      image: image,
+      logo: logo,
+      pubdate: pubdate,
+      content_encoded: content_encoded,
+      items: items || []
+    }
   end
 
   def parse_minimal(xml) do
@@ -25,6 +47,7 @@ defmodule Scrape.Feed do
     %Scrape.FeedItem{
       title: find_title(item),
       description: find_description(item),
+      content_encoded: find_encoded(item),
       url: find_url(item),
       tags: find_tags(item),
       image: find_image(item),
@@ -43,6 +66,10 @@ defmodule Scrape.Feed do
     content = summary || item |> Exquery.find("content")
 
     clean_text content
+  end
+
+  defp find_encoded(item) do
+    item |> Exquery.find("content|encoded")
   end
 
   defp find_url(item) do
@@ -91,9 +118,17 @@ defmodule Scrape.Feed do
     |> clean_text
   end
 
+  def find_logo_url(webpage, size) when is_integer(size) do
+    find_logo_url(webpage) <> "?size=" <> size
+  end
+  def find_logo_url(nil), do: nil
+  def find_logo_url(webpage) do
+    "//logo.clearbit.com/" <> URI.encode_www_form(webpage)
+  end
+
   @datetime_patterns [
-    "{ISO}", "{ISOz}", "{RFC3339}", "{RFC3339z}", "{RFC1123z}", "{RFC1123}",
-    "{RFC822}", "{RFC822z}", "{ANSIC}", "{UNIX}"
+    "{ISO}", "{ISOz}", "{RFC3339}", "{RFC3339z}", "{RFC1123z}",
+    "{RFC1123}", "{RFC822}", "{RFC822z}", "{ANSIC}", "{UNIX}"
   ]
 
   defp try_date(str, patterns \\ @datetime_patterns)

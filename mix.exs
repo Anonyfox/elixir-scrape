@@ -33,13 +33,13 @@ defmodule Scrape.Mixfile do
   defp deps do
     [
       {:floki,      "~> 0.14"}, # html/xml parser
-      {:html5ever, "~> 0.5.0"}, # browser grade html parser (Rust NIF)
+      {:html5ever,  "~> 0.7.0"},
       {:httpoison,  "~> 1.4"}, # http client
       {:codepagex,  "~> 0.1.4"}, # iconv written in pure elixir
       {:timex,      "~> 3.1"}, # date/time processing
       {:parallel,   "~> 0.0.3"}, # easy parallel processing
       {:dogma,      "~> 0.1.6", only: :dev}, # static code linter
-      {:ex_doc, ">= 0.0.0", only: :dev} # required now
+      {:ex_doc,     ">= 0.0.0", only: :dev} # required now
     ]
   end
 
