@@ -5,24 +5,33 @@ defmodule Scrape.IR.DOMTest do
 
   doctest DOM
 
-  describe "title" do
+  describe "DOM.title/1" do
     test "can extract title from html string" do
-      assert Scrape.IR.DOM.title("<title>abc</title>") == "abc"
+      assert DOM.title("<title>abc</title>") == "abc"
     end
 
     test "can extract title from html website" do
       html = File.read!("cache/domain/venturebeat.html")
-      assert Scrape.IR.DOM.title(html) =~ "Fortnite teams up with Avengers"
+      assert DOM.title(html) =~ "Fortnite teams up with Avengers"
     end
 
     test "can extract title from german html article" do
       html = File.read!("cache/article/spiegel.html")
-      assert Scrape.IR.DOM.title(html) =~ "Forscher über schwarzes Loch"
+      assert DOM.title(html) =~ "Forscher über schwarzes Loch"
     end
 
     test "can extract title from english html article" do
       html = File.read!("cache/article/nytimes.html")
-      assert Scrape.IR.DOM.title(html) =~ "Americans Are Seeing"
+      assert DOM.title(html) =~ "Americans Are Seeing"
+    end
+  end
+
+  describe "DOM.image_url/2" do
+    test "can extract image_url from html string" do
+      url = "http://example.com"
+      html = ~s(<meta property="og:image" content="img.jpg" />)
+      assert DOM.image_url(html, url) == "http://example.com/img.jpg"
+      assert DOM.image_url(html) == "img.jpg"
     end
   end
 end
