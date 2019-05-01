@@ -9,9 +9,11 @@ defmodule Scrape.IR.Word do
   }
 
   @doc """
-  Extract the stem of a given word. Uses the snowball algorithm under the hood
-  via the library [Stemex](https://hex.pm/packages/stemex), which in turn uses
-  NIFs for raw speed. Currently only german and english are supported.
+  Extract the stem of a given word.
+
+  Uses the snowball algorithm under the hood via the library
+  [Stemex](https://hex.pm/packages/stemex), which in turn uses NIFs for raw
+  speed. Currently only german and english are supported.
 
   ## Example
       iex> Scrape.IR.Word.stem("beautiful", :en)
