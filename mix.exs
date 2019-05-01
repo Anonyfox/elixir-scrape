@@ -44,7 +44,10 @@ defmodule Scrape.MixProject do
       {:paasaa, "~> 0.3.1"},
       {:stemex, "~> 0.1.1"},
       {:floki, "~> 0.21.0"},
-      {:readability, "~> 0.10.0"}
+      {:readability, "~> 0.10.0"},
+      # iconv written in pure elixir
+      {:codepagex, "~> 0.1.4"},
+      {:httpoison, "~> 1.5", override: true}
     ]
   end
 end
