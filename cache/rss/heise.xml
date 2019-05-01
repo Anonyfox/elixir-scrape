@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title type="text">heise online News</title><subtitle type="html">Nachrichten nicht nur aus der Welt der Computer</subtitle>
+    <updated>2019-04-05T18:38:00+02:00</updated>
+    <id>https://www.heise.de/rss/heise-atom.xml</id>
+    <author>
+        <name>heise online</name><uri>https://www.heise.de</uri>
+    </author>
+    
+    <link rel="self" type="application/atom+xml" href="https://www.heise.de/rss/heise-atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://www.heise.de/"/>
+    <rights>Copyright (c) 2019 Heise Medien</rights>
+    <entry>
+        <title type="text">Fachkräftemangel: Öffentlicher Hand droht laut Studie Handlungsunfähigkeit</title>
+        <id>http://heise.de/-4365104</id>
+        <updated>2019-04-05T18:38:00+02:00</updated>
+        <published>2019-04-05T18:38:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Fachkraeftemangel-Oeffentlicher-Hand-droht-laut-Studie-Handlungsunfaehigkeit-4365104.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">McKinsey-Analysten schlagen Alarm: Bis 2030 fehlen im öffentlichen Sektor in Deutschland 730.000 Mitarbeiter. Es hapere  an einem &quot;Wertversprechen&quot;.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Fachkraeftemangel-Oeffentlicher-Hand-droht-laut-Studie-Handlungsunfaehigkeit-4365104.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/9/5/0/1/fackr-ea301d862769c0f8.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>McKinsey-Analysten schlagen Alarm: Bis 2030 fehlen im öffentlichen Sektor in Deutschland 730.000 Mitarbeiter. Es hapere  an einem "Wertversprechen".</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Safari 12.1: Klick-Protokollierung lässt sich nicht mehr unterbinden</title>
+        <id>http://heise.de/-4365024</id>
+        <updated>2019-04-05T18:29:00+02:00</updated>
+        <published>2019-04-05T18:29:00+02:00</published>
+        <link href="https://www.heise.de/mac-and-i/meldung/Safari-12-1-Klick-Protokollierung-laesst-sich-nicht-mehr-unterbinden-4365024.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Die ping-Funktion, die ein Link-Tracking ermöglicht, kann im Apple-Browser jetzt nicht mehr abgeschaltet werden.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/mac-and-i/meldung/Safari-12-1-Klick-Protokollierung-laesst-sich-nicht-mehr-unterbinden-4365024.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/9/4/5/1/Safari10_mac-1b5e0ec8462a0614.png" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Die ping-Funktion, die ein Link-Tracking ermöglicht, kann im Apple-Browser jetzt nicht mehr abgeschaltet werden.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Elektroautos: Streetscooter-Gründer kehrt der Deutschen Post den Rücken</title>
+        <id>http://heise.de/-4365066</id>
+        <updated>2019-04-05T17:47:00+02:00</updated>
+        <published>2019-04-05T17:47:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Elektroautos-Streetscooter-Gruender-kehrt-der-Deutschen-Post-den-Ruecken-4365066.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Achim Kampker kehrr als Professor an die Rheinisch-Westfälische Technische Hochschule (RWTH) Aachen zurück.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Elektroautos-Streetscooter-Gruender-kehrt-der-Deutschen-Post-den-Ruecken-4365066.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/9/4/7/4/streetscooter-407881ec33dad683.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Achim Kampker kehrr als Professor an die Rheinisch-Westfälische Technische Hochschule (RWTH) Aachen zurück.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Computertomografie: Schadcode kann Krebsbefunde manipulieren</title>
+        <id>http://heise.de/-4359977</id>
+        <updated>2019-04-05T17:30:00+02:00</updated>
+        <published>2019-04-05T17:30:00+02:00</published>
+        <link href="https://www.heise.de/security/meldung/Computertomografie-Schadcode-kann-Krebsbefunde-manipulieren-4359977.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Forscher bewiesen, dass CT-Aufnahmen überzeugend manipulierbar sind – und dass die Netzwerksicherheit in vielen Krankenhäusern verbesserungswürdig ist.
+</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/security/meldung/Computertomografie-Schadcode-kann-Krebsbefunde-manipulieren-4359977.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/4/8/6/4/Screenshot-_262_-6ee8039a16a965e8.png" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Forscher bewiesen, dass CT-Aufnahmen überzeugend manipulierbar sind – und dass die Netzwerksicherheit in vielen Krankenhäusern verbesserungswürdig ist.
+</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Datenschutzkonferenz: Auch für KI gilt das Prinzip der Datenminimierung</title>
+        <id>http://heise.de/-4364957</id>
+        <updated>2019-04-05T17:14:00+02:00</updated>
+        <published>2019-04-05T17:14:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Datenschutzkonferenz-Auch-fuer-KI-gilt-das-Prinzip-der-Datenminimierung-4364957.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">In der &quot;Hambacher Erklärung&quot; haben die Datenschutzbeauftragten von Bund und Ländern sieben Anforderungen an Systeme der Künstlichen Intelligenz aufgestellt.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Datenschutzkonferenz-Auch-fuer-KI-gilt-das-Prinzip-der-Datenminimierung-4364957.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/9/4/0/7/KI-02-9b952b62e091f175.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>In der "Hambacher Erklärung" haben die Datenschutzbeauftragten von Bund und Ländern sieben Anforderungen an Systeme der Künstlichen Intelligenz aufgestellt.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Verkehrsminister für E-Scooter und Lkw-Abbiegeassistenten</title>
+        <id>http://heise.de/-4364885</id>
+        <updated>2019-04-05T16:31:00+02:00</updated>
+        <published>2019-04-05T16:31:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Verkehrsminister-fuer-E-Scooter-und-Lkw-Abbiegeassistenten-4364885.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Elektroroller bekommen von den Verkehrsministern grundsätzlich grünes Licht. Auf Gehwegen soll mit den Scootern aber nur Schritttempo gefahren werden.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Verkehrsminister-fuer-E-Scooter-und-Lkw-Abbiegeassistenten-4364885.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/9/3/5/1/urn-newsml-dpa-com-20090101-170322-99-763659_large_4_3-c392fe310b7c7e5f.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Elektroroller bekommen von den Verkehrsministern grundsätzlich grünes Licht. Auf Gehwegen soll mit den Scootern aber nur Schritttempo gefahren werden.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Windows 10: Version 1903 lockert die Update-Zügel</title>
+        <id>http://heise.de/-4364441</id>
+        <updated>2019-04-05T16:20:00+02:00</updated>
+        <published>2019-04-05T16:20:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Windows-10-Version-1903-lockert-die-Update-Zuegel-4364441.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Microsoft hat Details zum Rollout des &quot;Windows 10 Mai 2019 Updates&quot; bekannt gegeben. Eines der Highlights: Künftig sind Feature-Upgrades optional.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Windows-10-Version-1903-lockert-die-Update-Zuegel-4364441.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/9/0/2/3/window-1231894_1280-e07e5a53f9fac221.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Microsoft hat Details zum Rollout des "Windows 10 Mai 2019 Updates" bekannt gegeben. Eines der Highlights: Künftig sind Feature-Upgrades optional.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Geoblocking: EU-Kommission beklagt Kartellrechtsverstoß bei Steam &amp; Co</title>
+        <id>http://heise.de/-4364807</id>
+        <updated>2019-04-05T15:52:00+02:00</updated>
+        <published>2019-04-05T15:52:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Geoblocking-EU-Kommission-beklagt-Kartellrechtsverstoss-bei-Steam-Co-4364807.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Wettbewerbskommissarin Margrethe Vestager wirft dem Steam-Betreiber Valve und fünf Videospielverlegern vor, grenzüberschreitende Verkäufe zu verhindern.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Geoblocking-EU-Kommission-beklagt-Kartellrechtsverstoss-bei-Steam-Co-4364807.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/9/2/9/3/shutterstock_703264159-cb26dfdc74d7364e.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Wettbewerbskommissarin Margrethe Vestager wirft dem Steam-Betreiber Valve und fünf Videospielverlegern vor, grenzüberschreitende Verkäufe zu verhindern.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Neue iPads im Test: Die wichtigsten Ergebnisse</title>
+        <id>http://heise.de/-4364468</id>
+        <updated>2019-04-05T15:31:00+02:00</updated>
+        <published>2019-04-05T15:31:00+02:00</published>
+        <link href="https://www.heise.de/mac-and-i/meldung/Neue-iPads-im-Test-Die-wichtigsten-Ergebnisse-4364468.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Mac &amp; i hat das iPad Air 3 und das iPad mini 5 unter die Lupe genommen. Besonders überzeugt hat der eingesetzte A12-Prozessor.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/mac-and-i/meldung/Neue-iPads-im-Test-Die-wichtigsten-Ergebnisse-4364468.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/9/0/3/7/neueiPads_se-b6370017ed346893.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Mac & i hat das iPad Air 3 und das iPad mini 5 unter die Lupe genommen. Besonders überzeugt hat der eingesetzte A12-Prozessor.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Mobilentwicklung: NativeScript 6.0 migriert auf AndroidX</title>
+        <id>http://heise.de/-4364723</id>
+        <updated>2019-04-05T15:20:00+02:00</updated>
+        <published>2019-04-05T15:20:00+02:00</published>
+        <link href="https://www.heise.de/developer/meldung/Mobilentwicklung-NativeScript-6-0-migriert-auf-AndroidX-4364723.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Das nächste Major Release des Cross-Plattform-Frameworks soll auf AndroidX, den Nachfolger der Android Support Library, aufbauen.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/developer/meldung/Mobilentwicklung-NativeScript-6-0-migriert-auf-AndroidX-4364723.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/9/2/2/5/urn-newsml-dpa-com-20090101-170829-99-827433_large_4_3-87d734cfcab9a4a5.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Das nächste Major Release des Cross-Plattform-Frameworks soll auf AndroidX, den Nachfolger der Android Support Library, aufbauen.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Firmware-Update: IP-Alarmsystem Lupusec XT2 Plus schützt nur lückenhaft</title>
+        <id>http://heise.de/-4364230</id>
+        <updated>2019-04-05T15:15:00+02:00</updated>
+        <published>2019-04-05T15:15:00+02:00</published>
+        <link href="https://www.heise.de/security/meldung/Firmware-Update-IP-Alarmsystem-Lupusec-XT2-Plus-schuetzt-nur-lueckenhaft-4364230.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Mit der IP-Alarmanlage Lupusec XT2 Plus von Lupus Electronics haben technisch versierte Einbrecher mitunter leichtes Spiel. Ein Firmware-Update steht bereit. </summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/security/meldung/Firmware-Update-IP-Alarmsystem-Lupusec-XT2-Plus-schuetzt-nur-lueckenhaft-4364230.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/8/8/9/2/0003-Modul-Alarmanlagen-fa4ba50f08d193bc.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Mit der IP-Alarmanlage Lupusec XT2 Plus von Lupus Electronics haben technisch versierte Einbrecher mitunter leichtes Spiel. Ein Firmware-Update steht bereit. </p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Gitpod: Neuartige Online-IDE für GitHub vorgestellt</title>
+        <id>http://heise.de/-4359992</id>
+        <updated>2019-04-05T15:01:00+02:00</updated>
+        <published>2019-04-05T15:01:00+02:00</published>
+        <link href="https://www.heise.de/developer/meldung/Gitpod-Neuartige-Online-IDE-fuer-GitHub-vorgestellt-4359992.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Die Browser-IDE des deutschen Startups TypeFox bietet Entwicklern eine direkte Verbindung zu ihren GitHub-Projekten, und das wohl nur mit einem Klick.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/developer/meldung/Gitpod-Neuartige-Online-IDE-fuer-GitHub-vorgestellt-4359992.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/4/8/7/9/b6ed6e00-3f5e-11e9-838d-52f96a4b2602-5ca09541c6ceff05.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Die Browser-IDE des deutschen Startups TypeFox bietet Entwicklern eine direkte Verbindung zu ihren GitHub-Projekten, und das wohl nur mit einem Klick.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Drohmails mit rechtsextremen Inhalten: Polizei ermittelt Verdächtigen</title>
+        <id>http://heise.de/-4364737</id>
+        <updated>2019-04-05T14:57:00+02:00</updated>
+        <published>2019-04-05T14:57:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Drohmails-mit-rechtsextremen-Inhalten-Polizei-ermittelt-Verdaechtigen-4364737.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Behörden in ganz Deutschland erhalten mehr als 200 Mails mit massiven Drohungen. Unterschrieben sind sie mit &quot;NSU 2.0&quot; oder &quot;Nationalsozialistische Offensive&quot;.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Drohmails-mit-rechtsextremen-Inhalten-Polizei-ermittelt-Verdaechtigen-4364737.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/9/2/3/5/urn-newsml-dpa-com-20090101-161206-99-441698_large_4_3-a2a8d69c00ca45c4.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Behörden in ganz Deutschland erhalten mehr als 200 Mails mit massiven Drohungen. Unterschrieben sind sie mit "NSU 2.0" oder "Nationalsozialistische Offensive".</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Test Samsung Galaxy A7: OLED-Display und drei Kameras</title>
+        <id>http://heise.de/-4364757</id>
+        <updated>2019-04-05T14:39:00+02:00</updated>
+        <published>2019-04-05T14:39:00+02:00</published>
+        <link href="https://www.techstage.de/news/Test-Samsung-Galaxy-A7-OLED-Display-und-drei-Kameras-4359923.html?wt_mc=intern.newsticker.anrissliste.techstage?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Das Samsung Galaxy A7 ist ein gut ausgestattetes Mittelklasse-Smartphone mit OLED-Display und Dreifach-Kamera. Wir testen das 219 Euro teure Gerät.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.techstage.de/news/Test-Samsung-Galaxy-A7-OLED-Display-und-drei-Kameras-4359923.html?wt_mc=intern.newsticker.anrissliste.techstage"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/9/2/5/1/TechStage_Dachbild-937ebc01cff3d02c.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Das Samsung Galaxy A7 ist ein gut ausgestattetes Mittelklasse-Smartphone mit OLED-Display und Dreifach-Kamera. Wir testen das 219 Euro teure Gerät.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Spike Prime: Neuer programmierbarer Roboterbausatz von Lego Education</title>
+        <id>http://heise.de/-4359026</id>
+        <updated>2019-04-05T14:25:00+02:00</updated>
+        <published>2019-04-05T14:25:00+02:00</published>
+        <link href="https://www.heise.de/make/meldung/Spike-Prime-Neuer-programmierbarer-Roboterbausatz-von-Lego-Education-4359026.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Lego Education erweitert sein Bildungsangebot und bringt mit dem Spike-Prime-Bausatz neue Steine, einen Elektronik-Hub und eine eigene Scratch-App heraus.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/make/meldung/Spike-Prime-Neuer-programmierbarer-Roboterbausatz-von-Lego-Education-4359026.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/4/2/1/1/Lego_Education_Spike-6c4d85ed4225f2d7.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Lego Education erweitert sein Bildungsangebot und bringt mit dem Spike-Prime-Bausatz neue Steine, einen Elektronik-Hub und eine eigene Scratch-App heraus.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">UEFI-Spezifikation in Version 2.8 veröffentlicht</title>
+        <id>http://heise.de/-4364561</id>
+        <updated>2019-04-05T14:07:00+02:00</updated>
+        <published>2019-04-05T14:07:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/UEFI-Spezifikation-in-Version-2-8-veroeffentlicht-4364561.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Das UEFI-Forum hat die UEFI-Version 2.8 für Rechner mit x86-, ARM- und RISC-V-Prozessoren fertiggestellt; seit Ende Januar gibt es die ACPI-Version 6.3.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/UEFI-Spezifikation-in-Version-2-8-veroeffentlicht-4364561.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/9/1/0/7/UEFI-28-16-9-010adc3a9f8934bd.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Das UEFI-Forum hat die UEFI-Version 2.8 für Rechner mit x86-, ARM- und RISC-V-Prozessoren fertiggestellt; seit Ende Januar gibt es die ACPI-Version 6.3.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Schnäppchen-Check: Fire TV Stick, Lego, Surface Laptop 2</title>
+        <id>http://heise.de/-4364625</id>
+        <updated>2019-04-05T13:31:00+02:00</updated>
+        <published>2019-04-05T13:31:00+02:00</published>
+        <link href="https://www.techstage.de/news/Schnaeppchen-Check-Fire-TV-Stick-Lego-Surface-Laptop-2-4364063.html?wt_mc=intern.newsticker.anrissliste.techstage?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Lego, Apple iPad, Surface Laptop 2, Fire TV Stick – wir haben das Internet nach Deals durchsucht und zeigen die Angebote, wo man heute wirklich spart.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.techstage.de/news/Schnaeppchen-Check-Fire-TV-Stick-Lego-Surface-Laptop-2-4364063.html?wt_mc=intern.newsticker.anrissliste.techstage"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/9/1/4/9/sparschwein_offen_muenzen_gruen-732f125ad880c122.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Lego, Apple iPad, Surface Laptop 2, Fire TV Stick – wir haben das Internet nach Deals durchsucht und zeigen die Angebote, wo man heute wirklich spart.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Mars-Rover Curiosity: Zwei Sonnenverfinsterungen in wenigen Tagen</title>
+        <id>http://heise.de/-4364536</id>
+        <updated>2019-04-05T13:15:00+02:00</updated>
+        <published>2019-04-05T13:15:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Mars-Rover-Curiosity-Zwei-Sonnenverfinsterungen-in-wenigen-Tagen-4364536.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Innerhalb weniger Tage im März hat Curiosity gleich zweimal eine partielle Sonnenfinsternis beobachtet. Die helfen den Forschern.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Mars-Rover-Curiosity-Zwei-Sonnenverfinsterungen-in-wenigen-Tagen-4364536.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/9/0/9/1/Unbenannt-e998eacd30a79695.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Innerhalb weniger Tage im März hat Curiosity gleich zweimal eine partielle Sonnenfinsternis beobachtet. Die helfen den Forschern.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">EU-Kommission: BMW, Daimler und Volkswagen bildeten Abgas-Kartell</title>
+        <id>http://heise.de/-4364486</id>
+        <updated>2019-04-05T12:42:00+02:00</updated>
+        <published>2019-04-05T12:42:00+02:00</published>
+        <link href="https://www.heise.de/autos/artikel/EU-Kommission-Abgas-Kartell-von-BMW-Daimler-VW-4364486.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">BMW, Daimler und Volkswagen haben nach Erkenntnissen der EU-Wettbewerbshüter illegale Absprachen zu Technologien der Abgasreinigung getroffen. </summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/autos/artikel/EU-Kommission-Abgas-Kartell-von-BMW-Daimler-VW-4364486.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/9/0/8/2/11-abgaslabor-tuv-sud-heimsheim-rollenprufstand-af0f054befb90ae6-10a7c418a4e97336-83aa9c0e7f3a9587.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>BMW, Daimler und Volkswagen haben nach Erkenntnissen der EU-Wettbewerbshüter illegale Absprachen zu Technologien der Abgasreinigung getroffen. </p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Daimler legt Grundstein für Batteriefabrik im Stammwerk Untertürkheim</title>
+        <id>http://heise.de/-4364374</id>
+        <updated>2019-04-05T11:22:00+02:00</updated>
+        <published>2019-04-05T11:22:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Daimler-legt-Grundstein-fuer-Batteriefabrik-im-Stammwerk-Untertuerkheim-4364374.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">&quot;Wir machen Untertürkheim fit für die Zukunft und sichern damit zugleich seine Wettbewerbsfähigkeit&quot;, hieß es aus dem Mund des Daimler-Vorstandsvorsitzenden.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Daimler-legt-Grundstein-fuer-Batteriefabrik-im-Stammwerk-Untertuerkheim-4364374.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/8/9/7/8/batteriefabrik-ut-w1024xh512-cutout-b8ad8cd332408df0.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>"Wir machen Untertürkheim fit für die Zukunft und sichern damit zugleich seine Wettbewerbsfähigkeit", hieß es aus dem Mund des Daimler-Vorstandsvorsitzenden.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Grüne sehen autonomes Fahren als Zukunftsmodell für Nahverkehr</title>
+        <id>http://heise.de/-4364139</id>
+        <updated>2019-04-05T11:20:00+02:00</updated>
+        <published>2019-04-05T11:20:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Gruene-sehen-autonomes-Fahren-als-Zukunftsmodell-fuer-Nahverkehr-4364139.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Weil die Nutzer fehlen, ist ein eng getakteter Nahverkehr auf dem Land kaum noch möglich. Können selbstfahrende Fahrzeuge eine Lösung sein?</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Gruene-sehen-autonomes-Fahren-als-Zukunftsmodell-fuer-Nahverkehr-4364139.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/8/8/3/2/ruv-autonomes-fahren-1-4a8a61b0d5857678.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Weil die Nutzer fehlen, ist ein eng getakteter Nahverkehr auf dem Land kaum noch möglich. Können selbstfahrende Fahrzeuge eine Lösung sein?</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Kriminelle importieren Tausende Fake-iPhones und bringen sie zu Apple zurück</title>
+        <id>http://heise.de/-4363640</id>
+        <updated>2019-04-05T11:20:00+02:00</updated>
+        <published>2019-04-05T11:20:00+02:00</published>
+        <link href="https://www.heise.de/mac-and-i/meldung/Kriminelle-importieren-Tausende-Fake-iPhones-und-bringen-sie-zu-Apple-zurueck-4363640.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">In den USA soll eine Gruppe von Studenten versucht haben, mit falschen Apple-Smartphones Geld zu verdienen – beim Hersteller selbst.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/mac-and-i/meldung/Kriminelle-importieren-Tausende-Fake-iPhones-und-bringen-sie-zu-Apple-zurueck-4363640.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/8/4/8/2/urn-newsml-dpa-com-20090101-190121-99-652822_large_4_3-aef1275c999bd68f.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>In den USA soll eine Gruppe von Studenten versucht haben, mit falschen Apple-Smartphones Geld zu verdienen – beim Hersteller selbst.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">#TGIQF – das Quiz bedeutungsvoller IT-Firmennamen</title>
+        <id>http://heise.de/-4357659</id>
+        <updated>2019-04-05T11:11:00+02:00</updated>
+        <published>2019-04-05T11:11:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/TGIQF-das-Quiz-bedeutungsvoller-IT-Firmennamen-4357659.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Fast jeder weiß, dass sich Apple nach Steve Jobs&apos; Obstdiät benannte, doch auch andere IT-Firmennamen haben mitunter verblüffende Ursprünge. Wissen Sie welche?</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/TGIQF-das-Quiz-bedeutungsvoller-IT-Firmennamen-4357659.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/3/2/1/6/firmen-c0617f30c1e35dc8.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Fast jeder weiß, dass sich Apple nach Steve Jobs' Obstdiät benannte, doch auch andere IT-Firmennamen haben mitunter verblüffende Ursprünge. Wissen Sie welche?</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Hayabusa2 schlägt mit Projektil weiteren Krater in Asteroiden Ryugu</title>
+        <id>http://heise.de/-4364225</id>
+        <updated>2019-04-05T10:54:00+02:00</updated>
+        <published>2019-04-05T10:54:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Hayabusa2-schlaegt-mit-Projektil-weiteren-Krater-in-Asteroiden-Ryugu-4364225.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Der Asteroid Ryugu hat einen neuen Krater: Die japanische Sonde Hayabusa2 hat ihn geschlagen und soll dort Bodenproben entnehmen.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Hayabusa2-schlaegt-mit-Projektil-weiteren-Krater-in-Asteroiden-Ryugu-4364225.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/8/8/8/7/201904050121-355b36a186f1a0ab.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Der Asteroid Ryugu hat einen neuen Krater: Die japanische Sonde Hayabusa2 hat ihn geschlagen und soll dort Bodenproben entnehmen.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Schöner Schwitzen auf Instagram – Fitnessbranche setzt auf Influencer</title>
+        <id>http://heise.de/-4364187</id>
+        <updated>2019-04-05T10:47:00+02:00</updated>
+        <published>2019-04-05T10:47:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Schoener-Schwitzen-auf-Instagram-Fitnessbranche-setzt-auf-Influencer-4364187.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Wer das Wort &quot;Influencer&quot; nur flüchtig hört, könnte etwas verstanden haben, das nach Krankheit klingt. Doch just die Fitness-Branche setzt auf sie.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Schoener-Schwitzen-auf-Instagram-Fitnessbranche-setzt-auf-Influencer-4364187.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/8/8/6/0/infl-9173a671ba86d953.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Wer das Wort "Influencer" nur flüchtig hört, könnte etwas verstanden haben, das nach Krankheit klingt. Doch just die Fitness-Branche setzt auf sie.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Support für Radeon VII kommt im nächsten macOS</title>
+        <id>http://heise.de/-4358498</id>
+        <updated>2019-04-05T10:37:00+02:00</updated>
+        <published>2019-04-05T10:37:00+02:00</published>
+        <link href="https://www.heise.de/mac-and-i/meldung/Support-fuer-Radeon-VII-kommt-im-naechsten-macOS-4358498.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Die neue Karte lässt sich per Thunderbolt 3 in eGPU-Boxen einsetzen. Treiber sind im Anflug.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/mac-and-i/meldung/Support-fuer-Radeon-VII-kommt-im-naechsten-macOS-4358498.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/3/7/9/9/171067489_19513fb530-b5ec0b8e02249a8e.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Die neue Karte lässt sich per Thunderbolt 3 in eGPU-Boxen einsetzen. Treiber sind im Anflug.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Bundestag fordert Infrastrukturgesellschaft zum Mobilfunkausbau</title>
+        <id>http://heise.de/-4364061</id>
+        <updated>2019-04-05T10:22:00+02:00</updated>
+        <published>2019-04-05T10:22:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Bundestag-fordert-Infrastrukturgesellschaft-zum-Mobilfunkausbau-4364061.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Das Parlament ruft nach einem Gesamtkonzept zum Mobilfunknetzausbau und &quot;lokal begrenztem Roaming&quot;, um weiße Flecken auch auf dem Lande zu tilgen.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Bundestag-fordert-Infrastrukturgesellschaft-zum-Mobilfunkausbau-4364061.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/8/7/8/3/05-Technik-5G-ec7f38e28f5faf0c.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Das Parlament ruft nach einem Gesamtkonzept zum Mobilfunknetzausbau und "lokal begrenztem Roaming", um weiße Flecken auch auf dem Lande zu tilgen.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Implantate mit Strom aus Atomenergie</title>
+        <id>http://heise.de/-4329456</id>
+        <updated>2019-04-05T10:00:00+02:00</updated>
+        <published>2019-04-05T10:00:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Implantate-mit-Strom-aus-Atom-4329456.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Wissenschaftler aus Russland wollen Herzschrittmacher &amp; Co. mit kerntechnischen Akkus ausrüsten.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Implantate-mit-Strom-aus-Atom-4329456.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/1/6/4/6/7/heart3-c74499ce0344aed4.png" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Wissenschaftler aus Russland wollen Herzschrittmacher & Co. mit kerntechnischen Akkus ausrüsten.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Kommentar zur EU-Urheberrechtsreform: Mit zweierlei Maß</title>
+        <id>http://heise.de/-4363951</id>
+        <updated>2019-04-05T09:55:00+02:00</updated>
+        <published>2019-04-05T09:55:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Kommentar-zur-EU-Urheberrechtsreform-Mit-zweierlei-Mass-4363951.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Endlich sollen Urheber angemessen vergütet werden, heißt es. Videoproducer Johannes Börnsen befürchtet aber genau das Gegenteil. </summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Kommentar-zur-EU-Urheberrechtsreform-Mit-zweierlei-Mass-4363951.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/8/6/7/8/shutterstock_307952132-d0e86628d383ccd0.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Endlich sollen Urheber angemessen vergütet werden, heißt es. Videoproducer Johannes Börnsen befürchtet aber genau das Gegenteil. </p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Sourcecode-Editor: Visual Studio Code 1.33 als Snap-Paket für Linux verfügbar</title>
+        <id>http://heise.de/-4363712</id>
+        <updated>2019-04-05T09:45:00+02:00</updated>
+        <published>2019-04-05T09:45:00+02:00</published>
+        <link href="https://www.heise.de/developer/meldung/Sourcecode-Editor-Visual-Studio-Code-1-33-als-Snap-Paket-fuer-Linux-verfuegbar-4363712.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Der Open-Source-Editor bringt zudem unter allen Betriebssystemen zusätzliche Funktionen für mehr Flexibilität und Übersicht.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/developer/meldung/Sourcecode-Editor-Visual-Studio-Code-1-33-als-Snap-Paket-fuer-Linux-verfuegbar-4363712.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/8/5/5/0/ide-46785acadb526feb.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Der Open-Source-Editor bringt zudem unter allen Betriebssystemen zusätzliche Funktionen für mehr Flexibilität und Übersicht.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Neue Berlinale-Leitung: Ausschluss von Netflix wäre falscher Weg</title>
+        <id>http://heise.de/-4363837</id>
+        <updated>2019-04-05T09:11:00+02:00</updated>
+        <published>2019-04-05T09:11:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Neue-Berlinale-Leitung-Ausschluss-von-Netflix-waere-falscher-Weg-4363837.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Künftig leiten Carlo Chatrian und Mariette Rissenbeek die Berlinale. Ein Gespräch
+über die Arbeitsteilung – und einen Streitpunkt in der Filmwelt.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Neue-Berlinale-Leitung-Ausschluss-von-Netflix-waere-falscher-Weg-4363837.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/8/6/3/1/shutterstock_439545145-ea269ecf3391ba09.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Künftig leiten Carlo Chatrian und Mariette Rissenbeek die Berlinale. Ein Gespräch
+über die Arbeitsteilung – und einen Streitpunkt in der Filmwelt.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Samsung: 60 Prozent weniger Gewinn wegen fallender Chip-Preise</title>
+        <id>http://heise.de/-4363797</id>
+        <updated>2019-04-05T08:54:00+02:00</updated>
+        <published>2019-04-05T08:54:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Samsung-60-Prozent-weniger-Gewinn-wegen-fallender-Chip-Preise-4363797.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Der südkoreanische Mega-Konzern erwartet im ersten Quartal einen deutlich gesunkenen Gewinn. Das hatte sich schon angekündigt.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Samsung-60-Prozent-weniger-Gewinn-wegen-fallender-Chip-Preise-4363797.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/8/6/0/6/Samsung-HERA-W10_ISUOG-2018-1-29aaaab61adfecd2.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Der südkoreanische Mega-Konzern erwartet im ersten Quartal einen deutlich gesunkenen Gewinn. Das hatte sich schon angekündigt.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Blockchain und DSGVO müssen kein Widerspruch sein</title>
+        <id>http://heise.de/-4337924</id>
+        <updated>2019-04-05T08:20:00+02:00</updated>
+        <published>2019-04-05T08:20:00+02:00</published>
+        <link href="https://www.heise.de/developer/artikel/Blockchain-und-DSGVO-muessen-kein-Widerspruch-sein-4337924.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Bei der Blockchain-Entwicklung ist nicht nur von neuen Techniken die Rede; auch regulatorische und Compliance-relevante Anliegen spielen eine Rolle. </summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/developer/artikel/Blockchain-und-DSGVO-muessen-kein-Widerspruch-sein-4337924.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/4/6/3/3/Blockchain_Stadt-b5849c3e745716e3.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Bei der Blockchain-Entwicklung ist nicht nur von neuen Techniken die Rede; auch regulatorische und Compliance-relevante Anliegen spielen eine Rolle. </p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Amazon-Chef Jeff Bezos behält nach Scheidung 75 Prozent der Aktien</title>
+        <id>http://heise.de/-4363738</id>
+        <updated>2019-04-05T08:01:00+02:00</updated>
+        <published>2019-04-05T08:01:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Amazon-Chef-Jeff-Bezos-behaelt-nach-Scheidung-75-Prozent-der-Aktien-4363738.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Nach seiner Scheidung behält die Mehrheit der Amazon-Aktien und alle gemeinsamen Stimmrechte. Auch reichster Mann der Welt bleibt er.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Amazon-Chef-Jeff-Bezos-behaelt-nach-Scheidung-75-Prozent-der-Aktien-4363738.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/8/5/7/0/urn-newsml-dpa-com-20090101-160510-99-892745_large_4_3-fd9212e8d4ce7bb4.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Nach seiner Scheidung behält die Mehrheit der Amazon-Aktien und alle gemeinsamen Stimmrechte. Auch reichster Mann der Welt bleibt er.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">EU-Urheberrechtsreform bringt den Bundestag &quot;richtig in Wallung&quot;</title>
+        <id>http://heise.de/-4363720</id>
+        <updated>2019-04-05T07:51:00+02:00</updated>
+        <published>2019-04-05T07:51:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/EU-Urheberrechtsreform-bringt-den-Bundestag-richtig-in-Wallung-4363720.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Die FDP und die Linke forderten ein &quot;kleines Rebelliönchen&quot; der Bundesregierung im Ministerrat gegen Upload-Filter, doch das zeichnet sich nicht ab.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/EU-Urheberrechtsreform-bringt-den-Bundestag-richtig-in-Wallung-4363720.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/8/5/5/8/shutterstock_1309330096-4fd055abbbbd37dd.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Die FDP und die Linke forderten ein "kleines Rebelliönchen" der Bundesregierung im Ministerrat gegen Upload-Filter, doch das zeichnet sich nicht ab.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Was kommt nach 5G?</title>
+        <id>http://heise.de/-4355960</id>
+        <updated>2019-04-05T07:45:00+02:00</updated>
+        <published>2019-04-05T07:45:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Was-kommt-nach-5G-4355960.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Das kann man heute schon sagen: Natürlich 6G. Von Tera-Hertzen und Drohnenflugkontrolle in Echtzeit.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Was-kommt-nach-5G-4355960.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/1/8/7/8/6G-Earth-803be56ee2d9212f.png" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Das kann man heute schon sagen: Natürlich 6G. Von Tera-Hertzen und Drohnenflugkontrolle in Echtzeit.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">LinkedIn öffnet Projekt zur Datenkonvertierung für TensorFlow </title>
+        <id>http://heise.de/-4363696</id>
+        <updated>2019-04-05T07:42:00+02:00</updated>
+        <published>2019-04-05T07:42:00+02:00</published>
+        <link href="https://www.heise.de/developer/meldung/LinkedIn-oeffnet-Projekt-zur-Datenkonvertierung-fuer-TensorFlow-4363696.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Avro2TF bietet einen Spark-basierten Mechanismus zur Konvertierung von Daten in ein Format, das das Machine-Learning-Framework TensorFlow nutzen kann.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/developer/meldung/LinkedIn-oeffnet-Projekt-zur-Datenkonvertierung-fuer-TensorFlow-4363696.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/8/5/3/8/shutterstock_763283053-09be1eb5707c5ea5.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Avro2TF bietet einen Spark-basierten Mechanismus zur Konvertierung von Daten in ein Format, das das Machine-Learning-Framework TensorFlow nutzen kann.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Messenger: Microsoft Kaizala jetzt weltweit in Office 365 enthalten</title>
+        <id>http://heise.de/-4363653</id>
+        <updated>2019-04-04T20:13:00+02:00</updated>
+        <published>2019-04-04T20:13:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Microsoft-Kaizala-jetzt-weltweit-in-Office-365-enthalten-4363653.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Der WhatsApp-ähnliche Messenger wird Bestandteil von Microsoft Teams</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Microsoft-Kaizala-jetzt-weltweit-in-Office-365-enthalten-4363653.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/8/4/9/5/FE26ACB2-DACB-4716-84A7-39702C5C28A5-f0299ec4ef367700.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Der WhatsApp-ähnliche Messenger wird Bestandteil von Microsoft Teams</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Zeitschriftenverleger: Mit Kooperationen und Hilfe der Politik gegen Facebook &amp; Co.</title>
+        <id>http://heise.de/-4363645</id>
+        <updated>2019-04-04T19:07:00+02:00</updated>
+        <published>2019-04-04T19:07:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Zeitschriftenverleger-Mit-Kooperationen-und-Hilfe-der-Politik-gegen-Facebook-Co-4363645.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Facebook, Google &amp; Co bieten Medien neue Ausspielwege, aber das Geld verdienen vor allem die Internetriesen. Verleger setzen auf den Schulterschluss.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Zeitschriftenverleger-Mit-Kooperationen-und-Hilfe-der-Politik-gegen-Facebook-Co-4363645.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/8/4/8/7/newspapers-444447_1920-0c1afda70b30424e.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Facebook, Google & Co bieten Medien neue Ausspielwege, aber das Geld verdienen vor allem die Internetriesen. Verleger setzen auf den Schulterschluss.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Datenaustausch: Überwachung von Flüchtlingen entzweit den Bundestag</title>
+        <id>http://heise.de/-4363642</id>
+        <updated>2019-04-04T18:35:00+02:00</updated>
+        <published>2019-04-04T18:35:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Datenaustausch-Ueberwachung-von-Fluechtlingen-entzweit-den-Bundestag-4363642.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Linke und Grüne warnten angesichts der Regierungsinitiative für ein neues Datenaustauschverbesserungsgesetz im Bundestag vor dem &quot;gläsernen Ausländer&quot;.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Datenaustausch-Ueberwachung-von-Fluechtlingen-entzweit-den-Bundestag-4363642.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/8/4/8/4/shutterstock_596722127_1_-739bfac6914e3d23.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Linke und Grüne warnten angesichts der Regierungsinitiative für ein neues Datenaustauschverbesserungsgesetz im Bundestag vor dem "gläsernen Ausländer".</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Jetzt auch Amazon: Mit mehr als 3000 Satelliten Internet für fast alle Menschen</title>
+        <id>http://heise.de/-4362295</id>
+        <updated>2019-04-04T18:23:00+02:00</updated>
+        <published>2019-04-04T18:23:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Jetzt-auch-Amazon-Mit-mehr-als-3000-Satelliten-Internet-fuer-fast-alle-Menschen-4362295.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Nun hat auch Amazon angekündigt, mit einem Netzwerk aus Tausenden Satelliten Internet rund um die Welt bringen zu wollen. Teile Europas blieben aber außen vor.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Jetzt-auch-Amazon-Mit-mehr-als-3000-Satelliten-Internet-fuer-fast-alle-Menschen-4362295.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/7/1/3/9/shutterstock_1089991652-1f9380852b5cbedb.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Nun hat auch Amazon angekündigt, mit einem Netzwerk aus Tausenden Satelliten Internet rund um die Welt bringen zu wollen. Teile Europas blieben aber außen vor.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Test: Bluetooth-Headset RF-BTK-300 von Renkforce</title>
+        <id>http://heise.de/-4360032</id>
+        <updated>2019-04-04T17:25:00+02:00</updated>
+        <published>2019-04-04T17:25:00+02:00</published>
+        <link href="https://www.techstage.de/news/Test-Bluetooth-Headset-RF-BTK-300-von-Renkforce-4359848.html?wt_mc=intern.newsticker.anrissliste.techstage?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Die Bluetooth-Sportkopfhörer RF-BTK-300 der Conrad-Eigenmarke Renkforce haben trotz des niedrigen Preises einen guten Lieferumfang. Wir haben sie getestet.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.techstage.de/news/Test-Bluetooth-Headset-RF-BTK-300-von-Renkforce-4359848.html?wt_mc=intern.newsticker.anrissliste.techstage"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/4/9/1/7/renkforce_HO-5da3de39ba0aa145.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Die Bluetooth-Sportkopfhörer RF-BTK-300 der Conrad-Eigenmarke Renkforce haben trotz des niedrigen Preises einen guten Lieferumfang. Wir haben sie getestet.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Amazon baut in Leipzig befristete Stellen ab</title>
+        <id>http://heise.de/-4360035</id>
+        <updated>2019-04-04T16:49:00+02:00</updated>
+        <published>2019-04-04T16:49:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Amazon-baut-in-Leipzig-befristete-Stellen-ab-4360035.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Rund 500 befristete Stellen fallen Amazons Logistikzentrum in Leipzig weg. Verdi spricht von Druck auf Mitarbeiter, Amazon dementiert.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Amazon-baut-in-Leipzig-befristete-Stellen-ab-4360035.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/4/9/2/0/urn-newsml-dpa-com-20090101-181210-99-168149_large_4_3-29a39abf5702d66e.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Rund 500 befristete Stellen fallen Amazons Logistikzentrum in Leipzig weg. Verdi spricht von Druck auf Mitarbeiter, Amazon dementiert.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">40 Jahre Alien: &quot;Containment&quot; – erster Teil der Alien-Miniserie online</title>
+        <id>http://heise.de/-4359934</id>
+        <updated>2019-04-04T16:34:00+02:00</updated>
+        <published>2019-04-04T16:34:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/40-Jahre-Alien-Containment-erster-Teil-der-Alien-Miniserie-online-4359934.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Vor fast 40 Jahren lief der erste Alien-Film im Kino. Nun ist ein erster Kurzfilm als Teil einer neuen Miniserie im Alien-Universum erschienen.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/40-Jahre-Alien-Containment-erster-Teil-der-Alien-Miniserie-online-4359934.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/4/8/3/3/Fox_alien1440_aufmacher-ecf43e311afd75b3.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Vor fast 40 Jahren lief der erste Alien-Film im Kino. Nun ist ein erster Kurzfilm als Teil einer neuen Miniserie im Alien-Universum erschienen.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Nach Software-Update: Hamburger S-Bahn soll wieder pünktlicher fahren</title>
+        <id>http://heise.de/-4360037</id>
+        <updated>2019-04-04T16:12:00+02:00</updated>
+        <published>2019-04-04T16:12:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Software-Update-Hamburger-S-Bahn-soll-jetzt-wieder-puenktlicher-fahren-4360037.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">In Hamburg waren die S-Bahnen in den letzten Monaten sehr unpünktlich. Schuld soll die Software der Züge sein.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Software-Update-Hamburger-S-Bahn-soll-jetzt-wieder-puenktlicher-fahren-4360037.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/4/9/2/2/s-bahn-hamburg-7a0ac4eaed44f26b.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>In Hamburg waren die S-Bahnen in den letzten Monaten sehr unpünktlich. Schuld soll die Software der Züge sein.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Ratgeber Chromecast: Flexibler Einstieg in Multiroom-Audio</title>
+        <id>http://heise.de/-4360017</id>
+        <updated>2019-04-04T16:05:00+02:00</updated>
+        <published>2019-04-04T16:05:00+02:00</published>
+        <link href="https://www.techstage.de/news/Ratgeber-Chromecast-Flexibler-Einstieg-in-Multiroom-Audio-3755074.html?wt_mc=intern.newsticker.anrissliste.techstage?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Chromecast kann mehr als Youtube streamen. Es bündelt die Produkte unterschiedlicher Hersteller unter einer App und ermöglicht flexible Multiroom-Szenarien.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.techstage.de/news/Ratgeber-Chromecast-Flexibler-Einstieg-in-Multiroom-Audio-3755074.html?wt_mc=intern.newsticker.anrissliste.techstage"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/4/9/0/4/ChromecastRatgeber_ho-0cd516eb8301b709.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Chromecast kann mehr als Youtube streamen. Es bündelt die Produkte unterschiedlicher Hersteller unter einer App und ermöglicht flexible Multiroom-Szenarien.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Nach Vernehmung: Apple-Manager reicht Beschwerde gegen US-Grenzschutz ein</title>
+        <id>http://heise.de/-4359995</id>
+        <updated>2019-04-04T15:59:00+02:00</updated>
+        <published>2019-04-04T15:59:00+02:00</published>
+        <link href="https://www.heise.de/mac-and-i/meldung/Nach-Vernehmung-Apple-Manager-reicht-Beschwerde-gegen-US-Grenzschutz-ein-4359995.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">US-Grenzbeamte haben den ehemaligen Mozilla-CTO, der nun für Apple arbeitet, angeblich gezielt verhört und wollten seine Geräte durchsuchen.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/mac-and-i/meldung/Nach-Vernehmung-Apple-Manager-reicht-Beschwerde-gegen-US-Grenzschutz-ein-4359995.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/4/8/8/2/urn-newsml-dpa-com-20090101-160220-99-883925_large_4_3-6968bb9c7ea63539.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>US-Grenzbeamte haben den ehemaligen Mozilla-CTO, der nun für Apple arbeitet, angeblich gezielt verhört und wollten seine Geräte durchsuchen.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Australien verabschiedet umstrittenes Gesetz gegen Gewaltvideos</title>
+        <id>http://heise.de/-4359959</id>
+        <updated>2019-04-04T15:52:00+02:00</updated>
+        <published>2019-04-04T15:52:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Australien-verabschiedet-umstrittenes-Gesetz-gegen-Gewaltvideos-4359959.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Ein Gesetz gegen Gewaltvideos im Netz ist in Australien höchst umstritten. Dennoch hat es das Parlament nun verabschiedet – eine Reaktion auf Christchurch.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Australien-verabschiedet-umstrittenes-Gesetz-gegen-Gewaltvideos-4359959.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/4/8/5/0/urn-newsml-dpa-com-20090101-190313-99-368137_large_4_3-2281432089ed18ae.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Ein Gesetz gegen Gewaltvideos im Netz ist in Australien höchst umstritten. Dennoch hat es das Parlament nun verabschiedet – eine Reaktion auf Christchurch.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Anzeige: Cybersecurity auf Knopfdruck: IT-Sicherheit aus der Cloud</title>
+        <id>http://heise.de/-4341570</id>
+        <updated>2019-04-04T15:48:00+02:00</updated>
+        <published>2019-04-04T15:48:00+02:00</published>
+        <link href="https://www.heise.de/brandworlds/zukunftsmacher/cybersecurity-auf-knopfdruck-it-sicherheit-aus-der-cloud/?source=bwt ?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Die Münchner DriveLock SE stellt ein mehrschichtiges Sicherheitskonzept mit Predictive Whitelisting für kleine und mittelständische Unternehmen vor.
+
+</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/brandworlds/zukunftsmacher/cybersecurity-auf-knopfdruck-it-sicherheit-aus-der-cloud/?source=bwt "><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/4/8/9/0/Win17_CDOC_1012-v-8650c9f48bca46fb.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Die Münchner DriveLock SE stellt ein mehrschichtiges Sicherheitskonzept mit Predictive Whitelisting für kleine und mittelständische Unternehmen vor.
+
+</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Update für Teslas „Navigate on Autopilot“</title>
+        <id>http://heise.de/-4359926</id>
+        <updated>2019-04-04T15:44:00+02:00</updated>
+        <published>2019-04-04T15:44:00+02:00</published>
+        <link href="https://www.heise.de/autos/artikel/Update-fuer-Teslas-Navigate-on-Autopilot-4359926.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Der seit 2018 erhältliche Spurassistent für Teslas Navigationssystem lässt künftig Spurwechsel zu, die nicht mit dem Blinkerhebel bestätigt wurden.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/autos/artikel/Update-fuer-Teslas-Navigate-on-Autopilot-4359926.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/4/8/9/8/Autopil2-e95258d8e4cd7341.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Der seit 2018 erhältliche Spurassistent für Teslas Navigationssystem lässt künftig Spurwechsel zu, die nicht mit dem Blinkerhebel bestätigt wurden.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Anno 1800: Offene Beta startet am 12. April</title>
+        <id>http://heise.de/-4359936</id>
+        <updated>2019-04-04T15:30:00+02:00</updated>
+        <published>2019-04-04T15:30:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Anno-1800-Offene-Beta-startet-am-12-April-4359936.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Ubisoft lässt jeden interessierten Spieler probezocken: Zwei Tage lang kann man Anno 1800 im Rahmen einer offenen Beta kostenlos spielen. </summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Anno-1800-Offene-Beta-startet-am-12-April-4359936.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/4/8/3/5/anno-100-keyart-hero-1600x1000_desktop_297547-2ea1168a1a0ad8b6.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Ubisoft lässt jeden interessierten Spieler probezocken: Zwei Tage lang kann man Anno 1800 im Rahmen einer offenen Beta kostenlos spielen. </p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Vidimensio-Smartwatches: Der Sicherheits-Alptraum geht weiter</title>
+        <id>http://heise.de/-4359967</id>
+        <updated>2019-04-04T15:29:00+02:00</updated>
+        <published>2019-04-04T15:29:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Vidimensio-Smartwatches-Der-Sicherheits-Alptraum-geht-weiter-4359967.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Die Träger tausender als Sicherheitsprodukt angepriesener GPS-Tracker können im Web ausspioniert werden. Den Hersteller der Uhren interessiert das wenig.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Vidimensio-Smartwatches-Der-Sicherheits-Alptraum-geht-weiter-4359967.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/4/8/5/8/vidimensio-apr-2019-2a386bdfee4c6cd9.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Die Träger tausender als Sicherheitsprodukt angepriesener GPS-Tracker können im Web ausspioniert werden. Den Hersteller der Uhren interessiert das wenig.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">5G-Auktion: Mobilfunk-Provider bieten mehr als drei Milliarden Euro</title>
+        <id>http://heise.de/-4359962</id>
+        <updated>2019-04-04T15:16:00+02:00</updated>
+        <published>2019-04-04T15:16:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/5G-Auktion-Mobilfunk-Provider-bieten-mehr-als-drei-Milliarden-Euro-4359962.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Nachdem es zwischenzeitlich so ausgesehen hatte, als ob sich die 5G-Auktion dem Ende neigt, steigen die Gebote nun wieder deutlich.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/5G-Auktion-Mobilfunk-Provider-bieten-mehr-als-drei-Milliarden-Euro-4359962.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/4/8/5/3/02-Mobilfunk-5G-f8d8c980a1c83f82.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Nachdem es zwischenzeitlich so ausgesehen hatte, als ob sich die 5G-Auktion dem Ende neigt, steigen die Gebote nun wieder deutlich.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Robotron-Museum in Dresden öffnet am Sonnabend</title>
+        <id>http://heise.de/-4359801</id>
+        <updated>2019-04-04T14:46:00+02:00</updated>
+        <published>2019-04-04T14:46:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Robotron-Museum-in-Dresden-oeffnet-am-Sonnabend-4359801.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Das Kombinat Robotron wurde 1969 als Zusammenschluss von Betrieben gebildet, die zuvor die erste Serien-Rechenanlage der DDR gebaut hatten.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Robotron-Museum-in-Dresden-oeffnet-am-Sonnabend-4359801.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/4/7/3/8/A_5130_IMG_7681-6c16df98eb476dce.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Das Kombinat Robotron wurde 1969 als Zusammenschluss von Betrieben gebildet, die zuvor die erste Serien-Rechenanlage der DDR gebaut hatten.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Verzeichnis &quot;/.well-known/&quot; beliebtes Malware-Versteck auf gehackten Webservern </title>
+        <id>http://heise.de/-4359145</id>
+        <updated>2019-04-04T14:42:00+02:00</updated>
+        <published>2019-04-04T14:42:00+02:00</published>
+        <link href="https://www.heise.de/security/meldung/Verzeichnis-well-known-beliebtes-Malware-Versteck-auf-gehackten-Webservern-4359145.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Anders als sein Name impliziert, wird das versteckte Verzeichnis &quot;/.well-known/&quot; von Admins gern vergessen oder übersehen. Das kann fatale Folgen haben.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/security/meldung/Verzeichnis-well-known-beliebtes-Malware-Versteck-auf-gehackten-Webservern-4359145.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/4/3/0/2/death-164761_1280-27447271d5d39267.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Anders als sein Name impliziert, wird das versteckte Verzeichnis "/.well-known/" von Admins gern vergessen oder übersehen. Das kann fatale Folgen haben.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">WLAN-Lautsprecher: Apples HomePod wird billiger</title>
+        <id>http://heise.de/-4359813</id>
+        <updated>2019-04-04T14:13:00+02:00</updated>
+        <published>2019-04-04T14:13:00+02:00</published>
+        <link href="https://www.heise.de/mac-and-i/meldung/WLAN-Lautsprecher-Apples-HomePod-wird-billiger-4359813.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Ein gutes Jahr nach der Einführung hat Apple den Preis des Siri-Lautsprechers gesenkt.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/mac-and-i/meldung/WLAN-Lautsprecher-Apples-HomePod-wird-billiger-4359813.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/4/7/4/8/urn-newsml-dpa-com-20090101-171119-99-931620_large_4_3-bfdced704574056a.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Ein gutes Jahr nach der Einführung hat Apple den Preis des Siri-Lautsprechers gesenkt.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Werbung auf Facebook: Diskriminierung auch durch die Algorithmen</title>
+        <id>http://heise.de/-4359809</id>
+        <updated>2019-04-04T14:05:00+02:00</updated>
+        <published>2019-04-04T14:05:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Werbung-auf-Facebook-Diskriminierung-auch-durch-die-Algorithmen-4359809.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Diskriminierende Werbung auf Facebook wird bereits diskutiert. Problematisch sind aber nicht nur die Optionen für Werber, auch die Algorithmen sind nicht fair.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Werbung-auf-Facebook-Diskriminierung-auch-durch-die-Algorithmen-4359809.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/4/7/4/4/shutterstock_1065601421_1_-f421fdd2d895cba4.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Diskriminierende Werbung auf Facebook wird bereits diskutiert. Problematisch sind aber nicht nur die Optionen für Werber, auch die Algorithmen sind nicht fair.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Schrumpfender Markt: Foxconn fährt Produktion von Android-Handys zurück</title>
+        <id>http://heise.de/-4359785</id>
+        <updated>2019-04-04T13:39:00+02:00</updated>
+        <published>2019-04-04T13:39:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Schrumpfender-Markt-Foxconn-faehrt-Produktion-von-Android-Handys-zurueck-4359785.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Foxconn macht mit der Produktion von Android-Handys Verluste. Arbeitskräfte sollen nun in Richtung Elektroauto-Herstellung verlagert werden. </summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Schrumpfender-Markt-Foxconn-faehrt-Produktion-von-Android-Handys-zurueck-4359785.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/4/7/2/6/Google_Pixel_3_Pixel_3_XL_3796-efeb91b3f9ca1ac7.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Foxconn macht mit der Produktion von Android-Handys Verluste. Arbeitskräfte sollen nun in Richtung Elektroauto-Herstellung verlagert werden. </p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">Südkorea und USA: Kommerzielle 5G-Netze in Betrieb genommen</title>
+        <id>http://heise.de/-4359533</id>
+        <updated>2019-04-04T12:33:00+02:00</updated>
+        <published>2019-04-04T12:33:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/Suedkorea-und-USA-Kommerzielle-5G-Netze-in-Betrieb-genommen-4359533.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">Während deutsche Mobilfunkbetreiber noch um Frequenzen steigern, nehmen Provider in den USA und Südkorea schon Netze für den Massenmarkt in Betrieb.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/Suedkorea-und-USA-Kommerzielle-5G-Netze-in-Betrieb-genommen-4359533.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/4/6/1/0/5g-mobilfunk-symbol-01-mwc-2019-250219-vbr-64e65aa467439d4b.jpeg" class="webfeedsFeaturedVisual" alt="" /></a></p><p>Während deutsche Mobilfunkbetreiber noch um Frequenzen steigern, nehmen Provider in den USA und Südkorea schon Netze für den Massenmarkt in Betrieb.</p>]]></content>
+    </entry>
+    <entry>
+        <title type="text">EU-Parlament beschließt Speicherpflicht für Fingerabdrücke im Personalausweis</title>
+        <id>http://heise.de/-4359747</id>
+        <updated>2019-04-04T12:29:00+02:00</updated>
+        <published>2019-04-04T12:29:00+02:00</published>
+        <link href="https://www.heise.de/newsticker/meldung/EU-Parlament-beschliesst-Speicherpflicht-fuer-Fingerabdruecke-im-Personalausweis-4359747.html?wt_mc=rss.ho.beitrag.atom"/>
+        <summary type="html">In der gesamten EU müssen künftig neben einem digitalen Gesichtsbild auf Ausweisen künftig auch zwei Fingerabdrücke auf einem RFID-Chip gespeichert werden.</summary>
+        <content type="html"><![CDATA[<p><a href="https://www.heise.de/newsticker/meldung/EU-Parlament-beschliesst-Speicherpflicht-fuer-Fingerabdruecke-im-Personalausweis-4359747.html"><img src="https://www.heise.de/scale/geometry/450/q80//imgs/18/2/6/3/4/7/0/7/beschluss-ausweise-689153ccf6ca8b1d.png" class="webfeedsFeaturedVisual" alt="" /></a></p><p>In der gesamten EU müssen künftig neben einem digitalen Gesichtsbild auf Ausweisen künftig auch zwei Fingerabdrücke auf einem RFID-Chip gespeichert werden.</p>]]></content>
+    </entry>
+</feed>
