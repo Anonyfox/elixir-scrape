@@ -1,45 +1,23 @@
-defmodule Scrape.Mixfile do
+defmodule Scrape.MixProject do
   use Mix.Project
 
   def project do
-    [app: :scrape,
-     version: "2.0.0",
-     elixir: "~> 1.4",
-     description: description(),
-     package: package(),
-     build_embedded: Mix.env == :prod,
-     start_permanent: Mix.env == :prod,
-     dialyzer: [plt_add_deps: true],
-     deps: deps()]
-  end
-
-  # Configuration for the OTP application
-  #
-  # Type `mix help compile.app` for more information
-  def application do
-    [applications: [:logger, :httpoison, :tzdata,
-                    :floki, :parallel, :timex, :codepagex]]
-  end
-
-  # Dependencies can be Hex packages:
-  #
-  #   {:mydep, "~> 0.3.0"}
-  #
-  # Or git/path repositories:
-  #
-  #   {:mydep, git: "https://github.com/elixir-lang/mydep.git", tag: "0.1.0"}
-  #
-  # Type `mix help deps` for more examples and options
-  defp deps do
     [
-      {:floki,      "~> 0.14"}, # html/xml parser
-      {:html5ever,  "~> 0.7.0"},
-      {:httpoison,  "~> 1.4"}, # http client
-      {:codepagex,  "~> 0.1.4"}, # iconv written in pure elixir
-      {:timex,      "~> 3.1"}, # date/time processing
-      {:parallel,   "~> 0.0.3"}, # easy parallel processing
-      {:dogma,      "~> 0.1.6", only: :dev}, # static code linter
-      {:ex_doc,     ">= 0.0.0", only: :dev} # required now
+      app: :scrape,
+      version: "3.0.0",
+      elixir: "~> 1.8",
+      description: description(),
+      package: package(),
+      start_permanent: Mix.env() == :prod,
+      deps: deps()
+    ]
+  end
+
+  # Run "mix help compile.app" to learn about applications.
+  def application do
+    [
+      extra_applications: [:logger],
+      mod: {Scrape.Application, []}
     ]
   end
 
@@ -55,6 +33,14 @@ defmodule Scrape.Mixfile do
       maintainers: ["Maximilian Stroh"],
       licenses: ["LGPLv3"],
       links: %{"GitHub" => "https://github.com/Anonyfox/elixir-scrape"}
+    ]
+  end
+
+  # Run "mix help deps" to learn about dependencies.
+  defp deps do
+    [
+      # {:dep_from_hexpm, "~> 0.3.0"},
+      # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
     ]
   end
 end
