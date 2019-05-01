@@ -4,4 +4,5 @@
   "jsx": {:hex, :jsx, "2.8.3", "a05252d381885240744d955fbe3cf810504eb2567164824e19303ea59eef62cf", [:mix, :rebar3], [], "hexpm"},
   "mix_test_watch": {:hex, :mix_test_watch, "0.9.0", "c72132a6071261893518fa08e121e911c9358713f62794a90c95db59042af375", [:mix], [{:file_system, "~> 0.2.1 or ~> 0.3", [hex: :file_system, repo: "hexpm", optional: false]}], "hexpm"},
   "paasaa": {:hex, :paasaa, "0.3.1", "94e1c4fc83bdd7b8c06fd90f965ff90a6198cbcf6ddf27b64de62f5dbcb2ccf7", [:mix], [{:exjsx, "~> 4.0", [hex: :exjsx, repo: "hexpm", optional: false]}], "hexpm"},
+  "stemex": {:hex, :stemex, "0.1.1", "726d693b67c4ee82398ca6f1bfbacc8d7aad20861a0371e44e9c6f9dee1e042d", [:mix], [], "hexpm"},
 }

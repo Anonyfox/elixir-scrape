@@ -40,7 +40,8 @@ defmodule Scrape.MixProject do
   defp deps do
     [
       {:mix_test_watch, "~> 0.8", only: :dev, runtime: false},
-      {:paasaa, "~> 0.3.1"}
+      {:paasaa, "~> 0.3.1"},
+      {:stemex, "~> 0.1.1"}
     ]
   end
 end
