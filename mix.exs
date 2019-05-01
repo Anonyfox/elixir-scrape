@@ -43,7 +43,8 @@ defmodule Scrape.MixProject do
       {:ex_doc, "~> 0.20.2", only: :dev, runtime: false},
       {:paasaa, "~> 0.3.1"},
       {:stemex, "~> 0.1.1"},
-      {:floki, "~> 0.21.0"}
+      {:floki, "~> 0.21.0"},
+      {:readability, "~> 0.10.0"}
     ]
   end
 end

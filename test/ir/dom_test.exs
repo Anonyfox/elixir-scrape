@@ -34,4 +34,16 @@ defmodule Scrape.IR.DOMTest do
       assert DOM.image_url(html) == "img.jpg"
     end
   end
+
+  describe "DOM.content/1" do
+    test "can extract text from english html string" do
+      html = File.read!("cache/article/nytimes.html")
+      assert DOM.content(html) =~ "Minimum Wage Increases Have Trade-Offs."
+    end
+
+    test "can extract text from german html string" do
+      html = File.read!("cache/article/spiegel.html")
+      assert DOM.content(html) =~ "Im Interview erklärt er die Faszination schwarzer Löcher"
+    end
+  end
 end
