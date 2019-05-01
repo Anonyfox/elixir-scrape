@@ -36,4 +36,29 @@ defmodule Scrape.IR.Word do
       _ -> word
     end
   end
+
+  @doc """
+    Check if a given word is a stopword against the provided language lists.
+
+    Note: the provided language lists are all-downcased words.
+
+    ## Examples
+      iex> Scrape.IR.Word.IsStopword.execute("when", :en)
+      true
+
+      iex> Scrape.IR.Word.IsStopword.execute("linux", :en)
+      false
+
+      iex> Scrape.IR.Word.IsStopword.execute("ein", :de)
+      true
+
+      iex> Scrape.IR.Word.IsStopword.execute("elixir", :de)
+      false
+  """
+
+  @spec is_stopword?(String.t(), :de | :en) :: boolean()
+
+  defdelegate is_stopword?(word, language \\ :en),
+    to: Scrape.IR.Word.IsStopword,
+    as: :execute
 end
