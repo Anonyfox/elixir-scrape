@@ -6,6 +6,8 @@ defmodule Scrape.IR.Text do
   Details are hidden within the algorithms, so a clean interface can be provided.
   """
 
+  alias Scrape.IR.Word
+
   def generate_summary(text) do
     text
   end
@@ -86,5 +88,43 @@ defmodule Scrape.IR.Text do
     |> String.replace(~r/\s+/, " ")
     |> String.replace(~r/\s+/, " ")
     |> String.trim()
+  end
+
+  @doc """
+  Dissect a text into word tokens.
+
+  The resulting list is a list of downcased words with all non-word-characters
+  stripped.
+
+  ## Examples
+      iex> Scrape.IR.Text.tokenize("Hello, world!")
+      ["hello", "world"]
+  """
+
+  @spec tokenize(String.t()) :: [String.t()]
+
+  def tokenize(text) do
+    text
+    |> String.replace(~r/[^\w\s]/u, " ")
+    |> normalize_whitespace()
+    |> String.downcase()
+    |> String.split()
+  end
+
+  @doc """
+  Dissect a text into word tokens similar to `tokenize/1` but strips words
+  that carry no semantic value.
+
+  ## Examples
+      iex> Scrape.IR.Text.semantic_tokenize("A beautiful day!", :en)
+      ["beautiful", "day"]
+  """
+
+  @spec semantic_tokenize(String.t(), :de | :en) :: [String.t()]
+
+  def semantic_tokenize(text, language \\ :en) do
+    text
+    |> tokenize()
+    |> Enum.filter(fn word -> Word.is_meaningful?(word, language) end)
   end
 end

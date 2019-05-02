@@ -61,4 +61,24 @@ defmodule Scrape.IR.Word do
   defdelegate is_stopword?(word, language \\ :en),
     to: Scrape.IR.Word.IsStopword,
     as: :execute
+
+  @doc """
+  Determine if a given word might be relevant for analytical purposes.
+
+  Uses a simple heuristic and checks for stopword matches.
+
+  ## Examples
+      iex> Scrape.IR.Word.is_meaningful?("a", :en)
+      false
+
+      iex> Scrape.IR.Word.is_meaningful?("apple", :en)
+      true
+  """
+
+  @spec is_meaningful?(String.t(), :de | :en) :: boolean()
+
+  def is_meaningful?(word, language \\ :en) do
+    String.length(word) > 2 and String.match?(word, ~r/^[\p{L}\p{M}\w]+$/u) and
+      not is_stopword?(word, language)
+  end
 end
