@@ -1,4 +1,6 @@
 defmodule Scrape.Flow.Domain do
+  @moduledoc false
+
   alias Scrape.IR.DOM
   alias Scrape.Source.HTTP
 
@@ -15,46 +17,46 @@ defmodule Scrape.Flow.Domain do
     |> finalize()
   end
 
-  def fetch_html(%__MODULE__{url: url} = data) do
+  defp fetch_html(%__MODULE__{url: url} = data) do
     case HTTP.get(url) do
       {:ok, html} -> %{data | html: html}
       _ -> %{data | halted: true, error: :http_error}
     end
   end
 
-  def parse_html(%__MODULE__{halted: true} = data), do: data
+  defp parse_html(%__MODULE__{halted: true} = data), do: data
 
-  def parse_html(%__MODULE__{html: html} = data) do
+  defp parse_html(%__MODULE__{html: html} = data) do
     %{data | dom: Floki.parse(html)}
   end
 
-  def extract_title(%__MODULE__{halted: true} = data), do: data
+  defp extract_title(%__MODULE__{halted: true} = data), do: data
 
-  def extract_title(%__MODULE__{dom: dom} = data) do
+  defp extract_title(%__MODULE__{dom: dom} = data) do
     %{data | title: DOM.title(dom)}
   end
 
-  def extract_description(%__MODULE__{halted: true} = data), do: data
+  defp extract_description(%__MODULE__{halted: true} = data), do: data
 
-  def extract_description(%__MODULE__{dom: dom} = data) do
+  defp extract_description(%__MODULE__{dom: dom} = data) do
     %{data | description: DOM.description(dom)}
   end
 
-  def extract_icon_url(%__MODULE__{halted: true} = data), do: data
+  defp extract_icon_url(%__MODULE__{halted: true} = data), do: data
 
-  def extract_icon_url(%__MODULE__{dom: dom, url: url} = data) do
+  defp extract_icon_url(%__MODULE__{dom: dom, url: url} = data) do
     %{data | icon_url: DOM.icon_url(dom, url)}
   end
 
-  def extract_feed_urls(%__MODULE__{halted: true} = data), do: data
+  defp extract_feed_urls(%__MODULE__{halted: true} = data), do: data
 
-  def extract_feed_urls(%__MODULE__{dom: dom, url: url} = data) do
+  defp extract_feed_urls(%__MODULE__{dom: dom, url: url} = data) do
     %{data | feed_urls: DOM.feed_urls(dom, url)}
   end
 
-  def finalize(%__MODULE__{halted: true, error: error}), do: {:error, error}
+  defp finalize(%__MODULE__{halted: true, error: error}), do: {:error, error}
 
-  def finalize(%__MODULE__{} = data) do
+  defp finalize(%__MODULE__{} = data) do
     keys = [:url, :title, :description, :icon_url, :feed_urls]
     {:ok, Map.take(data, keys)}
   end
