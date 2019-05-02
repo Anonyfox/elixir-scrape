@@ -3,16 +3,12 @@ defmodule Scrape do
   Documentation for Scrape.
   """
 
-  @doc """
-  Hello world.
+  def domain(url) do
+    Scrape.Flow.Domain.execute(url)
+  end
 
-  ## Examples
-
-      iex> Scrape.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  def domain!(url) do
+    {:ok, domain} = Scrape.Flow.Domain.execute(url)
+    domain
   end
 end

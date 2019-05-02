@@ -53,6 +53,14 @@ defmodule Scrape.IR.DOM do
   defdelegate icon_url(dom, url \\ ""), to: Scrape.IR.DOM.IconURL, as: :execute
 
   @doc """
+  Extract a list of all (possible) feed urls from the document.
+  """
+
+  @spec feed_urls(String.t() | [any()], String.t() | nil) :: [String.t()]
+
+  defdelegate feed_urls(dom, url \\ ""), to: Scrape.IR.DOM.FeedURLs, as: :execute
+
+  @doc """
   Try to extract the relevant text content from a given document.
 
   Uses the [Readability](https://hex.pm/packages/readability) algorithm, which
