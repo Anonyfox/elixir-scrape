@@ -6,14 +6,17 @@ defmodule Scrape.IR.Text do
   Details are hidden within the algorithms, so a clean interface can be provided.
   """
 
+  alias Scrape.IR.Text.TFIDF
   alias Scrape.IR.Word
 
   def generate_summary(text) do
     text
   end
 
-  def extract_summary(text) do
+  def extract_summary(text, start_words, language \\ :en) do
     text
+    |> TFIDF.generate_database(language)
+    |> TFIDF.query(start_words)
   end
 
   @doc """
@@ -126,5 +129,21 @@ defmodule Scrape.IR.Text do
     text
     |> tokenize()
     |> Enum.filter(fn word -> Word.is_meaningful?(word, language) end)
+  end
+
+  def semantic_keywords(text, n \\ 20, language \\ :en) do
+    text
+    |> semantic_tokenize(language)
+    |> Enum.map(&Word.stem(&1, language))
+    |> Enum.reduce(%{}, &aggregate_word_scores/2)
+    |> Map.to_list()
+    |> Enum.sort_by(fn {_word, score} -> score end, &>=/2)
+    |> Enum.take(n)
+    |> Enum.map(&elem(&1, 0))
+  end
+
+  defp aggregate_word_scores(word, acc) do
+    existing = Map.get(acc, word, 0)
+    Map.put(acc, word, existing + 1)
   end
 end

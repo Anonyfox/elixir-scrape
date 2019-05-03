@@ -11,4 +11,13 @@ defmodule Scrape do
     {:ok, domain} = Scrape.Flow.Domain.execute(url)
     domain
   end
+
+  def article(url) do
+    Scrape.Flow.Article.execute(url)
+  end
+
+  def article!(url) do
+    {:ok, article} = Scrape.Flow.Article.execute(url)
+    article
+  end
 end

@@ -75,6 +75,7 @@ defmodule Scrape.IR.DOM do
     try do
       dom
       |> Readability.article()
+      |> Floki.filter_out("figure")
       |> Readability.readable_text()
       |> String.replace(~r/\s+/, " ")
       |> String.replace(~r/(\s\S+[a-zäöüß]+)([A-ZÄÖÜ]\S+\s)/u, "\\1. \\2")
