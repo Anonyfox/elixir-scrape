@@ -12,9 +12,10 @@ defmodule Scrape.Flow do
     end
   end
 
-  def stop(%{halted: true, error: reason}, _), do: {:error, reason}
+  def into(%{halted: true, error: reason}, _), do: {:error, reason}
 
-  def stop(state, keys) do
-    {:ok, Map.take(state, keys)}
+  def into(state, target_name) do
+    module = Module.concat([Scrape.Target, target_name])
+    {:ok, apply(module, :build, [state])}
   end
 end

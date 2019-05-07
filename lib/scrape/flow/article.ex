@@ -29,6 +29,6 @@ defmodule Scrape.Flow.Article do
     |> Flow.step(:DetectLanguage)
     |> Flow.step(:CalculateStems)
     |> Flow.step(:CalculateSummary)
-    |> Flow.stop([:url, :title, :text, :summary, :language, :stems, :image_url])
+    |> Flow.into(:Article)
   end
 end

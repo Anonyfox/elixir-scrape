@@ -9,7 +9,7 @@ defmodule Scrape.Flow.DomainTest do
   describe "Domain#from_file" do
     test "works when a valid domain file exists" do
       {:ok, data} = Domain.from_file("cache/domain/venturebeat.html")
-      assert data.title =~ "latest technology news"
+      assert data.title =~ "Fortnite teams up with Avengers"
       assert length(data.feed_urls) == 3
     end
 
@@ -23,7 +23,7 @@ defmodule Scrape.Flow.DomainTest do
     test "works when a valid string is given" do
       html = File.read!("cache/domain/venturebeat.html")
       {:ok, data} = Domain.from_string(html)
-      assert data.title =~ "latest technology news"
+      assert data.title =~ "Fortnite teams up with Avengers"
       assert length(data.feed_urls) == 3
     end
 

@@ -27,6 +27,6 @@ defmodule Scrape.Flow.Domain do
     |> Flow.step(:ExtractDescription)
     |> Flow.step(:ExtractIconURL)
     |> Flow.step(:ExtractFeedURLs)
-    |> Flow.stop([:url, :title, :description, :icon_url, :feed_urls])
+    |> Flow.into(:Domain)
   end
 end
