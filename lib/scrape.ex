@@ -3,21 +3,21 @@ defmodule Scrape do
   Documentation for Scrape.
   """
 
-  def domain(url) do
-    Scrape.Flow.Domain.from_url(url)
+  def domain(url, opts \\ []) do
+    Scrape.Flow.Domain.from_url(url, opts)
   end
 
-  def domain!(url) do
-    {:ok, domain} = Scrape.Flow.Domain.from_url(url)
+  def domain!(url, opts \\ []) do
+    {:ok, domain} = Scrape.Flow.Domain.from_url(url, opts)
     domain
   end
 
-  def article(url) do
-    Scrape.Flow.Article.from_url(url)
+  def article(url, opts \\ []) do
+    Scrape.Flow.Article.from_url(url, opts)
   end
 
-  def article!(url) do
-    {:ok, article} = Scrape.Flow.Article.from_url(url)
+  def article!(url, opts \\ []) do
+    {:ok, article} = Scrape.Flow.Article.from_url(url, opts)
     article
   end
 end

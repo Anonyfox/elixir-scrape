@@ -3,20 +3,20 @@ defmodule Scrape.Flow.Domain do
 
   alias Scrape.Flow
 
-  def from_url(url) do
-    Flow.start(%{path: nil, url: url})
+  def from_url(url, opts \\ []) do
+    Flow.start(%{path: nil, url: url}, opts)
     |> Flow.step(:FetchHTML)
     |> process_html()
   end
 
-  def from_file(path) do
-    Flow.start(%{path: path, url: nil})
+  def from_file(path, opts \\ []) do
+    Flow.start(%{path: path, url: nil}, opts)
     |> Flow.step(:FetchHTML)
     |> process_html()
   end
 
-  def from_string(string) do
-    Flow.start(%{html: string, url: nil})
+  def from_string(string, opts \\ []) do
+    Flow.start(%{html: string, url: nil}, opts)
     |> process_html()
   end
 

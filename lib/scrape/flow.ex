@@ -1,14 +1,14 @@
 defmodule Scrape.Flow do
-  defstruct halted: nil, error: nil, assigns: %{}
+  defstruct halted: nil, error: nil, assigns: %{}, opts: []
 
-  def start(assigns \\ %{}) do
-    %__MODULE__{assigns: assigns}
+  def start(assigns \\ %{}, opts \\ []) do
+    %__MODULE__{assigns: assigns, opts: Scrape.Options.merge(opts)}
   end
 
   def step(%{halted: true} = state, _), do: state
 
-  def step(%{assigns: assigns} = state, step_name) do
-    case apply(Module.concat([__MODULE__, "Steps", step_name]), :execute, [assigns]) do
+  def step(%{assigns: assigns, opts: opts} = state, step_name) do
+    case apply(Module.concat([__MODULE__, "Steps", step_name]), :execute, [assigns, opts]) do
       {:ok, data} -> %{state | assigns: Map.merge(assigns, data)}
       {:error, reason} -> Map.merge(state, %{halted: true, error: reason})
     end
