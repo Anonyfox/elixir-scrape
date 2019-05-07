@@ -3,11 +3,11 @@ defmodule Scrape.Flow.Steps.ExtractImageURLTest do
 
   alias Scrape.Flow.Steps.ExtractImageURL
 
-  test "refuses if no state is given" do
-    assert ExtractImageURL.execute(nil) == {:error, :no_state_given}
+  test "refuses if no assigns are given" do
+    assert ExtractImageURL.execute(nil) == {:error, :no_assigns_given}
   end
 
-  test "refuses if dom not existing in state" do
+  test "refuses if dom not existing in assigns" do
     assert ExtractImageURL.execute(%{}) == {:error, :dom_missing}
   end
 

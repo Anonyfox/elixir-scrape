@@ -3,11 +3,11 @@ defmodule Scrape.Flow.Steps.ExtractTextTest do
 
   alias Scrape.Flow.Steps.ExtractText
 
-  test "refuses if no state is given" do
-    assert ExtractText.execute(nil) == {:error, :no_state_given}
+  test "refuses if no assigns are given" do
+    assert ExtractText.execute(nil) == {:error, :no_assigns_given}
   end
 
-  test "refuses if html not existing in state" do
+  test "refuses if html not existing in assigns" do
     assert ExtractText.execute(%{}) == {:error, :html_missing}
   end
 

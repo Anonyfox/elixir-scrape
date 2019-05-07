@@ -1,8 +1,8 @@
 defmodule Scrape.Flow.Steps.ExtractText do
   @moduledoc false
 
-  def execute(state) when not is_map(state) do
-    {:error, :no_state_given}
+  def execute(assigns) when not is_map(assigns) do
+    {:error, :no_assigns_given}
   end
 
   def execute(%{html: html}) when not is_binary(html) do
@@ -34,7 +34,7 @@ defmodule Scrape.Flow.Steps.ExtractText do
     {:ok, %{text: text}}
   end
 
-  def execute(_state) do
+  def execute(_) do
     {:error, :html_missing}
   end
 

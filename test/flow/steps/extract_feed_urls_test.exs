@@ -3,11 +3,11 @@ defmodule Scrape.Flow.Steps.ExtractFeedURLsTest do
 
   alias Scrape.Flow.Steps.ExtractFeedURLs
 
-  test "refuses if no state is given" do
-    assert ExtractFeedURLs.execute(nil) == {:error, :no_state_given}
+  test "refuses if no assigns are given" do
+    assert ExtractFeedURLs.execute(nil) == {:error, :no_assigns_given}
   end
 
-  test "refuses if dom not existing in state" do
+  test "refuses if dom not existing in assigns" do
     assert ExtractFeedURLs.execute(%{}) == {:error, :dom_missing}
   end
 

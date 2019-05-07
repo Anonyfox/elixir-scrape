@@ -3,8 +3,8 @@ defmodule Scrape.Flow.Steps.DetectLanguageTest do
 
   alias Scrape.Flow.Steps.DetectLanguage
 
-  test "refuses if no state is given" do
-    assert DetectLanguage.execute(nil) == {:error, :no_state_given}
+  test "refuses if no assigns are given" do
+    assert DetectLanguage.execute(nil) == {:error, :no_assigns_given}
   end
 
   test "refuses if html not existing in state" do

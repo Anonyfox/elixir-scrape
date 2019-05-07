@@ -3,11 +3,11 @@ defmodule Scrape.Flow.Steps.ExtractTitleTest do
 
   alias Scrape.Flow.Steps.ExtractTitle
 
-  test "refuses if no state is given" do
-    assert ExtractTitle.execute(nil) == {:error, :no_state_given}
+  test "refuses if no assigns are given" do
+    assert ExtractTitle.execute(nil) == {:error, :no_assigns_given}
   end
 
-  test "refuses if dom not existing in state" do
+  test "refuses if dom not existing in assigns" do
     assert ExtractTitle.execute(%{}) == {:error, :dom_missing}
   end
 

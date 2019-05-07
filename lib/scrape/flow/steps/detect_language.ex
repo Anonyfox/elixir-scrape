@@ -1,8 +1,8 @@
 defmodule Scrape.Flow.Steps.DetectLanguage do
   @moduledoc false
 
-  def execute(state) when not is_map(state) do
-    {:error, :no_state_given}
+  def execute(assigns) when not is_map(assigns) do
+    {:error, :no_assigns_given}
   end
 
   def execute(%{text: text}) when not is_binary(text) do
@@ -13,7 +13,7 @@ defmodule Scrape.Flow.Steps.DetectLanguage do
     {:ok, %{language: Scrape.IR.Text.detect_language(text)}}
   end
 
-  def execute(_map) do
+  def execute(_) do
     {:error, :text_missing}
   end
 end
