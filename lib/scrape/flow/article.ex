@@ -25,7 +25,6 @@ defmodule Scrape.Flow.Article do
     |> Flow.step(:ParseHTML)
     |> Flow.step(:ExtractTitle)
     |> Flow.step(:ExtractImageURL)
-    |> Flow.step(:ExtractBody)
     |> Flow.step(:ExtractText)
     |> Flow.step(:DetectLanguage)
     |> Flow.step(:CalculateStems)
