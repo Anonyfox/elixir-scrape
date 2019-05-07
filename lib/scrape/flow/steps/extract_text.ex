@@ -1,14 +1,10 @@
 defmodule Scrape.Flow.Steps.ExtractText do
   @moduledoc false
 
-  def execute(assigns), do: execute(assigns, Scrape.Options.merge())
-
-  def execute(assigns, _) when not is_map(assigns) do
-    {:error, :no_assigns_given}
-  end
+  use Scrape.Flow.Step
 
   def execute(%{html: html}, _) when not is_binary(html) do
-    {:error, :html_invalid}
+    fail(:html_invalid)
   end
 
   def execute(%{html: html}, _) do
@@ -33,11 +29,11 @@ defmodule Scrape.Flow.Steps.ExtractText do
           end
       end
 
-    {:ok, %{text: text}}
+    assign(text: text)
   end
 
   def execute(_, _) do
-    {:error, :html_missing}
+    fail(:html_missing)
   end
 
   defp content_from_html(html) do

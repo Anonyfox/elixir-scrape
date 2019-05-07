@@ -3,8 +3,8 @@ defmodule Scrape.Flow.Steps.ParseHTMLTest do
 
   alias Scrape.Flow.Steps.ParseHTML
 
-  test "refuses if mo assigns are given" do
-    assert ParseHTML.execute(nil) == {:error, :html_missing}
+  test "refuses if no assigns are given" do
+    assert ParseHTML.execute(nil) == {:error, :no_assigns_given}
   end
 
   test "refuses if nil is given" do

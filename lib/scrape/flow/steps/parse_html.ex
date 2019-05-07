@@ -1,21 +1,21 @@
 defmodule Scrape.Flow.Steps.ParseHTML do
   @moduledoc false
 
-  def execute(assigns), do: execute(assigns, Scrape.Options.merge())
+  use Scrape.Flow.Step
 
   def execute(%{html: html}, _) when not is_binary(html) do
-    {:error, {:html_error, html}}
+    fail({:html_error, html})
   end
 
   def execute(%{html: ""}, _) do
-    {:error, {:html_error, ""}}
+    fail({:html_error, ""})
   end
 
   def execute(%{html: html}, _) when is_binary(html) do
-    {:ok, %{dom: Floki.parse(html)}}
+    assign(dom: Floki.parse(html))
   end
 
   def execute(_, _) do
-    {:error, :html_missing}
+    fail(:html_missing)
   end
 end
