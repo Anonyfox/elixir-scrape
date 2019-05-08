@@ -1,7 +1,7 @@
-defmodule Scrape.Flow.Steps.ExtractDescriptionTest do
+defmodule Scrape.Flow.Steps.HTML.ExtractDescriptionTest do
   use ExUnit.Case
 
-  alias Scrape.Flow.Steps.ExtractDescription
+  alias Scrape.Flow.Steps.HTML.ExtractDescription
 
   test "refuses if no assigns are given" do
     assert ExtractDescription.execute(nil) == {:error, :no_assigns_given}

@@ -1,4 +1,4 @@
-defmodule Scrape.Flow.Steps.ExtractText do
+defmodule Scrape.Flow.Steps.HTML.ExtractText do
   @moduledoc false
 
   use Scrape.Flow.Step

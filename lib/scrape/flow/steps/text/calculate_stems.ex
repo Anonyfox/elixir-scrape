@@ -1,4 +1,4 @@
-defmodule Scrape.Flow.Steps.CalculateStems do
+defmodule Scrape.Flow.Steps.Text.CalculateStems do
   @moduledoc false
 
   use Scrape.Flow.Step

@@ -1,4 +1,4 @@
-defmodule Scrape.Flow.Steps.ExtractImageURL do
+defmodule Scrape.Flow.Steps.HTML.ExtractImageURL do
   @moduledoc false
 
   use Scrape.Flow.Step

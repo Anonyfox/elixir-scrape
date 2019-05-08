@@ -5,13 +5,13 @@ defmodule Scrape.Flow.Domain do
 
   def from_url(url, opts \\ []) do
     Flow.start(%{path: nil, url: url}, opts)
-    |> Flow.step(:FetchHTML)
+    |> Flow.step("FetchHTML")
     |> process_html()
   end
 
   def from_file(path, opts \\ []) do
     Flow.start(%{path: path, url: nil}, opts)
-    |> Flow.step(:FetchHTML)
+    |> Flow.step("FetchHTML")
     |> process_html()
   end
 
@@ -22,11 +22,11 @@ defmodule Scrape.Flow.Domain do
 
   defp process_html(state) do
     state
-    |> Flow.step(:ParseHTML)
-    |> Flow.step(:ExtractTitle)
-    |> Flow.step(:ExtractDescription)
-    |> Flow.step(:ExtractIconURL)
-    |> Flow.step(:ExtractFeedURLs)
-    |> Flow.into(:Domain)
+    |> Flow.step("ParseHTML")
+    |> Flow.step("HTML.ExtractTitle")
+    |> Flow.step("HTML.ExtractDescription")
+    |> Flow.step("HTML.ExtractIconURL")
+    |> Flow.step("HTML.ExtractFeedURLs")
+    |> Flow.into("Domain")
   end
 end

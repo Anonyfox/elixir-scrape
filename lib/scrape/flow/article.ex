@@ -5,13 +5,13 @@ defmodule Scrape.Flow.Article do
 
   def from_url(url, opts \\ []) do
     Flow.start(%{path: nil, url: url}, opts)
-    |> Flow.step(:FetchHTML)
+    |> Flow.step("FetchHTML")
     |> process_html()
   end
 
   def from_file(path, opts \\ []) do
     Flow.start(%{path: path, url: nil}, opts)
-    |> Flow.step(:FetchHTML)
+    |> Flow.step("FetchHTML")
     |> process_html()
   end
 
@@ -22,13 +22,13 @@ defmodule Scrape.Flow.Article do
 
   defp process_html(state) do
     state
-    |> Flow.step(:ParseHTML)
-    |> Flow.step(:ExtractTitle)
-    |> Flow.step(:ExtractImageURL)
-    |> Flow.step(:ExtractText)
-    |> Flow.step(:DetectLanguage)
-    |> Flow.step(:CalculateStems)
-    |> Flow.step(:CalculateSummary)
-    |> Flow.into(:Article)
+    |> Flow.step("ParseHTML")
+    |> Flow.step("HTML.ExtractTitle")
+    |> Flow.step("HTML.ExtractImageURL")
+    |> Flow.step("HTML.ExtractText")
+    |> Flow.step("Text.DetectLanguage")
+    |> Flow.step("Text.CalculateStems")
+    |> Flow.step("Text.CalculateSummary")
+    |> Flow.into("Article")
   end
 end

@@ -1,4 +1,4 @@
-defmodule Scrape.Flow.Steps.DetectLanguage do
+defmodule Scrape.Flow.Steps.Text.DetectLanguage do
   @moduledoc false
 
   use Scrape.Flow.Step

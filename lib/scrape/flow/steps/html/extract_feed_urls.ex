@@ -1,4 +1,4 @@
-defmodule Scrape.Flow.Steps.ExtractDescription do
+defmodule Scrape.Flow.Steps.HTML.ExtractFeedURLs do
   @moduledoc false
 
   use Scrape.Flow.Step
@@ -7,11 +7,12 @@ defmodule Scrape.Flow.Steps.ExtractDescription do
     fail(:dom_invalid)
   end
 
+  def execute(%{dom: dom, url: url}, _) do
+    assign(feed_urls: Scrape.IR.DOM.feed_urls(dom, url))
+  end
+
   def execute(%{dom: dom}, _) do
-    case Scrape.IR.DOM.description(dom) do
-      "" -> assign(description: nil)
-      description -> assign(description: description)
-    end
+    assign(feed_urls: Scrape.IR.DOM.feed_urls(dom))
   end
 
   def execute(_, _) do

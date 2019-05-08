@@ -1,7 +1,7 @@
-defmodule Scrape.Flow.Steps.CalculateStemsTest do
+defmodule Scrape.Flow.Steps.Text.CalculateStemsTest do
   use ExUnit.Case
 
-  alias Scrape.Flow.Steps.CalculateStems
+  alias Scrape.Flow.Steps.Text.CalculateStems
   alias Scrape.IR.DOM
 
   test "refuses if no assigns are given" do

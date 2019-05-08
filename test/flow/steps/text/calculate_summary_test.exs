@@ -1,7 +1,7 @@
-defmodule Scrape.Flow.Steps.CalculateSummaryTest do
+defmodule Scrape.Flow.Steps.Text.CalculateSummaryTest do
   use ExUnit.Case
 
-  alias Scrape.Flow.Steps.CalculateSummary
+  alias Scrape.Flow.Steps.Text.CalculateSummary
   alias Scrape.IR.DOM
 
   test "refuses if no assigns are given" do

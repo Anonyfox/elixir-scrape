@@ -1,7 +1,7 @@
-defmodule Scrape.Flow.Steps.DetectLanguageTest do
+defmodule Scrape.Flow.Steps.Text.DetectLanguageTest do
   use ExUnit.Case
 
-  alias Scrape.Flow.Steps.DetectLanguage
+  alias Scrape.Flow.Steps.Text.DetectLanguage
 
   test "refuses if no assigns are given" do
     assert DetectLanguage.execute(nil) == {:error, :no_assigns_given}

@@ -1,7 +1,7 @@
-defmodule Scrape.Flow.Steps.ExtractIconURLTest do
+defmodule Scrape.Flow.Steps.HTML.ExtractIconURLTest do
   use ExUnit.Case
 
-  alias Scrape.Flow.Steps.ExtractIconURL
+  alias Scrape.Flow.Steps.HTML.ExtractIconURL
 
   test "refuses if no assigns are given" do
     assert ExtractIconURL.execute(nil) == {:error, :no_assigns_given}

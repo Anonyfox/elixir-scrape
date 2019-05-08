@@ -1,4 +1,4 @@
-defmodule Scrape.Flow.Steps.CalculateSummary do
+defmodule Scrape.Flow.Steps.Text.CalculateSummary do
   @moduledoc false
 
   use Scrape.Flow.Step

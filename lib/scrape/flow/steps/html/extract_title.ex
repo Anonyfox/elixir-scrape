@@ -1,18 +1,17 @@
-defmodule Scrape.Flow.Steps.ExtractIconURL do
+defmodule Scrape.Flow.Steps.HTML.ExtractTitle do
   @moduledoc false
 
   use Scrape.Flow.Step
 
   def execute(%{dom: dom}, _) when not is_list(dom) and not is_tuple(dom) do
-    fail(:dom_invalid)
-  end
-
-  def execute(%{dom: dom, url: url}, _) do
-    assign(icon_url: Scrape.IR.DOM.icon_url(dom, url))
+    {:error, :dom_invalid}
   end
 
   def execute(%{dom: dom}, _) do
-    assign(icon_url: Scrape.IR.DOM.icon_url(dom))
+    case Scrape.IR.DOM.title(dom) do
+      "" -> assign(title: nil)
+      title -> assign(title: title)
+    end
   end
 
   def execute(_, _) do

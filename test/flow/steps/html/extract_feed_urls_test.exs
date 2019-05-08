@@ -1,7 +1,7 @@
-defmodule Scrape.Flow.Steps.ExtractFeedURLsTest do
+defmodule Scrape.Flow.Steps.HTML.ExtractFeedURLsTest do
   use ExUnit.Case
 
-  alias Scrape.Flow.Steps.ExtractFeedURLs
+  alias Scrape.Flow.Steps.HTML.ExtractFeedURLs
 
   test "refuses if no assigns are given" do
     assert ExtractFeedURLs.execute(nil) == {:error, :no_assigns_given}
