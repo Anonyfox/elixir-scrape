@@ -15,4 +15,16 @@ defmodule Scrape.IR.Feed do
   @spec title(String.t() | html_tree) :: String.t()
 
   defdelegate title(dom), to: Scrape.IR.Feed.Title, as: :execute
+
+  @doc """
+  Extract the (best) description from the feed.
+
+  ## Example
+      iex> Scrape.IR.Feed.description("<feed><description>abc</description></feed>")
+      "abc"
+  """
+
+  @spec description(String.t() | html_tree) :: String.t()
+
+  defdelegate description(dom), to: Scrape.IR.Feed.Description, as: :execute
 end
