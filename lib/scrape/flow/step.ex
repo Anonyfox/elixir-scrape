@@ -5,6 +5,12 @@ defmodule Scrape.Flow.Step do
     end
   end
 
+  defmacro assign_to(data, key) do
+    quote do
+      {:ok, Map.put(%{}, unquote(key), unquote(data))}
+    end
+  end
+
   defmacro fail(reason) do
     quote do
       {:error, unquote(reason)}
