@@ -1,4 +1,4 @@
-defmodule Scrape.IR.DOM.Query do
+defmodule Scrape.IR.Query do
   @moduledoc false
 
   @doc """
@@ -7,15 +7,15 @@ defmodule Scrape.IR.DOM.Query do
     parameter, which refers to the functions of the `ES.Data.Filter`, default
     is `:longest`.
     ## Example
-        iex> Scrape.IR.DOM.Query.find("<p><i>abc</i><i>abcd</i></p>", "i")
+        iex> Scrape.IR.Query.find("<p><i>abc</i><i>abcd</i></p>", "i")
         "abcd"
-        iex> Scrape.IR.DOM.Query.find("<p><i>abc</i><i>abcd</i></p>", "i", :first)
+        iex> Scrape.IR.Query.find("<p><i>abc</i><i>abcd</i></p>", "i", :first)
         "abc"
-        iex> Scrape.IR.DOM.Query.find("<p><i>abc</i><i>abcd</i></p>", "i", :all)
+        iex> Scrape.IR.Query.find("<p><i>abc</i><i>abcd</i></p>", "i", :all)
         ["abc", "abcd"]
   """
 
-  @spec find(any(), String.t(), atom) :: [String.t()] | nil
+  @spec find(any(), String.t(), atom) :: [String.t()] | String.t() | nil
 
   def find(html, selector, filter \\ :longest) do
     html
@@ -30,7 +30,7 @@ defmodule Scrape.IR.DOM.Query do
     the last parameter, which refers to the functions of the `ES.Data.Filter`,
     default is `:longest`. Filtering works similar to `find/3`.
     ## Example
-        iex> Scrape.IR.DOM.Query.attr "<a href='ab'><a><a href='ab'></a>","a","href"
+        iex> Scrape.IR.Query.attr "<a href='ab'><a><a href='ab'></a>","a","href"
         "ab"
   """
 

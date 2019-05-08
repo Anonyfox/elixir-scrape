@@ -1,7 +1,7 @@
 defmodule Scrape.IR.DOM.Description do
   @moduledoc false
 
-  alias Scrape.IR.DOM.Query
+  alias Scrape.IR.Query
 
   @spec execute(String.t() | [any()], String.t() | nil) :: String.t()
 
