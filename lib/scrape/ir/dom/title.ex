@@ -30,7 +30,7 @@ defmodule Scrape.IR.DOM.Title do
     rx = ~r/\s[|-].{1}.+$/
 
     case String.match?(value, rx) do
-      true -> value |> String.split(rx) |> Scrape.IR.DOM.Filter.first()
+      true -> value |> String.split(rx) |> Scrape.IR.Filter.first()
       false -> value
     end
   end

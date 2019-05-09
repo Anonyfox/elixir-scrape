@@ -43,4 +43,25 @@ defmodule Scrape.IR.URL do
     ["http", "/"]
     |> Enum.any?(&String.starts_with?(url, &1))
   end
+
+  @doc """
+  Transforms a given url into it's basic form, only including protocol scheme
+  and host, without any other things like path, query or hash.
+
+  ## Examples
+      iex> URL.base("https://example.com/path?param=1#search")
+      "https://example.com"
+
+      iex> URL.base("//example.com")
+      "http://example.com"
+  """
+
+  @spec base(String.t()) :: String.t()
+
+  def base(url) do
+    uri = URI.parse(url)
+    scheme = uri.scheme || "http"
+    host = uri.host
+    "#{scheme}://#{host}"
+  end
 end

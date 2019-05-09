@@ -27,4 +27,16 @@ defmodule Scrape.IR.Feed do
   @spec description(String.t() | html_tree) :: String.t()
 
   defdelegate description(dom), to: Scrape.IR.Feed.Description, as: :execute
+
+  @doc """
+  Extract the website_url from the feed.
+
+  ## Example
+      iex> Scrape.IR.Feed.website_url("<feed><link href='http://example.com' /></feed>")
+      "http://example.com"
+  """
+
+  @spec website_url(String.t() | html_tree) :: String.t()
+
+  defdelegate website_url(dom), to: Scrape.IR.Feed.WebsiteURL, as: :execute
 end

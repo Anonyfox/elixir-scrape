@@ -43,5 +43,5 @@ defmodule Scrape.IR.Query do
     |> select(filter)
   end
 
-  defp select(results, fun), do: apply(Scrape.IR.DOM.Filter, fun, [results])
+  defp select(results, fun), do: apply(Scrape.IR.Filter, fun, [results])
 end
