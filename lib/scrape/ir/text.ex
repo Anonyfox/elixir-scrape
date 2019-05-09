@@ -94,6 +94,20 @@ defmodule Scrape.IR.Text do
   end
 
   @doc """
+  Removes all junk from a given text, like javascript, html or mixed whitespace.
+
+  ## Example
+      iex> Scrape.IR.Text.clean("\t hello, \r<b>world</b>!")
+      "hello, world!"
+  """
+  def clean(text) do
+    text
+    |> without_js()
+    |> without_html()
+    |> normalize_whitespace()
+  end
+
+  @doc """
   Dissect a text into word tokens.
 
   The resulting list is a list of downcased words with all non-word-characters

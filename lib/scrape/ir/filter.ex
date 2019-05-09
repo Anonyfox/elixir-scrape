@@ -14,6 +14,7 @@ defmodule Scrape.IR.Filter do
 
   def longest([]), do: nil
   def longest(s) when is_list(s), do: s |> Enum.max_by(&String.length/1)
+  def longest(""), do: nil
   def longest(s) when is_binary(s), do: s
   def longest(_), do: nil
 
@@ -30,6 +31,7 @@ defmodule Scrape.IR.Filter do
 
   def shortest([]), do: nil
   def shortest(s) when is_list(s), do: s |> Enum.min_by(&String.length/1)
+  def shortest(""), do: nil
   def shortest(s) when is_binary(s), do: s
   def shortest(_), do: nil
 
@@ -43,6 +45,7 @@ defmodule Scrape.IR.Filter do
   @spec first([String.t()] | String.t()) :: String.t() | nil
 
   def first([s | _]), do: s
+  def first(""), do: nil
   def first(s) when is_binary(s), do: s
   def first(_), do: nil
 
@@ -56,6 +59,7 @@ defmodule Scrape.IR.Filter do
   @spec all([String.t()] | String.t() | nil) :: [String.t()] | String.t() | nil
 
   def all(s) when is_list(s), do: s |> Enum.uniq()
+  def all(""), do: nil
   def all(s) when is_binary(s), do: s
   def all(_), do: nil
 end
