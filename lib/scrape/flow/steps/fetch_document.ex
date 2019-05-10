@@ -1,4 +1,4 @@
-defmodule Scrape.Flow.Steps.FetchHTML do
+defmodule Scrape.Flow.Steps.FetchDocument do
   @moduledoc false
 
   use Scrape.Flow.Step

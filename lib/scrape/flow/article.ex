@@ -5,13 +5,13 @@ defmodule Scrape.Flow.Article do
 
   def from_url(url, opts \\ []) do
     Flow.start(%{path: nil, url: url}, opts)
-    |> Flow.step("FetchHTML")
+    |> Flow.step("FetchDocument")
     |> process_html()
   end
 
   def from_file(path, opts \\ []) do
     Flow.start(%{path: path, url: nil}, opts)
-    |> Flow.step("FetchHTML")
+    |> Flow.step("FetchDocument")
     |> process_html()
   end
 
