@@ -57,4 +57,16 @@ defmodule Scrape.IR.FeedItem do
   @spec tags(String.t() | html_tree) :: [String.t()]
 
   defdelegate tags(dom), to: Scrape.IR.FeedItem.Tags, as: :execute
+
+  @doc """
+  Extract the author from the feed item.
+
+  ## Example
+      iex> Scrape.IR.FeedItem.author("<feed><author>abc</author></feed>")
+      "abc"
+  """
+
+  @spec author(String.t() | html_tree) :: String.t()
+
+  defdelegate author(dom), to: Scrape.IR.FeedItem.Author, as: :execute
 end

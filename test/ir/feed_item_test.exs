@@ -148,4 +148,40 @@ defmodule Scrape.IR.FeedItemTest do
       assert FeedItem.tags(item) == []
     end
   end
+
+  describe "FeedItem#author/1" do
+    test "can extract from xml string of type atom" do
+      xml = "<feed><entry><author>abc</author></entry></feed>"
+      assert FeedItem.author(xml) == "abc"
+    end
+
+    test "can extract from xml string of type rss" do
+      xml = "<feed><item><author>abc</author></item></feed>"
+      assert FeedItem.author(xml) == "abc"
+    end
+
+    test "can extract from german atom feed" do
+      xml = File.read!("cache/feed/heise.xml")
+      item = xml |> Floki.find("entry") |> List.first()
+      assert FeedItem.author(item) == ""
+    end
+
+    test "can extract from german rss feed" do
+      xml = File.read!("cache/feed/spiegel.xml")
+      item = xml |> Floki.find("item") |> List.first()
+      assert FeedItem.author(item) == ""
+    end
+
+    test "can extract from english atom feed" do
+      xml = File.read!("cache/feed/elixir-lang.xml")
+      item = xml |> Floki.find("entry") |> List.first()
+      assert FeedItem.author(item) == "José Valim"
+    end
+
+    test "can extract from english rss feed" do
+      xml = File.read!("cache/feed/latimes.xml")
+      item = xml |> Floki.find("item") |> List.first()
+      assert FeedItem.author(item) == "Randall Roberts"
+    end
+  end
 end
