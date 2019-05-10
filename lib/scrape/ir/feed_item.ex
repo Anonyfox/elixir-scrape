@@ -39,4 +39,22 @@ defmodule Scrape.IR.FeedItem do
   @spec article_url(String.t() | html_tree) :: String.t()
 
   defdelegate article_url(dom), to: Scrape.IR.FeedItem.ArticleURL, as: :execute
+
+  @doc """
+  Extract the possible tags from the feed item.
+
+  ## Example
+      iex> Scrape.IR.FeedItem.tags("<feed><category>abc</category><category>def</category></feed>")
+      ["abc", "def"]
+
+      iex> Scrape.IR.FeedItem.tags("<feed><category>abc</category></feed>")
+      ["abc"]
+
+      iex> Scrape.IR.FeedItem.tags("<feed></feed>")
+      []
+  """
+
+  @spec tags(String.t() | html_tree) :: [String.t()]
+
+  defdelegate tags(dom), to: Scrape.IR.FeedItem.Tags, as: :execute
 end

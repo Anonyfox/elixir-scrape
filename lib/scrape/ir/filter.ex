@@ -56,10 +56,10 @@ defmodule Scrape.IR.Filter do
         ["ab", "abc"]
   """
 
-  @spec all([String.t()] | String.t() | nil) :: [String.t()] | String.t() | nil
+  @spec all([String.t()] | String.t() | nil) :: [String.t()]
 
   def all(s) when is_list(s), do: s |> Enum.uniq()
-  def all(""), do: nil
-  def all(s) when is_binary(s), do: s
-  def all(_), do: nil
+  def all(""), do: []
+  def all(s) when is_binary(s), do: [s]
+  def all(_), do: []
 end
