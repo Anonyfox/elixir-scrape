@@ -69,4 +69,16 @@ defmodule Scrape.IR.FeedItem do
   @spec author(String.t() | html_tree) :: String.t()
 
   defdelegate author(dom), to: Scrape.IR.FeedItem.Author, as: :execute
+
+  @doc """
+  Extract the image_url from the feed item.
+
+  ## Example
+      iex> Scrape.IR.FeedItem.image_url("<feed><enclosure url='abc' /></feed>")
+      "abc"
+  """
+
+  @spec image_url(String.t() | html_tree) :: String.t()
+
+  defdelegate image_url(dom), to: Scrape.IR.FeedItem.ImageURL, as: :execute
 end

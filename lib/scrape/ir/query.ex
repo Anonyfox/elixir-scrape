@@ -34,7 +34,7 @@ defmodule Scrape.IR.Query do
         "ab"
   """
 
-  @spec attr(any(), String.t(), String.t(), atom) :: [String.t()] | nil
+  @spec attr(any(), String.t(), String.t(), atom) :: [String.t()] | String.t() | nil
 
   def attr(html, selector, name, filter \\ :longest) do
     html
