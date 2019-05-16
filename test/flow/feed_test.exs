@@ -10,7 +10,7 @@ defmodule Scrape.Flow.FeedTest do
     test "works when a valid string is given" do
       xml = File.read!("cache/feed/latimes.xml")
       {:ok, data} = Feed.from_string(xml)
-      assert data.title =~ " leading source of breaking news"
+      assert data.title =~ "latimes.com - Los Angeles Times"
       assert data.website_url == "http://www.latimes.com"
     end
 
