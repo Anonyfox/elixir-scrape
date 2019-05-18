@@ -2,7 +2,7 @@ defmodule Scrape.Flow.Steps.Text.CalculateSummaryTest do
   use ExUnit.Case
 
   alias Scrape.Flow.Steps.Text.CalculateSummary
-  alias Scrape.IR.DOM
+  alias Scrape.IR.HTML
 
   test "refuses if no assigns are given" do
     assert CalculateSummary.execute(nil) == {:error, :no_assigns_given}
@@ -18,7 +18,7 @@ defmodule Scrape.Flow.Steps.Text.CalculateSummaryTest do
 
   test "works if non-empty text string is given" do
     html = File.read!("cache/article/nytimes.html")
-    text = DOM.content(html)
+    text = HTML.content(html)
     language = :en
 
     stems = [

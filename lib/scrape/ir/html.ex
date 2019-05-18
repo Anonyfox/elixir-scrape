@@ -124,8 +124,8 @@ defmodule Scrape.IR.HTML do
       iex> HTML.feed_urls("")
       []
 
-      iex> HTML.feed_urls("<link rel='application/rss+xml' href='feed.rss' />")
-      ["feed.rss"]
+      iex> HTML.feed_urls("<link rel='alternate' href='/feed.rss' />")
+      ["/feed.rss"]
   """
 
   @spec feed_urls(DOM.dom()) :: [String.t()]
