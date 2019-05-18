@@ -1,20 +1,19 @@
 defmodule Scrape.IR.DOM.ImageURL do
   @moduledoc false
 
-  alias Scrape.IR.Query
+  alias Scrape.Tools.DOM
 
-  @spec execute(String.t() | [any()], String.t() | nil) :: String.t()
+  @spec execute(String.t() | [any()], String.t() | nil) :: nil | String.t()
 
   def execute(dom, url \\ "") do
-    link = open_graph(dom) || twitter(dom) || ""
-    Scrape.IR.URL.merge(link, url)
-  end
+    queries = [
+      {"meta[property='og:image']", "content"},
+      {"meta[name='twitter:image']", "content"}
+    ]
 
-  defp open_graph(dom) do
-    Query.attr(dom, "meta[property='og:image']", "content", :first)
-  end
-
-  defp twitter(dom) do
-    Query.attr(dom, "meta[name='twitter:image']", "content", :first)
+    case DOM.first(dom, queries) do
+      nil -> nil
+      match -> Scrape.IR.URL.merge(match, url)
+    end
   end
 end

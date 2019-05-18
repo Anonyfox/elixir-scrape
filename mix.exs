@@ -54,7 +54,9 @@ defmodule Scrape.MixProject do
       # iconv written in pure elixir
       {:codepagex, "~> 0.1.4"},
       # http client
-      {:httpoison, "~> 1.5", override: true}
+      {:httpoison, "~> 1.5", override: true},
+      # xml to map
+      {:elixir_xml_to_map, "~> 0.1.2"}
     ]
   end
 end

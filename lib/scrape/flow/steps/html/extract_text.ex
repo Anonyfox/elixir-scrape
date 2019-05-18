@@ -8,30 +8,10 @@ defmodule Scrape.Flow.Steps.HTML.ExtractText do
   end
 
   def execute(%{html: html}, _) do
-    case content_from_html(html) do
-      nil -> paragraphs_from_html(html)
-      text -> text
-    end
-    |> assign_to(:text)
+    assign(text: Scrape.IR.HTML.content(html) || Scrape.IR.HTML.sentences(html))
   end
 
   def execute(_, _) do
     fail(:html_missing)
-  end
-
-  defp content_from_html(html) do
-    case Scrape.IR.DOM.content(html) do
-      "" -> nil
-      string -> string
-    end
-  end
-
-  defp paragraphs_from_html(html) do
-    text = html |> Scrape.IR.DOM.paragraphs() |> Enum.join(".\n\n")
-
-    case text do
-      "" -> nil
-      string -> string
-    end
   end
 end

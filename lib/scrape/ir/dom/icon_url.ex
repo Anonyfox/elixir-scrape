@@ -1,19 +1,21 @@
 defmodule Scrape.IR.DOM.IconURL do
   @moduledoc false
 
-  alias Scrape.IR.Query
+  alias Scrape.Tools.DOM
 
-  @spec execute(String.t() | [any()], String.t() | nil) :: String.t()
+  @spec execute(String.t() | [any()], String.t() | nil) :: nil | String.t()
 
   def execute(dom, url \\ "") do
-    selector = """
-      link[rel='apple-touch-icon'],
-      link[rel='apple-touch-icon-precomposed'],
-      link[rel='shortcut icon'],
-      link[rel='icon']
-    """
+    queries = [
+      {"link[rel='apple-touch-icon']", "href"},
+      {"link[rel='apple-touch-icon-precomposed']", "href"},
+      {"link[rel='shortcut icon']", "href"},
+      {"link[rel='icon']", "href"}
+    ]
 
-    link = Query.attr(dom, selector, "href", :first)
-    Scrape.IR.URL.merge(link, url)
+    case DOM.first(dom, queries) do
+      nil -> nil
+      match -> Scrape.IR.URL.merge(match, url)
+    end
   end
 end

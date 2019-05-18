@@ -1,23 +1,20 @@
 defmodule Scrape.IR.DOM.Description do
   @moduledoc false
 
-  alias Scrape.IR.Query
+  alias Scrape.Tools.DOM
 
   @spec execute(String.t() | [any()], String.t() | nil) :: String.t()
 
   def execute(dom, _url \\ "") do
-    open_graph(dom) || twitter(dom) || direct(dom) || ""
-  end
+    queries = [
+      {"meta[property='og:description']", "content"},
+      {"meta[name='twitter:description']", "content"},
+      {"meta[name='description']", "content"}
+    ]
 
-  defp open_graph(dom) do
-    Query.attr(dom, "meta[property='og:description']", "content", :first)
-  end
-
-  defp twitter(dom) do
-    Query.attr(dom, "meta[name='twitter:description']", "content", :first)
-  end
-
-  defp direct(dom) do
-    Query.attr(dom, "meta[name='description']", "content", :first)
+    case DOM.first(dom, queries) do
+      nil -> ""
+      match -> match
+    end
   end
 end

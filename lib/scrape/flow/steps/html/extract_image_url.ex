@@ -8,11 +8,11 @@ defmodule Scrape.Flow.Steps.HTML.ExtractImageURL do
   end
 
   def execute(%{dom: dom, url: url}, _) do
-    assign(image_url: Scrape.IR.DOM.image_url(dom, url))
+    assign(image_url: Scrape.IR.HTML.image_url(dom, url))
   end
 
   def execute(%{dom: dom}, _) do
-    assign(image_url: Scrape.IR.DOM.image_url(dom))
+    assign(image_url: Scrape.IR.HTML.image_url(dom))
   end
 
   def execute(_, _) do

@@ -1,29 +1,22 @@
 defmodule Scrape.IR.DOM.Title do
   @moduledoc false
 
-  alias Scrape.IR.Query
+  alias Scrape.Tools.DOM
 
   @spec execute(String.t() | [any()], String.t() | nil) :: String.t()
 
   def execute(dom, _url \\ "") do
-    match = open_graph(dom) || twitter(dom) || headline(dom) || direct(dom) || ""
-    strip_suffix(match)
-  end
+    queries = [
+      {"meta[property='og:title']", "content"},
+      {"meta[property='twitter:title']", "content"},
+      {"h1"},
+      {"title"}
+    ]
 
-  defp open_graph(dom) do
-    Query.attr(dom, "meta[property='og:title']", "content", :first)
-  end
-
-  defp twitter(dom) do
-    Query.attr(dom, "meta[property='twitter:title']", "content", :first)
-  end
-
-  defp headline(dom) do
-    Query.find(dom, "h1", :first)
-  end
-
-  defp direct(dom) do
-    Query.find(dom, "title", :first)
+    case DOM.first(dom, queries) do
+      nil -> ""
+      match -> strip_suffix(match)
+    end
   end
 
   defp strip_suffix(value) do

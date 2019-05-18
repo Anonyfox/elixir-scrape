@@ -8,10 +8,7 @@ defmodule Scrape.Flow.Steps.HTML.ExtractTitle do
   end
 
   def execute(%{dom: dom}, _) do
-    case Scrape.IR.DOM.title(dom) do
-      "" -> assign(title: nil)
-      title -> assign(title: title)
-    end
+    assign(title: Scrape.IR.HTML.title(dom))
   end
 
   def execute(_, _) do

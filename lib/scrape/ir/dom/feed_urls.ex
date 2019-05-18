@@ -1,7 +1,7 @@
 defmodule Scrape.IR.DOM.FeedURLs do
   @moduledoc false
 
-  alias Scrape.IR.Query
+  alias Scrape.Tools.DOM
 
   @spec execute(String.t() | [any()], String.t() | nil) :: [String.t()]
 
@@ -21,7 +21,7 @@ defmodule Scrape.IR.DOM.FeedURLs do
       link[rel='alternate']
     """
 
-    Query.attr(dom, selector, "href", :all)
+    DOM.attrs(dom, selector, "href")
   end
 
   defp inline(dom) do

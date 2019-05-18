@@ -8,11 +8,11 @@ defmodule Scrape.Flow.Steps.HTML.ExtractIconURL do
   end
 
   def execute(%{dom: dom, url: url}, _) do
-    assign(icon_url: Scrape.IR.DOM.icon_url(dom, url))
+    assign(icon_url: Scrape.IR.HTML.icon_url(dom, url))
   end
 
   def execute(%{dom: dom}, _) do
-    assign(icon_url: Scrape.IR.DOM.icon_url(dom))
+    assign(icon_url: Scrape.IR.HTML.icon_url(dom))
   end
 
   def execute(_, _) do
