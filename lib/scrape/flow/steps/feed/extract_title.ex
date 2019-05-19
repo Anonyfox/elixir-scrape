@@ -3,18 +3,15 @@ defmodule Scrape.Flow.Steps.Feed.ExtractTitle do
 
   use Scrape.Flow.Step
 
-  def execute(%{dom: dom}, _) when not is_list(dom) and not is_tuple(dom) do
-    {:error, :dom_invalid}
+  def execute(%{tree: tree}, _) when not is_map(tree) do
+    {:error, :tree_invalid}
   end
 
-  def execute(%{dom: dom}, _) do
-    case Scrape.IR.Feed.title(dom) do
-      "" -> assign(title: nil)
-      title -> assign(title: title)
-    end
+  def execute(%{tree: tree}, _) do
+    assign(title: Scrape.IR.Feed.title(tree))
   end
 
   def execute(_, _) do
-    fail(:dom_missing)
+    fail(:tree_missing)
   end
 end

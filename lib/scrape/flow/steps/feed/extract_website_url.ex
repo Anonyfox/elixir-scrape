@@ -3,18 +3,15 @@ defmodule Scrape.Flow.Steps.Feed.ExtractWebsiteURL do
 
   use Scrape.Flow.Step
 
-  def execute(%{dom: dom}, _) when not is_list(dom) and not is_tuple(dom) do
-    fail(:dom_invalid)
+  def execute(%{tree: tree}, _) when not is_map(tree) do
+    fail(:tree_invalid)
   end
 
-  def execute(%{dom: dom}, _) do
-    case Scrape.IR.Feed.website_url(dom) do
-      "" -> assign(website_url: nil)
-      url -> assign(website_url: url)
-    end
+  def execute(%{tree: tree}, _) do
+    assign(website_url: Scrape.IR.Feed.website_url(tree))
   end
 
   def execute(_, _) do
-    fail(:dom_missing)
+    fail(:tree_missing)
   end
 end

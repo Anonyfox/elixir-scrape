@@ -1,42 +1,68 @@
 defmodule Scrape.IR.Feed do
-  @typedoc """
-  XML tree structure from `Floki.parse/1`
-  """
-  @type html_tree :: tuple | list
+  alias Scrape.Tools.Tree
 
   @doc """
   Extract the (best) title from the feed.
 
   ## Example
-      iex> Scrape.IR.Feed.title("<feed><title>abc</title></feed>")
+      iex> Feed.title("<feed><title>abc</title></feed>")
       "abc"
   """
 
-  @spec title(String.t() | html_tree) :: String.t()
+  @spec title(String.t() | map()) :: nil | String.t() | map()
 
-  defdelegate title(dom), to: Scrape.IR.Feed.Title, as: :execute
+  def title(feed) when is_binary(feed) do
+    feed |> Tree.from_xml_string() |> title()
+  end
+
+  def title(feed) when is_map(feed) do
+    Tree.first(feed, ["rss.channel.title", "feed.title"])
+  end
 
   @doc """
   Extract the (best) description from the feed.
 
   ## Example
-      iex> Scrape.IR.Feed.description("<feed><description>abc</description></feed>")
+      iex> Feed.description("<feed><description>abc</description></feed>")
       "abc"
   """
 
-  @spec description(String.t() | html_tree) :: String.t()
+  @spec description(String.t() | map()) :: nil | String.t() | map()
 
-  defdelegate description(dom), to: Scrape.IR.Feed.Description, as: :execute
+  def description(feed) when is_binary(feed) do
+    feed |> Tree.from_xml_string() |> description()
+  end
+
+  def description(feed) when is_map(feed) do
+    Tree.first(feed, [
+      "rss.channel.description",
+      "rss.channel.subtitle",
+      "feed.description",
+      "feed.subtitle"
+    ])
+  end
 
   @doc """
   Extract the website_url from the feed.
 
   ## Example
-      iex> Scrape.IR.Feed.website_url("<feed><link href='http://example.com' /></feed>")
+      iex> Feed.website_url("<feed><link href='http://example.com' /></feed>")
       "http://example.com"
   """
 
-  @spec website_url(String.t() | html_tree) :: String.t()
+  @spec website_url(String.t() | map()) :: nil | String.t() | map()
 
-  defdelegate website_url(dom), to: Scrape.IR.Feed.WebsiteURL, as: :execute
+  def website_url(feed) when is_binary(feed) do
+    feed |> Tree.from_xml_string() |> website_url()
+  end
+
+  def website_url(feed) when is_map(feed) do
+    feed
+    |> Tree.first(["rss.channel.link", "feed.link.href"])
+    |> normalize()
+  end
+
+  defp normalize(nil), do: nil
+  defp normalize(""), do: nil
+  defp normalize(url), do: url |> Scrape.IR.URL.base()
 end

@@ -12,18 +12,7 @@ defmodule Scrape.Flow.Steps.ParseXML do
   end
 
   def execute(%{xml: xml}, _) when is_binary(xml) do
-    # map =
-    #   xml
-    #   # remove xml inconsistencies
-    #   |> Floki.parse()
-    #   |> Floki.raw_html()
-    #   # remove the intro with encoding attribute, fetching normalizes to UTF-8
-    #   |> String.replace(~r/<\?xml.*?>/i, "")
-    #   # transform into map
-    #   |> XmlToMap.naive_map()
-
-    # assign(map: map, dom: Floki.parse(xml))
-    assign(dom: Floki.parse(xml))
+    assign(tree: Scrape.Tools.Tree.from_xml_string(xml))
   end
 
   def execute(_, _) do

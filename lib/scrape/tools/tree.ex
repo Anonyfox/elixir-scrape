@@ -20,9 +20,9 @@ defmodule Scrape.Tools.Tree do
 
   def from_xml_string(xml) do
     xml
+    |> String.replace(~r/<\?xml.*?>/i, "")
     |> Floki.parse()
     |> Floki.raw_html()
-    |> String.replace(~r/<\?xml.*?>/i, "")
     |> String.trim()
     |> try_build_tree()
     |> try_normalize()
@@ -32,7 +32,8 @@ defmodule Scrape.Tools.Tree do
 
   defp try_build_tree(xml) do
     try do
-      XMap.from_xml(xml)
+      # XMap.from_xml(xml)
+      XmlToMap.naive_map(xml)
     rescue
       _ -> %{}
     end
@@ -44,4 +45,79 @@ defmodule Scrape.Tools.Tree do
       _ -> map
     end
   end
+
+  @doc """
+  Attempts all queries until one returns a non-nil result or nil.
+
+  ## Examples
+      iex> Tree.first(%{"hello" => "world"}, ["unknown"])
+      nil
+
+      iex> Tree.first(%{"hello" => "world"}, ["unknown", "hello"])
+      "world"
+  """
+
+  @spec first(map(), [String.t()]) :: nil | any()
+
+  def first(_tree, []), do: nil
+
+  def first(tree, [selector | queries]) do
+    case find(tree, selector) do
+      nil -> first(tree, queries)
+      [match] -> match
+      [match | _] -> match
+      match -> match
+    end
+  end
+
+  @doc """
+  Attempts to get a nested value from the tree using a string selector syntax.
+
+  Returns nil if nothing matches the selector or all matching results.
+
+  ## Examples
+      iex> Tree.find(%{"a" => %{"b" => "c"}}, "a")
+      %{"b" => "c"}
+
+      iex> Tree.find(%{"a" => %{"b" => "c"}}, "a.b")
+      "c"
+
+      iex> Tree.find(%{"a" => %{"b" => "c"}}, "unknown")
+      nil
+
+      iex> Tree.find(%{"a" => [%{"b" => "c"}]}, "a.b")
+      ["c"]
+
+      iex> Tree.find(%{"a" => [%{"b" => [%{"c" => "d"}]}]}, "a.b.c")
+      ["d"]
+
+      iex> Tree.find(%{"a" => [%{"b" => "c"}, %{"b" => "c"}]}, "a.b")
+      ["c", "c"]
+
+      iex> Tree.find(%{"a" => [%{"b" => [%{"c" => "d"}]}]}, "a.*.c")
+      ["d"]
+  """
+
+  @spec find(map(), String.t()) :: any()
+
+  def find(tree, selector) when is_map(tree) and is_binary(selector) do
+    tree
+    |> pick(String.split(selector, "."))
+    |> normalize()
+  end
+
+  defp pick(nil, _), do: nil
+  defp pick(n, []), do: n
+  defp pick(n, keys) when is_list(n), do: Enum.map(n, &pick(&1, keys))
+  defp pick(n, ["*" | t]), do: n |> Map.values() |> Enum.map(&pick(&1, t))
+
+  defp pick(n, [h | t]) do
+    case Map.get(n, h) do
+      nil -> nil
+      sub -> pick(sub, t)
+    end
+  end
+
+  defp normalize(value) when not is_list(value), do: value
+  defp normalize(value) when is_list(value), do: List.flatten(value)
 end
