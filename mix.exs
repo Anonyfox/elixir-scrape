@@ -56,7 +56,9 @@ defmodule Scrape.MixProject do
       # http client
       {:httpoison, "~> 1.5", override: true},
       # xml to map
-      {:elixir_xml_to_map, "~> 0.1.2"}
+      {:xmap, "~> 0.2.4"},
+      # map transformation functions
+      {:morphix, "~> 0.7.0"}
     ]
   end
 end
