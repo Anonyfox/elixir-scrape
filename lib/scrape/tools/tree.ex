@@ -64,10 +64,35 @@ defmodule Scrape.Tools.Tree do
   def first(tree, [selector | queries]) do
     case find(tree, selector) do
       nil -> first(tree, queries)
+      [] -> first(tree, queries)
       [match] -> match
       [match | _] -> match
       match -> match
     end
+  end
+
+  @doc """
+  Applies `find/2` to all given selectors and combines the result.
+
+  ## Examples
+      iex> Tree.find_all(%{"a" => "b", "c" => "d"}, ["a", "c"])
+      ["b", "d"]
+
+      iex> Tree.find_all(%{"a" => "b", "c" => "d"}, ["a", "z"])
+      ["b"]
+
+      iex> Tree.find_all(%{"a" => "b", "c" => "d"}, ["x", "y"])
+      []
+  """
+
+  @spec find_all(map(), [String.t()]) :: [any()]
+
+  def find_all(_tree, []), do: []
+
+  def find_all(tree, selectors) do
+    selectors
+    |> Enum.map(&find(tree, &1))
+    |> normalize()
   end
 
   @doc """
@@ -96,6 +121,9 @@ defmodule Scrape.Tools.Tree do
 
       iex> Tree.find(%{"a" => [%{"b" => [%{"c" => "d"}]}]}, "a.*.c")
       ["d"]
+
+      iex> Tree.find(%{"hello" => "world"}, "~ell")
+      ["world"]
   """
 
   @spec find(map(), String.t()) :: any()
@@ -109,7 +137,16 @@ defmodule Scrape.Tools.Tree do
   defp pick(nil, _), do: nil
   defp pick(n, []), do: n
   defp pick(n, keys) when is_list(n), do: Enum.map(n, &pick(&1, keys))
+  defp pick(n, _) when not is_map(n), do: nil
   defp pick(n, ["*" | t]), do: n |> Map.values() |> Enum.map(&pick(&1, t))
+
+  defp pick(n, ["~" <> pattern = _h | t]) do
+    n
+    |> Map.keys()
+    |> Enum.filter(&String.contains?(&1, pattern))
+    |> Enum.map(&Map.get(n, &1))
+    |> Enum.map(&pick(&1, t))
+  end
 
   defp pick(n, [h | t]) do
     case Map.get(n, h) do
@@ -119,5 +156,10 @@ defmodule Scrape.Tools.Tree do
   end
 
   defp normalize(value) when not is_list(value), do: value
-  defp normalize(value) when is_list(value), do: List.flatten(value)
+
+  defp normalize(value) when is_list(value) do
+    value
+    |> List.flatten()
+    |> Enum.reject(&is_nil/1)
+  end
 end

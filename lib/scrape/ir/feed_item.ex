@@ -1,84 +1,160 @@
 defmodule Scrape.IR.FeedItem do
-  @typedoc """
-  XML tree structure from `Floki.parse/1`
-  """
-  @type html_tree :: tuple | list
+  alias Scrape.Tools.Tree
 
   @doc """
   Extract the (best) title from the feed item.
 
   ## Example
-      iex> Scrape.IR.FeedItem.title("<feed><title>abc</title></feed>")
+      iex> FeedItem.title("<title>abc</title>")
       "abc"
   """
 
-  @spec title(String.t() | html_tree) :: String.t()
+  @spec title(String.t() | map()) :: nil | String.t()
 
-  defdelegate title(dom), to: Scrape.IR.FeedItem.Title, as: :execute
+  def title(tree) when is_binary(tree) do
+    tree |> Tree.from_xml_string() |> title()
+  end
+
+  def title(tree) when is_map(tree) do
+    tree
+    |> Tree.first(["title"])
+    |> normalize_to_string()
+  end
 
   @doc """
   Extract the (best) description from the feed item.
 
   ## Example
-      iex> Scrape.IR.FeedItem.description("<feed><description>abc</description></feed>")
+      iex> FeedItem.description("<description>abc</description>")
       "abc"
   """
 
-  @spec description(String.t() | html_tree) :: String.t()
+  @spec description(String.t() | map()) :: nil | String.t()
 
-  defdelegate description(dom), to: Scrape.IR.FeedItem.Description, as: :execute
+  def description(tree) when is_binary(tree) do
+    tree |> Tree.from_xml_string() |> description()
+  end
+
+  def description(tree) when is_map(tree) do
+    tree
+    |> Tree.first(["description", "summary", "content"])
+    |> normalize_to_string()
+  end
 
   @doc """
   Extract the article_url from the feed item.
 
   ## Example
-      iex> Scrape.IR.FeedItem.article_url("<feed><link href='http://example.com' /></feed>")
+      iex> FeedItem.article_url("<link href='http://example.com' />")
       "http://example.com"
+
+      iex> FeedItem.article_url("<link href='/url' />", "http://example.com")
+      "http://example.com/url"
   """
 
-  @spec article_url(String.t() | html_tree) :: String.t()
+  @spec article_url(String.t() | map(), nil | String.t()) :: nil | String.t()
 
-  defdelegate article_url(dom), to: Scrape.IR.FeedItem.ArticleURL, as: :execute
+  def article_url(tree, url \\ "")
+
+  def article_url(tree, url) when is_binary(tree) do
+    tree |> Tree.from_xml_string() |> article_url(url)
+  end
+
+  def article_url(tree, url) when is_map(tree) do
+    tree
+    |> Tree.first(["link.href", "link"])
+    |> normalize_to_string()
+    |> normalize_url(url)
+  end
 
   @doc """
   Extract the possible tags from the feed item.
 
   ## Example
-      iex> Scrape.IR.FeedItem.tags("<feed><category>abc</category><category>def</category></feed>")
-      ["abc", "def"]
-
-      iex> Scrape.IR.FeedItem.tags("<feed><category>abc</category></feed>")
+      iex> FeedItem.tags("<category>abc</category>")
       ["abc"]
 
-      iex> Scrape.IR.FeedItem.tags("<feed></feed>")
+      iex> FeedItem.tags("<feed></feed>")
       []
   """
 
-  @spec tags(String.t() | html_tree) :: [String.t()]
+  @spec tags(String.t() | map()) :: [String.t()]
 
-  defdelegate tags(dom), to: Scrape.IR.FeedItem.Tags, as: :execute
+  def tags(tree) when is_binary(tree) do
+    tree |> Tree.from_xml_string() |> tags()
+  end
+
+  def tags(tree) when is_map(tree) do
+    tree
+    |> Tree.find("category")
+    |> List.wrap()
+    |> Enum.map(&normalize_to_string/1)
+    |> Enum.reject(&is_nil/1)
+    |> Enum.map(&Scrape.IR.Text.clean/1)
+    |> Enum.map(&String.downcase/1)
+  end
 
   @doc """
   Extract the author from the feed item.
 
   ## Example
-      iex> Scrape.IR.FeedItem.author("<feed><author>abc</author></feed>")
+      iex> FeedItem.author("<author>abc</author>")
       "abc"
   """
 
-  @spec author(String.t() | html_tree) :: String.t()
+  @spec author(String.t() | map()) :: nil | String.t()
 
-  defdelegate author(dom), to: Scrape.IR.FeedItem.Author, as: :execute
+  def author(tree) when is_binary(tree) do
+    tree |> Tree.from_xml_string() |> author()
+  end
+
+  def author(tree) when is_map(tree) do
+    tree
+    |> Tree.first(["~creator", "author.name", "author"])
+    |> normalize_to_string()
+  end
 
   @doc """
   Extract the image_url from the feed item.
 
   ## Example
-      iex> Scrape.IR.FeedItem.image_url("<feed><enclosure url='abc' /></feed>")
+      iex> FeedItem.image_url("<enclosure url='abc' />")
       "abc"
   """
 
-  @spec image_url(String.t() | html_tree) :: String.t()
+  @spec image_url(String.t() | map(), nil | String.t()) :: nil | String.t()
 
-  defdelegate image_url(dom), to: Scrape.IR.FeedItem.ImageURL, as: :execute
+  def image_url(tree, url \\ "")
+
+  def image_url(tree, url) when is_binary(tree) do
+    tree |> Tree.from_xml_string() |> image_url(url)
+  end
+
+  def image_url(tree, url) when is_map(tree) do
+    tree
+    |> Tree.first(["enclosure.url", "media.content"])
+    |> normalize_to_string()
+    |> inline_image(tree)
+    |> normalize_url(url)
+  end
+
+  defp inline_image(nil, %{"content" => content}) do
+    rx = ~r/\ssrc=["']*(([^'"\s]+)\.(jpe?g)|(png))["'\s]/i
+
+    case Regex.run(rx, content, capture: :all_but_first) do
+      [match] when is_binary(match) -> match
+      [match | _] when is_binary(match) -> match
+      _ -> nil
+    end
+  end
+
+  defp inline_image(img, _), do: img
+
+  # ensure that a value is either a string or nil, but nothing else
+  defp normalize_to_string(value) when is_binary(value), do: value
+  defp normalize_to_string(_), do: nil
+
+  # merge an relative url into an absolute url if possible
+  defp normalize_url(link, url) when is_binary(url), do: Scrape.IR.URL.merge(link, url)
+  defp normalize_url(_, _), do: nil
 end

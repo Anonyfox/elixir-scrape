@@ -98,4 +98,40 @@ defmodule Scrape.IR.FeedTest do
       assert Feed.website_url(xml) == "http://www.latimes.com"
     end
   end
+
+  describe "Feed#items/1" do
+    test "can extract from xml string of type atom" do
+      xml = "<feed><entry><title>abc</title></entry></feed>"
+      assert Feed.items(xml) == [%{"title" => "abc"}]
+    end
+
+    test "can extract from xml string of type rss" do
+      xml = "<rss><channel><item><title>abc</title></item></channel></rss>"
+      assert Feed.items(xml) == [%{"title" => "abc"}]
+    end
+
+    test "can extract from german atom feed" do
+      xml = File.read!("cache/feed/heise.xml")
+      item = xml |> Feed.items() |> List.first()
+      assert item["title"] =~ "Fachkräftemangel"
+    end
+
+    test "can extract from german rss feed" do
+      xml = File.read!("cache/feed/spiegel.xml")
+      item = xml |> Feed.items() |> List.first()
+      assert item["title"] =~ "Schwertransporter"
+    end
+
+    test "can extract from english atom feed" do
+      xml = File.read!("cache/feed/elixir-lang.xml")
+      item = xml |> Feed.items() |> List.first()
+      assert item["title"] =~ "v1.0 released"
+    end
+
+    test "can extract from english rss feed" do
+      xml = File.read!("cache/feed/latimes.xml")
+      item = xml |> Feed.items() |> List.first()
+      assert item["title"] =~ "Instrumental guitar music"
+    end
+  end
 end

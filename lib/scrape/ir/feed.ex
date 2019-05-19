@@ -65,4 +65,22 @@ defmodule Scrape.IR.Feed do
   defp normalize(nil), do: nil
   defp normalize(""), do: nil
   defp normalize(url), do: url |> Scrape.IR.URL.base()
+
+  @doc """
+  Returns the list of all feed items.
+
+  ## Example
+      iex> Feed.items("<feed><entry><title>abc</title></entry></feed>")
+      [%{"title" => "abc"}]
+  """
+
+  @spec items(String.t() | map()) :: nil | [map()]
+
+  def items(feed) when is_binary(feed) do
+    feed |> Tree.from_xml_string() |> items()
+  end
+
+  def items(feed) when is_map(feed) do
+    Tree.find_all(feed, ["feed.entry", "rss.channel.item"])
+  end
 end
