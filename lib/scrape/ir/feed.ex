@@ -1,5 +1,6 @@
 defmodule Scrape.IR.Feed do
   alias Scrape.Tools.Tree
+  alias Scrape.Tools.URL
 
   @doc """
   Extract the (best) title from the feed.
@@ -64,7 +65,7 @@ defmodule Scrape.IR.Feed do
 
   defp normalize(nil), do: nil
   defp normalize(""), do: nil
-  defp normalize(url), do: url |> Scrape.IR.URL.base()
+  defp normalize(url), do: url |> URL.base()
 
   @doc """
   Returns the list of all feed items.

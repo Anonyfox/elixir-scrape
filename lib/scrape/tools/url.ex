@@ -1,4 +1,4 @@
-defmodule Scrape.IR.URL do
+defmodule Scrape.Tools.URL do
   @moduledoc """
   Simple utility functions to extract information from URLs.
   """
@@ -8,7 +8,7 @@ defmodule Scrape.IR.URL do
   aboslute ones.
 
   ## Example
-      iex> Scrape.IR.URL.merge("/path", "http://example.com")
+      iex> URL.merge("/path", "http://example.com")
       "http://example.com/path"
   """
 
@@ -30,10 +30,10 @@ defmodule Scrape.IR.URL do
   Checks if a given string actually represents an URL.
 
   ## Example
-      iex> Scrape.IR.URL.is_http?("http://example.com")
+      iex> URL.is_http?("http://example.com")
       true
 
-      iex> Scrape.IR.URL.is_http?("example")
+      iex> URL.is_http?("example")
       false
   """
 

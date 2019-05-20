@@ -1,5 +1,6 @@
 defmodule Scrape.IR.HTML do
   alias Scrape.Tools.DOM
+  alias Scrape.Tools.URL
 
   @doc """
   Extract the best possible title from a HTML document (string or DOM) or nil.
@@ -83,7 +84,7 @@ defmodule Scrape.IR.HTML do
   def image_url(dom, url \\ "") do
     case DOM.first(dom, @image_url_queries) do
       nil -> nil
-      match -> Scrape.IR.URL.merge(match, url)
+      match -> URL.merge(match, url)
     end
   end
 
@@ -113,7 +114,7 @@ defmodule Scrape.IR.HTML do
   def icon_url(dom, url \\ "") do
     case DOM.first(dom, @icon_url_queries) do
       nil -> nil
-      match -> Scrape.IR.URL.merge(match, url)
+      match -> URL.merge(match, url)
     end
   end
 
@@ -135,8 +136,8 @@ defmodule Scrape.IR.HTML do
     list = feed_meta_tag(dom) ++ feed_inline(dom)
 
     list
-    |> Enum.filter(&Scrape.IR.URL.is_http?(&1))
-    |> Enum.map(&Scrape.IR.URL.merge(&1, url))
+    |> Enum.filter(&URL.is_http?(&1))
+    |> Enum.map(&URL.merge(&1, url))
     |> Enum.uniq()
   end
 

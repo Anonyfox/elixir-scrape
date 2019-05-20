@@ -1,5 +1,6 @@
 defmodule Scrape.IR.FeedItem do
   alias Scrape.Tools.Tree
+  alias Scrape.Tools.URL
 
   @doc """
   Extract the (best) title from the feed item.
@@ -155,6 +156,6 @@ defmodule Scrape.IR.FeedItem do
   defp normalize_to_string(_), do: nil
 
   # merge an relative url into an absolute url if possible
-  defp normalize_url(link, url) when is_binary(url), do: Scrape.IR.URL.merge(link, url)
+  defp normalize_url(link, url) when is_binary(url), do: URL.merge(link, url)
   defp normalize_url(_, _), do: nil
 end
