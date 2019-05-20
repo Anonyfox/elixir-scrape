@@ -7,7 +7,7 @@ defmodule Scrape.IR.Text do
   """
 
   alias Scrape.IR.Text.TFIDF
-  alias Scrape.IR.Word
+  alias Scrape.Tools.Word
 
   def generate_summary(text) do
     text
