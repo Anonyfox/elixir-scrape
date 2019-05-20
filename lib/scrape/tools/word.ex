@@ -1,4 +1,4 @@
-defmodule Scrape.IR.Word do
+defmodule Scrape.Tools.Word do
   @moduledoc """
   Algorithms to extract information from single words.
   """
@@ -16,10 +16,10 @@ defmodule Scrape.IR.Word do
   speed. Currently only german and english are supported.
 
   ## Example
-      iex> Scrape.IR.Word.stem("beautiful", :en)
+      iex> Word.stem("beautiful", :en)
       "beauti"
 
-      iex> Scrape.IR.Word.stem("derbsten", :de)
+      iex> Word.stem("derbsten", :de)
       "derb"
   """
 
@@ -43,23 +43,23 @@ defmodule Scrape.IR.Word do
     Note: the provided language lists are all-downcased words.
 
     ## Examples
-      iex> Scrape.IR.Word.IsStopword.execute("when", :en)
+      iex> Word.IsStopword.execute("when", :en)
       true
 
-      iex> Scrape.IR.Word.IsStopword.execute("linux", :en)
+      iex> Word.IsStopword.execute("linux", :en)
       false
 
-      iex> Scrape.IR.Word.IsStopword.execute("ein", :de)
+      iex> Word.IsStopword.execute("ein", :de)
       true
 
-      iex> Scrape.IR.Word.IsStopword.execute("elixir", :de)
+      iex> Word.IsStopword.execute("elixir", :de)
       false
   """
 
   @spec is_stopword?(String.t(), :de | :en) :: boolean()
 
   defdelegate is_stopword?(word, language \\ :en),
-    to: Scrape.IR.Word.IsStopword,
+    to: Scrape.Tools.Word.IsStopword,
     as: :execute
 
   @doc """
@@ -68,10 +68,10 @@ defmodule Scrape.IR.Word do
   Uses a simple heuristic and checks for stopword matches.
 
   ## Examples
-      iex> Scrape.IR.Word.is_meaningful?("a", :en)
+      iex> Word.is_meaningful?("a", :en)
       false
 
-      iex> Scrape.IR.Word.is_meaningful?("apple", :en)
+      iex> Word.is_meaningful?("apple", :en)
       true
   """
 

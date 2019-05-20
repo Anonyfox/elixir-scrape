@@ -1,4 +1,4 @@
-defmodule Scrape.IR.Word.IsStopword do
+defmodule Scrape.Tools.Word.IsStopword do
   @moduledoc false
 
   def execute(word, language \\ :en)

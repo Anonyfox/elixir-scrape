@@ -1,7 +1,7 @@
-defmodule Scrape.IR.WordTest do
+defmodule Scrape.Tools.WordTest do
   use ExUnit.Case
 
-  alias Scrape.IR.Word
+  alias Scrape.Tools.Word
 
   doctest Word
 
