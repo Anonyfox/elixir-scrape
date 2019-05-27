@@ -1,7 +1,7 @@
-defmodule Scrape.IR.URLTest do
+defmodule Scrape.Tools.URLTest do
   use ExUnit.Case
 
-  alias Scrape.IR.URL
+  alias Scrape.Tools.URL
 
   doctest URL
 

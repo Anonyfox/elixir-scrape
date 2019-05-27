@@ -15,7 +15,10 @@ defmodule Scrape.Flow.ArticleTest do
 
     test "refuses when no file exists" do
       {:error, error} = Article.from_file("missing")
-      assert error == {:disk_error, :enoent}
+
+      assert error ==
+               {:assign, :html,
+                %File.Error{action: "read file", path: "missing", reason: :enoent}}
     end
   end
 
@@ -29,12 +32,12 @@ defmodule Scrape.Flow.ArticleTest do
 
     test "refuses when nil is given" do
       {:error, error} = Article.from_string(nil)
-      assert error == {:html_error, nil}
+      assert error == :html_invalid
     end
 
     test "refuses when empty string is given" do
       {:error, error} = Article.from_string("")
-      assert error == {:html_error, ""}
+      assert error == :html_invalid
     end
   end
 end

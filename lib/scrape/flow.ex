@@ -1,23 +1,37 @@
 defmodule Scrape.Flow do
-  defstruct halted: nil, error: nil, assigns: %{}, opts: []
+  defstruct(state: %{halted: false, error: nil}, assigns: %{}, options: [])
 
-  def start(assigns \\ %{}, opts \\ []) do
-    %__MODULE__{assigns: assigns, opts: Scrape.Options.merge(opts)}
+  def fetch(_url), do: "<html></html>"
+
+  def start(assigns \\ [], opts \\ []) do
+    %__MODULE__{assigns: Enum.into(assigns, %{}), options: opts}
   end
 
-  def step(%{halted: true} = state, _), do: state
+  def assign(%__MODULE__{state: %{halted: true}} = flow, _) do
+    flow
+  end
 
-  def step(%{assigns: assigns, opts: opts} = state, step_name) do
-    case apply(Module.concat([__MODULE__, "Steps", step_name]), :execute, [assigns, opts]) do
-      {:ok, data} -> %{state | assigns: Map.merge(assigns, data)}
-      {:error, reason} -> Map.merge(state, %{halted: true, error: reason})
+  def assign(%__MODULE__{} = flow, [{k, v}]) when not is_function(v) do
+    %{flow | assigns: Map.put(flow.assigns, k, v)}
+  end
+
+  def assign(%__MODULE__{} = flow, [{k, v}]) do
+    try do
+      %{flow | assigns: Map.put(flow.assigns, k, v.(flow.assigns))}
+    rescue
+      error -> %{flow | state: %{halted: true, error: {:assign, k, error}}}
     end
   end
 
-  def into(%{halted: true, error: reason}, _), do: {:error, reason}
+  def finish(_flow, keys \\ [])
 
-  def into(%{assigns: assigns} = _state, target_name) do
-    module = Module.concat([Scrape.Target, target_name])
-    {:ok, apply(module, :build, [assigns])}
+  def finish(%__MODULE__{state: %{halted: true, error: error}}, _) do
+    {:error, error}
+  end
+
+  def finish(%__MODULE__{assigns: assigns}, []), do: {:ok, assigns}
+
+  def finish(%__MODULE__{assigns: assigns}, keys) do
+    {:ok, Map.take(assigns, keys)}
   end
 end

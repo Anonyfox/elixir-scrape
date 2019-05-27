@@ -16,12 +16,12 @@ defmodule Scrape.Flow.FeedTest do
 
     test "refuses when nil is given" do
       {:error, error} = Feed.from_string(nil)
-      assert error == {:xml_error, nil}
+      assert error == :xml_invalid
     end
 
     test "refuses when empty string is given" do
       {:error, error} = Feed.from_string("")
-      assert error == {:xml_error, ""}
+      assert error == :xml_invalid
     end
   end
 end
