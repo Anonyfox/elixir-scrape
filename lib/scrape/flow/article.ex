@@ -6,19 +6,22 @@ defmodule Scrape.Flow.Article do
   alias Scrape.IR.Text
 
   def from_url(url, opts \\ []) do
-    Flow.start([url: url], opts)
+    Flow.start(opts)
+    |> Flow.assign(url: url)
     |> Flow.assign(html: &Scrape.Source.HTTP.get!(&1[:url]))
     |> process_html()
   end
 
   def from_file(path, opts \\ []) do
-    Flow.start([path: path], opts)
+    Flow.start(opts)
+    |> Flow.assign(path: path)
     |> Flow.assign(html: &Scrape.Source.Disk.get!(&1[:path]))
     |> process_html()
   end
 
-  def from_string(string, opts \\ []) do
-    Flow.start(%{html: string, url: nil}, opts)
+  def from_string(html, opts \\ []) do
+    Flow.start(opts)
+    |> Flow.assign(html: html)
     |> process_html()
   end
 

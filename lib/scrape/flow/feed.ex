@@ -5,19 +5,22 @@ defmodule Scrape.Flow.Feed do
   alias Scrape.IR.Feed
 
   def from_url(url, opts \\ []) do
-    Flow.start([url: url], opts)
+    Flow.start(opts)
+    |> Flow.assign(url: url)
     |> Flow.assign(xml: &Scrape.Source.HTTP.get!(&1[:url]))
     |> process_xml()
   end
 
   def from_file(path, opts \\ []) do
-    Flow.start([path: path], opts)
+    Flow.start(opts)
+    |> Flow.assign(path: path)
     |> Flow.assign(xml: &Scrape.Source.Disk.get!(&1[:path]))
     |> process_xml()
   end
 
-  def from_string(string, opts \\ []) do
-    Flow.start(%{xml: string, url: nil}, opts)
+  def from_string(xml, opts \\ []) do
+    Flow.start(opts)
+    |> Flow.assign(xml: xml)
     |> process_xml()
   end
 
