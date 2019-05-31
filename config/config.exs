@@ -2,21 +2,24 @@
 # and its dependencies with the aid of the Mix.Config module.
 use Mix.Config
 
-# use a better html parser
-config :floki, :html_parser, Floki.HTMLParser.Html5ever
-
 # This configuration is loaded before any dependency and is restricted
 # to this project. If another project depends on this project, this
 # file won't be loaded nor affect the parent project. For this reason,
-# if you want to provide default values for your application for third-
-# party users, it should be done in your mix.exs file.
+# if you want to provide default values for your application for
+# third-party users, it should be done in your "mix.exs" file.
 
-# Sample configuration:
+# You can configure your application as:
 #
-#     config :logger, :console,
-#       level: :info,
-#       format: "$date $time [$level] $metadata$message\n",
-#       metadata: [:user_id]
+#     config :scrape, key: :value
+#
+# and access this configuration in your application as:
+#
+#     Application.get_env(:scrape, :key)
+#
+# You can also configure a third-party app:
+#
+#     config :logger, level: :info
+#
 
 # It is also possible to import configuration files, relative to this
 # directory. For example, you can emulate configuration per environment
@@ -24,4 +27,4 @@ config :floki, :html_parser, Floki.HTMLParser.Html5ever
 # Configuration from the imported file will override the ones defined
 # here (which is why it is important to import them last).
 #
-#     import_config "#{Mix.env}.exs"
+#     import_config "#{Mix.env()}.exs"

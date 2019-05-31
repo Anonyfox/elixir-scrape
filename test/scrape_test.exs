@@ -1,7 +1,8 @@
 defmodule ScrapeTest do
   use ExUnit.Case
+  # doctest Scrape
 
-  # test "the truth" do
-  #   assert 1 + 1 == 2
+  # test "greets the world" do
+  #   assert Scrape.hello() == :world
   # end
 end
