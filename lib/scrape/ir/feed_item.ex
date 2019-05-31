@@ -157,5 +157,5 @@ defmodule Scrape.IR.FeedItem do
 
   # merge an relative url into an absolute url if possible
   defp normalize_url(link, url) when is_binary(url), do: URL.merge(link, url)
-  defp normalize_url(_, _), do: nil
+  defp normalize_url(link, _), do: link
 end

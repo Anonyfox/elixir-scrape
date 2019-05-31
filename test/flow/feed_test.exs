@@ -12,6 +12,9 @@ defmodule Scrape.Flow.FeedTest do
       {:ok, data} = Feed.from_string(xml)
       assert data.title =~ "latimes.com - Los Angeles Times"
       assert data.website_url == "http://www.latimes.com"
+
+      item = data[:items] |> List.first()
+      item.title =~ "guitar"
     end
 
     test "refuses when nil is given" do

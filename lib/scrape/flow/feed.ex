@@ -14,6 +14,7 @@ defmodule Scrape.Flow.Feed do
   def from_file(path, opts \\ []) do
     Flow.start(opts)
     |> Flow.assign(path: path)
+    |> Flow.assign(url: nil)
     |> Flow.assign(xml: &Scrape.Source.Disk.get!(&1[:path]))
     |> process_xml()
   end
@@ -21,6 +22,7 @@ defmodule Scrape.Flow.Feed do
   def from_string(xml, opts \\ []) do
     Flow.start(opts)
     |> Flow.assign(xml: xml)
+    |> Flow.assign(url: nil)
     |> process_xml()
   end
 
@@ -34,6 +36,15 @@ defmodule Scrape.Flow.Feed do
     |> Flow.assign(title: &Feed.title(&1[:tree]))
     |> Flow.assign(description: &Feed.description(&1[:tree]))
     |> Flow.assign(website_url: &Feed.website_url(&1[:tree]))
-    |> Flow.finish([:url, :title, :description, :website_url])
+    |> Flow.assign(items: &items/1)
+    |> Flow.finish([:url, :title, :description, :website_url, :items])
+  end
+
+  defp items(%{tree: tree, url: url}) do
+    tree
+    |> Feed.items()
+    |> Enum.map(fn item -> Scrape.Flow.FeedItem.from_tree(item, url) end)
+    |> Enum.filter(fn {status, _} -> status == :ok end)
+    |> Enum.map(&elem(&1, 1))
   end
 end
