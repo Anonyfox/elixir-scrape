@@ -4,7 +4,7 @@ defmodule Scrape.MixProject do
   def project do
     [
       app: :scrape,
-      version: "3.0.0",
+      version: "3.0.1",
       elixir: "~> 1.8",
       description: description(),
       package: package(),
