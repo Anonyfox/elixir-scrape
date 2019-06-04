@@ -159,6 +159,27 @@ defmodule Scrape.IR.HTML do
   end
 
   @doc """
+  Try to extract the semantically relevant part from a given document.
+
+
+  Uses the [Readability](https://hex.pm/packages/readability) algorithm, which
+  might fail sometimes. Ideally, it returns a single string containing full
+  sentences. Remember that this method uses a few heuristics that *somehow*
+  work together nicely in many cases, but nothing more.
+  """
+
+  def simple(dom) do
+    try do
+      dom
+      |> Readability.article()
+      |> Readability.readable_html()
+      |> String.replace(~r/<a[^>]*>(.*?)<\/a>/umi, "\\1")
+    rescue
+      _ -> nil
+    end
+  end
+
+  @doc """
   Try to extract the relevant text content from a given document.
 
   Uses the [Readability](https://hex.pm/packages/readability) algorithm, which
