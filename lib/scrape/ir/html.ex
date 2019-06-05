@@ -171,9 +171,10 @@ defmodule Scrape.IR.HTML do
   def simple(dom) do
     try do
       dom
+      |> Floki.raw_html()
       |> Readability.article()
       |> Readability.readable_html()
-      |> String.replace(~r/<a[^>]*>(.*?)<\/a>/umi, "\\1")
+      |> String.replace(~r/<a[^>]*>(.*?)<\/a>/, "\\1")
     rescue
       _ -> nil
     end
