@@ -1,4 +1,6 @@
 defmodule Scrape.Source.HTTP.Get do
+  @moduledoc false
+
   @opts [
     follow_redirect: true,
     timeout: 33_000,

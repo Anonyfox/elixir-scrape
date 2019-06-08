@@ -1,4 +1,6 @@
 defmodule Scrape.Source.HTTP.Transcode do
+  @moduledoc false
+
   def execute(charset, text) do
     encoding = charset_to_encoding(charset)
     {_status, result} = Codepagex.to_string(text, encoding)

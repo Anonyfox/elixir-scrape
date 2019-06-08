@@ -1,4 +1,6 @@
 defmodule Scrape.Source.HTTP.Charset do
+  @moduledoc false
+
   def from_headers(headers) do
     header =
       headers

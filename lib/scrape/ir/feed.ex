@@ -1,4 +1,11 @@
 defmodule Scrape.IR.Feed do
+  @moduledoc """
+  Information Retrieval implementations to extract data from feeds (RSS or Atom).
+
+  Makes intense use of `Scrape.Tools.Tree` and it's functions to operate on
+  nested maps instead of raw XML documents.
+  """
+
   alias Scrape.Tools.Tree
   alias Scrape.Tools.URL
 

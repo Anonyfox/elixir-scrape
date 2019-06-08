@@ -1,4 +1,11 @@
 defmodule Scrape.IR.HTML do
+  @moduledoc """
+  Information Retrieval functions for extracting data out of HTML documents.
+
+  Makes extensive use of `Scrape.Tools.DOM` under the hood, so a customized
+  jQuery-like approach can be taken.
+  """
+
   alias Scrape.Tools.DOM
   alias Scrape.Tools.URL
 

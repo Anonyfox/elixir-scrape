@@ -9,9 +9,16 @@ defmodule Scrape.IR.Text do
   alias Scrape.IR.Text.TFIDF
   alias Scrape.Tools.Word
 
+  @doc false
   def generate_summary(text) do
+    # TODO: my markov chain implementation belongs here.
     text
   end
+
+  @doc """
+  Dissect a text into sentences, weight their stemmed keywords against each other and
+  return the 3 semantically most important sentences.
+  """
 
   def extract_summary(text, start_words, language \\ :en) do
     text
@@ -43,13 +50,13 @@ defmodule Scrape.IR.Text do
   end
 
   @doc """
-    Remove all occurences of javascript from a HTML snippet.
+  Remove all occurences of javascript from a HTML snippet.
 
-    Uses a regex (!)
+  Uses a regex (!)
 
-    ## Example
-        iex> Scrape.IR.Text.without_js("a<script>b</script>c")
-        "ac"
+  ## Example
+      iex> Scrape.IR.Text.without_js("a<script>b</script>c")
+      "ac"
   """
 
   @spec without_js(String.t()) :: String.t()
@@ -60,11 +67,11 @@ defmodule Scrape.IR.Text do
   end
 
   @doc """
-    Strip all HTML tags from a text.
+  Strip all HTML tags from a text.
 
-    ## Example
-        iex> Scrape.IR.Text.without_html("<p>stuff</p>")
-        "stuff"
+  ## Example
+      iex> Scrape.IR.Text.without_html("<p>stuff</p>")
+      "stuff"
   """
 
   @spec without_html(String.t()) :: String.t()
@@ -76,11 +83,11 @@ defmodule Scrape.IR.Text do
   end
 
   @doc """
-    A text paragraph shall not include any whitespace except single spaces
-    between words.
+  A text paragraph shall not include any whitespace except single spaces
+  between words.
 
-    ## Example
-      iex> Scrape.IR.Text.normalize_whitespace("\r\thello world\r ")
+  ## Example
+      iex> Scrape.IR.Text.normalize_whitespace("\\r\\thello world\\r ")
       "hello world"
   """
 
@@ -97,7 +104,7 @@ defmodule Scrape.IR.Text do
   Removes all junk from a given text, like javascript, html or mixed whitespace.
 
   ## Example
-      iex> Scrape.IR.Text.clean("\t hello, \r<b>world</b>!")
+      iex> Scrape.IR.Text.clean("\\t hello, \\r<b>world</b>!")
       "hello, world!"
   """
   def clean(text) do
@@ -144,6 +151,11 @@ defmodule Scrape.IR.Text do
     |> tokenize()
     |> Enum.filter(fn word -> Word.is_meaningful?(word, language) end)
   end
+
+  @doc """
+  Similar to `semantic_tokenize/2`, but also determines the n (default: 20)
+  most relevant **stemmed** tokens from the list.
+  """
 
   def semantic_keywords(text, n \\ 20, language \\ :en) do
     text

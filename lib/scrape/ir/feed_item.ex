@@ -1,4 +1,9 @@
 defmodule Scrape.IR.FeedItem do
+  @moduledoc """
+  Similar (and used by) `Scrape.IR.Feed`, but has specialized selectors
+  to extract data from feed items/entries.
+  """
+
   alias Scrape.Tools.Tree
   alias Scrape.Tools.URL
 

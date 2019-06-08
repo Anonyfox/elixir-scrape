@@ -29,6 +29,8 @@ defmodule Scrape.Flow do
   @doc """
   Initiate a new data processing flow with optional configuration.
 
+  NOTE: the options are currently not used but will be in upcoming versions.
+
   ## Example
           iex> Flow.start()
           %Flow{state: %{halted: false, error: nil}, assigns: %{}, options: []}
@@ -65,6 +67,14 @@ defmodule Scrape.Flow do
       error -> %{flow | state: %{halted: true, error: {:assign, k, error}}}
     end
   end
+
+  @doc """
+  Select keys from the flow assigns and return a map with the chosen fields.
+
+  Will result in an error object if the flow got halted previously.
+  """
+
+  @spec finish(flow, [atom()]) :: {:ok, map()} | {:error, any()}
 
   def finish(_flow, keys \\ [])
 

@@ -5,7 +5,7 @@ defmodule Scrape.Tools.URL do
 
   @doc """
   Rebase an URL to another root URL, useful for turning relative URLs into
-  aboslute ones.
+  absolute ones.
 
   ## Example
       iex> URL.merge("/path", "http://example.com")
