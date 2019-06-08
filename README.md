@@ -4,6 +4,8 @@
 [![Hex.pm](https://img.shields.io/hexpm/v/scrape.svg)](https://hex.pm/packages/scrape)
 [![Hex.pm](https://img.shields.io/hexpm/l/scrape.svg)](https://hex.pm/packages/scrape)
 
+Structured Data extraction from common web resources, using information-retrieval techniques. See the [docs](https://hexdocs.pm/scrape/Scrape.html)
+
 ## Installation
 
 The package can be installed by adding `scrape` to your list of dependencies in `mix.exs`:
