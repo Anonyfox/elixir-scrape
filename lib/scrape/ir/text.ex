@@ -136,6 +136,28 @@ defmodule Scrape.IR.Text do
   end
 
   @doc """
+  Dissect a text into word tokens.
+
+  The resulting list is a list of downcased words with all non-word-characters
+  stripped, but common phrase delimiters still included.
+
+  ## Examples
+      iex> Scrape.IR.Text.tokenize_preserve_delimiters("Hello, world!")
+      ["hello", ",", "world", "!"]
+  """
+
+  @spec tokenize_preserve_delimiters(String.t()) :: [String.t()]
+
+  def tokenize_preserve_delimiters(text) do
+    text
+    |> String.replace(~r/([,\.\!\?])/u, " \\1 ")
+    |> String.replace(~r/[^\w\s,\.\!\?]/u, " ")
+    |> normalize_whitespace()
+    |> String.downcase()
+    |> String.split()
+  end
+
+  @doc """
   Dissect a text into word tokens similar to `tokenize/1` but strips words
   that carry no semantic value.
 
