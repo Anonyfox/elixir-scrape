@@ -58,7 +58,7 @@ defmodule Scrape.MixProject do
       # xml to map
       {:elixir_xml_to_map, "~> 0.1.2"},
       # map transformation functions
-      {:morphix, "~> 0.7.0"}
+      {:morphix, "~> 0.8.0"}
     ]
   end
 end
