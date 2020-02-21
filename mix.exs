@@ -4,8 +4,8 @@ defmodule Scrape.MixProject do
   def project do
     [
       app: :scrape,
-      version: "3.0.3",
-      elixir: "~> 1.8",
+      version: "3.1.0",
+      elixir: "~> 1.10",
       description: description(),
       package: package(),
       start_permanent: Mix.env() == :prod,
