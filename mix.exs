@@ -4,7 +4,7 @@ defmodule Scrape.MixProject do
   def project do
     [
       app: :scrape,
-      version: "3.1.0",
+      version: "3.1.1",
       elixir: "~> 1.10",
       description: description(),
       package: package(),
@@ -48,7 +48,7 @@ defmodule Scrape.MixProject do
       # snowball stemmer for multiple languages with a NIF
       {:stemex, "~> 0.1.1"},
       # HTML/XML parser with CSS3 selectors
-      {:floki, "~> 0.21.0"},
+      {:floki, "~> 0.27.0"},
       # clone of arc90's readability algorithm
       {:readability, "~> 0.10.0"},
       # iconv written in pure elixir
